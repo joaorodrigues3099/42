@@ -1,5 +1,3 @@
-Here’s an improved version of your `README.md`, with enhanced readability, clearer explanations, and a more polished structure. I've also corrected a couple of small grammar issues and refined the phrasing for clarity:
-
 ---
 
 # Printf Project
