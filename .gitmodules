@@ -1,0 +1,6 @@
+[submodule "Born2beroot-Project/Born2beroot_Tutorial"]
+	path = Born2beroot-Project/Born2beroot_Tutorial
+	url = https://github.com/gemartin99/Born2beroot-Tutorial.git
+[submodule "Born2beroot-Project/gemartin99-Born2beroot_Tutorial"]
+	path = Born2beroot-Project/gemartin99-Born2beroot_Tutorial
+	url = https://github.com/gemartin99/Born2beroot-Tutorial.git
