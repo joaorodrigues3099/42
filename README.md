@@ -1,7 +1,7 @@
 
 # 42 Common Core Repository
 
-This repository contains my completed and validated projects from the [42 School](https://42.fr) Common Core curriculum. Each project reflects rigorous programming skills, foundational knowledge in C, system administration, and algorithmic problem-solving.
+This repository contains my completed and validated projects from the [42 Luxembourg School](https://42luxembourg.lu/fr/accueil/) Common Core curriculum. Each project reflects rigorous programming skills, foundational knowledge in C, system administration, and algorithmic problem-solving.
 
 ## Repository Structure
 
