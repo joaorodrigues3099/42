@@ -15,7 +15,7 @@ Each project resides in its own directory, with individual README files providin
 ### 2. 📄 **Get Next Line**
    - **Description:** A function that reads lines from a file descriptor—essential in file handling and C programming.
 
-### 3. 🖨 **Printf**
+### 3. 🖨️ **Printf**
    - **Description:** A recreation of the `printf` function in C, with support for various formatting options and type specifiers.
 
 ### 4. 🖥️ **Born2beroot**
