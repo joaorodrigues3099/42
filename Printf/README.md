@@ -13,8 +13,8 @@ For testing, I used [SLDDL's Normino](https://github.com/SLDDL/Normino), a conve
 
 ### 1️⃣ **Ensure Your Project Compiles**
 
-   Before starting, make sure your project compiles successfully by running `make`. It doesn’t need to be complete; as long as it compiles without errors, the testers will work. ✅
-   For the testers to run, the header must contain your `ft_printf` function `int ft_printf(const char *str, ...)`.
+   - Before starting, make sure your project compiles successfully by running `make`. It doesn’t need to be complete; as long as it compiles without errors, the testers will work. ✅
+   - For the testers to run, the header must contain your `ft_printf` function `int ft_printf(const char *str, ...)`.
 
 ### 2️⃣ **Run Normino**
 
@@ -30,7 +30,7 @@ For testing, I used [SLDDL's Normino](https://github.com/SLDDL/Normino), a conve
 
    Navigate to the folder of the tester you want to use, and run `make` to start testing.
 
-   ⚠️ Important: You may need to run make on your project to be able to run the FasterPrintfTester.
+   ⚠️ You may need to run make on your project to be able to run the FasterPrintfTester.
 
 ### 4️⃣ **Cleanup After Testing**
 
