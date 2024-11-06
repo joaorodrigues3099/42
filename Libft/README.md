@@ -15,9 +15,9 @@ For testing, I used [SLDDL's Normino](https://github.com/SLDDL/Normino), a conve
 
    Before starting, make sure your project compiles successfully by running `make`. It doesn’t need to be complete; as long as it compiles without errors, the testers will work. ✅
 
-### 2️⃣ **Run Normino**
+### 2️⃣ **Download Testers (via Normino)**
 
-   In your **libft** directory, execute the following command to set up Normino:
+   In your **libft** directory, execute the following command to set up Normino. The tests will be downloaded to this directory.
 
    ```bash
    curl smasse.xyz | bash
@@ -31,8 +31,8 @@ For testing, I used [SLDDL's Normino](https://github.com/SLDDL/Normino), a conve
 
    ```makefile
    so:
-       $(CC) -nostartfiles -fPIC $(CFLAGS) $(SRCS)
-       $(CC) -nostartfiles -shared -o libft.so $(OBJS) $(BONUS_OBJS)
+   	$(yourCC) -nostartfiles -fPIC $(yourCFLAGS) $(yourSRCS)
+   	$(yourCC) -nostartfiles -shared -o libft.so $(yourOBJS) $(yourBONUS_OBJS `only if doing bonus`)
    ```
 
    🔍 **Tip**: The values inside `$(...)` may vary depending on your Makefile configuration. Update these values according to your setup.
@@ -43,7 +43,7 @@ For testing, I used [SLDDL's Normino](https://github.com/SLDDL/Normino), a conve
 
 ### 5️⃣ **Run Testers**
 
-   Navigate to the folder of the tester you want to use, and run `make` to start testing. Make sure to redo **Step 4** before each test run for best results.
+   Now that you have the tests in your **libft** directory, navigate to the folder of the tester you want to use, and run `make` to start testing. Make sure to redo **Step 4** before each test run for best results.
 
 ### 6️⃣ **Cleanup After Testing**
 
