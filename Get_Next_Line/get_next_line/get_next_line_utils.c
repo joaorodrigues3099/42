@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
+#include "get_next_line.h"
 
 /**
  * Counts the length of the given string.
@@ -96,7 +96,7 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	while (*s1)
 		join[i++] = *s1++;
 	while (*s2)
-		join[i++] = *s1++;
+		join[i++] = *s2++;
 	join[i] = '\0';
 	return (join);
 }
