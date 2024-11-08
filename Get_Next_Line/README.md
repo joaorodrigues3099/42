@@ -43,7 +43,7 @@ After that you can just run `make` everytime you want to test.
 
 ### 4️⃣ **Cleanup After Testing**
 
-After completing tests, execute the following script in your **printf** directory to remove tester files and any `.o` files:
+after completing tests, execute the following script in your **printf** directory to remove tester files and any `.o` files:
 
    ```bash
    bash removetests.sh
