@@ -32,7 +32,7 @@ Follow the on-screen instructions to download the **get_next_line** tester.
 
 ### 3️⃣ **Run Testers**
 
-- **gnl-station-test-main**
+- **gnl-station-test-main**\n
     Navigate to the folder of the tester, first time you run it, run:
 
     ```plaintext
@@ -40,7 +40,8 @@ Follow the on-screen instructions to download the **get_next_line** tester.
     ```
     after that you can just run `make` everytime you want to test.
 
-- **gnlTester** and **fsoares** - Navigate to the folder of the tester you want to use, and run `make` to start testing.
+- **gnlTester** and **fsoares**\n
+    Navigate to the folder of the tester you want to use, and run `make` to start testing.
 
 ### 4️⃣ **Cleanup After Testing**
 
