@@ -13,6 +13,28 @@
 #include "get_next_line.h"
 
 /**
+ * Locates the first character occurrence in a string
+ *
+ * @param str String to locate c on
+ * @param c Character to locate
+ * @return Returns a pointer to the first occurrence
+ * of c in str,\n OR null if c is not found.\n
+ * IF c is '\0' returns a pointer to the null-terminating byte.
+ */
+char	*ft_strchr(const char *str, int c)
+{
+	while (*str)
+	{
+		if (*str == (char)c)
+			return ((char *)str);
+		str++;
+	}
+	if ((char)c == '\0')
+		return ((char *)str);
+	return (NULL);
+}
+
+/**
  * Counts the length of the given string.
  *
  * @param s String to get size of
