@@ -1,7 +1,7 @@
 
 # 📄 Get_Next_Line
 
-I achieved **125%** on Intra with this version of **get_next_line**.
+🌟 I achieved **125%** on Intra with this version of **get_next_line**.
 
 ## 📘 Brief
 
@@ -32,8 +32,8 @@ Follow the on-screen instructions to download the **get_next_line** tester.
 
 ### 3️⃣ **Run Testers**
 
-**gnlTester** and **fsoares** - Navigate to the folder of the tester you want to use, and run `make` to start testing.
-**gnl-station-test-main** - Navigate to the folder of the tester, first time you run it, run:
+ - **gnlTester** and **fsoares** - Navigate to the folder of the tester you want to use, and run `make` to start testing.
+ - **gnl-station-test-main** - Navigate to the folder of the tester, first time you run it, run:
    ```plaintext
    chmod +x sloquet.sh
    ```
