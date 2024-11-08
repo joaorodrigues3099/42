@@ -33,12 +33,11 @@ Follow the on-screen instructions to download the **get_next_line** tester.
 ### 3️⃣ **Run Testers**
 
 #### **gnl-station-test-main**  
-    Navigate to the folder of the tester, first time you run it, run:
+    Navigate to the folder of the tester, first time you run it, run:  
 
-    ```plaintext
-    chmod +x sloquet.sh
-    ```
-    after that you can just run `make` everytime you want to test.
+    chmod +x sloquet.sh  
+
+    after that you can just run `make` everytime you want to test.  
 
 #### **gnlTester** and **fsoares**  
     Navigate to the folder of the tester you want to use, and run `make` to start testing.
