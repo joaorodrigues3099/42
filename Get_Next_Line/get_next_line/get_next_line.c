@@ -82,7 +82,7 @@ char	*ft_fill_buffer(int fd, char *buffer)
 	{
 		bytes_read = read(fd, temp_buffer, BUFFER_SIZE);
 		if (bytes_read < 0)
-			return (free(buffer),free(temp_buffer), NULL);
+			return (free(buffer), free(temp_buffer), NULL);
 		temp_buffer[bytes_read] = '\0';
 		buffer = ft_join_free(buffer, temp_buffer);
 		if (!buffer)

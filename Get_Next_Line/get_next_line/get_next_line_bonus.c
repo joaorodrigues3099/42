@@ -87,7 +87,7 @@ char	*ft_fill_buffer(char *buffer, int fd)
 		if (ft_strchr(temp_buffer, '\n'))
 			break ;
 	}
-	return(free(temp_buffer), buffer);
+	return (free(temp_buffer), buffer);
 }
 
 char	*get_next_line(int fd)

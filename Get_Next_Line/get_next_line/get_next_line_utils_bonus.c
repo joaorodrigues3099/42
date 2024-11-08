@@ -17,7 +17,7 @@ char	*ft_strchr(const char *str, char c)
 	while (*str)
 	{
 		if (*str == c)
-			return((char *)str);
+			return ((char *)str);
 		str++;
 	}
 	if (c == '\0')
@@ -29,7 +29,7 @@ size_t	ft_strlen(const char *str)
 {
 	size_t	len;
 
-	len  = 0;
+	len = 0;
 	while (str[len])
 		len++;
 	return (len);
@@ -48,7 +48,7 @@ void	*ft_calloc(size_t nmemb, size_t size)
 	size_t	total_bytes;
 
 	total_bytes = nmemb * size;
-	if (size && (total_bytes/size) != nmemb)
+	if (size && (total_bytes / size) != nmemb)
 		return (NULL);
 	ptr = (void *)malloc(total_bytes);
 	if (!ptr)
