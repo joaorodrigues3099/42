@@ -38,7 +38,7 @@ Follow the on-screen instructions to download the **get_next_line** tester.
 ```plaintext
 chmod +x sloquet.sh
 ```
-After that you can just run `make` everytime you want to test.
+- After that you can just run `make` everytime you want to test.
 
 ### 4️⃣ **Cleanup After Testing**
 
