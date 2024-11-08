@@ -44,7 +44,7 @@ Follow the on-screen instructions to download the **get_next_line** tester.
 
 ### 4️⃣ **Cleanup After Testing**
 
-after completing tests, execute the following script in your **printf** directory to remove tester files and any `.o` files:
+After completing tests, execute the following script in your **printf** directory to remove tester files and any `.o` files:
 
    ```bash
    bash removetests.sh
