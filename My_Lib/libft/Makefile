@@ -127,7 +127,6 @@ clean:
 fclean: clean
 	@echo "$(PINK)Removing $(NAME) and libft.so...$(RESET)"
 	$(RM) $(NAME)
-	$(RM) libft.so
 
 # Rebuild everything from scratch
 re: fclean all
