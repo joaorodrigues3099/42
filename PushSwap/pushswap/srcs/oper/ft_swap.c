@@ -6,12 +6,12 @@
 /*   By: joao-alm <support@toujoustudios.net>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/09 16:48:35 by joao-alm          #+#    #+#             */
-/*   Updated: 2024/11/09 16:48:35 by joao-alm         ###   ########.fr       */
+/*   Updated: 2024/11/10 21:01:07 by joao-alm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../libft/includes/ft_linklist.h"
 #include "../../includes/ft_stacks.h"
+#include "../../libft/includes/ft_linklist.h"
 
 void	ft_swap_content(void **ptr1, void **ptr2)
 {
