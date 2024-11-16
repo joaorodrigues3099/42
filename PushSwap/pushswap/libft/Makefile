@@ -49,10 +49,12 @@ MEMLIB_SRCS		= srcs/ft_memlib/ft_bzero.c \
             	  srcs/ft_memlib/ft_memcmp.c \
             	  srcs/ft_memlib/ft_memcpy.c \
             	  srcs/ft_memlib/ft_memmove.c \
-            	  srcs/ft_memlib/ft_memset.c
+            	  srcs/ft_memlib/ft_memset.c \
+            	  srcs/ft_memlib/jr_free_matrix.c
 
 # String Manipulation Functions
 STRMANP_SRCS	= srcs/ft_strmanp/ft_atoi.c \
+				  srcs/ft_strmanp/jr_atoi_check_int.c \
         		  srcs/ft_strmanp/ft_itoa.c \
         		  srcs/ft_strmanp/ft_split.c \
         		  srcs/ft_strmanp/ft_strchr.c \

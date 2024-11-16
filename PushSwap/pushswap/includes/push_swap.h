@@ -1,25 +1,32 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_isprint.c                                       :+:      :+:    :+:   */
+/*   push_swap.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: joao-alm <joao-alm@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/18 15:47:52 by joao-alm          #+#    #+#             */
-/*   Updated: 2024/10/18 15:47:52 by joao-alm         ###   ########.fr       */
+/*   Created: 2024/11/16 12:41:25 by joao-alm          #+#    #+#             */
+/*   Updated: 2024/11/16 12:42:21 by joao-alm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "charcheck.h"
+#ifndef PUSH_SWAP_H
+#define PUSH_SWAP_H
 
-/**
- * Checks if a character is a printable value.
- * Compares input to the decimal value on the ASCII table.
- *
- * @param c Character to check.
- * @return Returns 0 if the condition is false, 1 on true.
- */
-int	ft_isprint(int c)
-{
-	return (c >= 32 && c <= 126);
-}
+#include <stdio.h>
+#include "../libft/includes/linklist.h"
+
+//tab
+int		*ft_get_tab(int ac, char **av, int *size);
+
+//quartiles
+int		**ft_get_quartiles(int *tab, int size);
+
+//utils
+void	ft_print_error(void);
+
+//checks
+int	ft_tab_sorted(int *tab, int size);
+int	ft_tab_dups(int *tab, int size);
+
+#endif //PUSH_SWAP_H

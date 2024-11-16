@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_strmanp.h"
+#include "strmanp.h"
 
 /**
 * Creates a copy of the givenString

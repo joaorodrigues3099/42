@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_linklist.h"
+#include "linklist.h"
 
 /**
  * Gets the size of the given List.

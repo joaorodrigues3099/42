@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_strmanp.h"
+#include "strmanp.h"
 
 /**
  * Compares the first n bytes of strings s1 and s2.

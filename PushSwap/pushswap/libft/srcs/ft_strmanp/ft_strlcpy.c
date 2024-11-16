@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_strmanp.h"
+#include "strmanp.h"
 
 /**
  * Copies up to size - 1 bytes from src to dest,

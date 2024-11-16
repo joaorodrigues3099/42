@@ -30,6 +30,7 @@ char				*ft_strtrim(char const *s1, char const *set);
 char				**ft_split(const char *s, char c);
 char				*ft_itoa(int n);
 int					ft_atoi(const char *nptr);
+long				ft_atoi_check_int(const char *nptr);
 char				*ft_strmapi(const char *s, char (*f)(unsigned int, char));
 void				ft_striteri(char *s, void (*f)(unsigned int, char *));
 

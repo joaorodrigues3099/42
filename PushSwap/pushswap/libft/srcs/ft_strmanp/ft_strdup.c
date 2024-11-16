@@ -10,8 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_strmanp.h"
-#include "ft_memlib.h"
+#include "strmanp.h"
+#include "memlib.h"
 
 /**
  * Allocates space for a new string anc copies the values from the given one.

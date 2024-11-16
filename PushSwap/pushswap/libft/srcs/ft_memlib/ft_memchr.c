@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_memlib.h"
+#include "memlib.h"
 
 /**
  * Searches the first n bytes of memory for the first occurrence of c.

@@ -1,36 +1,53 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putnbr_fd.c                                     :+:      :+:    :+:   */
+/*   checks.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: joao-alm <joao-alm@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/26 15:54:42 by joao-alm          #+#    #+#             */
-/*   Updated: 2024/10/26 15:54:42 by joao-alm         ###   ########.fr       */
+/*   Created: 2024/11/16 19:18:43 by joao-alm          #+#    #+#             */
+/*   Updated: 2024/11/16 19:18:43 by joao-alm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "fdlib.h"
+#include "../includes/push_swap.h"
 
-/**
- * Writes a given number on the given file descriptor.
- *
- * @param n Number to write.
- * @param fd File descriptor to write on.
- */
-void	ft_putnbr_fd(int n, int fd)
+int	ft_tab_sorted(int *tab, int size)
 {
-	long	n_long;
+	int	i;
+	int	j;
 
-	n_long = n;
-	if (n_long < 0)
+	j = 0;
+	while (j < size)
 	{
-		ft_putchar_fd('-', fd);
-		n_long = -n_long;
+		i = j + 1;
+		while (i < size)
+		{
+			if (tab[j] > tab[i])
+				return (0);
+			i++;
+		}
+		j++;
 	}
-	if (n_long >= 10)
+	return (1);
+}
+
+int	ft_tab_dups(int *tab, int size)
+{
+	int	i;
+	int	j;
+
+	j = 0;
+	while (j < size)
 	{
-		ft_putnbr_fd(n_long / 10, fd);
+		i = j + 1;
+		while (i < size)
+		{
+			if (tab[j] == tab[i])
+				return (1);
+			i++;
+		}
+		j++;
 	}
-	ft_putchar_fd('0' + (n_long % 10), fd);
+	return (0);
 }

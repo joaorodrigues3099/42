@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_charcheck.h"
+#include "charcheck.h"
 
 /**
  * Checks if a character is numeric (0-9).

@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_strmanp.h"
+#include "strmanp.h"
 
 /**
  * Concatenates two strings into a newly allocated string.

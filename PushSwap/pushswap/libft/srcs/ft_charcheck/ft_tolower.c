@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_charcheck.h"
+#include "charcheck.h"
 
 /**
  * Converts a letter to lowercase

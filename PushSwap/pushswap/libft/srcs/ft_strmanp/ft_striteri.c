@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_strmanp.h"
+#include "strmanp.h"
 
 /**
  * Applies the given function to all characters of the given String.

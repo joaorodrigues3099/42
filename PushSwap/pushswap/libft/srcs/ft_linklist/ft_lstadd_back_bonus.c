@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_linklist.h"
+#include "linklist.h"
 
 /**
  * Adds a new element to the end of the given list.

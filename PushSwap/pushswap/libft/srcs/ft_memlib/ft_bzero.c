@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_memlib.h"
+#include "memlib.h"
 
 /**
  * Fills the first 'n' bytes of the area pointed by 's'

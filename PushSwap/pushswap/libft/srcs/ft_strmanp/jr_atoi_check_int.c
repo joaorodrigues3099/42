@@ -10,8 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "strmanp.h"
-#include "charcheck.h"
+#include "../../includes/charcheck.h"
+#include "../../includes/strmanp.h"
+#include <limits.h>
 
 /**
  * Gets an int number from a string containing the number.
@@ -19,10 +20,11 @@
  * @param nptr String containing the number.
  * @return Returns the number, 0 if invalid.
  */
-int	ft_atoi(const char *nptr)
+long	ft_atoi_check_int(const char *nptr)
 {
-	int	result;
-	int	sign;
+	long	result;
+	long	checker;
+	int		sign;
 
 	while (*nptr == ' ' || (*nptr >= 9 && *nptr <= 13))
 		nptr++;
@@ -34,9 +36,14 @@ int	ft_atoi(const char *nptr)
 		nptr++;
 	}
 	result = 0;
+	if (!ft_isdigit(*nptr))
+		return ((long)INT_MIN - 1);
 	while (ft_isdigit(*nptr))
 	{
-		result = result * 10 + (*nptr - '0');
+		checker = result * 10 + (*nptr - '0');
+		if (checker > INT_MAX)
+			return ((long)INT_MIN - 1);
+        result = checker;
 		nptr++;
 	}
 	return (result * sign);

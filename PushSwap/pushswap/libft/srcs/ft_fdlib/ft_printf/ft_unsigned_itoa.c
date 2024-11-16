@@ -11,7 +11,7 @@
 /* ************************************************************************** */
 
 #include <stdlib.h>
-#include "ft_fdlib.h"
+#include "fdlib.h"
 
 /**
  * Counts the number of digits from a given Int.

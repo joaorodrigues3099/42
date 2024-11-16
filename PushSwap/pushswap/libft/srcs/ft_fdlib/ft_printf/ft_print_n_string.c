@@ -10,8 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_fdlib.h"
-#include "ft_strmanp.h"
+#include "fdlib.h"
+#include "strmanp.h"
 
 /**
  *

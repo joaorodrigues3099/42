@@ -1,24 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_stacks.h                                        :+:      :+:    :+:   */
+/*   ft_free_matrix_pos.c                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: joao-alm <support@toujoustudios.net>       +#+  +:+       +#+        */
+/*   By: joao-alm <joao-alm@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/11/09 18:03:13 by joao-alm          #+#    #+#             */
-/*   Updated: 2024/11/09 18:03:13 by joao-alm         ###   ########.fr       */
+/*   Created: 2024/11/16 13:06:31 by joao-alm          #+#    #+#             */
+/*   Updated: 2024/11/16 13:06:31 by joao-alm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef STACKS_H
-#define STACKS_H
+#include "../../includes/memlib.h"
 
-typedef struct s_node
+void	ft_free_matrix(void **matrix, int index)
 {
-	int position;
-	int	value;
-}				t_node;
-
-void	ft_swap_content(void **ptr1, void **ptr2);
-
-#endif //STACKS_H
+	while (index >= 0)
+		free(matrix[index--]);
+	free(matrix);
+}

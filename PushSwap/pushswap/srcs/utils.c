@@ -1,24 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_push.c                                          :+:      :+:    :+:   */
+/*   utils.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: joao-alm <support@toujoustudios.net>       +#+  +:+       +#+        */
+/*   By: joao-alm <joao-alm@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/11/09 18:22:31 by joao-alm          #+#    #+#             */
-/*   Updated: 2024/11/09 18:22:31 by joao-alm         ###   ########.fr       */
+/*   Created: 2024/11/16 19:12:29 by joao-alm          #+#    #+#             */
+/*   Updated: 2024/11/16 19:12:29 by joao-alm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../libft/includes/ft_linklist.h"
-#include "../../includes/ft_stacks.h"
+#include "../includes/push_swap.h"
+#include <unistd.h>
 
-void	ft_p(t_list **l_dest, t_list *l_src)
+void	ft_print_error(void)
 {
-	t_list	*new_node;
-
-	if (!l_src)
-		return ;
-	new_node = ft_lstnew(l_src->content);
-	ft_lstadd_front(l_dest, new_node);
+	write(2, "Error\n", 6);
 }

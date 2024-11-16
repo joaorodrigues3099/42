@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_linklist.h"
+#include "linklist.h"
 
 /**
  * Adds an Element to the beginning of the List and updates the List header.

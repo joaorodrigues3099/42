@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_linklist.h"
+#include "linklist.h"
 
 /**
  * Iterates a given function from the given Node till the List's end.

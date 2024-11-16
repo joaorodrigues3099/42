@@ -57,7 +57,7 @@ void	ft_putnbr_unsigned_count(unsigned int nbr, int *count)
 {
 	if (nbr >= 10)
 	{
-		ft_putnbr_count(nbr / 10, count);
+		ft_putnbr_unsigned_count(nbr / 10, count);
 		ft_putchar_count('0' + nbr % 10, count);
 	}
 	else

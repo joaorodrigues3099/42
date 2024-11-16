@@ -108,7 +108,7 @@ all: $(NAME)
 # Bonus target, includes additional linked list functions
 bonus: $(OBJS) $(BONUS_OBJS)
 	@echo "$(PINK)Adding bonus files to $(NAME)...$(RESET)"
-	$(LIBC) $(NAME) $(OBJS) $(BONUS_OBJS)
+	$(LIBC) $@ $^
 
 ##############################################
 #             Cleaning Commands              #
