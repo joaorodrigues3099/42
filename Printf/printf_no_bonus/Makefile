@@ -1,74 +1,81 @@
-##############################################
-#                Makefile for                #
-#                FT_Printf Library           #
-##############################################
-
-# Base Variables
-# ============================================
-
-# Base Sources
+#-------------------------------------
+# All .c files
 SRCS 		= ft_printf.c \
 			  ft_put_characters.c \
 			  ft_put_numbers.c
 
-# Base Objects
+#-------------------------------------
+# All .o files
 OBJS 		= $(SRCS:.c=.o)
+#---------------------------------------
 
-# Compilation Variables
-# ============================================
-
+#---------------------------------------
+# Name of the Final lib file
 NAME 		= libftprintf.a
-CC 			= gcc
-CFLAGS 		= -Wall -Werror -Wextra -g
-INCS 		= -I .
+#---------------------------------------
+
+#---------------------------------------
+# Compiler to use
+CC 			= cc
+#---------------------------------------
+
+#---------------------------------------
+# Flags to use
+CFLAGS 		= -Wall -Werror -Wextra
+#---------------------------------------
+
+#----------------------------------------------------------------------------------------------
+# Includes location '-I' is the includes flag './' means 'this directory'
+INCS 		= -I ./
+#----------------------------------------------------------------------------------------------
+
+#----------------------------------------------------------------------------------------------
+# Compiler for libs, 'ar' is the equivalent to 'cc' and 'crs' are the options of compilation
 AR			= ar crs
+#----------------------------------------------------------------------------------------------
+
+#----------------------------------------------------------------------------------------------
+# Remove files, 'rm' for remove 'r' for also remove directories, 'f' for force removal
 RM			= rm -rf
+#----------------------------------------------------------------------------------------------
 
-# Color Codes
-# ============================================
-PINK 		= \033[38;2;255;105;180m
-RESET 		= \033[0m
-
-##############################################
-#                Compilation Rules           #
-##############################################
-
-# Compile .c files into .o files
-.c.o:
-		@echo "$(PINK)Compiling $<...$(RESET)"
-		$(CC) $(CFLAGS) -c $< -o $@ $(INCS)
-
-# Link all base object files into the base library archive
+#---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# This rule runs by the command 'make libftprintf.a' or simply 'make'. '$(OBJS)' is the dependency, meaning it will run the rule '.%o : .%c' to transform the '.c' to '.o'
 $(NAME): $(OBJS)
-		@echo "$(PINK)Creating base library $(NAME)...$(RESET)"
-		$(AR) $@ $^
+		$(AR) $(NAME) $(OBJS)
+# When running the program this will look something like: 'ar crs libftprintf.a 'objs'.
+#---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-##############################################
-#               Main Commands                #
-##############################################
+#---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# This rule gets the '.c' files and converts them to '.o' files applying the given flags
+%.o : %.c
+		$(CC) $(CFLAGS) -c $< -o $(<:.c=.o) $(INCS)
+# When running the program this will look something like: 'cc -Wall -Werror -Wextra -c 'srcs' -o libftprintf.a -I ./'
+#---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Default target, builds the base library only
+#----------------------------------------------------
+# When you run 'make all' it runs the rule $(NAME)
 all: $(NAME)
+#----------------------------------------------------
 
-##############################################
-#             Cleaning Commands              #
-##############################################
-
-# Remove object files
+#----------------------------------------------------
 clean:
-		@echo "$(PINK)Cleaning up object files...$(RESET)"
 		$(RM) $(OBJS)
+# When you run 'make clean' cleans the .o files
+#----------------------------------------------------
 
-# Full clean: remove library files as well
+#------------------------------------------------------------------------------------------
 fclean: clean
-		@echo "$(PINK)Removing $(NAME)...$(RESET)"
 		$(RM) $(NAME)
+# When you run 'make fclean' it runs the 'clean' rule and it removes the libftprintf.a file
+#------------------------------------------------------------------------------------------
 
-# Rebuild everything from scratch
+#---------------------------------------------------------------------------------------------------------------------------------------------
+# Runs 'fclean' and 'all', meaning it cleans all the .o objects and libftprintf.a and then runs the rule 'all' which compiles everything again.
 re: fclean all
+#---------------------------------------------------------------------------------------------------------------------------------------------
 
-##############################################
-#                Phony Targets               #
-##############################################
-
+#----------------------------------------------------
+# Names of rules that are not in this format '$(...)'
 .PHONY: all clean fclean re
+#----------------------------------------------------
