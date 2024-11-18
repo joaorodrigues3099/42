@@ -12,4 +12,21 @@
 
 #include "../includes/push_swap.h"
 
-void
+int	ft_is_in_range(t_list *node, t_range range)
+{
+	int	i;
+
+	i = *(int *)node->content;
+	return (i >= range.min && i <= range.max);
+}
+
+int	ft_next_in_range(t_list *lst, t_range range)
+{
+	int	pos;
+
+	pos = 0;
+	while (lst && !ft_is_in_range(lst, range) && pos++)
+		lst = lst->next;
+	return (pos);
+}
+

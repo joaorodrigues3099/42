@@ -11,7 +11,14 @@ SRCS			= srcs/main.c \
 				  srcs/utils.c \
 				  srcs/tab.c \
 				  srcs/checks.c \
-				  srcs/quartiles.c
+				  srcs/quartiles.c \
+				  srcs/list/tab_to_list.c \
+				  srcs/list/list_utils.c \
+				  srcs/test.c \
+				  srcs/operations/swap.c \
+				  srcs/operations/push.c \
+				  srcs/operations/rotate.c \
+				  srcs/operations/rev_rotate.c
 
 OBJS 			= $(SRCS:.c=.o)
 
@@ -30,6 +37,13 @@ PINK 			= \033[38;2;255;105;180m
 RESET 			= \033[0m
 
 ##############################################
+#               Main Commands                #
+##############################################
+
+# Default target, builds the library
+all: libft $(NAME)
+
+##############################################
 #                Compilation Rules           #
 ##############################################
 
@@ -43,16 +57,9 @@ libft:
 	make -C libft all
 
 # Link all object files into the library archive
-$(NAME): $(OBJS) libft
+$(NAME): $(OBJS)
 	@echo "$(PINK)Creating library $(NAME)...$(RESET)"
-	$(CC) $(OBJS) -o $@ -Llibft -lft
-
-##############################################
-#               Main Commands                #
-##############################################
-
-# Default target, builds the library
-all: $(NAME)
+	$(CC) $(OBJS) -o $@ -Llibft -lft $(CFLAGS)
 
 ##############################################
 #             Cleaning Commands              #

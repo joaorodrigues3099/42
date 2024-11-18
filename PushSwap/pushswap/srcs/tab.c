@@ -48,7 +48,7 @@ int *ft_matrix_to_tab(char **av, int ac, int *size)
 	long	checker;
 
 	*size = ac - 1;
-	tab = (int *)malloc(*size);
+	tab = (int *)malloc(*size * sizeof(int));
 	i = -1;
 	while (++i < *size)
 	{
