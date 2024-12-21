@@ -1,81 +1,71 @@
-#-------------------------------------
+# --------------------------------------
 # All .c files
-SRCS 		= ft_printf.c \
-			  ft_put_characters.c \
-			  ft_put_numbers.c
+SRCS        = ft_printf.c \
+              ft_put_characters.c \
+              ft_put_numbers.c
 
-#-------------------------------------
+# --------------------------------------
 # All .o files
-OBJS 		= $(SRCS:.c=.o)
-#---------------------------------------
+OBJS        = $(SRCS:.c=.o)
 
-#---------------------------------------
+# --------------------------------------
 # Name of the Final lib file
-NAME 		= libftprintf.a
-#---------------------------------------
+NAME        = libftprintf.a
 
-#---------------------------------------
+# --------------------------------------
 # Compiler to use
-CC 			= cc
-#---------------------------------------
+CC          = cc
 
-#---------------------------------------
+# --------------------------------------
 # Flags to use
-CFLAGS 		= -Wall -Werror -Wextra
-#---------------------------------------
+CFLAGS      = -Wall -Werror -Wextra
 
-#----------------------------------------------------------------------------------------------
-# Includes location '-I' is the includes flag './' means 'this directory'
-INCS 		= -I ./
-#----------------------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------
+# Includes location '-I' specifies the include path
+INCS        = -I ./
 
-#----------------------------------------------------------------------------------------------
-# Compiler for libs, 'ar' is the equivalent to 'cc' and 'crs' are the options of compilation
-AR			= ar crs
-#----------------------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------
+# Compiler for libs, 'ar' is the tool and 'crs' are the options for compilation
+AR          = ar crs
 
-#----------------------------------------------------------------------------------------------
-# Remove files, 'rm' for remove 'r' for also remove directories, 'f' for force removal
-RM			= rm -rf
-#----------------------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------
+# Remove files command; 'rm' removes files, 'r' removes directories, 'f' forces removal
+RM          = rm -rf
 
-#---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# This rule runs by the command 'make libftprintf.a' or simply 'make'. '$(OBJS)' is the dependency, meaning it will run the rule '.%o : .%c' to transform the '.c' to '.o'
+# -------------------------------------------------------------------------------------------------------------------------
+# Builds the final static library libftprintf.a by combining the compiled object files
 $(NAME): $(OBJS)
-		$(AR) $(NAME) $(OBJS)
-# When running the program this will look something like: 'ar crs libftprintf.a 'objs'.
-#---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	$(AR) $(NAME) $(OBJS)
+# When running the program, this will execute: 'ar crs libftprintf.a objs'
+# -------------------------------------------------------------------------------------------------------------------------
 
-#---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# This rule gets the '.c' files and converts them to '.o' files applying the given flags
-%.o : %.c
-		$(CC) $(CFLAGS) -c $< -o $(<:.c=.o) $(INCS)
-# When running the program this will look something like: 'cc -Wall -Werror -Wextra -c 'srcs' -o libftprintf.a -I ./'
-#---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# -------------------------------------------------------------------------------------------------------------------------
+# This rule converts .c files to .o files using specified flags and includes
+%.o: %.c
+	$(CC) $(CFLAGS) -c $< -o $@ $(INCS)
+# When running the program, this will execute something like: 'cc -Wall -Werror -Wextra -c srcs -o objs -I ./'
+# -------------------------------------------------------------------------------------------------------------------------
 
-#----------------------------------------------------
-# When you run 'make all' it runs the rule $(NAME)
+# --------------------------------------
+# 'make all' will build the target $(NAME)
 all: $(NAME)
-#----------------------------------------------------
 
-#----------------------------------------------------
+# --------------------------------------
+# Clean rule to remove .o files
 clean:
-		$(RM) $(OBJS)
-# When you run 'make clean' cleans the .o files
-#----------------------------------------------------
+	$(RM) $(OBJS)
+# Running 'make clean' will remove the .o files
 
-#------------------------------------------------------------------------------------------
+# --------------------------------------
+# Full clean: runs 'clean' and also removes the final library
 fclean: clean
-		$(RM) $(NAME)
-# When you run 'make fclean' it runs the 'clean' rule and it removes the libftprintf.a file
-#------------------------------------------------------------------------------------------
+	$(RM) $(NAME)
+# Running 'make fclean' will run 'clean' and also remove libftprintf.a
 
-#---------------------------------------------------------------------------------------------------------------------------------------------
-# Runs 'fclean' and 'all', meaning it cleans all the .o objects and libftprintf.a and then runs the rule 'all' which compiles everything again.
+# -------------------------------------------------------------------------------------------------------------------------
+# Rebuild rule: runs 'fclean' to clean everything, then 'all' to build from scratch
 re: fclean all
-#---------------------------------------------------------------------------------------------------------------------------------------------
 
-#----------------------------------------------------
-# Names of rules that are not in this format '$(...)'
+# --------------------------------------
+# Specifies phony targets (not associated with files)
 .PHONY: all clean fclean re
-#----------------------------------------------------
