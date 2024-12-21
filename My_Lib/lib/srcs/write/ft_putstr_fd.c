@@ -10,8 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../includes/fdlib.h"
-#include "../../includes/strlib.h"
+#include "lib_write.h"
+#include "lib_string.h"
 #include <unistd.h>
 
 /**

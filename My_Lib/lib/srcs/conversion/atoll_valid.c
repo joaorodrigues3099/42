@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "conversion.h"
+#include "lib_conversion.h"
 
 /**
  * Advances the space ,tab and sign characters on the given string.
@@ -46,21 +46,21 @@ static void	ft_skip_prefix(const char **str, int *sign)
 long long	ft_atoll_valid(const char *str, const long long min,
 		const long long max, int *valid)
 {
-	long	atoll;
-	int		sign;
+	long long	atoll;
+	int			sign;
 
 	sign = 1;
 	ft_skip_prefix(&str, &sign);
 	atoll = 0;
-	if (!(*str >= '0' && *str <= '9') && valid)
+	if (valid && !(*str >= '0' && *str <= '9'))
 	{
 		*valid = 0;
 		return (0);
 	}
 	while (*str >= '0' && *str <= '9')
 	{
-		if (((sign == -1 && (atoll > -(min + (*str - '0')) / 10)) || (sign == 1
-					&& (atoll > ((max - (*str - '0')) / 10)))) && valid)
+		if (valid && ((sign == -1 && atoll > -(min + (*str - '0')) / 10) || (sign == 1
+					&& atoll > (max - (*str - '0')) / 10)))
 		{
 			*valid = 0;
 			return (0);

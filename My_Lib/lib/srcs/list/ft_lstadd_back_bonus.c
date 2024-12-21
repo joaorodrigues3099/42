@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "list.h"
+#include "lib_list.h"
 
 /**
  * Adds a new element to the end of the given list.

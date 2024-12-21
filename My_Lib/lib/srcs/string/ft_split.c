@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "string.h"
+#include "lib_string.h"
 /**
  * Counts the number of 'words' in the given String.
  *

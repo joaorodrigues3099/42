@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "string.h"
+#include "lib_string.h"
 
 /**
  * Checks if a character is an ASCII table character.

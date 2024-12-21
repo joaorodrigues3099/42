@@ -24,5 +24,7 @@ int		ft_memcmp(const void *s1, const void *s2, size_t n);
 void	*ft_calloc(size_t nmemb, size_t size);
 void	ft_free_matrix(void **matrix, int index);
 void	*ft_realloc(void *src, size_t old_size, size_t new_size);
+void	ft_sort_tab(int *tab, const int size);
+
 
 #endif //MEMORY_H

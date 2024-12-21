@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../includes/fdlib.h"
+#include "lib_write.h"
 
 /**
  * Writes a given number on the given file descriptor.

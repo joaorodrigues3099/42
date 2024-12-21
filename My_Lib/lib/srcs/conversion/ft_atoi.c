@@ -10,7 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "conversion.h"
+#include "lib_conversion.h"
+#include "lib_string.h"
 
 /**
  * Gets an int number from a string containing the number.

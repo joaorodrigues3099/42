@@ -10,7 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "string.h"
+#include "lib_string.h"
+#include "lib_memory.h"
 
 /**
  * Allocates space for a new string anc copies the values from the given one.

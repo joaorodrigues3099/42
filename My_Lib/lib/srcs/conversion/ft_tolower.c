@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "conversion.h"
+#include "lib_conversion.h"
 
 /**
  * Converts a letter to lowercase

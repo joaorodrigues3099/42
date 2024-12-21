@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "string.h"
+#include "lib_string.h"
 
 /**
  * Compares the first n bytes of strings s1 and s2.

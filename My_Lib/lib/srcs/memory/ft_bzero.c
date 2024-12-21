@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "memory.h"
+#include "lib_memory.h"
 
 /**
  * Fills the first 'n' bytes of the area pointed by 's'

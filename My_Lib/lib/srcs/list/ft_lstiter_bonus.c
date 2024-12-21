@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "list.h"
+#include "lib_list.h"
 
 /**
  * Iterates a given function from the given Node till the List's end.

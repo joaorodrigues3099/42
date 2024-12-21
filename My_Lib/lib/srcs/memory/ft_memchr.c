@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "memory.h"
+#include "lib_memory.h"
 
 /**
  * Searches the first n bytes of memory for the first occurrence of c.

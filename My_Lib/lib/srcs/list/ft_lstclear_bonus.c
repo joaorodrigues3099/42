@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "list.h"
+#include "lib_list.h"
 #include <stdlib.h>
 
 /**
@@ -25,12 +25,13 @@ void	ft_lstclear(t_list **lst, void (*del)(void *))
 {
 	t_list	*current;
 
-	if (!lst || !del)
+	if (!lst)
 		return ;
 	while (*lst)
 	{
 		current = *lst;
-		del((*lst)->content);
+		if (del)
+			del((*lst)->content);
 		*lst = (*lst)->next;
 		free(current);
 	}

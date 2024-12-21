@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "list.h"
+#include "lib_list.h"
 
 /**
  * Gets the size of the given List.

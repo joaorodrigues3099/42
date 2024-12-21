@@ -28,6 +28,11 @@ void	ft_lstdelone(t_list *lst, void (*del)(void *));
 void	ft_lstclear(t_list **lst, void (*del)(void *));
 void	ft_lstiter(t_list *lst, void (*f)(void *));
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
-t_list	*ft_lstcpy(t_list *lst, int type, void (*del)(void *));
+t_list	*ft_lstdup(t_list *lst, int type, void (*del)(void *));
+t_list	*ft_lstdetach(t_list **head, t_list *node);
+void	ft_lstdel_safely(t_list **head, t_list *node, void (*del)(void *));
+
+t_list	*ft_lstnew_int(int i);
+int	    ft_lstget_int(const t_list *lst);
 
 #endif //LIST_H

@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../includes/fdlib.h"
+#include "lib_write.h"
 
 /**
  * Writes a given String and follows it by a line jump

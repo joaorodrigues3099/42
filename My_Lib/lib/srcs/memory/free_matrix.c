@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "memory.h"
+#include "lib_memory.h"
 
 /**
  * Frees the matrix lines from the given array to 0.\n

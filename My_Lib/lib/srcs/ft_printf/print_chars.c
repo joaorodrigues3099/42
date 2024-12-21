@@ -11,7 +11,7 @@
 /* ************************************************************************** */
 
 #include "ft_printf.h"
-#include "string.h"
+#include "lib_string.h"
 #include <unistd.h>
 
 /**

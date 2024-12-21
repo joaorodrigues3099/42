@@ -13,22 +13,11 @@
 #ifndef LIBFT_H
 #define LIBFT_H
 
-//------------------------------------Conversion--------------------------------
-
-
-//----------------------------------------List-----------------------------------
-
-
-//--------------------------------------Memory-----------------------------------
-
-
-//---------------------------------------Output-----------------------------------
-void	ft_putchar_fd(char c, int fd);
-void	ft_putstr_fd(char *s, int fd);
-void	ft_putendl_fd(char *s, int fd);
-void	ft_putnbr_fd(int n, int fd);
-
-//----------------------------------------String-----------------------------------
-
+#include "lib_conversion.h"
+#include "ft_printf.h"
+#include "lib_list.h"
+#include "lib_memory.h"
+#include "lib_string.h"
+#include "lib_write.h"
 
 #endif //LIBFT_H

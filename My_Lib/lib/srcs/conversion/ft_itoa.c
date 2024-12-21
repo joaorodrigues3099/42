@@ -10,7 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "conversion.h"
+#include "lib_conversion.h"
+#include <stdlib.h>
 
 /**
  * Counts the number of digits from a given Int.
