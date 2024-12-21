@@ -10,44 +10,45 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../includes/operations.h"
-#include <unistd.h>
+#include <stdlib.h>
 
-void	ft_ra(t_list **lst_a, int print)
+#include "ft_printf.h"
+#include "quicksort.h"
+#include "test.h"
+
+void	ft_rotate(t_stack *src, t_stack *dest)
 {
-	t_list	*last;
-	t_list	*swap;
-
-	if (!*lst_a || !*(lst_a + 1))
-		return ;
-	last = ft_lstlast(*lst_a);
-	swap = *lst_a;
-	*lst_a = (*lst_a)->next;
-	last->next = swap;
-	swap->next = NULL;
-	if (print)
-		write(1, "ra\n", 3);
+	ft_lstadd_back(&dest->lst, ft_lstdetach(&src->lst, src->lst));
+	src->size -= 1;
+	dest->size += 1;
 }
 
-void	ft_rb(t_list **lst_b, int print)
+void	ft_ra(t_ps *ps)
 {
-	t_list	*last;
-	t_list	*swap;
-
-	if (!*lst_b || !*(lst_b + 1))
-		return ;
-	last = ft_lstlast(*lst_b);
-	swap = *lst_b;
-	*lst_b = (*lst_b)->next;
-	last->next = swap;
-	swap->next = NULL;
-	if (print)
-		write(1, "rb\n", 3);
+	if (ps->a_top.size < 1)
+		ft_rotate(&ps->a_bot, &ps->a_bot);
+	else
+		ft_rotate(&ps->a_top, &ps->a_bot);
+	ft_lstadd_back(&ps->ops, ft_lstnew("ra"));
+	test_print_stacks(ps);
 }
 
-void	ft_rr(t_list **lst_a, t_list **lst_b)
+void	ft_rb(t_ps *ps)
 {
-	ft_ra(lst_a, 0);
-	ft_rb(lst_b, 0);
-	write(1, "rr\n", 3);
+	if (ps->b_top.size < 1)
+		ft_rotate(&ps->b_bot, &ps->b_bot);
+	else
+		ft_rotate(&ps->b_top, &ps->b_bot);
+	ft_lstadd_back(&ps->ops, ft_lstnew("rb"));
+	test_print_stacks(ps);
+}
+
+void	ft_rr(t_ps *ps)
+{
+	ft_ra(ps);
+	ft_rb(ps);
+	ft_lstdelone(ft_lstlast(ps->ops), NULL);
+	ft_lstdelone(ft_lstlast(ps->ops), NULL);
+	ft_lstadd_back(&ps->ops, ft_lstnew("rr"));
+	test_print_stacks(ps);
 }

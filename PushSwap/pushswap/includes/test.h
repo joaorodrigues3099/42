@@ -1,10 +1,10 @@
 #ifndef TEST_H
 #define TEST_H
 
-#include "../libft/includes/linklist.h"
-#include "../includes/push_swap.h"
+#include "quicksort.h"
+#include "ft_printf.h"
 
-void	test_print_lsts(t_list *lst_a, t_list *lst_b);
-void	test_print_tab(int *tab, int size);
+void	test_print_stacks(t_ps *pushswap);
+void	test_print_lst(char *name, const t_stack *stack);
 
 #endif //TEST_H

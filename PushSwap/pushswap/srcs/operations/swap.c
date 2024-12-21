@@ -10,40 +10,56 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../includes/operations.h"
-#include <unistd.h>
+#include <stdlib.h>
 
-void	ft_sa(t_list **lst_a, int print)
+#include "quicksort.h"
+#include "test.h"
+
+void	ft_swap(t_stack *src, t_stack *dest)
 {
-	t_list	*swap;
-
-	if (!*lst_a || !*(lst_a + 1))
-		return ;
-	swap = (*lst_a)->next;
-	(*lst_a)->next = swap->next;
-	swap->next = *lst_a;
-	*lst_a = swap;
-	if (print)
-		write(1, "sa\n", 3);
+	if (src == dest)
+		ft_lstadd_front(&dest->lst, ft_lstdetach(&dest->lst, dest->lst->next));
+	else
+	{
+		ft_lstadd_front(&dest->lst, ft_lstdetach(&src->lst, src->lst));
+		ft_lstadd_front(&src->lst, ft_lstdetach(&dest->lst, dest->lst->next));
+	}
 }
 
-void	ft_sb(t_list **lst_b, int print)
+void	ft_sa(t_ps *ps)
 {
-	t_list	*swap;
-
-	if (!*lst_b || !*(lst_b + 1))
+	if (ps->a_top.size + ps->a_bot.size < 2)
 		return ;
-	swap = (*lst_b)->next;
-	(*lst_b)->next = swap->next;
-	swap->next = *lst_b;
-	*lst_b = swap;
-	if (print)
-		write(1, "sb\n", 3);
+	if (ps->a_top.size < 1)
+		ft_swap(&ps->a_bot, &ps->a_bot);
+	else if (ps->a_top.size == 1)
+		ft_swap(&ps->a_bot, &ps->a_top);
+	else
+		ft_swap(&ps->a_top, &ps->a_top);
+	ft_lstadd_back(&ps->ops, ft_lstnew("sa"));
+	test_print_stacks(ps);
 }
 
-void	ft_ss(t_list **lst_a, t_list **lst_b)
+void	ft_sb(t_ps *ps)
 {
-	ft_sa(lst_a, 0);
-	ft_sb(lst_b, 0);
-	write(1, "ss\n", 3);
+	if (ps->b_top.size + ps->b_bot.size < 2)
+		return ;
+	if (ps->b_top.size < 1)
+		ft_swap(&ps->b_bot, &ps->b_bot);
+	else if (ps->b_top.size == 1)
+		ft_swap(&ps->b_bot, &ps->b_top);
+	else
+		ft_swap(&ps->b_top, &ps->b_top);
+	ft_lstadd_back(&ps->ops, ft_lstnew("sb"));
+	test_print_stacks(ps);
+}
+
+void	ft_ss(t_ps *ps)
+{
+	ft_sa(ps);
+	ft_sb(ps);
+	ft_lstdelone(ft_lstlast(ps->ops), NULL);
+	ft_lstdelone(ft_lstlast(ps->ops), NULL);
+	ft_lstadd_back(&ps->ops, ft_lstnew("ss"));
+	test_print_stacks(ps);
 }

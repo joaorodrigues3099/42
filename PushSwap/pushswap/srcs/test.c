@@ -3,43 +3,39 @@
 /*                                                        :::      ::::::::   */
 /*   test.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: joao-alm <joao-alm@student.1337.ma>        +#+  +:+       +#+        */
+/*   By: joao-alm <joao-alm@student.42luxembourg.>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/11/18 09:52:47 by joao-alm          #+#    #+#             */
-/*   Updated: 2024/11/18 09:52:47 by joao-alm         ###   ########.fr       */
+/*   Created: 2024/12/02 17:47:48 by joao-alm          #+#    #+#             */
+/*   Updated: 2024/12/02 17:47:48 by joao-alm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/test.h"
-#include "../includes/push_swap.h"
-#include <stdio.h>
+#include <stdint.h>
 
-void	test_print_lsts(t_list *lst_a, t_list *lst_b)
+#include "quicksort.h"
+#include "ft_printf.h"
+
+void	test_print_lst(char *name, const t_stack *stack)
 {
-	printf("List A: ");
-	while (lst_a)
-	{
-		printf("%d -> ", *((int *)lst_a->content));
-		lst_a = lst_a->next;
-	}
-	printf("NULL\n");
-	printf("List B: ");
-	while (lst_b)
-	{
-		printf("%d -> ", *((int *)lst_b->content));
-		lst_b = lst_b->next;
-	}
-	printf("NULL\n");
+    t_list  *lst;
+
+    lst = stack->lst;
+    ft_printf("%s: ", name);
+    while (lst)
+    {
+        ft_printf("%d -> ", ft_lstget_int(lst));
+        lst = lst->next;
+    }
+    //ft_printf("NULL\n");
+    ft_printf("size: %d\n", stack->size);
 }
 
-void	test_print_tab(int *tab, int size)
+void	test_print_stacks(t_ps *pushswap)
 {
-	printf("Tab: ");
-	for (int i = 0; i < size; i++)
-	{
-		if (i < size -1)
-			printf("%d -> ", tab[i]);
-		else
-			printf("%d\n", tab[i]);
-	}
+    (void)pushswap;
+    //
+    // test_print_lst("A_TOP", &pushswap->a_top);
+    // test_print_lst("A_BOT", &pushswap->a_bot);
+    // test_print_lst("B_TOP", &pushswap->b_top);
+    // test_print_lst("B_BOT", &pushswap->b_bot);
 }

@@ -10,32 +10,31 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../includes/push_swap.h"
-#include "../../includes/operations.h"
-#include <unistd.h>
+#include "ft_printf.h"
+#include "quicksort.h"
+#include "test.h"
 
-void	ft_pa(t_list **lst_a, t_list **lst_b)
+void	ft_push(t_stack *src, t_stack *dest)
 {
-	t_list *temp;
-
-	if (!*lst_b)
-		return ;
-	ft_lstadd_front(lst_a, ft_lstnew((*lst_b)->content));
-	temp = (*lst_b)->next;
-	ft_lstdelone(*lst_b, NULL);
-	*lst_b = temp;
-	write(1, "pb\n", 3);
+	ft_lstadd_front(&dest->lst, ft_lstdetach(&src->lst, src->lst));
+	src->size -= 1;
+	dest->size += 1;
 }
 
-void	ft_pb(t_list **lst_a, t_list **lst_b)
+void	ft_pa(t_ps *ps)
 {
-	t_list *temp;
-
-	if (!*lst_a)
+	if (ps->b_top.size + ps->b_bot.size < 1)
 		return ;
-	ft_lstadd_front(lst_b, ft_lstnew((*lst_a)->content));
-	temp = (*lst_a)->next;
-	ft_lstdelone(*lst_a, NULL);
-	*lst_a = temp;
-	write(1, "pb\n", 3);
+	ft_push(&ps->b_top, &ps->a_top);
+	ft_lstadd_back(&ps->ops, ft_lstnew("pa"));
+	test_print_stacks(ps);
+}
+
+void	ft_pb(t_ps *ps)
+{
+	if (ps->a_top.size + ps->a_bot.size < 1)
+		return ;
+	ft_push(&ps->a_top, &ps->b_top);
+	ft_lstadd_back(&ps->ops, ft_lstnew("pb"));
+	test_print_stacks(ps);
 }
