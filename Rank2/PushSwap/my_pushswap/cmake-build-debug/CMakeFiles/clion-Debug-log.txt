@@ -1,0 +1,307 @@
+/app/extra/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/app/extra/clion/bin/ninja/linux/x64/ninja -G Ninja -S /home/joao-alm/42_Luxembourg/Common_Core/Rank2/PushSwap/my_pushswap -B /home/joao-alm/42_Luxembourg/Common_Core/Rank2/PushSwap/my_pushswap/cmake-build-debug
+-- Processing directory: ./
+-- Skipping excluded source file: cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/CMakeCCompilerId.c
+-- Adding source file: lib_2.0/srcs/conversion/atoll_valid.c
+-- Adding source file: lib_2.0/srcs/conversion/ft_atoi.c
+-- Adding source file: lib_2.0/srcs/conversion/ft_itoa.c
+-- Adding source file: lib_2.0/srcs/conversion/ft_tolower.c
+-- Adding source file: lib_2.0/srcs/conversion/ft_toupper.c
+-- Adding source file: lib_2.0/srcs/ft_printf/ft_printf.c
+-- Adding source file: lib_2.0/srcs/ft_printf/long_to_hex.c
+-- Adding source file: lib_2.0/srcs/ft_printf/print_chars.c
+-- Adding source file: lib_2.0/srcs/ft_printf/print_n_string.c
+-- Adding source file: lib_2.0/srcs/ft_printf/print_numbers.c
+-- Adding source file: lib_2.0/srcs/ft_printf/unsigned_itoa.c
+-- Adding source file: lib_2.0/srcs/ft_printf/utils.c
+-- Adding source file: lib_2.0/srcs/list/ft_lstadd_back_bonus.c
+-- Adding source file: lib_2.0/srcs/list/ft_lstadd_front_bonus.c
+-- Adding source file: lib_2.0/srcs/list/ft_lstclear_bonus.c
+-- Adding source file: lib_2.0/srcs/list/ft_lstdelone_bonus.c
+-- Adding source file: lib_2.0/srcs/list/ft_lstiter_bonus.c
+-- Adding source file: lib_2.0/srcs/list/ft_lstlast_bonus.c
+-- Adding source file: lib_2.0/srcs/list/ft_lstmap_bonus.c
+-- Adding source file: lib_2.0/srcs/list/ft_lstnew_bonus.c
+-- Adding source file: lib_2.0/srcs/list/ft_lstsize_bonus.c
+-- Adding source file: lib_2.0/srcs/list/lstdel_safely.c
+-- Adding source file: lib_2.0/srcs/list/lstdetach.c
+-- Adding source file: lib_2.0/srcs/list/lstdup.c
+-- Adding source file: lib_2.0/srcs/list/lstget_int.c
+-- Adding source file: lib_2.0/srcs/list/lstnew_int.c
+-- Adding source file: lib_2.0/srcs/memory/free_matrix.c
+-- Adding source file: lib_2.0/srcs/memory/ft_bzero.c
+-- Adding source file: lib_2.0/srcs/memory/ft_calloc.c
+-- Adding source file: lib_2.0/srcs/memory/ft_memchr.c
+-- Adding source file: lib_2.0/srcs/memory/ft_memcmp.c
+-- Adding source file: lib_2.0/srcs/memory/ft_memcpy.c
+-- Adding source file: lib_2.0/srcs/memory/ft_memmove.c
+-- Adding source file: lib_2.0/srcs/memory/ft_memset.c
+-- Adding source file: lib_2.0/srcs/memory/realloc.c
+-- Adding source file: lib_2.0/srcs/memory/sort_tab.c
+-- Adding source file: lib_2.0/srcs/string/ft_isalnum.c
+-- Adding source file: lib_2.0/srcs/string/ft_isalpha.c
+-- Adding source file: lib_2.0/srcs/string/ft_isascii.c
+-- Adding source file: lib_2.0/srcs/string/ft_isdigit.c
+-- Adding source file: lib_2.0/srcs/string/ft_isprint.c
+-- Adding source file: lib_2.0/srcs/string/ft_split.c
+-- Adding source file: lib_2.0/srcs/string/ft_strchr.c
+-- Adding source file: lib_2.0/srcs/string/ft_strdup.c
+-- Adding source file: lib_2.0/srcs/string/ft_striteri.c
+-- Adding source file: lib_2.0/srcs/string/ft_strjoin.c
+-- Adding source file: lib_2.0/srcs/string/ft_strlcat.c
+-- Adding source file: lib_2.0/srcs/string/ft_strlcpy.c
+-- Adding source file: lib_2.0/srcs/string/ft_strlen.c
+-- Adding source file: lib_2.0/srcs/string/ft_strmapi.c
+-- Adding source file: lib_2.0/srcs/string/ft_strncmp.c
+-- Adding source file: lib_2.0/srcs/string/ft_strnstr.c
+-- Adding source file: lib_2.0/srcs/string/ft_strrchr.c
+-- Adding source file: lib_2.0/srcs/string/ft_strtrim.c
+-- Adding source file: lib_2.0/srcs/string/ft_substr.c
+-- Adding source file: lib_2.0/srcs/write/ft_putchar_fd.c
+-- Adding source file: lib_2.0/srcs/write/ft_putendl_fd.c
+-- Adding source file: lib_2.0/srcs/write/ft_putnbr_fd.c
+-- Adding source file: lib_2.0/srcs/write/ft_putstr_fd.c
+-- Skipping excluded source file: push_swap_visualizer/build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c
+-- Skipping excluded source file: push_swap_visualizer/build/_deps/imgui-src/examples/libs/gl3w/GL/gl3w.c
+-- Skipping excluded source file: push_swap_visualizer/build/_deps/imgui-src/examples/libs/usynergy/uSynergy.c
+-- Adding source file: srcs/input_check.c
+-- Adding source file: srcs/input_get.c
+-- Adding source file: srcs/operations/push.c
+-- Adding source file: srcs/operations/rev_rotate.c
+-- Adding source file: srcs/operations/rotate.c
+-- Adding source file: srcs/operations/swap.c
+-- Adding source file: srcs/optimization/operations_list.c
+-- Adding source file: srcs/push_swap.c
+-- Adding source file: srcs/quicksort/chunk_sort_one_two.c
+-- Adding source file: srcs/quicksort/chunk_sort_three.c
+-- Adding source file: srcs/quicksort/chunk_split.c
+-- Adding source file: srcs/quicksort/chunk_utils.c
+-- Adding source file: srcs/quicksort/move.c
+-- Adding source file: srcs/quicksort/quicksort.c
+-- Adding source file: srcs/sort_small.c
+-- Adding source file: srcs/test.c
+-- Adding header file: includes/pushswap.h
+-- Adding header file: includes/quicksort.h
+-- Adding header file: includes/test.h
+-- Adding header file: lib_2.0/includes/ft_printf.h
+-- Adding header file: lib_2.0/includes/lib_conversion.h
+-- Adding header file: lib_2.0/includes/lib_list.h
+-- Adding header file: lib_2.0/includes/lib_memory.h
+-- Adding header file: lib_2.0/includes/lib_string.h
+-- Adding header file: lib_2.0/includes/lib_write.h
+-- Adding header file: lib_2.0/includes/libft.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_approx.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_assertionhandler.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_assertioninfo.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_assertionresult.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_capture_matchers.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_clara.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_commandline.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_common.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_compiler_capabilities.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_console_colour.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_context.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_debug_console.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_debugger.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_decomposer.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_enforce.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_enum_values_registry.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_errno_guard.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_exception_translator_registry.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_external_interfaces.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_fatal_condition.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_interfaces_capture.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_interfaces_config.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_interfaces_enum_values_registry.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_interfaces_exception.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_interfaces_generatortracker.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_interfaces_registry_hub.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_interfaces_reporter.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_interfaces_runner.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_interfaces_tag_alias_registry.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_interfaces_testcase.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_leak_detector.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_list.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_matchers.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_matchers_floating.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_matchers_string.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_matchers_vector.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_message.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_output_redirect.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_platform.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_random_number_generator.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_reenable_warnings.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_reporter_registry.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_result_type.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_run_context.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_section.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_section_info.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_session.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_startup_exception_registry.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_stream.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_string_manip.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_stringref.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_suppress_warnings.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_tag_alias.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_tag_alias_autoregistrar.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_tag_alias_registry.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_test_case_info.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_test_case_registry_impl.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_test_case_tracker.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_test_registry.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_test_spec.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_test_spec_parser.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_text.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_timer.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_tostring.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_totals.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_uncaught_exceptions.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_user_interfaces.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_version.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_wildcard_pattern.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_windows_h_proxy.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_xmlwriter.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/reporters/catch_reporter_compact.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/reporters/catch_reporter_console.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/reporters/catch_reporter_junit.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/reporters/catch_reporter_listening.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/reporters/catch_reporter_xml.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/projects/XCode/OCTest/OCTest/CatchOCTestCase.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/projects/XCode/OCTest/OCTest/TestObj.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/imgui-sfml-src/imconfig-SFML.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/imgui-sfml-src/imgui-SFML.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/imgui-sfml-src/imgui-SFML_export.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/imgui-src/backends/imgui_impl_allegro5.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/imgui-src/backends/imgui_impl_android.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/imgui-src/backends/imgui_impl_dx10.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/imgui-src/backends/imgui_impl_dx11.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/imgui-src/backends/imgui_impl_dx12.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/imgui-src/backends/imgui_impl_dx9.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/imgui-src/backends/imgui_impl_glfw.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/imgui-src/backends/imgui_impl_glut.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/imgui-src/backends/imgui_impl_marmalade.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/imgui-src/backends/imgui_impl_metal.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/imgui-src/backends/imgui_impl_opengl2.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/imgui-src/backends/imgui_impl_opengl3.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/imgui-src/backends/imgui_impl_osx.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/imgui-src/backends/imgui_impl_sdl.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/imgui-src/backends/imgui_impl_vulkan.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/imgui-src/backends/imgui_impl_wgpu.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/imgui-src/backends/imgui_impl_win32.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/imgui-src/examples/example_allegro5/imconfig_allegro5.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/imgui-src/examples/libs/gl3w/GL/gl3w.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/imgui-src/examples/libs/gl3w/GL/glcorearb.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/imgui-src/examples/libs/glfw/include/GLFW/glfw3.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/imgui-src/examples/libs/glfw/include/GLFW/glfw3native.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/imgui-src/examples/libs/usynergy/uSynergy.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/imgui-src/imconfig.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/imgui-src/imgui.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/imgui-src/imgui_internal.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/imgui-src/imstb_rectpack.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/imgui-src/imstb_textedit.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/imgui-src/imstb_truetype.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/imgui-src/misc/cpp/imgui_stdlib.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/imgui-src/misc/freetype/imgui_freetype.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/imgui-src/misc/single_file/imgui_single_file.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/examples/cocoa/CocoaAppDelegate.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/examples/cocoa/NSString+stdstring.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/examples/island/stb_perlin.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/AL/al.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/AL/alc.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/AL/alext.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/AL/efx-creative.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/AL/efx-presets.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/AL/efx.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/FLAC/all.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/FLAC/assert.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/FLAC/callback.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/FLAC/export.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/FLAC/format.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/FLAC/metadata.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/FLAC/ordinals.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/FLAC/stream_decoder.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/FLAC/stream_encoder.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/freetype2/config/ftconfig.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/freetype2/config/ftheader.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/freetype2/config/ftmodule.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/freetype2/config/ftoption.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/freetype2/config/ftstdlib.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/freetype2/freetype.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/freetype2/ft2build.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/freetype2/ftadvanc.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/freetype2/ftautoh.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/freetype2/ftbbox.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/freetype2/ftbdf.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/freetype2/ftbitmap.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/freetype2/ftbzip2.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/freetype2/ftcache.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/freetype2/ftcffdrv.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/freetype2/ftchapters.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/freetype2/ftcid.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/freetype2/fterrdef.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/freetype2/fterrors.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/freetype2/ftgasp.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/freetype2/ftglyph.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/freetype2/ftgxval.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/freetype2/ftgzip.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/freetype2/ftimage.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/freetype2/ftincrem.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/freetype2/ftlcdfil.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/freetype2/ftlist.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/freetype2/ftlzw.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/freetype2/ftmac.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/freetype2/ftmm.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/freetype2/ftmodapi.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/freetype2/ftmoderr.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/freetype2/ftotval.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/freetype2/ftoutln.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/freetype2/ftpfr.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/freetype2/ftrender.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/freetype2/ftsizes.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/freetype2/ftsnames.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/freetype2/ftstroke.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/freetype2/ftsynth.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/freetype2/ftsystem.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/freetype2/fttrigon.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/freetype2/ftttdrv.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/freetype2/fttypes.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/freetype2/ftwinfnt.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/freetype2/ftxf86.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/freetype2/t1tables.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/freetype2/ttnameid.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/freetype2/tttables.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/freetype2/tttags.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/freetype2/ttunpat.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/mingw/_mingw_dxhelper.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/mingw/dinput.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/ogg/config_types.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/ogg/ogg.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/ogg/os_types.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/stb_image/stb_image.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/stb_image/stb_image_write.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/vorbis/codec.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/vorbis/vorbisenc.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/extlibs/headers/vorbis/vorbisfile.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/src/SFML/Window/OSX/AutoreleasePoolWrapper.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/src/SFML/Window/OSX/NSImage+raw.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/src/SFML/Window/OSX/SFApplication.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/src/SFML/Window/OSX/SFApplicationDelegate.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/src/SFML/Window/OSX/SFKeyboardModifiersHelper.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/src/SFML/Window/OSX/SFOpenGLView+keyboard_priv.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/src/SFML/Window/OSX/SFOpenGLView+mouse_priv.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/src/SFML/Window/OSX/SFOpenGLView.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/src/SFML/Window/OSX/SFSilentResponder.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/src/SFML/Window/OSX/SFViewController.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/src/SFML/Window/OSX/SFWindow.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/src/SFML/Window/OSX/SFWindowController.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/src/SFML/Window/OSX/Scaling.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/src/SFML/Window/OSX/WindowImplDelegateProtocol.h
+-- Skipping excluded header file: push_swap_visualizer/build/_deps/sfml-src/src/SFML/Window/OSX/cpp_objc_conversion.h
+-- Skipping excluded header file: push_swap_visualizer/include/gui.h
+-- Skipping excluded header file: push_swap_visualizer/include/pushswap.h
+-- Skipping excluded header file: push_swap_visualizer/include/queues.h
+-- Skipping excluded header file: push_swap_visualizer/include/utils.h
+-- Adding include directory: includes
+-- Adding include directory: lib_2.0/includes
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/joao-alm/42_Luxembourg/Common_Core/Rank2/PushSwap/my_pushswap/cmake-build-debug

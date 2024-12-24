@@ -1,0 +1,4 @@
+/home/joao-alm/42_Luxembourg/Common_Core/Rank1/Get_Next_Line/get_next_line/cmake-build-debug/CMakeFiles/GetNextLine.dir
+/home/joao-alm/42_Luxembourg/Common_Core/Rank1/Get_Next_Line/get_next_line/cmake-build-debug/CMakeFiles/GetNextLine_Bonus.dir
+/home/joao-alm/42_Luxembourg/Common_Core/Rank1/Get_Next_Line/get_next_line/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/joao-alm/42_Luxembourg/Common_Core/Rank1/Get_Next_Line/get_next_line/cmake-build-debug/CMakeFiles/rebuild_cache.dir
