@@ -11,12 +11,8 @@
 /* ************************************************************************** */
 
 #include "quicksort.h"
-#include <stdlib.h>
 
-#include "ft_printf.h"
-#include "test.h"
-
-void	move_from_A_TOP(t_ps *pushswap, const t_loc to)
+void	move_from_a_top(t_ps *pushswap, const t_loc to)
 {
 	if (to == B_TOP)
 		ft_pb(pushswap);
@@ -29,7 +25,7 @@ void	move_from_A_TOP(t_ps *pushswap, const t_loc to)
 	}
 }
 
-void	move_from_B_TOP(t_ps *pushswap, const t_loc to)
+void	move_from_b_top(t_ps *pushswap, const t_loc to)
 {
 	if (to == A_TOP)
 		ft_pa(pushswap);
@@ -42,7 +38,7 @@ void	move_from_B_TOP(t_ps *pushswap, const t_loc to)
 	}
 }
 
-void	move_from_A_BOT(t_ps *pushswap, const t_loc to)
+void	move_from_a_bot(t_ps *pushswap, const t_loc to)
 {
 	if (to == A_TOP)
 		ft_rra(pushswap);
@@ -59,7 +55,7 @@ void	move_from_A_BOT(t_ps *pushswap, const t_loc to)
 	}
 }
 
-void	move_from_B_BOT(t_ps *pushswap, const t_loc to)
+void	move_from_b_bot(t_ps *pushswap, const t_loc to)
 {
 	if (to == B_TOP)
 		ft_rrb(pushswap);
@@ -79,13 +75,12 @@ void	move_from_B_BOT(t_ps *pushswap, const t_loc to)
 int	move_from_to(t_ps *pushswap, const t_loc from, const t_loc to)
 {
 	if (from == A_TOP)
-		move_from_A_TOP(pushswap, to);
+		move_from_a_top(pushswap, to);
 	else if (from == B_TOP)
-		move_from_B_TOP(pushswap, to);
+		move_from_b_top(pushswap, to);
 	else if (from == A_BOT)
-		move_from_A_BOT(pushswap, to);
+		move_from_a_bot(pushswap, to);
 	else if (from == B_BOT)
-		move_from_B_BOT(pushswap, to);
-	// ft_printf("%s\n", (char *)ft_lstlast(pushswap->ops)->content);
+		move_from_b_bot(pushswap, to);
 	return (1);
 }

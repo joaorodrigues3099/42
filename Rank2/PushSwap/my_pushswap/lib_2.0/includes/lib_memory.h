@@ -1,19 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   memory.h                                           :+:      :+:    :+:   */
+/*   lib_memory.h                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: joao-alm <joao-alm@student.42luxembourg.>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/11/29 20:12:41 by joao-alm          #+#    #+#             */
-/*   Updated: 2024/11/29 20:12:41 by joao-alm         ###   ########.fr       */
+/*   Created: 2024/12/23 15:19:50 by joao-alm          #+#    #+#             */
+/*   Updated: 2024/12/26 19:35:29 by joao-alm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef MEMORY_H
-#define MEMORY_H
+#ifndef LIB_MEMORY_H
+# define LIB_MEMORY_H
 
-#include <stdlib.h>
+# include <stdlib.h>
 
 void	*ft_memset(void *s, int c, size_t n);
 void	ft_bzero(void *s, size_t n);
@@ -26,5 +26,4 @@ void	ft_free_matrix(void **matrix, int index);
 void	*ft_realloc(void *src, size_t old_size, size_t new_size);
 void	ft_sort_tab(int *tab, const int size);
 
-
-#endif //MEMORY_H
+#endif // LIB_MEMORY_H

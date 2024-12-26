@@ -11,13 +11,13 @@
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
-#define LIBFT_H
+# define LIBFT_H
 
-#include "lib_conversion.h"
-#include "ft_printf.h"
-#include "lib_list.h"
-#include "lib_memory.h"
-#include "lib_string.h"
-#include "lib_write.h"
+# include "ft_printf.h"
+# include "lib_conversion.h"
+# include "lib_list.h"
+# include "lib_memory.h"
+# include "lib_string.h"
+# include "lib_write.h"
 
-#endif //LIBFT_H
+#endif // LIBFT_H

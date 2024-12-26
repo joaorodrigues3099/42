@@ -1,6 +1,6 @@
 /app/extra/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/app/extra/clion/bin/ninja/linux/x64/ninja -G Ninja -S /home/joao-alm/42_Luxembourg/Common_Core/Rank2/PushSwap/my_pushswap -B /home/joao-alm/42_Luxembourg/Common_Core/Rank2/PushSwap/my_pushswap/cmake-build-debug
 -- Processing directory: ./
--- Skipping excluded source file: cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/CMakeCCompilerId.c
+-- Skipping excluded source file: cmake-build-debug/CMakeFiles/3.30.5/CompilerIdC/CMakeCCompilerId.c
 -- Adding source file: lib_2.0/srcs/conversion/atoll_valid.c
 -- Adding source file: lib_2.0/srcs/conversion/ft_atoi.c
 -- Adding source file: lib_2.0/srcs/conversion/ft_itoa.c
@@ -69,19 +69,18 @@
 -- Adding source file: srcs/operations/rev_rotate.c
 -- Adding source file: srcs/operations/rotate.c
 -- Adding source file: srcs/operations/swap.c
--- Adding source file: srcs/optimization/operations_list.c
+-- Adding source file: srcs/ops_list.c
 -- Adding source file: srcs/push_swap.c
 -- Adding source file: srcs/quicksort/chunk_sort_one_two.c
 -- Adding source file: srcs/quicksort/chunk_sort_three.c
 -- Adding source file: srcs/quicksort/chunk_split.c
 -- Adding source file: srcs/quicksort/chunk_utils.c
 -- Adding source file: srcs/quicksort/move.c
+-- Adding source file: srcs/quicksort/pivots.c
 -- Adding source file: srcs/quicksort/quicksort.c
 -- Adding source file: srcs/sort_small.c
--- Adding source file: srcs/test.c
 -- Adding header file: includes/pushswap.h
 -- Adding header file: includes/quicksort.h
--- Adding header file: includes/test.h
 -- Adding header file: lib_2.0/includes/ft_printf.h
 -- Adding header file: lib_2.0/includes/lib_conversion.h
 -- Adding header file: lib_2.0/includes/lib_list.h

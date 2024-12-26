@@ -11,9 +11,7 @@
 /* ************************************************************************** */
 
 #include <stdlib.h>
-
 #include "quicksort.h"
-#include "test.h"
 
 void	ft_swap(t_stack *src, t_stack *dest)
 {
@@ -37,7 +35,6 @@ void	ft_sa(t_ps *ps)
 	else
 		ft_swap(&ps->a_top, &ps->a_top);
 	ft_lstadd_back(&ps->ops, ft_lstnew("sa"));
-	test_print_stacks(ps);
 }
 
 void	ft_sb(t_ps *ps)
@@ -51,7 +48,6 @@ void	ft_sb(t_ps *ps)
 	else
 		ft_swap(&ps->b_top, &ps->b_top);
 	ft_lstadd_back(&ps->ops, ft_lstnew("sb"));
-	test_print_stacks(ps);
 }
 
 void	ft_ss(t_ps *ps)
@@ -61,5 +57,4 @@ void	ft_ss(t_ps *ps)
 	ft_lstdelone(ft_lstlast(ps->ops), NULL);
 	ft_lstdelone(ft_lstlast(ps->ops), NULL);
 	ft_lstadd_back(&ps->ops, ft_lstnew("ss"));
-	test_print_stacks(ps);
 }

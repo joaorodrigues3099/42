@@ -14,8 +14,9 @@
 #include "lib_string.h"
 #include <stdlib.h>
 
-void *ft_dup_data(void *data, int type) {
-	void *dup;
+void	*ft_dup_data(void *data, int type)
+{
+	void	*dup;
 
 	dup = NULL;
 	if (type == 0)

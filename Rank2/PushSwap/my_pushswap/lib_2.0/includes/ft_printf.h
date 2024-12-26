@@ -13,8 +13,8 @@
 #ifndef FT_PRINTF_H
 # define FT_PRINTF_H
 
-//────────────────────────────────────Main Function────────────────────────────────
-int	ft_printf(const char *str, ...);
+//────────────────────────────────────Main Function─────────────────────────────
+int		ft_printf(const char *str, ...);
 
 //────────────────────────────────────Structure────────────────────────────────
 typedef struct s_flags
@@ -29,17 +29,17 @@ typedef struct s_flags
 	int	hex_caps;
 }		t_flags;
 
-//────────────────────────────────────Utilities─────────────────────────────────
+//────────────────────────────────────Utilities───────────────────────────────
 void	ft_putchar_count(char c, int *count);
 void	ft_putstr_count(const char *str, int *count);
 t_flags	ft_flags(void);
 
-//────────────────────────────────────Conversion─────────────────────────────────
+//────────────────────────────────────Conversion───────────────────────────────
 char	*ft_unsigned_itoa(unsigned int n);
 char	*ft_long_to_hex(unsigned long ptr, const char *hex_digits,
 			t_flags *flags);
 
-//─────────────────────────────────────Printing──────────────────────────────────
+//─────────────────────────────────────Printing────────────────────────────────
 void	ft_print_char(int c, int *count, t_flags *flags);
 void	ft_print_string(char *str, int *count, t_flags *flags);
 void	ft_print_pointer(void *ptr, int *count, t_flags *flags);

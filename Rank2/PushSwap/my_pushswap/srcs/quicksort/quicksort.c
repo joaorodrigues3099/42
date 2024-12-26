@@ -15,7 +15,8 @@
 
 void	ft_chunk_to_top(t_ps *pushswap, t_chunk *chunk)
 {
-	if (chunk->loc == A_BOT && pushswap->a_top.size + pushswap->a_bot.size == chunk->size)
+	if (chunk->loc == A_BOT && pushswap->a_top.size
+		+ pushswap->a_bot.size == chunk->size)
 	{
 		chunk->loc = A_TOP;
 		pushswap->a_top.lst = pushswap->a_bot.lst;
@@ -23,7 +24,8 @@ void	ft_chunk_to_top(t_ps *pushswap, t_chunk *chunk)
 		pushswap->a_bot.lst = NULL;
 		pushswap->a_bot.size = 0;
 	}
-	if (chunk->loc == B_BOT && pushswap->b_top.size + pushswap->b_bot.size == chunk->size)
+	if (chunk->loc == B_BOT && pushswap->b_top.size
+		+ pushswap->b_bot.size == chunk->size)
 	{
 		chunk->loc = B_TOP;
 		pushswap->b_top.lst = pushswap->b_bot.lst;

@@ -15,7 +15,7 @@
 void	ft_sort_tab(int *tab, const int size)
 {
 	int	i;
-	int j;
+	int	j;
 	int	temp;
 
 	if (!tab)

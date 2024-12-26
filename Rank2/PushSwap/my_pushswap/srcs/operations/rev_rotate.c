@@ -10,16 +10,12 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
-
-#include "ft_printf.h"
 #include "quicksort.h"
-#include "test.h"
+#include <stdlib.h>
 
 void	ft_rev_rotate(t_stack *src, t_stack *dest)
 {
-	ft_lstadd_front(&dest->lst, ft_lstdetach(&src->lst,
-		ft_lstlast(src->lst)));
+	ft_lstadd_front(&dest->lst, ft_lstdetach(&src->lst, ft_lstlast(src->lst)));
 	src->size -= 1;
 	dest->size += 1;
 }
@@ -31,7 +27,6 @@ void	ft_rra(t_ps *ps)
 	else
 		ft_rev_rotate(&ps->a_bot, &ps->a_top);
 	ft_lstadd_back(&ps->ops, ft_lstnew("rra"));
-	test_print_stacks(ps);
 }
 
 void	ft_rrb(t_ps *ps)
@@ -41,7 +36,6 @@ void	ft_rrb(t_ps *ps)
 	else
 		ft_rev_rotate(&ps->b_bot, &ps->b_top);
 	ft_lstadd_back(&ps->ops, ft_lstnew("rrb"));
-	test_print_stacks(ps);
 }
 
 void	ft_rrr(t_ps *ps)
@@ -51,5 +45,4 @@ void	ft_rrr(t_ps *ps)
 	ft_lstdelone(ft_lstlast(ps->ops), NULL);
 	ft_lstdelone(ft_lstlast(ps->ops), NULL);
 	ft_lstadd_back(&ps->ops, ft_lstnew("rrr"));
-	test_print_stacks(ps);
 }

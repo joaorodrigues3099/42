@@ -10,11 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "quicksort.h"
 #include <limits.h>
 #include <stdlib.h>
-
-#include "ft_printf.h"
-#include "quicksort.h"
 
 t_list	*ft_get_chunk(t_ps pushswap, const t_chunk *chunk_data)
 {
@@ -37,26 +35,13 @@ t_list	*ft_get_chunk(t_ps pushswap, const t_chunk *chunk_data)
 	return (NULL);
 }
 
-void	ft_chunk_to_tab(int *tab, const t_ps *pushswap, const t_chunk *chunk_data)
-{
-	t_list	*chunk;
-	int		i;
-
-	chunk = ft_get_chunk(*pushswap, chunk_data);
-	i = 0;
-	while (chunk && i < chunk_data->size)
-	{
-		tab[i++] = ft_lstget_int(chunk);
-		chunk = chunk->next;
-	}
-}
-
-int	ft_chunk_value(const t_ps *pushswap, const t_chunk *chunk_data, const int pos)
+int	ft_chunk_value(const t_ps *pushswap, const t_chunk *chunk_data,
+		const int pos)
 {
 	t_list	*current;
 	int		i;
 
-  	current = ft_get_chunk(*pushswap, chunk_data);
+	current = ft_get_chunk(*pushswap, chunk_data);
 	if (chunk_data->loc == A_TOP || chunk_data->loc == B_TOP)
 		i = pos;
 	else

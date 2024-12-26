@@ -15,18 +15,14 @@
 
 #include "pushswap.h"
 
-enum e_bottop
-{
-	TOP,
-	BOT
-};
-
+// Chunk
 typedef struct s_chunk
 {
 	t_loc	loc;
 	int		size;
 }	t_chunk;
 
+// Split
 typedef struct s_split
 {
 	t_chunk	min;
@@ -34,14 +30,20 @@ typedef struct s_split
 	t_chunk	max;
 }	t_split;
 
-void	ft_chunk_to_tab(int *tab, const t_ps *pushswap, const t_chunk *chunk_data);
+// Chunk Utils
+t_list	*ft_get_chunk(t_ps pushswap, const t_chunk *chunk_data);
 int		ft_chunk_value(const t_ps *pushswap, const t_chunk *chunk_data, int pos);
-int		ft_chunck_max(const t_ps *pushswap, const t_chunk *chunk);
 
+// Chunk Split
 void	ft_chunk_split(t_ps *pushswap, t_chunk *src, t_split *dest);
 
+// Pivots
+void	ft_get_pivots(int *pivots, const t_ps *pushswap, const t_chunk *chunk_data);
+
+// Move
 int		move_from_to(t_ps *pushswap, const t_loc from, const t_loc to);
 
+// Chunk Sort
 void	ft_chunk_sort_one(t_ps *pushswap, t_chunk *chunk);
 void	ft_chunk_sort_two(t_ps *pushswap, t_chunk *chunk);
 void	ft_chunk_sort_three(t_ps *pushswap, t_chunk *to_sort);

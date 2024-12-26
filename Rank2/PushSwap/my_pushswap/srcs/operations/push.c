@@ -10,9 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
 #include "quicksort.h"
-#include "test.h"
 
 void	ft_push(t_stack *src, t_stack *dest)
 {
@@ -27,7 +25,6 @@ void	ft_pa(t_ps *ps)
 		return ;
 	ft_push(&ps->b_top, &ps->a_top);
 	ft_lstadd_back(&ps->ops, ft_lstnew("pa"));
-	test_print_stacks(ps);
 }
 
 void	ft_pb(t_ps *ps)
@@ -36,5 +33,4 @@ void	ft_pb(t_ps *ps)
 		return ;
 	ft_push(&ps->a_top, &ps->b_top);
 	ft_lstadd_back(&ps->ops, ft_lstnew("pb"));
-	test_print_stacks(ps);
 }

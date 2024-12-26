@@ -17,7 +17,7 @@
 #include "lib_memory.h"
 #include "lib_string.h"
 
-static void	ft_fill_lst(t_list **lst, char **av, const int *size, const int alloc)
+static void	ft_fill_lst(t_list **lst, char **av, const int *size)
 {
 	int			i;
 	long long	atoll;
@@ -30,8 +30,6 @@ static void	ft_fill_lst(t_list **lst, char **av, const int *size, const int allo
 		atoll = ft_atoll_valid(av[i], INT_MIN, INT_MAX, &checker);
 		if (checker == 0)
 		{
-			if (alloc == 1)
-				ft_free_matrix((void **)av, i - 1);
 			ft_lstclear(lst, NULL);
 			return ;
 		}
@@ -51,12 +49,12 @@ void	ft_get_input(t_list **lst, char **av, const int ac, int *size)
 			return ;
 		while (split[*size])
 			(*size)++;
-		ft_fill_lst(lst, split, size, 1);
+		ft_fill_lst(lst, split, size);
 		ft_free_matrix((void **)split, *size - 1);
 	}
 	else if (ac > 2)
 	{
 		*size = ac - 1;
-		ft_fill_lst(lst, av + 1, size, 0);
+		ft_fill_lst(lst, av + 1, size);
 	}
 }

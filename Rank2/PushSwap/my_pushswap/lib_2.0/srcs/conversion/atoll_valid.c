@@ -53,20 +53,16 @@ long long	ft_atoll_valid(const char *str, const long long min,
 	ft_skip_prefix(&str, &sign);
 	atoll = 0;
 	if (valid && !(*str >= '0' && *str <= '9'))
-	{
-		*valid = 0;
-		return (0);
-	}
+		return (*valid = 0, 0);
 	while (*str >= '0' && *str <= '9')
 	{
-		if (valid && ((sign == -1 && atoll > -(min + (*str - '0')) / 10) || (sign == 1
-					&& atoll > (max - (*str - '0')) / 10)))
-		{
-			*valid = 0;
-			return (0);
-		}
+		if (valid && ((sign == -1 && atoll > -(min + (*str - '0')) / 10)
+				|| (sign == 1 && atoll > (max - (*str - '0')) / 10)))
+			return (*valid = 0, 0);
 		atoll = atoll * 10 + *str - '0';
 		str++;
 	}
+	if (valid && *str)
+		return (*valid = 0, 0);
 	return (atoll * sign);
 }

@@ -10,25 +10,20 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <stdlib.h>
+
 #include "quicksort.h"
 
-typedef struct s_pos
+void	sort_three_top_a(t_ps *pushswap, t_chunk *to_sort, const int *pos)
 {
-	int	first;
-	int	second;
-	int	third;
-}	t_pos;
-
-void	sort_three_top_a(t_ps *pushswap, t_chunk *to_sort, const t_pos *pos)
-{
-	if (pos->first > pos->second && pos->first > pos->third)
+	if (pos[0] > pos[1] && pos[0] > pos[2])
 	{
 		ft_sa(pushswap);
 		ft_ra(pushswap);
 		ft_sa(pushswap);
 		ft_rra(pushswap);
 	}
-	else if (pos->second > pos->first && pos->second > pos->third)
+	else if (pos[1] > pos[0] && pos[1] > pos[2])
 	{
 		ft_ra(pushswap);
 		ft_sa(pushswap);
@@ -39,12 +34,12 @@ void	sort_three_top_a(t_ps *pushswap, t_chunk *to_sort, const t_pos *pos)
 	ft_chunk_sort_two(pushswap, to_sort);
 }
 
-void	sort_three_top_b(t_ps *pushswap, t_chunk *to_sort, const t_pos *pos)
+void	sort_three_top_b(t_ps *pushswap, t_chunk *to_sort, const int *pos)
 {
 	ft_pa(pushswap);
-	if (pos->first > pos->second && pos->first > pos->third)
+	if (pos[0] > pos[1] && pos[0] > pos[2])
 		ft_pa(pushswap);
-	else if (pos->second > pos->first && pos->second > pos->third)
+	else if (pos[1] > pos[0] && pos[1] > pos[2])
 	{
 		ft_pa(pushswap);
 		ft_sa(pushswap);
@@ -61,13 +56,13 @@ void	sort_three_top_b(t_ps *pushswap, t_chunk *to_sort, const t_pos *pos)
 	ft_chunk_sort_two(pushswap, to_sort);
 }
 
-void	sort_three_bottom_a(t_ps *pushswap, t_chunk *to_sort, const t_pos *pos)
+void	sort_three_bottom_a(t_ps *pushswap, t_chunk *to_sort, const int *pos)
 {
 	ft_rra(pushswap);
 	ft_rra(pushswap);
-	if (pos->first > pos->second && pos->first > pos->third)
+	if (pos[0] > pos[1] && pos[0] > pos[2])
 		ft_rra(pushswap);
-	else if (pos->second > pos->first && pos->second > pos->third)
+	else if (pos[1] > pos[0] && pos[1] > pos[2])
 	{
 		ft_sa(pushswap);
 		ft_rra(pushswap);
@@ -84,17 +79,17 @@ void	sort_three_bottom_a(t_ps *pushswap, t_chunk *to_sort, const t_pos *pos)
 	ft_chunk_sort_two(pushswap, to_sort);
 }
 
-void	sort_three_bottom_b(t_ps *pushswap, t_chunk *to_sort, const t_pos *pos)
+void	sort_three_bottom_b(t_ps *pushswap, t_chunk *to_sort, const int *pos)
 {
 	ft_rrb(pushswap);
 	ft_rrb(pushswap);
-	if (pos->first > pos->second && pos->first > pos->third)
+	if (pos[0] > pos[1] && pos[0] > pos[2])
 	{
 		ft_sb(pushswap);
 		ft_pa(pushswap);
 		ft_rrb(pushswap);
 	}
-	else if (pos->second > pos->first && pos->second > pos->third)
+	else if (pos[1] > pos[0] && pos[1] > pos[2])
 	{
 		ft_pa(pushswap);
 		ft_rrb(pushswap);
@@ -111,17 +106,21 @@ void	sort_three_bottom_b(t_ps *pushswap, t_chunk *to_sort, const t_pos *pos)
 
 void	ft_chunk_sort_three(t_ps *pushswap, t_chunk *to_sort)
 {
-	t_pos	pos;
+	int	*pos;
 
-	pos.first = ft_chunk_value(pushswap, to_sort, 0);
-	pos.second = ft_chunk_value(pushswap, to_sort, 1);
-	pos.third = ft_chunk_value(pushswap, to_sort, 2);
+	pos = (int *)malloc(3 * sizeof(int));
+	if (!pos)
+		return ;
+	pos[0] = ft_chunk_value(pushswap, to_sort, 0);
+	pos[1] = ft_chunk_value(pushswap, to_sort, 1);
+	pos[2] = ft_chunk_value(pushswap, to_sort, 2);
 	if (to_sort->loc == A_TOP)
-		sort_three_top_a(pushswap, to_sort, &pos);
+		sort_three_top_a(pushswap, to_sort, pos);
 	else if (to_sort->loc == A_BOT)
-		sort_three_bottom_a(pushswap, to_sort, &pos);
+		sort_three_bottom_a(pushswap, to_sort, pos);
 	else if (to_sort->loc == B_TOP)
-		sort_three_top_b(pushswap, to_sort, &pos);
+		sort_three_top_b(pushswap, to_sort, pos);
 	else if (to_sort->loc == B_BOT)
-		sort_three_bottom_b(pushswap, to_sort, &pos);
+		sort_three_bottom_b(pushswap, to_sort, pos);
+	free(pos);
 }

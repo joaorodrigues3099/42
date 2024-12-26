@@ -26,7 +26,7 @@ MAIN_SRCS	= srcs/input_check.c \
 			  srcs/input_get.c \
 			  srcs/push_swap.c \
 			  srcs/sort_small.c \
-			  srcs/optimization/operations_list.c
+			  srcs/ops_list.c
 
 OPER_SRCS	= srcs/operations/push.c \
 			  srcs/operations/swap.c \
@@ -35,17 +35,15 @@ OPER_SRCS	= srcs/operations/push.c \
 
 QUICKSORT_SRCS	= srcs/quicksort/chunk_sort_one_two.c \
 			  srcs/quicksort/chunk_sort_three.c \
+			  srcs/quicksort/pivots.c \
 			  srcs/quicksort/chunk_split.c \
 			  srcs/quicksort/chunk_utils.c \
 			  srcs/quicksort/move.c \
 			  srcs/quicksort/quicksort.c
 
-TEST_SRCS	= srcs/test.c
-
 SRCS		= $(MAIN_SRCS) \
 			  $(OPER_SRCS) \
-			  $(QUICKSORT_SRCS) \
-			  $(TEST_SRCS)
+			  $(QUICKSORT_SRCS)
 
 #─────────────────────────────────────────Objects───────────────────────────────────────
 
