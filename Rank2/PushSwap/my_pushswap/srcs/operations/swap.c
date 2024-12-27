@@ -54,7 +54,7 @@ void	ft_ss(t_ps *ps)
 {
 	ft_sa(ps);
 	ft_sb(ps);
-	ft_lstdelone(ft_lstlast(ps->ops), NULL);
-	ft_lstdelone(ft_lstlast(ps->ops), NULL);
+	ft_lstdel_safely(&ps->ops, ft_lstlast(ps->ops), NULL);
+	ft_lstdel_safely(&ps->ops, ft_lstlast(ps->ops), NULL);
 	ft_lstadd_back(&ps->ops, ft_lstnew("ss"));
 }

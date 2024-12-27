@@ -17,6 +17,37 @@
 #include "lib_memory.h"
 #include "lib_string.h"
 
+int	ft_lst_sorted(const t_list *lst)
+{
+	while (lst->next)
+	{
+		if (ft_lstget_int(lst) > ft_lstget_int(lst->next))
+			return (0);
+		lst = lst->next;
+	}
+	return (1);
+}
+
+static int	ft_lst_no_dups(t_list *lst)
+{
+	t_list	*current;
+	t_list	*temp;
+
+	current = lst;
+	while (current)
+	{
+		temp = lst;
+		while (temp != current)
+		{
+			if (ft_lstget_int(temp) == ft_lstget_int(current))
+				return (0);
+			temp = temp->next;
+		}
+		current = current->next;
+	}
+	return (1);
+}
+
 static void	ft_fill_lst(t_list **lst, char **av, const int *size)
 {
 	int			i;
@@ -38,23 +69,30 @@ static void	ft_fill_lst(t_list **lst, char **av, const int *size)
 	}
 }
 
-void	ft_get_input(t_list **lst, char **av, const int ac, int *size)
+t_list	*ft_get_input(char **av, const int ac, int *size)
 {
+	t_list	*lst;
 	char	**split;
 
+	lst = NULL;
 	if (ac == 2)
 	{
 		split = ft_split(av[1], ' ');
 		if (!split)
-			return ;
+			return (NULL);
 		while (split[*size])
 			(*size)++;
-		ft_fill_lst(lst, split, size);
+		ft_fill_lst(&lst, split, size);
 		ft_free_matrix((void **)split, *size - 1);
 	}
 	else if (ac > 2)
 	{
 		*size = ac - 1;
-		ft_fill_lst(lst, av + 1, size);
+		ft_fill_lst(&lst, av + 1, size);
 	}
+	if (!ft_lst_no_dups(lst))
+		ft_lstclear(&lst, NULL);
+	if (!lst)
+		return (NULL);
+	return (lst);
 }

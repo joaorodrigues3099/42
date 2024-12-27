@@ -35,6 +35,8 @@ FT_PRINTF_SRCS	= srcs/ft_printf/ft_printf.c \
                   srcs/ft_printf/unsigned_itoa.c \
                   srcs/ft_printf/utils.c
 
+FT_GNL_SRCS		= srcs/get_next_line/get_next_line.c
+
 LIST_SRCS		= srcs/list/ft_lstadd_back_bonus.c \
               	  srcs/list/ft_lstadd_front_bonus.c \
               	  srcs/list/ft_lstclear_bonus.c \
@@ -88,6 +90,7 @@ WRITE_SRCS		= srcs/write/ft_putchar_fd.c \
 
 SRCS			= $(CONVERSION_SRCS) \
  		  		  $(FT_PRINTF_SRCS) \
+ 		  		  $(FT_GNL_SRCS) \
  		  		  $(WRITE_SRCS) \
 				  $(LIST_SRCS) \
 				  $(MEMORY_SRCS) \

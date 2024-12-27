@@ -1,5 +1,7 @@
 /app/extra/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/app/extra/clion/bin/ninja/linux/x64/ninja -G Ninja -S /home/joao-alm/42_Luxembourg/Common_Core/Rank2/PushSwap/my_pushswap -B /home/joao-alm/42_Luxembourg/Common_Core/Rank2/PushSwap/my_pushswap/cmake-build-debug
 -- Processing directory: ./
+-- Adding source file: checker_bonus/checker_bonus.c
+-- Adding source file: checker_bonus/checker_utils_bonus.c
 -- Skipping excluded source file: cmake-build-debug/CMakeFiles/3.30.5/CompilerIdC/CMakeCCompilerId.c
 -- Adding source file: lib_2.0/srcs/conversion/atoll_valid.c
 -- Adding source file: lib_2.0/srcs/conversion/ft_atoi.c
@@ -13,6 +15,7 @@
 -- Adding source file: lib_2.0/srcs/ft_printf/print_numbers.c
 -- Adding source file: lib_2.0/srcs/ft_printf/unsigned_itoa.c
 -- Adding source file: lib_2.0/srcs/ft_printf/utils.c
+-- Adding source file: lib_2.0/srcs/get_next_line/get_next_line.c
 -- Adding source file: lib_2.0/srcs/list/ft_lstadd_back_bonus.c
 -- Adding source file: lib_2.0/srcs/list/ft_lstadd_front_bonus.c
 -- Adding source file: lib_2.0/srcs/list/ft_lstclear_bonus.c
@@ -60,16 +63,84 @@
 -- Adding source file: lib_2.0/srcs/write/ft_putendl_fd.c
 -- Adding source file: lib_2.0/srcs/write/ft_putnbr_fd.c
 -- Adding source file: lib_2.0/srcs/write/ft_putstr_fd.c
+-- Adding source file: push_swap_tester/files/libft/binary_search.c
+-- Adding source file: push_swap_tester/files/libft/deque.c
+-- Adding source file: push_swap_tester/files/libft/deque_utils.c
+-- Adding source file: push_swap_tester/files/libft/ft_atoi.c
+-- Adding source file: push_swap_tester/files/libft/ft_bzero.c
+-- Adding source file: push_swap_tester/files/libft/ft_calloc.c
+-- Adding source file: push_swap_tester/files/libft/ft_isalnum.c
+-- Adding source file: push_swap_tester/files/libft/ft_isalpha.c
+-- Adding source file: push_swap_tester/files/libft/ft_isascii.c
+-- Adding source file: push_swap_tester/files/libft/ft_isdigit.c
+-- Adding source file: push_swap_tester/files/libft/ft_isprint.c
+-- Adding source file: push_swap_tester/files/libft/ft_isspace.c
+-- Adding source file: push_swap_tester/files/libft/ft_itoa.c
+-- Adding source file: push_swap_tester/files/libft/ft_lstadd_back.c
+-- Adding source file: push_swap_tester/files/libft/ft_lstadd_front.c
+-- Adding source file: push_swap_tester/files/libft/ft_lstclear.c
+-- Adding source file: push_swap_tester/files/libft/ft_lstdelone.c
+-- Adding source file: push_swap_tester/files/libft/ft_lstfind.c
+-- Adding source file: push_swap_tester/files/libft/ft_lstiter.c
+-- Adding source file: push_swap_tester/files/libft/ft_lstlast.c
+-- Adding source file: push_swap_tester/files/libft/ft_lstmap.c
+-- Adding source file: push_swap_tester/files/libft/ft_lstnew.c
+-- Adding source file: push_swap_tester/files/libft/ft_lstsize.c
+-- Adding source file: push_swap_tester/files/libft/ft_memccpy.c
+-- Adding source file: push_swap_tester/files/libft/ft_memchr.c
+-- Adding source file: push_swap_tester/files/libft/ft_memcmp.c
+-- Adding source file: push_swap_tester/files/libft/ft_memcpy.c
+-- Adding source file: push_swap_tester/files/libft/ft_memmove.c
+-- Adding source file: push_swap_tester/files/libft/ft_memory.c
+-- Adding source file: push_swap_tester/files/libft/ft_memory_utils.c
+-- Adding source file: push_swap_tester/files/libft/ft_memset.c
+-- Adding source file: push_swap_tester/files/libft/ft_minmax.c
+-- Adding source file: push_swap_tester/files/libft/ft_putchar_fd.c
+-- Adding source file: push_swap_tester/files/libft/ft_putendl_fd.c
+-- Adding source file: push_swap_tester/files/libft/ft_putnbr_fd.c
+-- Adding source file: push_swap_tester/files/libft/ft_putstr_fd.c
+-- Adding source file: push_swap_tester/files/libft/ft_sort.c
+-- Adding source file: push_swap_tester/files/libft/ft_split.c
+-- Adding source file: push_swap_tester/files/libft/ft_sqrt.c
+-- Adding source file: push_swap_tester/files/libft/ft_strchr.c
+-- Adding source file: push_swap_tester/files/libft/ft_strdup.c
+-- Adding source file: push_swap_tester/files/libft/ft_strjoin.c
+-- Adding source file: push_swap_tester/files/libft/ft_strlcat.c
+-- Adding source file: push_swap_tester/files/libft/ft_strlcpy.c
+-- Adding source file: push_swap_tester/files/libft/ft_strlen.c
+-- Adding source file: push_swap_tester/files/libft/ft_strmapi.c
+-- Adding source file: push_swap_tester/files/libft/ft_strncmp.c
+-- Adding source file: push_swap_tester/files/libft/ft_strnstr.c
+-- Adding source file: push_swap_tester/files/libft/ft_strrchr.c
+-- Adding source file: push_swap_tester/files/libft/ft_strtrim.c
+-- Adding source file: push_swap_tester/files/libft/ft_substr.c
+-- Adding source file: push_swap_tester/files/libft/ft_tolower.c
+-- Adding source file: push_swap_tester/files/libft/ft_toupper.c
+-- Adding source file: push_swap_tester/files/libft/get_next_line.c
+-- Adding source file: push_swap_tester/files/libft/get_next_line_sub.c
+-- Adding source file: push_swap_tester/files/libft/get_next_line_utils.c
+-- Adding source file: push_swap_tester/files/srcs/bonus/bonus.c
+-- Adding source file: push_swap_tester/files/srcs/bonus/main.c
+-- Adding source file: push_swap_tester/files/srcs/checker/check.c
+-- Adding source file: push_swap_tester/files/srcs/checker/main.c
+-- Adding source file: push_swap_tester/files/srcs/radix/main.c
+-- Adding source file: push_swap_tester/files/srcs/radix/radix.c
+-- Adding source file: push_swap_tester/files/srcs/share/operation1.c
+-- Adding source file: push_swap_tester/files/srcs/share/operation2.c
+-- Adding source file: push_swap_tester/files/srcs/share/operation3.c
+-- Adding source file: push_swap_tester/files/srcs/share/operation4.c
+-- Adding source file: push_swap_tester/files/srcs/share/parse.c
+-- Adding source file: push_swap_tester/files/srcs/share/utils.c
 -- Skipping excluded source file: push_swap_visualizer/build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c
 -- Skipping excluded source file: push_swap_visualizer/build/_deps/imgui-src/examples/libs/gl3w/GL/gl3w.c
 -- Skipping excluded source file: push_swap_visualizer/build/_deps/imgui-src/examples/libs/usynergy/uSynergy.c
--- Adding source file: srcs/input_check.c
--- Adding source file: srcs/input_get.c
+-- Adding source file: srcs/input.c
 -- Adding source file: srcs/operations/push.c
 -- Adding source file: srcs/operations/rev_rotate.c
 -- Adding source file: srcs/operations/rotate.c
 -- Adding source file: srcs/operations/swap.c
 -- Adding source file: srcs/ops_list.c
+-- Adding source file: srcs/ps_utils.c
 -- Adding source file: srcs/push_swap.c
 -- Adding source file: srcs/quicksort/chunk_sort_one_two.c
 -- Adding source file: srcs/quicksort/chunk_sort_three.c
@@ -79,15 +150,20 @@
 -- Adding source file: srcs/quicksort/pivots.c
 -- Adding source file: srcs/quicksort/quicksort.c
 -- Adding source file: srcs/sort_small.c
+-- Adding header file: checker_bonus/checker_bonus.h
 -- Adding header file: includes/pushswap.h
 -- Adding header file: includes/quicksort.h
 -- Adding header file: lib_2.0/includes/ft_printf.h
+-- Adding header file: lib_2.0/includes/get_next_line.h
 -- Adding header file: lib_2.0/includes/lib_conversion.h
 -- Adding header file: lib_2.0/includes/lib_list.h
 -- Adding header file: lib_2.0/includes/lib_memory.h
 -- Adding header file: lib_2.0/includes/lib_string.h
 -- Adding header file: lib_2.0/includes/lib_write.h
 -- Adding header file: lib_2.0/includes/libft.h
+-- Adding header file: push_swap_tester/files/includes/utils.h
+-- Adding header file: push_swap_tester/files/libft/get_next_line.h
+-- Adding header file: push_swap_tester/files/libft/libft.h
 -- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_approx.h
 -- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_assertionhandler.h
 -- Skipping excluded header file: push_swap_visualizer/build/_deps/catch2-src/include/internal/catch_assertioninfo.h
@@ -299,8 +375,11 @@
 -- Skipping excluded header file: push_swap_visualizer/include/pushswap.h
 -- Skipping excluded header file: push_swap_visualizer/include/queues.h
 -- Skipping excluded header file: push_swap_visualizer/include/utils.h
+-- Adding include directory: checker_bonus
 -- Adding include directory: includes
 -- Adding include directory: lib_2.0/includes
+-- Adding include directory: push_swap_tester/files/includes
+-- Adding include directory: push_swap_tester/files/libft
 -- Configuring done (0.0s)
 -- Generating done (0.0s)
 -- Build files have been written to: /home/joao-alm/42_Luxembourg/Common_Core/Rank2/PushSwap/my_pushswap/cmake-build-debug

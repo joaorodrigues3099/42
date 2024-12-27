@@ -23,7 +23,10 @@ void	ft_pa(t_ps *ps)
 {
 	if (ps->b_top.size + ps->b_bot.size < 1)
 		return ;
-	ft_push(&ps->b_top, &ps->a_top);
+	if (ps->b_top.size < 1)
+		ft_push(&ps->b_bot, &ps->a_top);
+	else
+		ft_push(&ps->b_top, &ps->a_top);
 	ft_lstadd_back(&ps->ops, ft_lstnew("pa"));
 }
 
@@ -31,6 +34,9 @@ void	ft_pb(t_ps *ps)
 {
 	if (ps->a_top.size + ps->a_bot.size < 1)
 		return ;
-	ft_push(&ps->a_top, &ps->b_top);
+	if (ps->a_top.size < 1)
+		ft_push(&ps->a_bot, &ps->b_top);
+	else
+		ft_push(&ps->a_top, &ps->b_top);
 	ft_lstadd_back(&ps->ops, ft_lstnew("pb"));
 }

@@ -22,9 +22,9 @@ RESET	= \033[0m
 
 #───────────────────────────────────────Sources───────────────────────────────────
 
-MAIN_SRCS	= srcs/input_check.c \
-			  srcs/input_get.c \
+MAIN_SRCS	= srcs/input.c \
 			  srcs/push_swap.c \
+			  srcs/ps_utils.c \
 			  srcs/sort_small.c \
 			  srcs/ops_list.c
 
@@ -47,7 +47,7 @@ SRCS		= $(MAIN_SRCS) \
 
 #─────────────────────────────────────────Objects───────────────────────────────────────
 
-OBJ_DIR = objs
+OBJ_DIR = objs/pushswap
 OBJS = $(SRCS:%.c=$(OBJ_DIR)/%.o)
 
 $(OBJ_DIR)/%.o: %.c
@@ -70,7 +70,7 @@ lib_clean:
 	@make -C $(LIB_DIR) clean --no-print-directory
 
 pre_clean:
-	@$(RM) $(OBJ_DIR)
+	@$(RM) objs
 
 clean: header lib_clean clean_text half_progress pre_clean sec_half_progress
 
@@ -78,11 +78,34 @@ lib_fclean:
 	@make -C $(LIB_DIR) fclean --no-print-directory
 
 pre_fclean: pre_clean
-	@$(RM) $(NAME)
+	@$(RM) $(NAME) $(CHECKER)
 
 fclean: header lib_fclean clean_text half_progress pre_fclean fclean_text sec_half_progress
 
 re: fclean new_line all
+
+#─────────────────────────────────────Bonus──────────────────────────────────
+
+CHECKER				= checker
+CHECKER_SRCS		= checker_bonus/checker_bonus.c \
+					  checker_bonus/checker_utils_bonus.c \
+                      $(OPER_SRCS) \
+                      srcs/input.c \
+                      srcs/ps_utils.c
+
+CHECKER_INCS		= checker_bonus
+CHECKER_OBJS_DIR	= objs/checker
+CHECKER_OBJS		= $(CHECKER_SRCS:%.c=$(CHECKER_OBJS_DIR)/%.o)
+
+$(CHECKER_OBJS_DIR)/%.o: %.c
+	@mkdir -p $(dir $@)
+	@$(CC) $(CFLAGS) -c $< -o $@ -I $(INCS) -I $(LIB_INCS) -I $(CHECKER_INCS)
+
+bonus: header lib name_text half_progress $(CHECKER)
+
+$(CHECKER): header $(CHECKER_OBJS) sec_half_progress
+	@$(CC) $(CHECKER_OBJS) -o $@ -L $(LIB_DIR) -l ft
+
 
 #─────────────────────────────────────Animation Rules───────────────────────────────────
 

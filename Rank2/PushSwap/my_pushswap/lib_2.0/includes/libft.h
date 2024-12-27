@@ -13,6 +13,7 @@
 #ifndef LIBFT_H
 # define LIBFT_H
 
+# include "get_next_line.h"
 # include "ft_printf.h"
 # include "lib_conversion.h"
 # include "lib_list.h"

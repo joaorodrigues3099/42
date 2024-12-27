@@ -10,6 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <get_next_line.h>
 #include <stdlib.h>
 #include "quicksort.h"
 
@@ -42,7 +43,7 @@ void	ft_rr(t_ps *ps)
 {
 	ft_ra(ps);
 	ft_rb(ps);
-	ft_lstdelone(ft_lstlast(ps->ops), NULL);
-	ft_lstdelone(ft_lstlast(ps->ops), NULL);
+	ft_lstdel_safely(&ps->ops, ft_lstlast(ps->ops), NULL);
+	ft_lstdel_safely(&ps->ops, ft_lstlast(ps->ops), NULL);
 	ft_lstadd_back(&ps->ops, ft_lstnew("rr"));
 }
