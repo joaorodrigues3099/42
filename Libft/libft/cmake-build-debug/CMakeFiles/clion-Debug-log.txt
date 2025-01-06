@@ -1,0 +1,51 @@
+/app/extra/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/app/extra/clion/bin/ninja/linux/x64/ninja -G Ninja -S /home/joao-alm/42_Luxembourg/Common_Core/Rank0/Libft/libft -B /home/joao-alm/42_Luxembourg/Common_Core/Rank0/Libft/libft/cmake-build-debug
+-- Processing directory: ./
+-- Skipping excluded source file: cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/CMakeCCompilerId.c
+-- Adding source file: ft_atoi.c
+-- Adding source file: ft_bzero.c
+-- Adding source file: ft_calloc.c
+-- Adding source file: ft_isalnum.c
+-- Adding source file: ft_isalpha.c
+-- Adding source file: ft_isascii.c
+-- Adding source file: ft_isdigit.c
+-- Adding source file: ft_isprint.c
+-- Adding source file: ft_itoa.c
+-- Adding source file: ft_lstadd_back_bonus.c
+-- Adding source file: ft_lstadd_front_bonus.c
+-- Adding source file: ft_lstclear_bonus.c
+-- Adding source file: ft_lstdelone_bonus.c
+-- Adding source file: ft_lstiter_bonus.c
+-- Adding source file: ft_lstlast_bonus.c
+-- Adding source file: ft_lstmap_bonus.c
+-- Adding source file: ft_lstnew_bonus.c
+-- Adding source file: ft_lstsize_bonus.c
+-- Adding source file: ft_memchr.c
+-- Adding source file: ft_memcmp.c
+-- Adding source file: ft_memcpy.c
+-- Adding source file: ft_memmove.c
+-- Adding source file: ft_memset.c
+-- Adding source file: ft_putchar_fd.c
+-- Adding source file: ft_putendl_fd.c
+-- Adding source file: ft_putnbr_fd.c
+-- Adding source file: ft_putstr_fd.c
+-- Adding source file: ft_split.c
+-- Adding source file: ft_strchr.c
+-- Adding source file: ft_strdup.c
+-- Adding source file: ft_striteri.c
+-- Adding source file: ft_strjoin.c
+-- Adding source file: ft_strlcat.c
+-- Adding source file: ft_strlcpy.c
+-- Adding source file: ft_strlen.c
+-- Adding source file: ft_strmapi.c
+-- Adding source file: ft_strncmp.c
+-- Adding source file: ft_strnstr.c
+-- Adding source file: ft_strrchr.c
+-- Adding source file: ft_strtrim.c
+-- Adding source file: ft_substr.c
+-- Adding source file: ft_tolower.c
+-- Adding source file: ft_toupper.c
+-- Adding header file: libft.h
+-- Adding include directory: ./
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/joao-alm/42_Luxembourg/Common_Core/Rank0/Libft/libft/cmake-build-debug

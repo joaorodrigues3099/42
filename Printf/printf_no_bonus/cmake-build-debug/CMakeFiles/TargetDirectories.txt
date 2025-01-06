@@ -1,0 +1,3 @@
+/home/joao-alm/42_Luxembourg/Common_Core/Rank1/Printf/printf_no_bonus/cmake-build-debug/CMakeFiles/Printf_NoBonus.dir
+/home/joao-alm/42_Luxembourg/Common_Core/Rank1/Printf/printf_no_bonus/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/joao-alm/42_Luxembourg/Common_Core/Rank1/Printf/printf_no_bonus/cmake-build-debug/CMakeFiles/rebuild_cache.dir

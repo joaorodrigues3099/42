@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MiniTalk",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Client-Debug-8ebefc2f7a317ad0c745.json",
+					"name" : "Client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Client_Bonus::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Client_Bonus-Debug-14392d9bf5c980d03647.json",
+					"name" : "Client_Bonus",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Server-Debug-27d03fa5ab068c7c02ae.json",
+					"name" : "Server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Server_Bonus::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Server_Bonus-Debug-2d34b30c6e466a1e4018.json",
+					"name" : "Server_Bonus",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/cmake-build-debug",
+		"source" : "/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

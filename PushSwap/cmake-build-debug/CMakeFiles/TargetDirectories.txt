@@ -1,0 +1,3 @@
+/home/joao-alm/42/PushSwap/cmake-build-debug/CMakeFiles/My_PushSwap.dir
+/home/joao-alm/42/PushSwap/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/joao-alm/42/PushSwap/cmake-build-debug/CMakeFiles/rebuild_cache.dir

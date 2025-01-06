@@ -1,0 +1,6 @@
+/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/cmake-build-debug/CMakeFiles/Client.dir
+/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/cmake-build-debug/CMakeFiles/Server.dir
+/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/cmake-build-debug/CMakeFiles/Client_Bonus.dir
+/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/cmake-build-debug/CMakeFiles/Server_Bonus.dir
+/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/cmake-build-debug/CMakeFiles/rebuild_cache.dir

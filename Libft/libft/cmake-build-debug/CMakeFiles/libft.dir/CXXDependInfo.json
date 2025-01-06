@@ -1,0 +1,18 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "GNU",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"dir-cur-bld" : "/home/joao-alm/42_Luxembourg/Common_Core/Rank0/Libft/libft/cmake-build-debug",
+	"dir-cur-src" : "/home/joao-alm/42_Luxembourg/Common_Core/Rank0/Libft/libft",
+	"dir-top-bld" : "/home/joao-alm/42_Luxembourg/Common_Core/Rank0/Libft/libft/cmake-build-debug",
+	"dir-top-src" : "/home/joao-alm/42_Luxembourg/Common_Core/Rank0/Libft/libft",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : [],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "/home/joao-alm/42_Luxembourg/Common_Core/Rank0/Libft/libft/cmake-build-debug/CMakeFiles/libft.dir"
+}
