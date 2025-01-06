@@ -1,3 +1,0 @@
-/home/joao-alm/42_Luxembourg/Common_Core/Rank2/PushSwap/4200_pushswap/cmake-build-debug/CMakeFiles/4200_PushSwap.dir
-/home/joao-alm/42_Luxembourg/Common_Core/Rank2/PushSwap/4200_pushswap/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/joao-alm/42_Luxembourg/Common_Core/Rank2/PushSwap/4200_pushswap/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,3 +1,0 @@
-/home/joao-alm/42_Luxembourg/Common_Core/My_Lib/lib_2.0/cmake-build-debug/CMakeFiles/My_Lib.dir
-/home/joao-alm/42_Luxembourg/Common_Core/My_Lib/lib_2.0/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/joao-alm/42_Luxembourg/Common_Core/My_Lib/lib_2.0/cmake-build-debug/CMakeFiles/rebuild_cache.dir
