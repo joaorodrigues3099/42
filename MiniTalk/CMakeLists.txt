@@ -5,64 +5,105 @@ project(MiniTalk)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_C_STANDARD 11)
 
-include_directories(includes lib/includes)
+include_directories(
+		minitalk/includes
+		minitalk/lib/char
+		minitalk/lib/conversion
+		minitalk/lib/print
+)
 
 add_executable(Client
-		srcs/client.c
-		Makefile
-		lib/includes/lib_conversion.h
-		lib/srcs/conversion/ft_toupper.c
-		lib/srcs/conversion/ft_tolower.c
-		lib/srcs/conversion/ft_itoa.c
-		lib/srcs/conversion/ft_atoi.c
-		lib/srcs/conversion/atoll_valid.c
-		lib/Makefile
-		includes/minitalk.h
-		lib/includes/lib_print.h
-		lib/srcs/lib_print/print_error.c
+		minitalk/srcs/client.c
+		minitalk/Makefile
+		minitalk/includes/minitalk.h
+		minitalk/lib/char/ft_isalnum.c
+		minitalk/lib/char/ft_isalpha.c
+		minitalk/lib/char/ft_isascii.c
+		minitalk/lib/char/ft_isdigit.c
+		minitalk/lib/char/ft_isprint.c
+		minitalk/lib/char/lib_char.h
+		minitalk/lib/conversion/atoll_valid.c
+		minitalk/lib/conversion/ft_atoi.c
+		minitalk/lib/conversion/ft_itoa.c
+		minitalk/lib/conversion/ft_tolower.c
+		minitalk/lib/conversion/ft_toupper.c
+		minitalk/lib/conversion/lib_conversion.h
+		minitalk/lib/print/ft_printf.c
+		minitalk/lib/print/lib_print.h
+		minitalk/lib/print/print_error.c
+		minitalk/lib/print/put_characters.c
+		minitalk/lib/print/put_numbers.c
+		minitalk/lib/Makefile
 )
 
 add_executable(Server
-		srcs/server.c
-		Makefile
-		lib/includes/lib_conversion.h
-		lib/srcs/conversion/ft_toupper.c
-		lib/srcs/conversion/ft_tolower.c
-		lib/srcs/conversion/ft_itoa.c
-		lib/srcs/conversion/ft_atoi.c
-		lib/srcs/conversion/atoll_valid.c
-		lib/Makefile
-		includes/minitalk.h
-		lib/includes/lib_print.h
-		lib/srcs/lib_print/print_error.c
+		minitalk/srcs/server.c
+		minitalk/Makefile
+		minitalk/includes/minitalk.h
+		minitalk/lib/char/ft_isalnum.c
+		minitalk/lib/char/ft_isalpha.c
+		minitalk/lib/char/ft_isascii.c
+		minitalk/lib/char/ft_isdigit.c
+		minitalk/lib/char/ft_isprint.c
+		minitalk/lib/char/lib_char.h
+		minitalk/lib/conversion/atoll_valid.c
+		minitalk/lib/conversion/ft_atoi.c
+		minitalk/lib/conversion/ft_itoa.c
+		minitalk/lib/conversion/ft_tolower.c
+		minitalk/lib/conversion/ft_toupper.c
+		minitalk/lib/conversion/lib_conversion.h
+		minitalk/lib/print/ft_printf.c
+		minitalk/lib/print/lib_print.h
+		minitalk/lib/print/print_error.c
+		minitalk/lib/print/put_characters.c
+		minitalk/lib/print/put_numbers.c
+		minitalk/lib/Makefile
 )
 
 add_executable(Client_Bonus
-		Makefile
-		lib/includes/lib_conversion.h
-		lib/srcs/conversion/ft_toupper.c
-		lib/srcs/conversion/ft_tolower.c
-		lib/srcs/conversion/ft_itoa.c
-		lib/srcs/conversion/ft_atoi.c
-		lib/srcs/conversion/atoll_valid.c
-		lib/Makefile
-		includes/minitalk.h
-		lib/includes/lib_print.h
-		lib/srcs/lib_print/print_error.c
-		bonus/client_bonus.c
+		minitalk/Makefile
+		minitalk/bonus/client_bonus.c
+		minitalk/includes/minitalk.h
+		minitalk/lib/char/ft_isalnum.c
+		minitalk/lib/char/ft_isalpha.c
+		minitalk/lib/char/ft_isascii.c
+		minitalk/lib/char/ft_isdigit.c
+		minitalk/lib/char/ft_isprint.c
+		minitalk/lib/char/lib_char.h
+		minitalk/lib/conversion/atoll_valid.c
+		minitalk/lib/conversion/ft_atoi.c
+		minitalk/lib/conversion/ft_itoa.c
+		minitalk/lib/conversion/ft_tolower.c
+		minitalk/lib/conversion/ft_toupper.c
+		minitalk/lib/conversion/lib_conversion.h
+		minitalk/lib/print/ft_printf.c
+		minitalk/lib/print/lib_print.h
+		minitalk/lib/print/print_error.c
+		minitalk/lib/print/put_characters.c
+		minitalk/lib/print/put_numbers.c
+		minitalk/lib/Makefile
 )
 
 add_executable(Server_Bonus
-		Makefile
-		lib/includes/lib_conversion.h
-		lib/srcs/conversion/ft_toupper.c
-		lib/srcs/conversion/ft_tolower.c
-		lib/srcs/conversion/ft_itoa.c
-		lib/srcs/conversion/ft_atoi.c
-		lib/srcs/conversion/atoll_valid.c
-		lib/Makefile
-		bonus/server_bonus.c
-		includes/minitalk.h
-		lib/includes/lib_print.h
-		lib/srcs/lib_print/print_error.c
+		minitalk/Makefile
+		minitalk/bonus/server_bonus.c
+		minitalk/includes/minitalk.h
+		minitalk/lib/char/ft_isalnum.c
+		minitalk/lib/char/ft_isalpha.c
+		minitalk/lib/char/ft_isascii.c
+		minitalk/lib/char/ft_isdigit.c
+		minitalk/lib/char/ft_isprint.c
+		minitalk/lib/char/lib_char.h
+		minitalk/lib/conversion/atoll_valid.c
+		minitalk/lib/conversion/ft_atoi.c
+		minitalk/lib/conversion/ft_itoa.c
+		minitalk/lib/conversion/ft_tolower.c
+		minitalk/lib/conversion/ft_toupper.c
+		minitalk/lib/conversion/lib_conversion.h
+		minitalk/lib/print/ft_printf.c
+		minitalk/lib/print/lib_print.h
+		minitalk/lib/print/print_error.c
+		minitalk/lib/print/put_characters.c
+		minitalk/lib/print/put_numbers.c
+		minitalk/lib/Makefile
 )

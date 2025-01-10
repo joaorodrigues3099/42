@@ -61,8 +61,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/joao-alm/42_Luxembourg/Common_Core/Rank1/Get_Next_Line/get_next_line/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-EFfYQ1"
-      binary: "/home/joao-alm/42_Luxembourg/Common_Core/Rank1/Get_Next_Line/get_next_line/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-EFfYQ1"
+      source: "/home/joao-alm/42_Luxembourg/Common_Core/Rank1/Get_Next_Line/gnl/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-EFfYQ1"
+      binary: "/home/joao-alm/42_Luxembourg/Common_Core/Rank1/Get_Next_Line/gnl/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-EFfYQ1"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -291,8 +291,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/joao-alm/42_Luxembourg/Common_Core/Rank1/Get_Next_Line/get_next_line/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pdOG3R"
-      binary: "/home/joao-alm/42_Luxembourg/Common_Core/Rank1/Get_Next_Line/get_next_line/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pdOG3R"
+      source: "/home/joao-alm/42_Luxembourg/Common_Core/Rank1/Get_Next_Line/gnl/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pdOG3R"
+      binary: "/home/joao-alm/42_Luxembourg/Common_Core/Rank1/Get_Next_Line/gnl/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pdOG3R"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"

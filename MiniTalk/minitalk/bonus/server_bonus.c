@@ -16,16 +16,14 @@
 #include <stdlib.h>
 #include <unistd.h>
 
+#include "lib_char.h"
+
 t_bit_data	g_bit_data;
 
 /**
- * Print the received character in different colors
- * based on the count of characters.
- * The color changes periodically based on the value of `COLOR_CHANGE_INTERVAL`.
- * If the character is within the printable ASCII range (0 to 126),
- * it is printed with color;
- * otherwise, it is printed normally.
- * @param colors Array of color strings to use for printing the character.
+ * Print a character in colors, cycling every `COLOR_CHANGE_INTERVAL`.
+ * Printable characters use color; others are printed normally.
+ * @param colors Array of color strings for printing.
  */
 void	ft_print_bit(char **colors)
 {
@@ -35,7 +33,7 @@ void	ft_print_bit(char **colors)
 	color_count = 0;
 	while (colors[color_count])
 		color_count++;
-	if (g_bit_data.current_byte >= 0 && g_bit_data.current_byte <= 126)
+	if (ft_isprint(g_bit_data.current_byte))
 	{
 		color_index = (g_bit_data.char_count / COLOR_CHANGE_INTERVAL)
 			% color_count;
@@ -46,16 +44,11 @@ void	ft_print_bit(char **colors)
 }
 
 /**
- * Signal handler for receiving binary data encoded in signals.
- * It processes SIGUSR1 and SIGUSR2 to reconstruct the original message by
- * shifting the received bits into a byte. When a full byte is received,
- * it is printed.
- * If a null byte ('\0') is received,
- * it sends a confirmation signal (SIGUSR1) back.
- * @param signum The signal number (either SIGUSR1 or SIGUSR2).
- * @param info Additional information about the signal
- * (including the sender's PID).
- * @param context The context of the signal (not used in this handler).
+ * Handle SIGUSR1/SIGUSR2 signals to reconstruct and print a message.
+ * Sends SIGUSR1 acknowledgment for each received bit or null byte.
+ * @param signum Signal number (SIGUSR1 or SIGUSR2).
+ * @param info Signal metadata (e.g., sender PID).
+ * @param context Signal context (unused).
  */
 void	signal_handler(int signum, siginfo_t *info, void *context)
 {
@@ -81,6 +74,9 @@ void	signal_handler(int signum, siginfo_t *info, void *context)
 		kill(g_bit_data.client_pid, SIGUSR1);
 }
 
+/**
+ * Initialize global bit data structure.
+ */
 void	ft_init_data(void)
 {
 	g_bit_data.current_byte = 0;
@@ -89,6 +85,10 @@ void	ft_init_data(void)
 	g_bit_data.client_pid = 0;
 }
 
+/**
+ * Print the server's PID in a formatted message.
+ * @param pid Server process ID.
+ */
 void	ft_print_pid(const int pid)
 {
 	ft_printf("\n───────────────────────────\n");
@@ -98,12 +98,10 @@ void	ft_print_pid(const int pid)
 }
 
 /**
- * Main function for the server program.
- * It initializes the global bit data structure and sets up the signal handlers
- * for SIGUSR1 and SIGUSR2 to receive the message.
- * It also prints the server's PID.
- * The program then enters an infinite loop to wait for signals using `pause()`.
- * @return Always returns 0 (the program runs indefinitely).
+ * Server program main loop.
+ * Initializes global data, sets up signal handlers, prints PID,
+ * and waits for signals.
+ * @return Always 0 (runs indefinitely).
  */
 int	main(void)
 {

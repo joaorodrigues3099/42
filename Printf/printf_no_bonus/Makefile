@@ -25,7 +25,7 @@ CFLAGS      = -Wall -Werror -Wextra
 INCS        = -I ./
 
 # ----------------------------------------------------------------------------------------------
-# Compiler for libs, 'ar' is the tool and 'crs' are the options for compilation
+# Compiler for lib, 'ar' is the tool and 'crs' are the options for compilation
 AR          = ar crs
 
 # ----------------------------------------------------------------------------------------------

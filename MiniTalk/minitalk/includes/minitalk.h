@@ -36,6 +36,7 @@ typedef struct s_bit_data
 	int	client_pid;
 }		t_bit_data;
 
+// CLIENT_DATA
 typedef struct s_client_data
 {
 	volatile sig_atomic_t	acknowledged;

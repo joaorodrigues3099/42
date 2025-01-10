@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/cmake-build-debug/
+cmake_ninja_workdir = /home/joao-alm/42/MiniTalk/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target Client
 
@@ -49,54 +49,110 @@ cmake_ninja_workdir = /home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/cm
 
 build cmake_object_order_depends_target_Client: phony || .
 
-build CMakeFiles/Client.dir/srcs/client.c.o: C_COMPILER__Client_unscanned_Debug /home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/srcs/client.c || cmake_object_order_depends_target_Client
-  DEP_FILE = CMakeFiles/Client.dir/srcs/client.c.o.d
+build CMakeFiles/Client.dir/minitalk/srcs/client.c.o: C_COMPILER__Client_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/srcs/client.c || cmake_object_order_depends_target_Client
+  DEP_FILE = CMakeFiles/Client.dir/minitalk/srcs/client.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/includes -I/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/lib/includes
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
   OBJECT_DIR = CMakeFiles/Client.dir
-  OBJECT_FILE_DIR = CMakeFiles/Client.dir/srcs
+  OBJECT_FILE_DIR = CMakeFiles/Client.dir/minitalk/srcs
 
-build CMakeFiles/Client.dir/lib/srcs/conversion/ft_toupper.c.o: C_COMPILER__Client_unscanned_Debug /home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/lib/srcs/conversion/ft_toupper.c || cmake_object_order_depends_target_Client
-  DEP_FILE = CMakeFiles/Client.dir/lib/srcs/conversion/ft_toupper.c.o.d
+build CMakeFiles/Client.dir/minitalk/lib/char/ft_isalnum.c.o: C_COMPILER__Client_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/lib/char/ft_isalnum.c || cmake_object_order_depends_target_Client
+  DEP_FILE = CMakeFiles/Client.dir/minitalk/lib/char/ft_isalnum.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/includes -I/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/lib/includes
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
   OBJECT_DIR = CMakeFiles/Client.dir
-  OBJECT_FILE_DIR = CMakeFiles/Client.dir/lib/srcs/conversion
+  OBJECT_FILE_DIR = CMakeFiles/Client.dir/minitalk/lib/char
 
-build CMakeFiles/Client.dir/lib/srcs/conversion/ft_tolower.c.o: C_COMPILER__Client_unscanned_Debug /home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/lib/srcs/conversion/ft_tolower.c || cmake_object_order_depends_target_Client
-  DEP_FILE = CMakeFiles/Client.dir/lib/srcs/conversion/ft_tolower.c.o.d
+build CMakeFiles/Client.dir/minitalk/lib/char/ft_isalpha.c.o: C_COMPILER__Client_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/lib/char/ft_isalpha.c || cmake_object_order_depends_target_Client
+  DEP_FILE = CMakeFiles/Client.dir/minitalk/lib/char/ft_isalpha.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/includes -I/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/lib/includes
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
   OBJECT_DIR = CMakeFiles/Client.dir
-  OBJECT_FILE_DIR = CMakeFiles/Client.dir/lib/srcs/conversion
+  OBJECT_FILE_DIR = CMakeFiles/Client.dir/minitalk/lib/char
 
-build CMakeFiles/Client.dir/lib/srcs/conversion/ft_itoa.c.o: C_COMPILER__Client_unscanned_Debug /home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/lib/srcs/conversion/ft_itoa.c || cmake_object_order_depends_target_Client
-  DEP_FILE = CMakeFiles/Client.dir/lib/srcs/conversion/ft_itoa.c.o.d
+build CMakeFiles/Client.dir/minitalk/lib/char/ft_isascii.c.o: C_COMPILER__Client_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/lib/char/ft_isascii.c || cmake_object_order_depends_target_Client
+  DEP_FILE = CMakeFiles/Client.dir/minitalk/lib/char/ft_isascii.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/includes -I/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/lib/includes
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
   OBJECT_DIR = CMakeFiles/Client.dir
-  OBJECT_FILE_DIR = CMakeFiles/Client.dir/lib/srcs/conversion
+  OBJECT_FILE_DIR = CMakeFiles/Client.dir/minitalk/lib/char
 
-build CMakeFiles/Client.dir/lib/srcs/conversion/ft_atoi.c.o: C_COMPILER__Client_unscanned_Debug /home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/lib/srcs/conversion/ft_atoi.c || cmake_object_order_depends_target_Client
-  DEP_FILE = CMakeFiles/Client.dir/lib/srcs/conversion/ft_atoi.c.o.d
+build CMakeFiles/Client.dir/minitalk/lib/char/ft_isdigit.c.o: C_COMPILER__Client_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/lib/char/ft_isdigit.c || cmake_object_order_depends_target_Client
+  DEP_FILE = CMakeFiles/Client.dir/minitalk/lib/char/ft_isdigit.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/includes -I/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/lib/includes
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
   OBJECT_DIR = CMakeFiles/Client.dir
-  OBJECT_FILE_DIR = CMakeFiles/Client.dir/lib/srcs/conversion
+  OBJECT_FILE_DIR = CMakeFiles/Client.dir/minitalk/lib/char
 
-build CMakeFiles/Client.dir/lib/srcs/conversion/atoll_valid.c.o: C_COMPILER__Client_unscanned_Debug /home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/lib/srcs/conversion/atoll_valid.c || cmake_object_order_depends_target_Client
-  DEP_FILE = CMakeFiles/Client.dir/lib/srcs/conversion/atoll_valid.c.o.d
+build CMakeFiles/Client.dir/minitalk/lib/char/ft_isprint.c.o: C_COMPILER__Client_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/lib/char/ft_isprint.c || cmake_object_order_depends_target_Client
+  DEP_FILE = CMakeFiles/Client.dir/minitalk/lib/char/ft_isprint.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/includes -I/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/lib/includes
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
   OBJECT_DIR = CMakeFiles/Client.dir
-  OBJECT_FILE_DIR = CMakeFiles/Client.dir/lib/srcs/conversion
+  OBJECT_FILE_DIR = CMakeFiles/Client.dir/minitalk/lib/char
 
-build CMakeFiles/Client.dir/lib/srcs/lib_print/print_error.c.o: C_COMPILER__Client_unscanned_Debug /home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/lib/srcs/lib_print/print_error.c || cmake_object_order_depends_target_Client
-  DEP_FILE = CMakeFiles/Client.dir/lib/srcs/lib_print/print_error.c.o.d
+build CMakeFiles/Client.dir/minitalk/lib/conversion/atoll_valid.c.o: C_COMPILER__Client_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/lib/conversion/atoll_valid.c || cmake_object_order_depends_target_Client
+  DEP_FILE = CMakeFiles/Client.dir/minitalk/lib/conversion/atoll_valid.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/includes -I/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/lib/includes
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
   OBJECT_DIR = CMakeFiles/Client.dir
-  OBJECT_FILE_DIR = CMakeFiles/Client.dir/lib/srcs/lib_print
+  OBJECT_FILE_DIR = CMakeFiles/Client.dir/minitalk/lib/conversion
+
+build CMakeFiles/Client.dir/minitalk/lib/conversion/ft_atoi.c.o: C_COMPILER__Client_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/lib/conversion/ft_atoi.c || cmake_object_order_depends_target_Client
+  DEP_FILE = CMakeFiles/Client.dir/minitalk/lib/conversion/ft_atoi.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
+  OBJECT_DIR = CMakeFiles/Client.dir
+  OBJECT_FILE_DIR = CMakeFiles/Client.dir/minitalk/lib/conversion
+
+build CMakeFiles/Client.dir/minitalk/lib/conversion/ft_itoa.c.o: C_COMPILER__Client_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/lib/conversion/ft_itoa.c || cmake_object_order_depends_target_Client
+  DEP_FILE = CMakeFiles/Client.dir/minitalk/lib/conversion/ft_itoa.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
+  OBJECT_DIR = CMakeFiles/Client.dir
+  OBJECT_FILE_DIR = CMakeFiles/Client.dir/minitalk/lib/conversion
+
+build CMakeFiles/Client.dir/minitalk/lib/conversion/ft_tolower.c.o: C_COMPILER__Client_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/lib/conversion/ft_tolower.c || cmake_object_order_depends_target_Client
+  DEP_FILE = CMakeFiles/Client.dir/minitalk/lib/conversion/ft_tolower.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
+  OBJECT_DIR = CMakeFiles/Client.dir
+  OBJECT_FILE_DIR = CMakeFiles/Client.dir/minitalk/lib/conversion
+
+build CMakeFiles/Client.dir/minitalk/lib/conversion/ft_toupper.c.o: C_COMPILER__Client_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/lib/conversion/ft_toupper.c || cmake_object_order_depends_target_Client
+  DEP_FILE = CMakeFiles/Client.dir/minitalk/lib/conversion/ft_toupper.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
+  OBJECT_DIR = CMakeFiles/Client.dir
+  OBJECT_FILE_DIR = CMakeFiles/Client.dir/minitalk/lib/conversion
+
+build CMakeFiles/Client.dir/minitalk/lib/print/ft_printf.c.o: C_COMPILER__Client_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/lib/print/ft_printf.c || cmake_object_order_depends_target_Client
+  DEP_FILE = CMakeFiles/Client.dir/minitalk/lib/print/ft_printf.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
+  OBJECT_DIR = CMakeFiles/Client.dir
+  OBJECT_FILE_DIR = CMakeFiles/Client.dir/minitalk/lib/print
+
+build CMakeFiles/Client.dir/minitalk/lib/print/print_error.c.o: C_COMPILER__Client_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/lib/print/print_error.c || cmake_object_order_depends_target_Client
+  DEP_FILE = CMakeFiles/Client.dir/minitalk/lib/print/print_error.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
+  OBJECT_DIR = CMakeFiles/Client.dir
+  OBJECT_FILE_DIR = CMakeFiles/Client.dir/minitalk/lib/print
+
+build CMakeFiles/Client.dir/minitalk/lib/print/put_characters.c.o: C_COMPILER__Client_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/lib/print/put_characters.c || cmake_object_order_depends_target_Client
+  DEP_FILE = CMakeFiles/Client.dir/minitalk/lib/print/put_characters.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
+  OBJECT_DIR = CMakeFiles/Client.dir
+  OBJECT_FILE_DIR = CMakeFiles/Client.dir/minitalk/lib/print
+
+build CMakeFiles/Client.dir/minitalk/lib/print/put_numbers.c.o: C_COMPILER__Client_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/lib/print/put_numbers.c || cmake_object_order_depends_target_Client
+  DEP_FILE = CMakeFiles/Client.dir/minitalk/lib/print/put_numbers.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
+  OBJECT_DIR = CMakeFiles/Client.dir
+  OBJECT_FILE_DIR = CMakeFiles/Client.dir/minitalk/lib/print
 
 
 # =============================================================================
@@ -106,7 +162,7 @@ build CMakeFiles/Client.dir/lib/srcs/lib_print/print_error.c.o: C_COMPILER__Clie
 #############################################
 # Link the executable Client
 
-build Client: C_EXECUTABLE_LINKER__Client_Debug CMakeFiles/Client.dir/srcs/client.c.o CMakeFiles/Client.dir/lib/srcs/conversion/ft_toupper.c.o CMakeFiles/Client.dir/lib/srcs/conversion/ft_tolower.c.o CMakeFiles/Client.dir/lib/srcs/conversion/ft_itoa.c.o CMakeFiles/Client.dir/lib/srcs/conversion/ft_atoi.c.o CMakeFiles/Client.dir/lib/srcs/conversion/atoll_valid.c.o CMakeFiles/Client.dir/lib/srcs/lib_print/print_error.c.o
+build Client: C_EXECUTABLE_LINKER__Client_Debug CMakeFiles/Client.dir/minitalk/srcs/client.c.o CMakeFiles/Client.dir/minitalk/lib/char/ft_isalnum.c.o CMakeFiles/Client.dir/minitalk/lib/char/ft_isalpha.c.o CMakeFiles/Client.dir/minitalk/lib/char/ft_isascii.c.o CMakeFiles/Client.dir/minitalk/lib/char/ft_isdigit.c.o CMakeFiles/Client.dir/minitalk/lib/char/ft_isprint.c.o CMakeFiles/Client.dir/minitalk/lib/conversion/atoll_valid.c.o CMakeFiles/Client.dir/minitalk/lib/conversion/ft_atoi.c.o CMakeFiles/Client.dir/minitalk/lib/conversion/ft_itoa.c.o CMakeFiles/Client.dir/minitalk/lib/conversion/ft_tolower.c.o CMakeFiles/Client.dir/minitalk/lib/conversion/ft_toupper.c.o CMakeFiles/Client.dir/minitalk/lib/print/ft_printf.c.o CMakeFiles/Client.dir/minitalk/lib/print/print_error.c.o CMakeFiles/Client.dir/minitalk/lib/print/put_characters.c.o CMakeFiles/Client.dir/minitalk/lib/print/put_numbers.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/Client.dir
   POST_BUILD = :
@@ -123,54 +179,110 @@ build Client: C_EXECUTABLE_LINKER__Client_Debug CMakeFiles/Client.dir/srcs/clien
 
 build cmake_object_order_depends_target_Server: phony || .
 
-build CMakeFiles/Server.dir/srcs/server.c.o: C_COMPILER__Server_unscanned_Debug /home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/srcs/server.c || cmake_object_order_depends_target_Server
-  DEP_FILE = CMakeFiles/Server.dir/srcs/server.c.o.d
+build CMakeFiles/Server.dir/minitalk/srcs/server.c.o: C_COMPILER__Server_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/srcs/server.c || cmake_object_order_depends_target_Server
+  DEP_FILE = CMakeFiles/Server.dir/minitalk/srcs/server.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/includes -I/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/lib/includes
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
   OBJECT_DIR = CMakeFiles/Server.dir
-  OBJECT_FILE_DIR = CMakeFiles/Server.dir/srcs
+  OBJECT_FILE_DIR = CMakeFiles/Server.dir/minitalk/srcs
 
-build CMakeFiles/Server.dir/lib/srcs/conversion/ft_toupper.c.o: C_COMPILER__Server_unscanned_Debug /home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/lib/srcs/conversion/ft_toupper.c || cmake_object_order_depends_target_Server
-  DEP_FILE = CMakeFiles/Server.dir/lib/srcs/conversion/ft_toupper.c.o.d
+build CMakeFiles/Server.dir/minitalk/lib/char/ft_isalnum.c.o: C_COMPILER__Server_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/lib/char/ft_isalnum.c || cmake_object_order_depends_target_Server
+  DEP_FILE = CMakeFiles/Server.dir/minitalk/lib/char/ft_isalnum.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/includes -I/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/lib/includes
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
   OBJECT_DIR = CMakeFiles/Server.dir
-  OBJECT_FILE_DIR = CMakeFiles/Server.dir/lib/srcs/conversion
+  OBJECT_FILE_DIR = CMakeFiles/Server.dir/minitalk/lib/char
 
-build CMakeFiles/Server.dir/lib/srcs/conversion/ft_tolower.c.o: C_COMPILER__Server_unscanned_Debug /home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/lib/srcs/conversion/ft_tolower.c || cmake_object_order_depends_target_Server
-  DEP_FILE = CMakeFiles/Server.dir/lib/srcs/conversion/ft_tolower.c.o.d
+build CMakeFiles/Server.dir/minitalk/lib/char/ft_isalpha.c.o: C_COMPILER__Server_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/lib/char/ft_isalpha.c || cmake_object_order_depends_target_Server
+  DEP_FILE = CMakeFiles/Server.dir/minitalk/lib/char/ft_isalpha.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/includes -I/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/lib/includes
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
   OBJECT_DIR = CMakeFiles/Server.dir
-  OBJECT_FILE_DIR = CMakeFiles/Server.dir/lib/srcs/conversion
+  OBJECT_FILE_DIR = CMakeFiles/Server.dir/minitalk/lib/char
 
-build CMakeFiles/Server.dir/lib/srcs/conversion/ft_itoa.c.o: C_COMPILER__Server_unscanned_Debug /home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/lib/srcs/conversion/ft_itoa.c || cmake_object_order_depends_target_Server
-  DEP_FILE = CMakeFiles/Server.dir/lib/srcs/conversion/ft_itoa.c.o.d
+build CMakeFiles/Server.dir/minitalk/lib/char/ft_isascii.c.o: C_COMPILER__Server_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/lib/char/ft_isascii.c || cmake_object_order_depends_target_Server
+  DEP_FILE = CMakeFiles/Server.dir/minitalk/lib/char/ft_isascii.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/includes -I/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/lib/includes
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
   OBJECT_DIR = CMakeFiles/Server.dir
-  OBJECT_FILE_DIR = CMakeFiles/Server.dir/lib/srcs/conversion
+  OBJECT_FILE_DIR = CMakeFiles/Server.dir/minitalk/lib/char
 
-build CMakeFiles/Server.dir/lib/srcs/conversion/ft_atoi.c.o: C_COMPILER__Server_unscanned_Debug /home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/lib/srcs/conversion/ft_atoi.c || cmake_object_order_depends_target_Server
-  DEP_FILE = CMakeFiles/Server.dir/lib/srcs/conversion/ft_atoi.c.o.d
+build CMakeFiles/Server.dir/minitalk/lib/char/ft_isdigit.c.o: C_COMPILER__Server_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/lib/char/ft_isdigit.c || cmake_object_order_depends_target_Server
+  DEP_FILE = CMakeFiles/Server.dir/minitalk/lib/char/ft_isdigit.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/includes -I/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/lib/includes
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
   OBJECT_DIR = CMakeFiles/Server.dir
-  OBJECT_FILE_DIR = CMakeFiles/Server.dir/lib/srcs/conversion
+  OBJECT_FILE_DIR = CMakeFiles/Server.dir/minitalk/lib/char
 
-build CMakeFiles/Server.dir/lib/srcs/conversion/atoll_valid.c.o: C_COMPILER__Server_unscanned_Debug /home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/lib/srcs/conversion/atoll_valid.c || cmake_object_order_depends_target_Server
-  DEP_FILE = CMakeFiles/Server.dir/lib/srcs/conversion/atoll_valid.c.o.d
+build CMakeFiles/Server.dir/minitalk/lib/char/ft_isprint.c.o: C_COMPILER__Server_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/lib/char/ft_isprint.c || cmake_object_order_depends_target_Server
+  DEP_FILE = CMakeFiles/Server.dir/minitalk/lib/char/ft_isprint.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/includes -I/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/lib/includes
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
   OBJECT_DIR = CMakeFiles/Server.dir
-  OBJECT_FILE_DIR = CMakeFiles/Server.dir/lib/srcs/conversion
+  OBJECT_FILE_DIR = CMakeFiles/Server.dir/minitalk/lib/char
 
-build CMakeFiles/Server.dir/lib/srcs/lib_print/print_error.c.o: C_COMPILER__Server_unscanned_Debug /home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/lib/srcs/lib_print/print_error.c || cmake_object_order_depends_target_Server
-  DEP_FILE = CMakeFiles/Server.dir/lib/srcs/lib_print/print_error.c.o.d
+build CMakeFiles/Server.dir/minitalk/lib/conversion/atoll_valid.c.o: C_COMPILER__Server_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/lib/conversion/atoll_valid.c || cmake_object_order_depends_target_Server
+  DEP_FILE = CMakeFiles/Server.dir/minitalk/lib/conversion/atoll_valid.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/includes -I/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/lib/includes
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
   OBJECT_DIR = CMakeFiles/Server.dir
-  OBJECT_FILE_DIR = CMakeFiles/Server.dir/lib/srcs/lib_print
+  OBJECT_FILE_DIR = CMakeFiles/Server.dir/minitalk/lib/conversion
+
+build CMakeFiles/Server.dir/minitalk/lib/conversion/ft_atoi.c.o: C_COMPILER__Server_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/lib/conversion/ft_atoi.c || cmake_object_order_depends_target_Server
+  DEP_FILE = CMakeFiles/Server.dir/minitalk/lib/conversion/ft_atoi.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
+  OBJECT_DIR = CMakeFiles/Server.dir
+  OBJECT_FILE_DIR = CMakeFiles/Server.dir/minitalk/lib/conversion
+
+build CMakeFiles/Server.dir/minitalk/lib/conversion/ft_itoa.c.o: C_COMPILER__Server_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/lib/conversion/ft_itoa.c || cmake_object_order_depends_target_Server
+  DEP_FILE = CMakeFiles/Server.dir/minitalk/lib/conversion/ft_itoa.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
+  OBJECT_DIR = CMakeFiles/Server.dir
+  OBJECT_FILE_DIR = CMakeFiles/Server.dir/minitalk/lib/conversion
+
+build CMakeFiles/Server.dir/minitalk/lib/conversion/ft_tolower.c.o: C_COMPILER__Server_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/lib/conversion/ft_tolower.c || cmake_object_order_depends_target_Server
+  DEP_FILE = CMakeFiles/Server.dir/minitalk/lib/conversion/ft_tolower.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
+  OBJECT_DIR = CMakeFiles/Server.dir
+  OBJECT_FILE_DIR = CMakeFiles/Server.dir/minitalk/lib/conversion
+
+build CMakeFiles/Server.dir/minitalk/lib/conversion/ft_toupper.c.o: C_COMPILER__Server_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/lib/conversion/ft_toupper.c || cmake_object_order_depends_target_Server
+  DEP_FILE = CMakeFiles/Server.dir/minitalk/lib/conversion/ft_toupper.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
+  OBJECT_DIR = CMakeFiles/Server.dir
+  OBJECT_FILE_DIR = CMakeFiles/Server.dir/minitalk/lib/conversion
+
+build CMakeFiles/Server.dir/minitalk/lib/print/ft_printf.c.o: C_COMPILER__Server_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/lib/print/ft_printf.c || cmake_object_order_depends_target_Server
+  DEP_FILE = CMakeFiles/Server.dir/minitalk/lib/print/ft_printf.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
+  OBJECT_DIR = CMakeFiles/Server.dir
+  OBJECT_FILE_DIR = CMakeFiles/Server.dir/minitalk/lib/print
+
+build CMakeFiles/Server.dir/minitalk/lib/print/print_error.c.o: C_COMPILER__Server_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/lib/print/print_error.c || cmake_object_order_depends_target_Server
+  DEP_FILE = CMakeFiles/Server.dir/minitalk/lib/print/print_error.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
+  OBJECT_DIR = CMakeFiles/Server.dir
+  OBJECT_FILE_DIR = CMakeFiles/Server.dir/minitalk/lib/print
+
+build CMakeFiles/Server.dir/minitalk/lib/print/put_characters.c.o: C_COMPILER__Server_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/lib/print/put_characters.c || cmake_object_order_depends_target_Server
+  DEP_FILE = CMakeFiles/Server.dir/minitalk/lib/print/put_characters.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
+  OBJECT_DIR = CMakeFiles/Server.dir
+  OBJECT_FILE_DIR = CMakeFiles/Server.dir/minitalk/lib/print
+
+build CMakeFiles/Server.dir/minitalk/lib/print/put_numbers.c.o: C_COMPILER__Server_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/lib/print/put_numbers.c || cmake_object_order_depends_target_Server
+  DEP_FILE = CMakeFiles/Server.dir/minitalk/lib/print/put_numbers.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
+  OBJECT_DIR = CMakeFiles/Server.dir
+  OBJECT_FILE_DIR = CMakeFiles/Server.dir/minitalk/lib/print
 
 
 # =============================================================================
@@ -180,7 +292,7 @@ build CMakeFiles/Server.dir/lib/srcs/lib_print/print_error.c.o: C_COMPILER__Serv
 #############################################
 # Link the executable Server
 
-build Server: C_EXECUTABLE_LINKER__Server_Debug CMakeFiles/Server.dir/srcs/server.c.o CMakeFiles/Server.dir/lib/srcs/conversion/ft_toupper.c.o CMakeFiles/Server.dir/lib/srcs/conversion/ft_tolower.c.o CMakeFiles/Server.dir/lib/srcs/conversion/ft_itoa.c.o CMakeFiles/Server.dir/lib/srcs/conversion/ft_atoi.c.o CMakeFiles/Server.dir/lib/srcs/conversion/atoll_valid.c.o CMakeFiles/Server.dir/lib/srcs/lib_print/print_error.c.o
+build Server: C_EXECUTABLE_LINKER__Server_Debug CMakeFiles/Server.dir/minitalk/srcs/server.c.o CMakeFiles/Server.dir/minitalk/lib/char/ft_isalnum.c.o CMakeFiles/Server.dir/minitalk/lib/char/ft_isalpha.c.o CMakeFiles/Server.dir/minitalk/lib/char/ft_isascii.c.o CMakeFiles/Server.dir/minitalk/lib/char/ft_isdigit.c.o CMakeFiles/Server.dir/minitalk/lib/char/ft_isprint.c.o CMakeFiles/Server.dir/minitalk/lib/conversion/atoll_valid.c.o CMakeFiles/Server.dir/minitalk/lib/conversion/ft_atoi.c.o CMakeFiles/Server.dir/minitalk/lib/conversion/ft_itoa.c.o CMakeFiles/Server.dir/minitalk/lib/conversion/ft_tolower.c.o CMakeFiles/Server.dir/minitalk/lib/conversion/ft_toupper.c.o CMakeFiles/Server.dir/minitalk/lib/print/ft_printf.c.o CMakeFiles/Server.dir/minitalk/lib/print/print_error.c.o CMakeFiles/Server.dir/minitalk/lib/print/put_characters.c.o CMakeFiles/Server.dir/minitalk/lib/print/put_numbers.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/Server.dir
   POST_BUILD = :
@@ -197,54 +309,110 @@ build Server: C_EXECUTABLE_LINKER__Server_Debug CMakeFiles/Server.dir/srcs/serve
 
 build cmake_object_order_depends_target_Client_Bonus: phony || .
 
-build CMakeFiles/Client_Bonus.dir/lib/srcs/conversion/ft_toupper.c.o: C_COMPILER__Client_Bonus_unscanned_Debug /home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/lib/srcs/conversion/ft_toupper.c || cmake_object_order_depends_target_Client_Bonus
-  DEP_FILE = CMakeFiles/Client_Bonus.dir/lib/srcs/conversion/ft_toupper.c.o.d
+build CMakeFiles/Client_Bonus.dir/minitalk/bonus/client_bonus.c.o: C_COMPILER__Client_Bonus_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/bonus/client_bonus.c || cmake_object_order_depends_target_Client_Bonus
+  DEP_FILE = CMakeFiles/Client_Bonus.dir/minitalk/bonus/client_bonus.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/includes -I/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/lib/includes
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
   OBJECT_DIR = CMakeFiles/Client_Bonus.dir
-  OBJECT_FILE_DIR = CMakeFiles/Client_Bonus.dir/lib/srcs/conversion
+  OBJECT_FILE_DIR = CMakeFiles/Client_Bonus.dir/minitalk/bonus
 
-build CMakeFiles/Client_Bonus.dir/lib/srcs/conversion/ft_tolower.c.o: C_COMPILER__Client_Bonus_unscanned_Debug /home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/lib/srcs/conversion/ft_tolower.c || cmake_object_order_depends_target_Client_Bonus
-  DEP_FILE = CMakeFiles/Client_Bonus.dir/lib/srcs/conversion/ft_tolower.c.o.d
+build CMakeFiles/Client_Bonus.dir/minitalk/lib/char/ft_isalnum.c.o: C_COMPILER__Client_Bonus_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/lib/char/ft_isalnum.c || cmake_object_order_depends_target_Client_Bonus
+  DEP_FILE = CMakeFiles/Client_Bonus.dir/minitalk/lib/char/ft_isalnum.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/includes -I/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/lib/includes
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
   OBJECT_DIR = CMakeFiles/Client_Bonus.dir
-  OBJECT_FILE_DIR = CMakeFiles/Client_Bonus.dir/lib/srcs/conversion
+  OBJECT_FILE_DIR = CMakeFiles/Client_Bonus.dir/minitalk/lib/char
 
-build CMakeFiles/Client_Bonus.dir/lib/srcs/conversion/ft_itoa.c.o: C_COMPILER__Client_Bonus_unscanned_Debug /home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/lib/srcs/conversion/ft_itoa.c || cmake_object_order_depends_target_Client_Bonus
-  DEP_FILE = CMakeFiles/Client_Bonus.dir/lib/srcs/conversion/ft_itoa.c.o.d
+build CMakeFiles/Client_Bonus.dir/minitalk/lib/char/ft_isalpha.c.o: C_COMPILER__Client_Bonus_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/lib/char/ft_isalpha.c || cmake_object_order_depends_target_Client_Bonus
+  DEP_FILE = CMakeFiles/Client_Bonus.dir/minitalk/lib/char/ft_isalpha.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/includes -I/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/lib/includes
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
   OBJECT_DIR = CMakeFiles/Client_Bonus.dir
-  OBJECT_FILE_DIR = CMakeFiles/Client_Bonus.dir/lib/srcs/conversion
+  OBJECT_FILE_DIR = CMakeFiles/Client_Bonus.dir/minitalk/lib/char
 
-build CMakeFiles/Client_Bonus.dir/lib/srcs/conversion/ft_atoi.c.o: C_COMPILER__Client_Bonus_unscanned_Debug /home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/lib/srcs/conversion/ft_atoi.c || cmake_object_order_depends_target_Client_Bonus
-  DEP_FILE = CMakeFiles/Client_Bonus.dir/lib/srcs/conversion/ft_atoi.c.o.d
+build CMakeFiles/Client_Bonus.dir/minitalk/lib/char/ft_isascii.c.o: C_COMPILER__Client_Bonus_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/lib/char/ft_isascii.c || cmake_object_order_depends_target_Client_Bonus
+  DEP_FILE = CMakeFiles/Client_Bonus.dir/minitalk/lib/char/ft_isascii.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/includes -I/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/lib/includes
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
   OBJECT_DIR = CMakeFiles/Client_Bonus.dir
-  OBJECT_FILE_DIR = CMakeFiles/Client_Bonus.dir/lib/srcs/conversion
+  OBJECT_FILE_DIR = CMakeFiles/Client_Bonus.dir/minitalk/lib/char
 
-build CMakeFiles/Client_Bonus.dir/lib/srcs/conversion/atoll_valid.c.o: C_COMPILER__Client_Bonus_unscanned_Debug /home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/lib/srcs/conversion/atoll_valid.c || cmake_object_order_depends_target_Client_Bonus
-  DEP_FILE = CMakeFiles/Client_Bonus.dir/lib/srcs/conversion/atoll_valid.c.o.d
+build CMakeFiles/Client_Bonus.dir/minitalk/lib/char/ft_isdigit.c.o: C_COMPILER__Client_Bonus_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/lib/char/ft_isdigit.c || cmake_object_order_depends_target_Client_Bonus
+  DEP_FILE = CMakeFiles/Client_Bonus.dir/minitalk/lib/char/ft_isdigit.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/includes -I/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/lib/includes
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
   OBJECT_DIR = CMakeFiles/Client_Bonus.dir
-  OBJECT_FILE_DIR = CMakeFiles/Client_Bonus.dir/lib/srcs/conversion
+  OBJECT_FILE_DIR = CMakeFiles/Client_Bonus.dir/minitalk/lib/char
 
-build CMakeFiles/Client_Bonus.dir/lib/srcs/lib_print/print_error.c.o: C_COMPILER__Client_Bonus_unscanned_Debug /home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/lib/srcs/lib_print/print_error.c || cmake_object_order_depends_target_Client_Bonus
-  DEP_FILE = CMakeFiles/Client_Bonus.dir/lib/srcs/lib_print/print_error.c.o.d
+build CMakeFiles/Client_Bonus.dir/minitalk/lib/char/ft_isprint.c.o: C_COMPILER__Client_Bonus_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/lib/char/ft_isprint.c || cmake_object_order_depends_target_Client_Bonus
+  DEP_FILE = CMakeFiles/Client_Bonus.dir/minitalk/lib/char/ft_isprint.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/includes -I/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/lib/includes
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
   OBJECT_DIR = CMakeFiles/Client_Bonus.dir
-  OBJECT_FILE_DIR = CMakeFiles/Client_Bonus.dir/lib/srcs/lib_print
+  OBJECT_FILE_DIR = CMakeFiles/Client_Bonus.dir/minitalk/lib/char
 
-build CMakeFiles/Client_Bonus.dir/bonus/client_bonus.c.o: C_COMPILER__Client_Bonus_unscanned_Debug /home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/bonus/client_bonus.c || cmake_object_order_depends_target_Client_Bonus
-  DEP_FILE = CMakeFiles/Client_Bonus.dir/bonus/client_bonus.c.o.d
+build CMakeFiles/Client_Bonus.dir/minitalk/lib/conversion/atoll_valid.c.o: C_COMPILER__Client_Bonus_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/lib/conversion/atoll_valid.c || cmake_object_order_depends_target_Client_Bonus
+  DEP_FILE = CMakeFiles/Client_Bonus.dir/minitalk/lib/conversion/atoll_valid.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/includes -I/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/lib/includes
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
   OBJECT_DIR = CMakeFiles/Client_Bonus.dir
-  OBJECT_FILE_DIR = CMakeFiles/Client_Bonus.dir/bonus
+  OBJECT_FILE_DIR = CMakeFiles/Client_Bonus.dir/minitalk/lib/conversion
+
+build CMakeFiles/Client_Bonus.dir/minitalk/lib/conversion/ft_atoi.c.o: C_COMPILER__Client_Bonus_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/lib/conversion/ft_atoi.c || cmake_object_order_depends_target_Client_Bonus
+  DEP_FILE = CMakeFiles/Client_Bonus.dir/minitalk/lib/conversion/ft_atoi.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
+  OBJECT_DIR = CMakeFiles/Client_Bonus.dir
+  OBJECT_FILE_DIR = CMakeFiles/Client_Bonus.dir/minitalk/lib/conversion
+
+build CMakeFiles/Client_Bonus.dir/minitalk/lib/conversion/ft_itoa.c.o: C_COMPILER__Client_Bonus_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/lib/conversion/ft_itoa.c || cmake_object_order_depends_target_Client_Bonus
+  DEP_FILE = CMakeFiles/Client_Bonus.dir/minitalk/lib/conversion/ft_itoa.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
+  OBJECT_DIR = CMakeFiles/Client_Bonus.dir
+  OBJECT_FILE_DIR = CMakeFiles/Client_Bonus.dir/minitalk/lib/conversion
+
+build CMakeFiles/Client_Bonus.dir/minitalk/lib/conversion/ft_tolower.c.o: C_COMPILER__Client_Bonus_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/lib/conversion/ft_tolower.c || cmake_object_order_depends_target_Client_Bonus
+  DEP_FILE = CMakeFiles/Client_Bonus.dir/minitalk/lib/conversion/ft_tolower.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
+  OBJECT_DIR = CMakeFiles/Client_Bonus.dir
+  OBJECT_FILE_DIR = CMakeFiles/Client_Bonus.dir/minitalk/lib/conversion
+
+build CMakeFiles/Client_Bonus.dir/minitalk/lib/conversion/ft_toupper.c.o: C_COMPILER__Client_Bonus_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/lib/conversion/ft_toupper.c || cmake_object_order_depends_target_Client_Bonus
+  DEP_FILE = CMakeFiles/Client_Bonus.dir/minitalk/lib/conversion/ft_toupper.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
+  OBJECT_DIR = CMakeFiles/Client_Bonus.dir
+  OBJECT_FILE_DIR = CMakeFiles/Client_Bonus.dir/minitalk/lib/conversion
+
+build CMakeFiles/Client_Bonus.dir/minitalk/lib/print/ft_printf.c.o: C_COMPILER__Client_Bonus_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/lib/print/ft_printf.c || cmake_object_order_depends_target_Client_Bonus
+  DEP_FILE = CMakeFiles/Client_Bonus.dir/minitalk/lib/print/ft_printf.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
+  OBJECT_DIR = CMakeFiles/Client_Bonus.dir
+  OBJECT_FILE_DIR = CMakeFiles/Client_Bonus.dir/minitalk/lib/print
+
+build CMakeFiles/Client_Bonus.dir/minitalk/lib/print/print_error.c.o: C_COMPILER__Client_Bonus_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/lib/print/print_error.c || cmake_object_order_depends_target_Client_Bonus
+  DEP_FILE = CMakeFiles/Client_Bonus.dir/minitalk/lib/print/print_error.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
+  OBJECT_DIR = CMakeFiles/Client_Bonus.dir
+  OBJECT_FILE_DIR = CMakeFiles/Client_Bonus.dir/minitalk/lib/print
+
+build CMakeFiles/Client_Bonus.dir/minitalk/lib/print/put_characters.c.o: C_COMPILER__Client_Bonus_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/lib/print/put_characters.c || cmake_object_order_depends_target_Client_Bonus
+  DEP_FILE = CMakeFiles/Client_Bonus.dir/minitalk/lib/print/put_characters.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
+  OBJECT_DIR = CMakeFiles/Client_Bonus.dir
+  OBJECT_FILE_DIR = CMakeFiles/Client_Bonus.dir/minitalk/lib/print
+
+build CMakeFiles/Client_Bonus.dir/minitalk/lib/print/put_numbers.c.o: C_COMPILER__Client_Bonus_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/lib/print/put_numbers.c || cmake_object_order_depends_target_Client_Bonus
+  DEP_FILE = CMakeFiles/Client_Bonus.dir/minitalk/lib/print/put_numbers.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
+  OBJECT_DIR = CMakeFiles/Client_Bonus.dir
+  OBJECT_FILE_DIR = CMakeFiles/Client_Bonus.dir/minitalk/lib/print
 
 
 # =============================================================================
@@ -254,7 +422,7 @@ build CMakeFiles/Client_Bonus.dir/bonus/client_bonus.c.o: C_COMPILER__Client_Bon
 #############################################
 # Link the executable Client_Bonus
 
-build Client_Bonus: C_EXECUTABLE_LINKER__Client_Bonus_Debug CMakeFiles/Client_Bonus.dir/lib/srcs/conversion/ft_toupper.c.o CMakeFiles/Client_Bonus.dir/lib/srcs/conversion/ft_tolower.c.o CMakeFiles/Client_Bonus.dir/lib/srcs/conversion/ft_itoa.c.o CMakeFiles/Client_Bonus.dir/lib/srcs/conversion/ft_atoi.c.o CMakeFiles/Client_Bonus.dir/lib/srcs/conversion/atoll_valid.c.o CMakeFiles/Client_Bonus.dir/lib/srcs/lib_print/print_error.c.o CMakeFiles/Client_Bonus.dir/bonus/client_bonus.c.o
+build Client_Bonus: C_EXECUTABLE_LINKER__Client_Bonus_Debug CMakeFiles/Client_Bonus.dir/minitalk/bonus/client_bonus.c.o CMakeFiles/Client_Bonus.dir/minitalk/lib/char/ft_isalnum.c.o CMakeFiles/Client_Bonus.dir/minitalk/lib/char/ft_isalpha.c.o CMakeFiles/Client_Bonus.dir/minitalk/lib/char/ft_isascii.c.o CMakeFiles/Client_Bonus.dir/minitalk/lib/char/ft_isdigit.c.o CMakeFiles/Client_Bonus.dir/minitalk/lib/char/ft_isprint.c.o CMakeFiles/Client_Bonus.dir/minitalk/lib/conversion/atoll_valid.c.o CMakeFiles/Client_Bonus.dir/minitalk/lib/conversion/ft_atoi.c.o CMakeFiles/Client_Bonus.dir/minitalk/lib/conversion/ft_itoa.c.o CMakeFiles/Client_Bonus.dir/minitalk/lib/conversion/ft_tolower.c.o CMakeFiles/Client_Bonus.dir/minitalk/lib/conversion/ft_toupper.c.o CMakeFiles/Client_Bonus.dir/minitalk/lib/print/ft_printf.c.o CMakeFiles/Client_Bonus.dir/minitalk/lib/print/print_error.c.o CMakeFiles/Client_Bonus.dir/minitalk/lib/print/put_characters.c.o CMakeFiles/Client_Bonus.dir/minitalk/lib/print/put_numbers.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/Client_Bonus.dir
   POST_BUILD = :
@@ -271,54 +439,110 @@ build Client_Bonus: C_EXECUTABLE_LINKER__Client_Bonus_Debug CMakeFiles/Client_Bo
 
 build cmake_object_order_depends_target_Server_Bonus: phony || .
 
-build CMakeFiles/Server_Bonus.dir/lib/srcs/conversion/ft_toupper.c.o: C_COMPILER__Server_Bonus_unscanned_Debug /home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/lib/srcs/conversion/ft_toupper.c || cmake_object_order_depends_target_Server_Bonus
-  DEP_FILE = CMakeFiles/Server_Bonus.dir/lib/srcs/conversion/ft_toupper.c.o.d
+build CMakeFiles/Server_Bonus.dir/minitalk/bonus/server_bonus.c.o: C_COMPILER__Server_Bonus_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/bonus/server_bonus.c || cmake_object_order_depends_target_Server_Bonus
+  DEP_FILE = CMakeFiles/Server_Bonus.dir/minitalk/bonus/server_bonus.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/includes -I/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/lib/includes
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
   OBJECT_DIR = CMakeFiles/Server_Bonus.dir
-  OBJECT_FILE_DIR = CMakeFiles/Server_Bonus.dir/lib/srcs/conversion
+  OBJECT_FILE_DIR = CMakeFiles/Server_Bonus.dir/minitalk/bonus
 
-build CMakeFiles/Server_Bonus.dir/lib/srcs/conversion/ft_tolower.c.o: C_COMPILER__Server_Bonus_unscanned_Debug /home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/lib/srcs/conversion/ft_tolower.c || cmake_object_order_depends_target_Server_Bonus
-  DEP_FILE = CMakeFiles/Server_Bonus.dir/lib/srcs/conversion/ft_tolower.c.o.d
+build CMakeFiles/Server_Bonus.dir/minitalk/lib/char/ft_isalnum.c.o: C_COMPILER__Server_Bonus_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/lib/char/ft_isalnum.c || cmake_object_order_depends_target_Server_Bonus
+  DEP_FILE = CMakeFiles/Server_Bonus.dir/minitalk/lib/char/ft_isalnum.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/includes -I/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/lib/includes
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
   OBJECT_DIR = CMakeFiles/Server_Bonus.dir
-  OBJECT_FILE_DIR = CMakeFiles/Server_Bonus.dir/lib/srcs/conversion
+  OBJECT_FILE_DIR = CMakeFiles/Server_Bonus.dir/minitalk/lib/char
 
-build CMakeFiles/Server_Bonus.dir/lib/srcs/conversion/ft_itoa.c.o: C_COMPILER__Server_Bonus_unscanned_Debug /home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/lib/srcs/conversion/ft_itoa.c || cmake_object_order_depends_target_Server_Bonus
-  DEP_FILE = CMakeFiles/Server_Bonus.dir/lib/srcs/conversion/ft_itoa.c.o.d
+build CMakeFiles/Server_Bonus.dir/minitalk/lib/char/ft_isalpha.c.o: C_COMPILER__Server_Bonus_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/lib/char/ft_isalpha.c || cmake_object_order_depends_target_Server_Bonus
+  DEP_FILE = CMakeFiles/Server_Bonus.dir/minitalk/lib/char/ft_isalpha.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/includes -I/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/lib/includes
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
   OBJECT_DIR = CMakeFiles/Server_Bonus.dir
-  OBJECT_FILE_DIR = CMakeFiles/Server_Bonus.dir/lib/srcs/conversion
+  OBJECT_FILE_DIR = CMakeFiles/Server_Bonus.dir/minitalk/lib/char
 
-build CMakeFiles/Server_Bonus.dir/lib/srcs/conversion/ft_atoi.c.o: C_COMPILER__Server_Bonus_unscanned_Debug /home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/lib/srcs/conversion/ft_atoi.c || cmake_object_order_depends_target_Server_Bonus
-  DEP_FILE = CMakeFiles/Server_Bonus.dir/lib/srcs/conversion/ft_atoi.c.o.d
+build CMakeFiles/Server_Bonus.dir/minitalk/lib/char/ft_isascii.c.o: C_COMPILER__Server_Bonus_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/lib/char/ft_isascii.c || cmake_object_order_depends_target_Server_Bonus
+  DEP_FILE = CMakeFiles/Server_Bonus.dir/minitalk/lib/char/ft_isascii.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/includes -I/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/lib/includes
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
   OBJECT_DIR = CMakeFiles/Server_Bonus.dir
-  OBJECT_FILE_DIR = CMakeFiles/Server_Bonus.dir/lib/srcs/conversion
+  OBJECT_FILE_DIR = CMakeFiles/Server_Bonus.dir/minitalk/lib/char
 
-build CMakeFiles/Server_Bonus.dir/lib/srcs/conversion/atoll_valid.c.o: C_COMPILER__Server_Bonus_unscanned_Debug /home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/lib/srcs/conversion/atoll_valid.c || cmake_object_order_depends_target_Server_Bonus
-  DEP_FILE = CMakeFiles/Server_Bonus.dir/lib/srcs/conversion/atoll_valid.c.o.d
+build CMakeFiles/Server_Bonus.dir/minitalk/lib/char/ft_isdigit.c.o: C_COMPILER__Server_Bonus_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/lib/char/ft_isdigit.c || cmake_object_order_depends_target_Server_Bonus
+  DEP_FILE = CMakeFiles/Server_Bonus.dir/minitalk/lib/char/ft_isdigit.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/includes -I/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/lib/includes
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
   OBJECT_DIR = CMakeFiles/Server_Bonus.dir
-  OBJECT_FILE_DIR = CMakeFiles/Server_Bonus.dir/lib/srcs/conversion
+  OBJECT_FILE_DIR = CMakeFiles/Server_Bonus.dir/minitalk/lib/char
 
-build CMakeFiles/Server_Bonus.dir/bonus/server_bonus.c.o: C_COMPILER__Server_Bonus_unscanned_Debug /home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/bonus/server_bonus.c || cmake_object_order_depends_target_Server_Bonus
-  DEP_FILE = CMakeFiles/Server_Bonus.dir/bonus/server_bonus.c.o.d
+build CMakeFiles/Server_Bonus.dir/minitalk/lib/char/ft_isprint.c.o: C_COMPILER__Server_Bonus_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/lib/char/ft_isprint.c || cmake_object_order_depends_target_Server_Bonus
+  DEP_FILE = CMakeFiles/Server_Bonus.dir/minitalk/lib/char/ft_isprint.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/includes -I/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/lib/includes
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
   OBJECT_DIR = CMakeFiles/Server_Bonus.dir
-  OBJECT_FILE_DIR = CMakeFiles/Server_Bonus.dir/bonus
+  OBJECT_FILE_DIR = CMakeFiles/Server_Bonus.dir/minitalk/lib/char
 
-build CMakeFiles/Server_Bonus.dir/lib/srcs/lib_print/print_error.c.o: C_COMPILER__Server_Bonus_unscanned_Debug /home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/lib/srcs/lib_print/print_error.c || cmake_object_order_depends_target_Server_Bonus
-  DEP_FILE = CMakeFiles/Server_Bonus.dir/lib/srcs/lib_print/print_error.c.o.d
+build CMakeFiles/Server_Bonus.dir/minitalk/lib/conversion/atoll_valid.c.o: C_COMPILER__Server_Bonus_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/lib/conversion/atoll_valid.c || cmake_object_order_depends_target_Server_Bonus
+  DEP_FILE = CMakeFiles/Server_Bonus.dir/minitalk/lib/conversion/atoll_valid.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/includes -I/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/lib/includes
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
   OBJECT_DIR = CMakeFiles/Server_Bonus.dir
-  OBJECT_FILE_DIR = CMakeFiles/Server_Bonus.dir/lib/srcs/lib_print
+  OBJECT_FILE_DIR = CMakeFiles/Server_Bonus.dir/minitalk/lib/conversion
+
+build CMakeFiles/Server_Bonus.dir/minitalk/lib/conversion/ft_atoi.c.o: C_COMPILER__Server_Bonus_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/lib/conversion/ft_atoi.c || cmake_object_order_depends_target_Server_Bonus
+  DEP_FILE = CMakeFiles/Server_Bonus.dir/minitalk/lib/conversion/ft_atoi.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
+  OBJECT_DIR = CMakeFiles/Server_Bonus.dir
+  OBJECT_FILE_DIR = CMakeFiles/Server_Bonus.dir/minitalk/lib/conversion
+
+build CMakeFiles/Server_Bonus.dir/minitalk/lib/conversion/ft_itoa.c.o: C_COMPILER__Server_Bonus_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/lib/conversion/ft_itoa.c || cmake_object_order_depends_target_Server_Bonus
+  DEP_FILE = CMakeFiles/Server_Bonus.dir/minitalk/lib/conversion/ft_itoa.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
+  OBJECT_DIR = CMakeFiles/Server_Bonus.dir
+  OBJECT_FILE_DIR = CMakeFiles/Server_Bonus.dir/minitalk/lib/conversion
+
+build CMakeFiles/Server_Bonus.dir/minitalk/lib/conversion/ft_tolower.c.o: C_COMPILER__Server_Bonus_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/lib/conversion/ft_tolower.c || cmake_object_order_depends_target_Server_Bonus
+  DEP_FILE = CMakeFiles/Server_Bonus.dir/minitalk/lib/conversion/ft_tolower.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
+  OBJECT_DIR = CMakeFiles/Server_Bonus.dir
+  OBJECT_FILE_DIR = CMakeFiles/Server_Bonus.dir/minitalk/lib/conversion
+
+build CMakeFiles/Server_Bonus.dir/minitalk/lib/conversion/ft_toupper.c.o: C_COMPILER__Server_Bonus_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/lib/conversion/ft_toupper.c || cmake_object_order_depends_target_Server_Bonus
+  DEP_FILE = CMakeFiles/Server_Bonus.dir/minitalk/lib/conversion/ft_toupper.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
+  OBJECT_DIR = CMakeFiles/Server_Bonus.dir
+  OBJECT_FILE_DIR = CMakeFiles/Server_Bonus.dir/minitalk/lib/conversion
+
+build CMakeFiles/Server_Bonus.dir/minitalk/lib/print/ft_printf.c.o: C_COMPILER__Server_Bonus_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/lib/print/ft_printf.c || cmake_object_order_depends_target_Server_Bonus
+  DEP_FILE = CMakeFiles/Server_Bonus.dir/minitalk/lib/print/ft_printf.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
+  OBJECT_DIR = CMakeFiles/Server_Bonus.dir
+  OBJECT_FILE_DIR = CMakeFiles/Server_Bonus.dir/minitalk/lib/print
+
+build CMakeFiles/Server_Bonus.dir/minitalk/lib/print/print_error.c.o: C_COMPILER__Server_Bonus_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/lib/print/print_error.c || cmake_object_order_depends_target_Server_Bonus
+  DEP_FILE = CMakeFiles/Server_Bonus.dir/minitalk/lib/print/print_error.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
+  OBJECT_DIR = CMakeFiles/Server_Bonus.dir
+  OBJECT_FILE_DIR = CMakeFiles/Server_Bonus.dir/minitalk/lib/print
+
+build CMakeFiles/Server_Bonus.dir/minitalk/lib/print/put_characters.c.o: C_COMPILER__Server_Bonus_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/lib/print/put_characters.c || cmake_object_order_depends_target_Server_Bonus
+  DEP_FILE = CMakeFiles/Server_Bonus.dir/minitalk/lib/print/put_characters.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
+  OBJECT_DIR = CMakeFiles/Server_Bonus.dir
+  OBJECT_FILE_DIR = CMakeFiles/Server_Bonus.dir/minitalk/lib/print
+
+build CMakeFiles/Server_Bonus.dir/minitalk/lib/print/put_numbers.c.o: C_COMPILER__Server_Bonus_unscanned_Debug /home/joao-alm/42/MiniTalk/minitalk/lib/print/put_numbers.c || cmake_object_order_depends_target_Server_Bonus
+  DEP_FILE = CMakeFiles/Server_Bonus.dir/minitalk/lib/print/put_numbers.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/joao-alm/42/MiniTalk/minitalk/includes -I/home/joao-alm/42/MiniTalk/minitalk/lib/char -I/home/joao-alm/42/MiniTalk/minitalk/lib/conversion -I/home/joao-alm/42/MiniTalk/minitalk/lib/print
+  OBJECT_DIR = CMakeFiles/Server_Bonus.dir
+  OBJECT_FILE_DIR = CMakeFiles/Server_Bonus.dir/minitalk/lib/print
 
 
 # =============================================================================
@@ -328,7 +552,7 @@ build CMakeFiles/Server_Bonus.dir/lib/srcs/lib_print/print_error.c.o: C_COMPILER
 #############################################
 # Link the executable Server_Bonus
 
-build Server_Bonus: C_EXECUTABLE_LINKER__Server_Bonus_Debug CMakeFiles/Server_Bonus.dir/lib/srcs/conversion/ft_toupper.c.o CMakeFiles/Server_Bonus.dir/lib/srcs/conversion/ft_tolower.c.o CMakeFiles/Server_Bonus.dir/lib/srcs/conversion/ft_itoa.c.o CMakeFiles/Server_Bonus.dir/lib/srcs/conversion/ft_atoi.c.o CMakeFiles/Server_Bonus.dir/lib/srcs/conversion/atoll_valid.c.o CMakeFiles/Server_Bonus.dir/bonus/server_bonus.c.o CMakeFiles/Server_Bonus.dir/lib/srcs/lib_print/print_error.c.o
+build Server_Bonus: C_EXECUTABLE_LINKER__Server_Bonus_Debug CMakeFiles/Server_Bonus.dir/minitalk/bonus/server_bonus.c.o CMakeFiles/Server_Bonus.dir/minitalk/lib/char/ft_isalnum.c.o CMakeFiles/Server_Bonus.dir/minitalk/lib/char/ft_isalpha.c.o CMakeFiles/Server_Bonus.dir/minitalk/lib/char/ft_isascii.c.o CMakeFiles/Server_Bonus.dir/minitalk/lib/char/ft_isdigit.c.o CMakeFiles/Server_Bonus.dir/minitalk/lib/char/ft_isprint.c.o CMakeFiles/Server_Bonus.dir/minitalk/lib/conversion/atoll_valid.c.o CMakeFiles/Server_Bonus.dir/minitalk/lib/conversion/ft_atoi.c.o CMakeFiles/Server_Bonus.dir/minitalk/lib/conversion/ft_itoa.c.o CMakeFiles/Server_Bonus.dir/minitalk/lib/conversion/ft_tolower.c.o CMakeFiles/Server_Bonus.dir/minitalk/lib/conversion/ft_toupper.c.o CMakeFiles/Server_Bonus.dir/minitalk/lib/print/ft_printf.c.o CMakeFiles/Server_Bonus.dir/minitalk/lib/print/print_error.c.o CMakeFiles/Server_Bonus.dir/minitalk/lib/print/put_characters.c.o CMakeFiles/Server_Bonus.dir/minitalk/lib/print/put_numbers.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/Server_Bonus.dir
   POST_BUILD = :
@@ -341,7 +565,7 @@ build Server_Bonus: C_EXECUTABLE_LINKER__Server_Bonus_Debug CMakeFiles/Server_Bo
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/cmake-build-debug && /app/extra/clion/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/joao-alm/42/MiniTalk/cmake-build-debug && /app/extra/clion/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -352,7 +576,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/cmake-build-debug && /app/extra/clion/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk -B/home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/cmake-build-debug
+  COMMAND = cd /home/joao-alm/42/MiniTalk/cmake-build-debug && /app/extra/clion/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/joao-alm/42/MiniTalk -B/home/joao-alm/42/MiniTalk/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -368,7 +592,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/cmake-build-debug
+# Folder: /home/joao-alm/42/MiniTalk/cmake-build-debug
 
 build all: phony Client Server Client_Bonus Server_Bonus
 
@@ -379,14 +603,14 @@ build all: phony Client Server Client_Bonus Server_Bonus
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-C.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-CXX.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Initialize.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake /home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-C.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-CXX.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Initialize.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake /home/joao-alm/42/MiniTalk/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-C.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-CXX.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Initialize.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake /home/joao-alm/42_Luxembourg/Common_Core/Rank2/MiniTalk/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake: phony
+build /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-C.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-CXX.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Initialize.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake /home/joao-alm/42/MiniTalk/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake: phony
 
 
 #############################################

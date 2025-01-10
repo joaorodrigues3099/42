@@ -11,100 +11,39 @@
 -- Check for working CXX compiler: /usr/bin/c++ - skipped
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
--- Processing directory: ./
--- Skipping excluded source file: cmake-build-debug/CMakeFiles/3.30.5/CompilerIdC/CMakeCCompilerId.c
--- Adding source file: pushswap/bonus/checker_bonus.c
--- Adding source file: pushswap/bonus/checker_utils_bonus.c
--- Adding source file: pushswap/lib_2.0/srcs/conversion/atoll_valid.c
--- Adding source file: pushswap/lib_2.0/srcs/conversion/ft_atoi.c
--- Adding source file: pushswap/lib_2.0/srcs/conversion/ft_itoa.c
--- Adding source file: pushswap/lib_2.0/srcs/conversion/ft_tolower.c
--- Adding source file: pushswap/lib_2.0/srcs/conversion/ft_toupper.c
--- Adding source file: pushswap/lib_2.0/srcs/ft_printf/ft_printf.c
--- Adding source file: pushswap/lib_2.0/srcs/ft_printf/long_to_hex.c
--- Adding source file: pushswap/lib_2.0/srcs/ft_printf/print_chars.c
--- Adding source file: pushswap/lib_2.0/srcs/ft_printf/print_n_string.c
--- Adding source file: pushswap/lib_2.0/srcs/ft_printf/print_numbers.c
--- Adding source file: pushswap/lib_2.0/srcs/ft_printf/unsigned_itoa.c
--- Adding source file: pushswap/lib_2.0/srcs/ft_printf/utils.c
--- Adding source file: pushswap/lib_2.0/srcs/get_next_line/get_next_line.c
--- Adding source file: pushswap/lib_2.0/srcs/list/ft_lstadd_back_bonus.c
--- Adding source file: pushswap/lib_2.0/srcs/list/ft_lstadd_front_bonus.c
--- Adding source file: pushswap/lib_2.0/srcs/list/ft_lstclear_bonus.c
--- Adding source file: pushswap/lib_2.0/srcs/list/ft_lstdelone_bonus.c
--- Adding source file: pushswap/lib_2.0/srcs/list/ft_lstiter_bonus.c
--- Adding source file: pushswap/lib_2.0/srcs/list/ft_lstlast_bonus.c
--- Adding source file: pushswap/lib_2.0/srcs/list/ft_lstmap_bonus.c
--- Adding source file: pushswap/lib_2.0/srcs/list/ft_lstnew_bonus.c
--- Adding source file: pushswap/lib_2.0/srcs/list/ft_lstsize_bonus.c
--- Adding source file: pushswap/lib_2.0/srcs/list/lstdel_safely.c
--- Adding source file: pushswap/lib_2.0/srcs/list/lstdetach.c
--- Adding source file: pushswap/lib_2.0/srcs/list/lstdup.c
--- Adding source file: pushswap/lib_2.0/srcs/list/lstget_int.c
--- Adding source file: pushswap/lib_2.0/srcs/list/lstnew_int.c
--- Adding source file: pushswap/lib_2.0/srcs/memory/free_matrix.c
--- Adding source file: pushswap/lib_2.0/srcs/memory/ft_bzero.c
--- Adding source file: pushswap/lib_2.0/srcs/memory/ft_calloc.c
--- Adding source file: pushswap/lib_2.0/srcs/memory/ft_memchr.c
--- Adding source file: pushswap/lib_2.0/srcs/memory/ft_memcmp.c
--- Adding source file: pushswap/lib_2.0/srcs/memory/ft_memcpy.c
--- Adding source file: pushswap/lib_2.0/srcs/memory/ft_memmove.c
--- Adding source file: pushswap/lib_2.0/srcs/memory/ft_memset.c
--- Adding source file: pushswap/lib_2.0/srcs/memory/realloc.c
--- Adding source file: pushswap/lib_2.0/srcs/memory/sort_tab.c
--- Adding source file: pushswap/lib_2.0/srcs/string/ft_isalnum.c
--- Adding source file: pushswap/lib_2.0/srcs/string/ft_isalpha.c
--- Adding source file: pushswap/lib_2.0/srcs/string/ft_isascii.c
--- Adding source file: pushswap/lib_2.0/srcs/string/ft_isdigit.c
--- Adding source file: pushswap/lib_2.0/srcs/string/ft_isprint.c
--- Adding source file: pushswap/lib_2.0/srcs/string/ft_split.c
--- Adding source file: pushswap/lib_2.0/srcs/string/ft_strchr.c
--- Adding source file: pushswap/lib_2.0/srcs/string/ft_strdup.c
--- Adding source file: pushswap/lib_2.0/srcs/string/ft_striteri.c
--- Adding source file: pushswap/lib_2.0/srcs/string/ft_strjoin.c
--- Adding source file: pushswap/lib_2.0/srcs/string/ft_strlcat.c
--- Adding source file: pushswap/lib_2.0/srcs/string/ft_strlcpy.c
--- Adding source file: pushswap/lib_2.0/srcs/string/ft_strlen.c
--- Adding source file: pushswap/lib_2.0/srcs/string/ft_strmapi.c
--- Adding source file: pushswap/lib_2.0/srcs/string/ft_strncmp.c
--- Adding source file: pushswap/lib_2.0/srcs/string/ft_strnstr.c
--- Adding source file: pushswap/lib_2.0/srcs/string/ft_strrchr.c
--- Adding source file: pushswap/lib_2.0/srcs/string/ft_strtrim.c
--- Adding source file: pushswap/lib_2.0/srcs/string/ft_substr.c
--- Adding source file: pushswap/lib_2.0/srcs/write/ft_putchar_fd.c
--- Adding source file: pushswap/lib_2.0/srcs/write/ft_putendl_fd.c
--- Adding source file: pushswap/lib_2.0/srcs/write/ft_putnbr_fd.c
--- Adding source file: pushswap/lib_2.0/srcs/write/ft_putstr_fd.c
--- Adding source file: pushswap/srcs/input.c
--- Adding source file: pushswap/srcs/operations/push.c
--- Adding source file: pushswap/srcs/operations/rev_rotate.c
--- Adding source file: pushswap/srcs/operations/rotate.c
--- Adding source file: pushswap/srcs/operations/swap.c
--- Adding source file: pushswap/srcs/ops_list.c
--- Adding source file: pushswap/srcs/ps_utils.c
--- Adding source file: pushswap/srcs/push_swap.c
--- Adding source file: pushswap/srcs/quicksort/chunk_sort_one_two.c
--- Adding source file: pushswap/srcs/quicksort/chunk_sort_three.c
--- Adding source file: pushswap/srcs/quicksort/chunk_split.c
--- Adding source file: pushswap/srcs/quicksort/chunk_utils.c
--- Adding source file: pushswap/srcs/quicksort/move.c
--- Adding source file: pushswap/srcs/quicksort/pivots.c
--- Adding source file: pushswap/srcs/quicksort/quicksort.c
--- Adding source file: pushswap/srcs/sort_small.c
--- Adding header file: pushswap/bonus/checker_bonus.h
--- Adding header file: pushswap/includes/pushswap.h
--- Adding header file: pushswap/includes/quicksort.h
--- Adding header file: pushswap/lib_2.0/includes/ft_printf.h
--- Adding header file: pushswap/lib_2.0/includes/get_next_line.h
--- Adding header file: pushswap/lib_2.0/includes/lib_conversion.h
--- Adding header file: pushswap/lib_2.0/includes/lib_list.h
--- Adding header file: pushswap/lib_2.0/includes/lib_memory.h
--- Adding header file: pushswap/lib_2.0/includes/lib_string.h
--- Adding header file: pushswap/lib_2.0/includes/lib_write.h
--- Adding header file: pushswap/lib_2.0/includes/libft.h
--- Adding include directory: pushswap/bonus
--- Adding include directory: pushswap/includes
--- Adding include directory: pushswap/lib_2.0/includes
--- Configuring done (0.3s)
--- Generating done (0.0s)
--- Build files have been written to: /home/joao-alm/42/PushSwap/cmake-build-debug
+-- Configuring done (0.4s)
+CMake Error at CMakeLists.txt:10 (add_executable):
+  Cannot find source file:
+
+    srcs/client.c
+
+
+CMake Error at CMakeLists.txt:25 (add_executable):
+  Cannot find source file:
+
+    srcs/server.c
+
+
+CMake Error at CMakeLists.txt:40 (add_executable):
+  Cannot find source file:
+
+    Makefile
+
+
+CMake Error at CMakeLists.txt:10 (add_executable):
+  No SOURCES given to target: Client
+
+
+CMake Error at CMakeLists.txt:25 (add_executable):
+  No SOURCES given to target: Server
+
+
+CMake Error at CMakeLists.txt:40 (add_executable):
+  No SOURCES given to target: Client_Bonus
+
+
+CMake Error at CMakeLists.txt:55 (add_executable):
+  No SOURCES given to target: Server_Bonus
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

@@ -19,15 +19,11 @@
 t_bit_data	g_bit_data;
 
 /**
- * Signal handler to receive binary data encoded in signals.
- * This function processes signals SIGUSR1 and SIGUSR2 to reconstruct
- * the original message by shifting the received bits into a byte.
- * Once 8 bits (1 byte) are received, it prints the corresponding character.
- * If the byte is null ('\0'),
- * it prints a newline to mark the end of the string.
- * @param signum The signal number (either SIGUSR1 or SIGUSR2).
- * @param info The siginfo_t structure containing signal details.
- * @param context Unused in this implementation.
+ * Process signals to reconstruct and print a message.
+ * SIGUSR1 and SIGUSR2 form bits to build bytes; prints char or newline on '\0'.
+ * @param signum Signal number (SIGUSR1 or SIGUSR2).
+ * @param info Signal info structure (contains sender PID).
+ * @param context Unused.
  */
 void	signal_handler(int signum, siginfo_t *info, void *context)
 {
@@ -50,6 +46,9 @@ void	signal_handler(int signum, siginfo_t *info, void *context)
 		kill(g_bit_data.client_pid, SIGUSR1);
 }
 
+/**
+ * Initialize global data for message reconstruction.
+ */
 void	ft_init_data(void)
 {
 	g_bit_data.current_byte = 0;
@@ -57,6 +56,10 @@ void	ft_init_data(void)
 	g_bit_data.client_pid = 0;
 }
 
+/**
+ * Print the server PID in a formatted message.
+ * @param pid Process ID to display.
+ */
 void	ft_print_pid(const int pid)
 {
 	ft_printf("\n───────────────────────────\n");
@@ -66,12 +69,10 @@ void	ft_print_pid(const int pid)
 }
 
 /**
- * Main function for the server program.
- * It initializes the global bit data structure and sets up the signal handlers
- * for SIGUSR1 and SIGUSR2 to receive the message.
- * It also prints the server's PID.
- * The program then enters an infinite loop to wait for signals using `pause()`.
- * @return Always returns 0 (the program runs indefinitely).
+ * Server main function.
+ * Sets up signal handlers and prints server PID.
+ * Waits indefinitely for signals to process messages.
+ * @return Always 0.
  */
 int	main(void)
 {

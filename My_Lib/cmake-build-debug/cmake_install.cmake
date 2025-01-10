@@ -1,4 +1,4 @@
-# Install script for directory: /home/joao-alm/42_Luxembourg/Common_Core/My_Lib/lib_2.0
+# Install script for directory: /home/joao-alm/42/My_Lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/joao-alm/42_Luxembourg/Common_Core/My_Lib/lib_2.0/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/joao-alm/42/My_Lib/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

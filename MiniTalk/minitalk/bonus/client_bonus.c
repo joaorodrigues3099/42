@@ -12,17 +12,16 @@
 
 #include "lib_print.h"
 #include "lib_conversion.h"
+#include "minitalk.h"
 #include <signal.h>
 #include <unistd.h>
 #include <stdlib.h>
-#include "minitalk.h"
 
 t_client_data	g_client_data;
 
 /**
- * Acknowledge signal received and set the global flag when SIGUSR1 is received.
- * This updates the global flag to indicate acknowledgment.
- * @param signum The signal number (SIGUSR1 in this case).
+ * Set acknowledgment flag and increment message length on SIGUSR1.
+ * @param signum Signal number (SIGUSR1).
  */
 void	acknowledge_signal(int signum)
 {
@@ -34,9 +33,8 @@ void	acknowledge_signal(int signum)
 }
 
 /**
- * Wait for acknowledgment with a timeout.
- * This prevents the program from pausing indefinitely.
- * @return 1 if acknowledgment was received, 0 if timeout occurred.
+ * Wait for acknowledgment or exit on timeout.
+ * @return 1 if acknowledged, 0 on timeout.
  */
 void	wait_for_acknowledgment(void)
 {
@@ -53,10 +51,10 @@ void	wait_for_acknowledgment(void)
 }
 
 /**
- * Send a string to the server by encoding each character in binary.
- * It sends SIGUSR2 for 1 and SIGUSR1 for 0, and sends a null terminator signal.
- * @param pid The process ID of the receiving server.
- * @param str The string to be sent.
+ * Send a string to the server as binary signals.
+ * SIGUSR2 for 1, SIGUSR1 for 0, ends with a null terminator.
+ * @param pid Server process ID.
+ * @param str String to send.
  */
 static void	ft_send_message(const int pid, const char *str)
 {
@@ -87,12 +85,10 @@ static void	ft_send_message(const int pid, const char *str)
 }
 
 /**
- * Main function for the client program.
- * It checks the number of arguments and validates the input.
- * Then, it sends the given message to the server using `ft_send_str`.
- * @param ac The number of arguments passed to the program.
- * @param av The array of arguments passed to the program.
- * @return Returns 0 if successful, 1 if there are errors in the input.
+ * Validate input, then send the message to the server.
+ * @param ac Argument count.
+ * @param av Argument array.
+ * @return 0 on success, 1 on error.
  */
 int	main(const int ac, char **av)
 {

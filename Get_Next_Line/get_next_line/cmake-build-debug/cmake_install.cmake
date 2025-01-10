@@ -1,4 +1,4 @@
-# Install script for directory: /home/joao-alm/42_Luxembourg/Common_Core/Rank1/Get_Next_Line/get_next_line
+# Install script for directory: /home/joao-alm/42_Luxembourg/Common_Core/Rank1/Get_Next_Line/gnl
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
