@@ -52,625 +52,625 @@ build cmake_object_order_depends_target_So_Long: phony || .
 build CMakeFiles/So_Long.dir/so_long/main.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/main.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/main.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_clear_window.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_clear_window.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_clear_window.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_destroy_display.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_destroy_display.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_destroy_display.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_destroy_image.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_destroy_image.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_destroy_image.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_destroy_window.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_destroy_window.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_destroy_window.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_expose_hook.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_expose_hook.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_expose_hook.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_ext_randr.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_ext_randr.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_ext_randr.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_flush_event.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_flush_event.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_flush_event.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_get_color_value.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_get_color_value.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_get_color_value.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_get_data_addr.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_get_data_addr.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_get_data_addr.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_hook.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_hook.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_hook.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_init.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_init.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_init.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_int_anti_resize_win.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_int_anti_resize_win.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_int_anti_resize_win.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_int_do_nothing.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_int_do_nothing.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_int_do_nothing.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_int_get_visual.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_int_get_visual.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_int_get_visual.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_int_param_event.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_int_param_event.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_int_param_event.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_int_set_win_event_mask.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_int_set_win_event_mask.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_int_set_win_event_mask.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_int_str_to_wordtab.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_int_str_to_wordtab.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_int_str_to_wordtab.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_int_wait_first_expose.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_int_wait_first_expose.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_int_wait_first_expose.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_key_hook.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_key_hook.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_key_hook.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_lib_xpm.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_lib_xpm.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_lib_xpm.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_loop.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_loop.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_loop.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_loop_hook.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_loop_hook.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_loop_hook.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_mouse.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_mouse.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_mouse.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_mouse_hook.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_mouse_hook.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_mouse_hook.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_new_image.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_new_image.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_new_image.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_new_window.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_new_window.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_new_window.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_pixel_put.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_pixel_put.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_pixel_put.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_put_image_to_window.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_put_image_to_window.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_put_image_to_window.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_rgb.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_rgb.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_rgb.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_screen_size.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_screen_size.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_screen_size.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_set_font.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_set_font.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_set_font.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_string_put.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_string_put.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_string_put.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_xpm.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_xpm.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_xpm.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
 
-build CMakeFiles/So_Long.dir/so_long/libs/mylib/print/ft_printf.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/print/ft_printf.c || cmake_object_order_depends_target_So_Long
-  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/print/ft_printf.c.o.d
+build CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/print/ft_printf.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/srcs/print/ft_printf.c || cmake_object_order_depends_target_So_Long
+  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/print/ft_printf.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
-  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/print
+  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/print
 
-build CMakeFiles/So_Long.dir/so_long/libs/mylib/print/print_error.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/print/print_error.c || cmake_object_order_depends_target_So_Long
-  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/print/print_error.c.o.d
+build CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/print/print_error.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/srcs/print/print_error.c || cmake_object_order_depends_target_So_Long
+  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/print/print_error.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
-  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/print
+  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/print
 
-build CMakeFiles/So_Long.dir/so_long/libs/mylib/print/put_characters.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/print/put_characters.c || cmake_object_order_depends_target_So_Long
-  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/print/put_characters.c.o.d
+build CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/print/put_characters.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/srcs/print/put_characters.c || cmake_object_order_depends_target_So_Long
+  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/print/put_characters.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
-  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/print
+  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/print
 
-build CMakeFiles/So_Long.dir/so_long/libs/mylib/print/put_numbers.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/print/put_numbers.c || cmake_object_order_depends_target_So_Long
-  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/print/put_numbers.c.o.d
+build CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/print/put_numbers.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/srcs/print/put_numbers.c || cmake_object_order_depends_target_So_Long
+  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/print/put_numbers.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
-  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/print
+  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/print
 
-build CMakeFiles/So_Long.dir/so_long/libs/mylib/char/ft_isalnum.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/char/ft_isalnum.c || cmake_object_order_depends_target_So_Long
-  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/char/ft_isalnum.c.o.d
+build CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/char/ft_isalnum.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/srcs/char/ft_isalnum.c || cmake_object_order_depends_target_So_Long
+  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/char/ft_isalnum.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
-  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/char
+  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/char
 
-build CMakeFiles/So_Long.dir/so_long/libs/mylib/char/ft_isalpha.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/char/ft_isalpha.c || cmake_object_order_depends_target_So_Long
-  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/char/ft_isalpha.c.o.d
+build CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/char/ft_isalpha.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/srcs/char/ft_isalpha.c || cmake_object_order_depends_target_So_Long
+  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/char/ft_isalpha.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
-  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/char
+  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/char
 
-build CMakeFiles/So_Long.dir/so_long/libs/mylib/char/ft_isascii.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/char/ft_isascii.c || cmake_object_order_depends_target_So_Long
-  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/char/ft_isascii.c.o.d
+build CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/char/ft_isascii.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/srcs/char/ft_isascii.c || cmake_object_order_depends_target_So_Long
+  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/char/ft_isascii.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
-  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/char
+  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/char
 
-build CMakeFiles/So_Long.dir/so_long/libs/mylib/char/ft_isdigit.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/char/ft_isdigit.c || cmake_object_order_depends_target_So_Long
-  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/char/ft_isdigit.c.o.d
+build CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/char/ft_isdigit.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/srcs/char/ft_isdigit.c || cmake_object_order_depends_target_So_Long
+  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/char/ft_isdigit.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
-  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/char
+  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/char
 
-build CMakeFiles/So_Long.dir/so_long/libs/mylib/char/ft_isprint.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/char/ft_isprint.c || cmake_object_order_depends_target_So_Long
-  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/char/ft_isprint.c.o.d
+build CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/char/ft_isprint.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/srcs/char/ft_isprint.c || cmake_object_order_depends_target_So_Long
+  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/char/ft_isprint.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
-  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/char
+  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/char
 
-build CMakeFiles/So_Long.dir/so_long/libs/mylib/conversion/atoll_valid.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/conversion/atoll_valid.c || cmake_object_order_depends_target_So_Long
-  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/conversion/atoll_valid.c.o.d
+build CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/conversion/atoll_valid.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/srcs/conversion/atoll_valid.c || cmake_object_order_depends_target_So_Long
+  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/conversion/atoll_valid.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
-  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/conversion
+  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/conversion
 
-build CMakeFiles/So_Long.dir/so_long/libs/mylib/conversion/ft_atoi.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/conversion/ft_atoi.c || cmake_object_order_depends_target_So_Long
-  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/conversion/ft_atoi.c.o.d
+build CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/conversion/ft_atoi.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/srcs/conversion/ft_atoi.c || cmake_object_order_depends_target_So_Long
+  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/conversion/ft_atoi.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
-  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/conversion
+  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/conversion
 
-build CMakeFiles/So_Long.dir/so_long/libs/mylib/conversion/ft_itoa.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/conversion/ft_itoa.c || cmake_object_order_depends_target_So_Long
-  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/conversion/ft_itoa.c.o.d
+build CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/conversion/ft_itoa.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/srcs/conversion/ft_itoa.c || cmake_object_order_depends_target_So_Long
+  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/conversion/ft_itoa.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
-  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/conversion
+  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/conversion
 
-build CMakeFiles/So_Long.dir/so_long/libs/mylib/conversion/ft_tolower.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/conversion/ft_tolower.c || cmake_object_order_depends_target_So_Long
-  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/conversion/ft_tolower.c.o.d
+build CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/conversion/ft_tolower.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/srcs/conversion/ft_tolower.c || cmake_object_order_depends_target_So_Long
+  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/conversion/ft_tolower.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
-  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/conversion
+  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/conversion
 
-build CMakeFiles/So_Long.dir/so_long/libs/mylib/conversion/ft_toupper.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/conversion/ft_toupper.c || cmake_object_order_depends_target_So_Long
-  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/conversion/ft_toupper.c.o.d
+build CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/conversion/ft_toupper.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/srcs/conversion/ft_toupper.c || cmake_object_order_depends_target_So_Long
+  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/conversion/ft_toupper.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
-  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/conversion
+  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/conversion
 
-build CMakeFiles/So_Long.dir/so_long/libs/mylib/gnl/get_next_line.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/gnl/get_next_line.c || cmake_object_order_depends_target_So_Long
-  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/gnl/get_next_line.c.o.d
+build CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/gnl/get_next_line.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/srcs/gnl/get_next_line.c || cmake_object_order_depends_target_So_Long
+  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/gnl/get_next_line.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
-  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/gnl
+  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/gnl
 
-build CMakeFiles/So_Long.dir/so_long/libs/mylib/gnl/get_next_line_utils.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/gnl/get_next_line_utils.c || cmake_object_order_depends_target_So_Long
-  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/gnl/get_next_line_utils.c.o.d
+build CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/gnl/get_next_line_utils.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/srcs/gnl/get_next_line_utils.c || cmake_object_order_depends_target_So_Long
+  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/gnl/get_next_line_utils.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
-  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/gnl
+  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/gnl
 
-build CMakeFiles/So_Long.dir/so_long/libs/mylib/list/ft_lstadd_back_bonus.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/list/ft_lstadd_back_bonus.c || cmake_object_order_depends_target_So_Long
-  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/list/ft_lstadd_back_bonus.c.o.d
+build CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/list/ft_lstadd_back_bonus.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/srcs/list/ft_lstadd_back_bonus.c || cmake_object_order_depends_target_So_Long
+  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/list/ft_lstadd_back_bonus.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
-  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/list
+  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/list
 
-build CMakeFiles/So_Long.dir/so_long/libs/mylib/list/ft_lstadd_front_bonus.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/list/ft_lstadd_front_bonus.c || cmake_object_order_depends_target_So_Long
-  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/list/ft_lstadd_front_bonus.c.o.d
+build CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/list/ft_lstadd_front_bonus.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/srcs/list/ft_lstadd_front_bonus.c || cmake_object_order_depends_target_So_Long
+  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/list/ft_lstadd_front_bonus.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
-  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/list
+  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/list
 
-build CMakeFiles/So_Long.dir/so_long/libs/mylib/list/ft_lstclear_bonus.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/list/ft_lstclear_bonus.c || cmake_object_order_depends_target_So_Long
-  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/list/ft_lstclear_bonus.c.o.d
+build CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/list/ft_lstclear_bonus.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/srcs/list/ft_lstclear_bonus.c || cmake_object_order_depends_target_So_Long
+  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/list/ft_lstclear_bonus.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
-  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/list
+  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/list
 
-build CMakeFiles/So_Long.dir/so_long/libs/mylib/list/ft_lstdelone_bonus.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/list/ft_lstdelone_bonus.c || cmake_object_order_depends_target_So_Long
-  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/list/ft_lstdelone_bonus.c.o.d
+build CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/list/ft_lstdelone_bonus.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/srcs/list/ft_lstdelone_bonus.c || cmake_object_order_depends_target_So_Long
+  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/list/ft_lstdelone_bonus.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
-  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/list
+  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/list
 
-build CMakeFiles/So_Long.dir/so_long/libs/mylib/list/ft_lstiter_bonus.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/list/ft_lstiter_bonus.c || cmake_object_order_depends_target_So_Long
-  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/list/ft_lstiter_bonus.c.o.d
+build CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/list/ft_lstiter_bonus.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/srcs/list/ft_lstiter_bonus.c || cmake_object_order_depends_target_So_Long
+  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/list/ft_lstiter_bonus.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
-  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/list
+  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/list
 
-build CMakeFiles/So_Long.dir/so_long/libs/mylib/list/ft_lstlast_bonus.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/list/ft_lstlast_bonus.c || cmake_object_order_depends_target_So_Long
-  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/list/ft_lstlast_bonus.c.o.d
+build CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/list/ft_lstlast_bonus.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/srcs/list/ft_lstlast_bonus.c || cmake_object_order_depends_target_So_Long
+  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/list/ft_lstlast_bonus.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
-  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/list
+  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/list
 
-build CMakeFiles/So_Long.dir/so_long/libs/mylib/list/ft_lstmap_bonus.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/list/ft_lstmap_bonus.c || cmake_object_order_depends_target_So_Long
-  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/list/ft_lstmap_bonus.c.o.d
+build CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/list/ft_lstmap_bonus.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/srcs/list/ft_lstmap_bonus.c || cmake_object_order_depends_target_So_Long
+  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/list/ft_lstmap_bonus.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
-  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/list
+  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/list
 
-build CMakeFiles/So_Long.dir/so_long/libs/mylib/list/ft_lstnew_bonus.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/list/ft_lstnew_bonus.c || cmake_object_order_depends_target_So_Long
-  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/list/ft_lstnew_bonus.c.o.d
+build CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/list/ft_lstnew_bonus.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/srcs/list/ft_lstnew_bonus.c || cmake_object_order_depends_target_So_Long
+  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/list/ft_lstnew_bonus.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
-  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/list
+  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/list
 
-build CMakeFiles/So_Long.dir/so_long/libs/mylib/list/ft_lstsize_bonus.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/list/ft_lstsize_bonus.c || cmake_object_order_depends_target_So_Long
-  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/list/ft_lstsize_bonus.c.o.d
+build CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/list/ft_lstsize_bonus.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/srcs/list/ft_lstsize_bonus.c || cmake_object_order_depends_target_So_Long
+  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/list/ft_lstsize_bonus.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
-  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/list
+  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/list
 
-build CMakeFiles/So_Long.dir/so_long/libs/mylib/list/lstdel_safely.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/list/lstdel_safely.c || cmake_object_order_depends_target_So_Long
-  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/list/lstdel_safely.c.o.d
+build CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/list/lstdel_safely.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/srcs/list/lstdel_safely.c || cmake_object_order_depends_target_So_Long
+  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/list/lstdel_safely.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
-  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/list
+  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/list
 
-build CMakeFiles/So_Long.dir/so_long/libs/mylib/list/lstdetach.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/list/lstdetach.c || cmake_object_order_depends_target_So_Long
-  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/list/lstdetach.c.o.d
+build CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/list/lstdetach.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/srcs/list/lstdetach.c || cmake_object_order_depends_target_So_Long
+  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/list/lstdetach.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
-  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/list
+  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/list
 
-build CMakeFiles/So_Long.dir/so_long/libs/mylib/list/lstdup.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/list/lstdup.c || cmake_object_order_depends_target_So_Long
-  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/list/lstdup.c.o.d
+build CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/list/lstdup.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/srcs/list/lstdup.c || cmake_object_order_depends_target_So_Long
+  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/list/lstdup.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
-  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/list
+  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/list
 
-build CMakeFiles/So_Long.dir/so_long/libs/mylib/list/lstget_int.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/list/lstget_int.c || cmake_object_order_depends_target_So_Long
-  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/list/lstget_int.c.o.d
+build CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/list/lstget_int.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/srcs/list/lstget_int.c || cmake_object_order_depends_target_So_Long
+  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/list/lstget_int.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
-  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/list
+  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/list
 
-build CMakeFiles/So_Long.dir/so_long/libs/mylib/list/lstnew_int.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/list/lstnew_int.c || cmake_object_order_depends_target_So_Long
-  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/list/lstnew_int.c.o.d
+build CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/list/lstnew_int.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/srcs/list/lstnew_int.c || cmake_object_order_depends_target_So_Long
+  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/list/lstnew_int.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
-  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/list
+  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/list
 
-build CMakeFiles/So_Long.dir/so_long/libs/mylib/memory/free_matrix.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/memory/free_matrix.c || cmake_object_order_depends_target_So_Long
-  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/memory/free_matrix.c.o.d
+build CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/memory/free_matrix.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/srcs/memory/free_matrix.c || cmake_object_order_depends_target_So_Long
+  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/memory/free_matrix.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
-  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/memory
+  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/memory
 
-build CMakeFiles/So_Long.dir/so_long/libs/mylib/memory/ft_bzero.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/memory/ft_bzero.c || cmake_object_order_depends_target_So_Long
-  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/memory/ft_bzero.c.o.d
+build CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/memory/ft_bzero.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/srcs/memory/ft_bzero.c || cmake_object_order_depends_target_So_Long
+  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/memory/ft_bzero.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
-  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/memory
+  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/memory
 
-build CMakeFiles/So_Long.dir/so_long/libs/mylib/memory/ft_calloc.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/memory/ft_calloc.c || cmake_object_order_depends_target_So_Long
-  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/memory/ft_calloc.c.o.d
+build CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/memory/ft_calloc.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/srcs/memory/ft_calloc.c || cmake_object_order_depends_target_So_Long
+  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/memory/ft_calloc.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
-  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/memory
+  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/memory
 
-build CMakeFiles/So_Long.dir/so_long/libs/mylib/memory/ft_memchr.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/memory/ft_memchr.c || cmake_object_order_depends_target_So_Long
-  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/memory/ft_memchr.c.o.d
+build CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/memory/ft_memchr.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/srcs/memory/ft_memchr.c || cmake_object_order_depends_target_So_Long
+  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/memory/ft_memchr.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
-  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/memory
+  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/memory
 
-build CMakeFiles/So_Long.dir/so_long/libs/mylib/memory/ft_memcmp.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/memory/ft_memcmp.c || cmake_object_order_depends_target_So_Long
-  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/memory/ft_memcmp.c.o.d
+build CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/memory/ft_memcmp.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/srcs/memory/ft_memcmp.c || cmake_object_order_depends_target_So_Long
+  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/memory/ft_memcmp.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
-  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/memory
+  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/memory
 
-build CMakeFiles/So_Long.dir/so_long/libs/mylib/memory/ft_memcpy.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/memory/ft_memcpy.c || cmake_object_order_depends_target_So_Long
-  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/memory/ft_memcpy.c.o.d
+build CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/memory/ft_memcpy.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/srcs/memory/ft_memcpy.c || cmake_object_order_depends_target_So_Long
+  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/memory/ft_memcpy.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
-  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/memory
+  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/memory
 
-build CMakeFiles/So_Long.dir/so_long/libs/mylib/memory/ft_memmove.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/memory/ft_memmove.c || cmake_object_order_depends_target_So_Long
-  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/memory/ft_memmove.c.o.d
+build CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/memory/ft_memmove.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/srcs/memory/ft_memmove.c || cmake_object_order_depends_target_So_Long
+  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/memory/ft_memmove.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
-  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/memory
+  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/memory
 
-build CMakeFiles/So_Long.dir/so_long/libs/mylib/memory/ft_memset.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/memory/ft_memset.c || cmake_object_order_depends_target_So_Long
-  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/memory/ft_memset.c.o.d
+build CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/memory/ft_memset.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/srcs/memory/ft_memset.c || cmake_object_order_depends_target_So_Long
+  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/memory/ft_memset.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
-  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/memory
+  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/memory
 
-build CMakeFiles/So_Long.dir/so_long/libs/mylib/memory/realloc.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/memory/realloc.c || cmake_object_order_depends_target_So_Long
-  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/memory/realloc.c.o.d
+build CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/memory/realloc.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/srcs/memory/realloc.c || cmake_object_order_depends_target_So_Long
+  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/memory/realloc.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
-  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/memory
+  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/memory
 
-build CMakeFiles/So_Long.dir/so_long/libs/mylib/memory/sort_tab.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/memory/sort_tab.c || cmake_object_order_depends_target_So_Long
-  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/memory/sort_tab.c.o.d
+build CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/memory/sort_tab.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/srcs/memory/sort_tab.c || cmake_object_order_depends_target_So_Long
+  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/memory/sort_tab.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
-  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/memory
+  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/memory
 
-build CMakeFiles/So_Long.dir/so_long/libs/mylib/string/ft_split.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/string/ft_split.c || cmake_object_order_depends_target_So_Long
-  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/string/ft_split.c.o.d
+build CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string/ft_split.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/srcs/string/ft_split.c || cmake_object_order_depends_target_So_Long
+  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string/ft_split.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
-  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/string
+  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string
 
-build CMakeFiles/So_Long.dir/so_long/libs/mylib/string/ft_strchr.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/string/ft_strchr.c || cmake_object_order_depends_target_So_Long
-  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/string/ft_strchr.c.o.d
+build CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string/ft_strchr.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/srcs/string/ft_strchr.c || cmake_object_order_depends_target_So_Long
+  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string/ft_strchr.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
-  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/string
+  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string
 
-build CMakeFiles/So_Long.dir/so_long/libs/mylib/string/ft_strdup.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/string/ft_strdup.c || cmake_object_order_depends_target_So_Long
-  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/string/ft_strdup.c.o.d
+build CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string/ft_strdup.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/srcs/string/ft_strdup.c || cmake_object_order_depends_target_So_Long
+  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string/ft_strdup.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
-  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/string
+  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string
 
-build CMakeFiles/So_Long.dir/so_long/libs/mylib/string/ft_striteri.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/string/ft_striteri.c || cmake_object_order_depends_target_So_Long
-  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/string/ft_striteri.c.o.d
+build CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string/ft_striteri.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/srcs/string/ft_striteri.c || cmake_object_order_depends_target_So_Long
+  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string/ft_striteri.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
-  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/string
+  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string
 
-build CMakeFiles/So_Long.dir/so_long/libs/mylib/string/ft_strjoin.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/string/ft_strjoin.c || cmake_object_order_depends_target_So_Long
-  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/string/ft_strjoin.c.o.d
+build CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string/ft_strjoin.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/srcs/string/ft_strjoin.c || cmake_object_order_depends_target_So_Long
+  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string/ft_strjoin.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
-  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/string
+  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string
 
-build CMakeFiles/So_Long.dir/so_long/libs/mylib/string/ft_strlcat.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/string/ft_strlcat.c || cmake_object_order_depends_target_So_Long
-  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/string/ft_strlcat.c.o.d
+build CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string/ft_strlcat.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/srcs/string/ft_strlcat.c || cmake_object_order_depends_target_So_Long
+  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string/ft_strlcat.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
-  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/string
+  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string
 
-build CMakeFiles/So_Long.dir/so_long/libs/mylib/string/ft_strlcpy.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/string/ft_strlcpy.c || cmake_object_order_depends_target_So_Long
-  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/string/ft_strlcpy.c.o.d
+build CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string/ft_strlcpy.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/srcs/string/ft_strlcpy.c || cmake_object_order_depends_target_So_Long
+  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string/ft_strlcpy.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
-  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/string
+  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string
 
-build CMakeFiles/So_Long.dir/so_long/libs/mylib/string/ft_strlen.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/string/ft_strlen.c || cmake_object_order_depends_target_So_Long
-  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/string/ft_strlen.c.o.d
+build CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string/ft_strlen.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/srcs/string/ft_strlen.c || cmake_object_order_depends_target_So_Long
+  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string/ft_strlen.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
-  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/string
+  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string
 
-build CMakeFiles/So_Long.dir/so_long/libs/mylib/string/ft_strmapi.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/string/ft_strmapi.c || cmake_object_order_depends_target_So_Long
-  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/string/ft_strmapi.c.o.d
+build CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string/ft_strmapi.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/srcs/string/ft_strmapi.c || cmake_object_order_depends_target_So_Long
+  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string/ft_strmapi.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
-  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/string
+  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string
 
-build CMakeFiles/So_Long.dir/so_long/libs/mylib/string/ft_strncmp.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/string/ft_strncmp.c || cmake_object_order_depends_target_So_Long
-  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/string/ft_strncmp.c.o.d
+build CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string/ft_strncmp.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/srcs/string/ft_strncmp.c || cmake_object_order_depends_target_So_Long
+  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string/ft_strncmp.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
-  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/string
+  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string
 
-build CMakeFiles/So_Long.dir/so_long/libs/mylib/string/ft_strnstr.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/string/ft_strnstr.c || cmake_object_order_depends_target_So_Long
-  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/string/ft_strnstr.c.o.d
+build CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string/ft_strnstr.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/srcs/string/ft_strnstr.c || cmake_object_order_depends_target_So_Long
+  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string/ft_strnstr.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
-  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/string
+  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string
 
-build CMakeFiles/So_Long.dir/so_long/libs/mylib/string/ft_strrchr.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/string/ft_strrchr.c || cmake_object_order_depends_target_So_Long
-  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/string/ft_strrchr.c.o.d
+build CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string/ft_strrchr.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/srcs/string/ft_strrchr.c || cmake_object_order_depends_target_So_Long
+  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string/ft_strrchr.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
-  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/string
+  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string
 
-build CMakeFiles/So_Long.dir/so_long/libs/mylib/string/ft_strtrim.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/string/ft_strtrim.c || cmake_object_order_depends_target_So_Long
-  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/string/ft_strtrim.c.o.d
+build CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string/ft_strtrim.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/srcs/string/ft_strtrim.c || cmake_object_order_depends_target_So_Long
+  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string/ft_strtrim.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
-  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/string
+  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string
 
-build CMakeFiles/So_Long.dir/so_long/libs/mylib/string/ft_substr.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/string/ft_substr.c || cmake_object_order_depends_target_So_Long
-  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/string/ft_substr.c.o.d
+build CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string/ft_substr.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/srcs/string/ft_substr.c || cmake_object_order_depends_target_So_Long
+  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string/ft_substr.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
-  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/string
+  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string
 
-build CMakeFiles/So_Long.dir/so_long/libs/mylib/string/strcpy.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/string/strcpy.c || cmake_object_order_depends_target_So_Long
-  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/string/strcpy.c.o.d
+build CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string/strcpy.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/srcs/string/strcpy.c || cmake_object_order_depends_target_So_Long
+  DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string/strcpy.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/char -I/home/joao-alm/42/So_Long/so_long/libs/mylib/conversion -I/home/joao-alm/42/So_Long/so_long/libs/mylib/gnl -I/home/joao-alm/42/So_Long/so_long/libs/mylib/list -I/home/joao-alm/42/So_Long/so_long/libs/mylib/memory -I/home/joao-alm/42/So_Long/so_long/libs/mylib/print -I/home/joao-alm/42/So_Long/so_long/libs/mylib/string
+  INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/includes
   OBJECT_DIR = CMakeFiles/So_Long.dir
-  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/string
+  OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string
 
 
 # =============================================================================
@@ -680,7 +680,7 @@ build CMakeFiles/So_Long.dir/so_long/libs/mylib/string/strcpy.c.o: C_COMPILER__S
 #############################################
 # Link the executable So_Long
 
-build So_Long: C_EXECUTABLE_LINKER__So_Long_Debug CMakeFiles/So_Long.dir/so_long/main.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_clear_window.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_destroy_display.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_destroy_image.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_destroy_window.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_expose_hook.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_ext_randr.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_flush_event.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_get_color_value.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_get_data_addr.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_hook.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_init.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_int_anti_resize_win.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_int_do_nothing.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_int_get_visual.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_int_param_event.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_int_set_win_event_mask.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_int_str_to_wordtab.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_int_wait_first_expose.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_key_hook.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_lib_xpm.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_loop.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_loop_hook.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_mouse.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_mouse_hook.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_new_image.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_new_window.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_pixel_put.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_put_image_to_window.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_rgb.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_screen_size.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_set_font.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_string_put.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_xpm.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/print/ft_printf.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/print/print_error.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/print/put_characters.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/print/put_numbers.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/char/ft_isalnum.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/char/ft_isalpha.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/char/ft_isascii.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/char/ft_isdigit.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/char/ft_isprint.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/conversion/atoll_valid.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/conversion/ft_atoi.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/conversion/ft_itoa.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/conversion/ft_tolower.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/conversion/ft_toupper.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/gnl/get_next_line.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/gnl/get_next_line_utils.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/list/ft_lstadd_back_bonus.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/list/ft_lstadd_front_bonus.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/list/ft_lstclear_bonus.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/list/ft_lstdelone_bonus.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/list/ft_lstiter_bonus.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/list/ft_lstlast_bonus.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/list/ft_lstmap_bonus.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/list/ft_lstnew_bonus.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/list/ft_lstsize_bonus.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/list/lstdel_safely.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/list/lstdetach.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/list/lstdup.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/list/lstget_int.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/list/lstnew_int.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/memory/free_matrix.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/memory/ft_bzero.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/memory/ft_calloc.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/memory/ft_memchr.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/memory/ft_memcmp.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/memory/ft_memcpy.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/memory/ft_memmove.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/memory/ft_memset.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/memory/realloc.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/memory/sort_tab.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/string/ft_split.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/string/ft_strchr.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/string/ft_strdup.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/string/ft_striteri.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/string/ft_strjoin.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/string/ft_strlcat.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/string/ft_strlcpy.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/string/ft_strlen.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/string/ft_strmapi.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/string/ft_strncmp.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/string/ft_strnstr.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/string/ft_strrchr.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/string/ft_strtrim.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/string/ft_substr.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/string/strcpy.c.o
+build So_Long: C_EXECUTABLE_LINKER__So_Long_Debug CMakeFiles/So_Long.dir/so_long/main.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_clear_window.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_destroy_display.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_destroy_image.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_destroy_window.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_expose_hook.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_ext_randr.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_flush_event.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_get_color_value.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_get_data_addr.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_hook.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_init.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_int_anti_resize_win.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_int_do_nothing.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_int_get_visual.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_int_param_event.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_int_set_win_event_mask.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_int_str_to_wordtab.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_int_wait_first_expose.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_key_hook.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_lib_xpm.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_loop.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_loop_hook.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_mouse.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_mouse_hook.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_new_image.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_new_window.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_pixel_put.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_put_image_to_window.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_rgb.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_screen_size.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_set_font.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_string_put.c.o CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_xpm.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/print/ft_printf.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/print/print_error.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/print/put_characters.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/print/put_numbers.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/char/ft_isalnum.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/char/ft_isalpha.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/char/ft_isascii.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/char/ft_isdigit.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/char/ft_isprint.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/conversion/atoll_valid.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/conversion/ft_atoi.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/conversion/ft_itoa.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/conversion/ft_tolower.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/conversion/ft_toupper.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/gnl/get_next_line.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/gnl/get_next_line_utils.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/list/ft_lstadd_back_bonus.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/list/ft_lstadd_front_bonus.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/list/ft_lstclear_bonus.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/list/ft_lstdelone_bonus.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/list/ft_lstiter_bonus.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/list/ft_lstlast_bonus.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/list/ft_lstmap_bonus.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/list/ft_lstnew_bonus.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/list/ft_lstsize_bonus.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/list/lstdel_safely.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/list/lstdetach.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/list/lstdup.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/list/lstget_int.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/list/lstnew_int.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/memory/free_matrix.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/memory/ft_bzero.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/memory/ft_calloc.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/memory/ft_memchr.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/memory/ft_memcmp.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/memory/ft_memcpy.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/memory/ft_memmove.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/memory/ft_memset.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/memory/realloc.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/memory/sort_tab.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string/ft_split.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string/ft_strchr.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string/ft_strdup.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string/ft_striteri.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string/ft_strjoin.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string/ft_strlcat.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string/ft_strlcpy.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string/ft_strlen.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string/ft_strmapi.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string/ft_strncmp.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string/ft_strnstr.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string/ft_strrchr.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string/ft_strtrim.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string/ft_substr.c.o CMakeFiles/So_Long.dir/so_long/libs/mylib/srcs/string/strcpy.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/So_Long.dir
   POST_BUILD = :
