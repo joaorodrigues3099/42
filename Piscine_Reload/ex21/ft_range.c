@@ -28,7 +28,7 @@ int	*ft_range(int min, int max)
 	return (range);
 }
 /*
-#includes <stdio.h>
+#include <stdio.h>
 
 int	main(int ac, char **av)
 {

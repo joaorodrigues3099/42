@@ -20,7 +20,7 @@ int	ft_strlen(char *str)
 	return (i);
 }
 /*
-#includes <stdio.h>
+#include <stdio.h>
 
 int	main(int ac, char **av)
 {

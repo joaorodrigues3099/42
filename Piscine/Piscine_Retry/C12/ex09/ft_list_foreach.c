@@ -24,8 +24,8 @@ void	ft_list_foreach(t_list *begin_list, void (*f)(void *))
 	}
 }
 /*
-#includes <stdio.h>
-#includes <stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 t_list	*ft_create_elem(void *data)
 {

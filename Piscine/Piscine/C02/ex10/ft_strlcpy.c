@@ -38,7 +38,7 @@ int	main(void)
 	char	dest[0];
 	int		count;
 
-	#includes <stdio.h>
+	#include <stdio.h>
 	printf ("src: %s\n", src);
 	printf ("dest before: %s\n", dest);
 	count = ft_strlcpy (dest, src, 20);

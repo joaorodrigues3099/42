@@ -21,7 +21,7 @@ int	ft_str_is_uppercase(char *str)
 	return (1);
 }
 /*
-#includes <stdio.h>
+#include <stdio.h>
 
 int	main(int ac, char **av)
 {

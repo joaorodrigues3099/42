@@ -30,8 +30,8 @@ int	ft_recursive_power(int nb, int power)
 		return (ft_recursive_power_recursive(nb, nb, power));
 }
 /*
-#includes <stdio.h>
-#includes <stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 int	main(int ac, char **av)
 {

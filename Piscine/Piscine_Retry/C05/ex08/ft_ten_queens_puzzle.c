@@ -77,7 +77,7 @@ int	ft_ten_queens_puzzle(void)
 	return (count);
 }
 /*
-#includes <stdio.h>
+#include <stdio.h>
 
 int	main(void)
 {

@@ -22,7 +22,7 @@ void	ft_is_negative(int n)
 	write(1, &c, 1);
 }
 /*
-#includes <stdlib.h>
+#include <stdlib.h>
 
 int	main(int ac, char **av)
 {

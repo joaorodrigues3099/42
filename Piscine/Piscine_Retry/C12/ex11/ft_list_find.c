@@ -26,8 +26,8 @@ t_list	*ft_list_find(t_list *begin_list, void *data_ref, int (*cmp)())
 	return (0);
 }
 /*
-#includes <stdio.h>
-#includes <stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 t_list	*ft_create_elem(void *data)
 {

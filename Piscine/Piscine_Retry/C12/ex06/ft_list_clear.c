@@ -28,8 +28,8 @@ void	ft_list_clear(t_list *begin_list, void (*free_fct)(void *))
 	}
 }
 /*
-#includes <stdio.h>
-#includes <string.h>
+#include <stdio.h>
+#include <string.h>
 
 void	ft_free_ft(void *ptr)
 {

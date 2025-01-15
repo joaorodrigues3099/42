@@ -20,7 +20,7 @@ void	ft_is_negative(int n)
 		ft_putchar('P');
 }
 /*
-#includes <stdlib.h>
+#include <stdlib.h>
 
 int	main(int ac, char **av)
 {

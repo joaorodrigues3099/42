@@ -28,8 +28,8 @@ int	ft_fibonacci(int index)
 	return (ft_fibonacci_recursive(0, 1, index));
 }
 /*
-#includes <stdio.h>
-#includes <stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 int	main(int ac, char **av)
 {

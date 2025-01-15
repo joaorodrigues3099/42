@@ -16,8 +16,8 @@ void	ft_div_mod(int a, int b, int *div, int *mod)
 	*mod = a % b;
 }
 /*
-#includes <stdio.h>
-#includes <stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 int	main(int ac, char **av)
 {

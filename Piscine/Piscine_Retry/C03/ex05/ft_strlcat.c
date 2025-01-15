@@ -41,8 +41,8 @@ unsigned int	ft_strlcat(char *dest, char *src, unsigned int size)
 	return (d_len + s_len);
 }
 /*
-#includes <stdio.h>
-#includes <stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 int	main(int ac, char **av)
 {

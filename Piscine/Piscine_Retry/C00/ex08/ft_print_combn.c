@@ -40,7 +40,7 @@ void	ft_print_combn(int n)
 		ft_combn_recurive(n, '0', buf, 0);
 }
 /*
-#includes <stdlib.h>
+#include <stdlib.h>
 
 int	main(int ac, char **av)
 {

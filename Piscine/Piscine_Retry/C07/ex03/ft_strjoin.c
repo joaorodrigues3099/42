@@ -74,7 +74,7 @@ char	*ft_strjoin(int size, char **strs, char *sep)
 	return (strjoin);
 }
 /*
-#includes <stdio.h>
+#include <stdio.h>
 
 int	main(int ac, char **av)
 {

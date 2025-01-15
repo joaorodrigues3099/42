@@ -24,8 +24,8 @@ t_list	*ft_list_last(t_list *begin_list)
 	return (current);
 }
 /*
-#includes <stdio.h>
-#includes <stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 t_list	*ft_create_elem(void *data)
 {

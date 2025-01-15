@@ -40,10 +40,10 @@ $(NAME): $(OBJS)
 # -------------------------------------------------------------------------------------------------------------------------
 
 # -------------------------------------------------------------------------------------------------------------------------
-# This rule converts .c files to .o files using specified flags and includes
+# This rule converts .c files to .o files using specified flags and include
 %.o: %.c
 	$(CC) $(CFLAGS) -c $< -o $@ $(INCS)
-# When running the program, this will execute something like: 'cc -Wall -Werror -Wextra -c srcs -o objs -I ./'
+# When running the program, this will execute something like: 'cc -Wall -Werror -Wextra -c src -o objs -I ./'
 # -------------------------------------------------------------------------------------------------------------------------
 
 # --------------------------------------

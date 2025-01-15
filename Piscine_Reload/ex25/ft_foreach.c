@@ -19,8 +19,8 @@ void	ft_foreach(int *tab, int lenght, void (*f)(int))
 		(*f)(tab[i++]);
 }
 /*
-#includes <stdio.h>
-#includes <stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 void	ft_print(int nb)
 {

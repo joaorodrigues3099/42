@@ -38,8 +38,8 @@ void	ft_putnbr(int nb)
 		ft_putchar('0' + nb);
 }
 /*
-#includes <string.h>
-#includes <stdlib.h>
+#include <string.h>
+#include <stdlib.h>
 
 int	main(int ac, char **av)
 {

@@ -30,8 +30,8 @@ int	ft_is_sort(int *tab, int lenght, int (*f)(int, int))
 	return (1);
 }
 /*
-#includes <stdio.h>
-#includes <stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 int	ft_intcmp(int n1, int n2)
 {

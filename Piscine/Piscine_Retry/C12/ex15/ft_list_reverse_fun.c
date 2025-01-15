@@ -32,8 +32,8 @@ void	ft_list_reverse_fun(t_list *begin_list)
 	begin_list = previous;
 }
 /*
-#includes <stdio.h>
-#includes <stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 t_list	*ft_create_elem(void *data)
 {

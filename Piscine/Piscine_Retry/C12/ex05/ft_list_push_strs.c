@@ -32,7 +32,7 @@ t_list	*ft_list_push_strs(int size, char **strs)
 	return (head);
 }
 /*
-#includes <stdio.h>
+#include <stdio.h>
 
 void	ft_print_node(t_list *header)
 {

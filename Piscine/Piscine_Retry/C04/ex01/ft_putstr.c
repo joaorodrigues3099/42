@@ -18,7 +18,7 @@ void	ft_putstr(char *str)
 		write(1, str++, 1);
 }
 /*
-#includes <string.h>
+#include <string.h>
 
 int	main(int ac, char **av)
 {

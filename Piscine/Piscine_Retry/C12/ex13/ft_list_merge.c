@@ -29,8 +29,8 @@ void	ft_list_merge(t_list **begin_list1, t_list *begin_list2)
 	current->next = begin_list2;
 }
 /*
-#includes <stdio.h>
-#includes <stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 t_list	*ft_create_elem(void *data)
 {

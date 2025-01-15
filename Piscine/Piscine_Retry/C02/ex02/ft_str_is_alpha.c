@@ -24,7 +24,7 @@ int	ft_str_is_alpha(char *str)
 	return (res);
 }
 /*
-#includes <stdio.h>
+#include <stdio.h>
 
 int	main(int ac, char **av)
 {

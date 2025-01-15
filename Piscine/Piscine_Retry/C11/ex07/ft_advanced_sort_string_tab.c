@@ -48,8 +48,8 @@ int	ft_strcmp(char *s1, char *s2)
 	return (*s1 - *s2);
 }
 
-#includes <stdio.h>
-#includes <stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 int	main(int ac, char **av)
 {

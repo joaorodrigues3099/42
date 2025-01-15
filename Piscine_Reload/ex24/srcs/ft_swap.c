@@ -19,8 +19,8 @@ void	ft_swap(int *a, int *b)
 	*b = c;
 }
 /*
-#includes <stdio.h>
-#includes <stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 int	main(int ac, char **av)
 {

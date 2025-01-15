@@ -25,8 +25,8 @@ void	ft_rev_int_tab(int *tab, int size)
 	}
 }
 /*
-#includes <stdlib.h>
-#includes <stdio.h>
+#include <stdlib.h>
+#include <stdio.h>
 
 int	main(int ac, char **av)
 {

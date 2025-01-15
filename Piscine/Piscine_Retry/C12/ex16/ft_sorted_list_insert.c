@@ -40,8 +40,8 @@ void	ft_sorted_list_insert(t_list **begin_list, void *data, int (*cmp)())
 	new_elem->next = current;
 }
 /*
-#includes <stdio.h>
-#includes <stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 t_list	*ft_list_push_strs(int size, char **strs)
 {

@@ -121,7 +121,7 @@ char	*ft_convert_base(char *nbr, char *base_from, char *base_to)
 	return (result);
 }
 /*
-#includes <stdio.h>
+#include <stdio.h>
 
 int	main(int ac, char **av)
 {

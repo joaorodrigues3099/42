@@ -33,7 +33,7 @@ int	main(void)
 
 	s1 = "banana";
 	s2 = "banana";
-	#includes <stdio.h>
+	#include <stdio.h>
 	printf("String 1: %s\n", s1);
 	printf("String 2: %s\n", s2);
 	printf("stringcmp: %d", ft_strcmp(s1, s2));

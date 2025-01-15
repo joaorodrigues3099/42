@@ -77,7 +77,7 @@ int	ft_atoi_base(char *str, char *base)
 	return (nb * sign);
 }
 /*
-#includes <stdio.h>
+#include <stdio.h>
 
 int	main(int ac, char **av)
 {

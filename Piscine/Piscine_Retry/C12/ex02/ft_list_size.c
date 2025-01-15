@@ -27,8 +27,8 @@ int	ft_list_size(t_list *begin_list)
 	return (i);
 }
 /*
-#includes <stdio.h>
-#includes <stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 t_list	*ft_create_elem(void *data)
 {

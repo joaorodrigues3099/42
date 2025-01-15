@@ -35,7 +35,7 @@ int	ft_is_numeric(char *str)
 	return (1);
 }
 
-#includes <stdio.h>
+#include <stdio.h>
 
 int	main(int ac, char **av)
 {

@@ -42,8 +42,8 @@ void	ft_list_remove_if(t_list **begin_list, void *data_ref, int (*cmp)(),
 	}
 }
 /*
-#includes <stdio.h>
-#includes <string.h>
+#include <stdio.h>
+#include <string.h>
 
 t_list	*ft_create_elem(void *data)
 {

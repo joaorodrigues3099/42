@@ -105,7 +105,7 @@ $(NAME): $(OBJS)
 # Default target, builds the library
 all: $(NAME)
 
-# Bonus target, includes additional linked list functions
+# Bonus target, include additional linked list functions
 bonus: $(OBJS) $(BONUS_OBJS)
 	@echo "$(PINK)Adding bonus files to $(NAME)...$(RESET)"
 	$(LIBC) $@ $^

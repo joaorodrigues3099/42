@@ -39,8 +39,8 @@ unsigned int	ft_strlcpy(char *dest, char *src, unsigned int size)
 	return (slen);
 }
 /*
-#includes <stdio.h>
-#includes <stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 int	main(int ac, char **av)
 {

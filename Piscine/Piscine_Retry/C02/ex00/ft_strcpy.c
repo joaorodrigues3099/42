@@ -21,8 +21,8 @@ char	*ft_strcpy(char *dest, char *src)
 	return (dest);
 }
 /*
-#includes <stdio.h>
-#includes <stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 int	main(int ac, char **av)
 {

@@ -10,8 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-//#includes <stdlib.h>
-//#includes <stdio.h>
+//#include <stdlib.h>
+//#include <stdio.h>
 
 int	ft_divider(int nb, int divider)
 {

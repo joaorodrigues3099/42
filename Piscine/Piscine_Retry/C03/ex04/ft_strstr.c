@@ -29,7 +29,7 @@ char	*ft_strstr(char *src, char *to_find)
 	return (0);
 }
 /*
-#includes <stdio.h>
+#include <stdio.h>
 
 int	main(int ac, char **av)
 {

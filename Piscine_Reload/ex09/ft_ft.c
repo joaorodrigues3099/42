@@ -15,8 +15,8 @@ void	ft_ft(int *nbr)
 	*nbr = 42;
 }
 /*
-#includes <stdio.h>
-#includes <stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 int	main(int ac, char **av)
 {

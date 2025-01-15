@@ -63,8 +63,8 @@ void	ft_sorted_list_merge(t_list **begin_list1, t_list *begin_list2,
 	return (*s1 - *s2);
 }
 
-#includes <stdio.h>
-#includes <stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 t_list	*ft_create_elem(void *data)
 {

@@ -8,7 +8,7 @@
 #──────────────────────────────────── Bases ─────────────────────────────────────
 NAME		= so_long
 CC         	= cc
-CFLAGS     	= -Wall -Werror -Wextra -g
+CFLAGS     	= -Wall -Werror -Wextra -g -fPIE
 RM         	= rm -rf
 
 #─────────────────────────────────── Mlx Files ───────────────────────────────────
@@ -20,37 +20,95 @@ MLX_ADD		= -L$(MLX_DIR) -lmlx -L/usr/lib/X11 -lXext -lX11
 #────────────────────────────────── MyLib Files ──────────────────────────────────
 MYLIB_DIR	= $(LIBS_DIR)/mylib
 MYLIB		= $(MYLIB_DIR)/libmylib.a
-MYLIB_INCS	= -I$(MYLIB_DIR)/includes
-MYLIB_ADD	= -L$(MYLIB_DIR) -lft
+MYLIB_INCS	= -I$(MYLIB_DIR)/include
+MYLIB_ADD	= -L$(MYLIB_DIR) -lmylib
 
 #────────────────────────────────── Main Files ───────────────────────────────────
-SRCS 		= main.c
-INCS		= $(MLX_INCS) $(MYLIB_INCS)
+SRCS_DIR	= src
+SRCS 		= $(SRCS_DIR)/main/main.c \
+			  $(SRCS_DIR)/graphic/sprites.c \
+			  $(SRCS_DIR)/graphic/window.c \
+			  $(SRCS_DIR)/graphic/keys.c \
+			  $(SRCS_DIR)/error/print_error.c \
+			  $(SRCS_DIR)/map/get_map.c \
+			  $(SRCS_DIR)/map/parse_map.c
+
+INCS		= $(MLX_INCS) $(MYLIB_INCS) -Iinclude
 LIBS_DIR	= libs
 OBJS_DIR	= .objs
 OBJS		= $(SRCS:%.c=$(OBJS_DIR)/%.o)
 
 #────────────────────────────────── MFA Files ────────────────────────────────────
-mfa_dir			= $(OBJS_DIR)/makefile
-mfa_header		= $(mfa_dir)/mfa_header
-mfa_h_len		= 49
-debug_on		= .debug_on
+mfa_dir				= $(OBJS_DIR)/makefile
+mfa_header			= $(mfa_dir)/mfa_header
+mfa_name_compiling	= $(mfa_dir)/mfa_name_compiling
+mfa_h_len			= 49
+debug_on			= .debug_on
 
 #─────────────────────────────────── Main Rules ──────────────────────────────────
-all: $(mfa_header) $(MLX) $(MYLIB)
+all: $(mfa_header) $(MLX) $(MYLIB) $(NAME)
 
-$(NAME): $(mfa_namegen) $(OBJS)
-	$(CC) $(CFLAGS) $(OBJS) -o $@ $(MLX_ADD) $(MYLIB_ADD)
+$(NAME): $(mfa_name_compiling) $(OBJS)
+	@if [ -f "$(debug_on)" ]; then \
+		echo "$(CC) $(CFLAGS) $(OBJS) -o $@ $(MLX_ADD) $(MYLIB_ADD)"; \
+		$(CC) $(CFLAGS) $(OBJS) -o $@ $(MLX_ADD) $(MYLIB_ADD); \
+	else \
+		$(CC) $(CFLAGS) $(OBJS) -o $@ $(MLX_ADD) $(MYLIB_ADD); \
+		make mfa_object mfa_name="$(green)>>> $(reset)$(NAME)" mfa_symbol="$(green)[✔]" --no-print-directory; \
+	fi
+	@make mfa_success --no-print-directory
 
 $(OBJS_DIR)/%.o: %.c
-	mkdir -p $(dir $@)
-	$(CC) $(CFLAGS) -c $< -o $@ $(INCS)
+	@if [ -f "$(debug_on)" ]; then \
+    		echo "mkdir -p $(dir $@)"; \
+      		mkdir -p $(dir $@); \
+      		echo "$(CC) $(CFLAGS) -c $< -o $@ $(INCS)"; \
+    		$(CC) $(CFLAGS) -c $< -o $@ $(INCS); \
+    	else \
+    		mkdir -p $(dir $@); \
+    		$(CC) $(CFLAGS) -c $< -o $@ $(INCS); \
+    		make mfa_object mfa_name="$(notdir $@)" mfa_symbol="$(green)[✔]" --no-print-directory; \
+    	fi
 
 clean: mlx_clean mylib_clean
-	$(RM) $(OBJS_DIR)
+	@printf "\n"
+	@make mfa_removing mfa_name="$(NAME)" --no-print-directory
+	@if [ -f "$(debug_on)" ]; then \
+		echo "$(RM) $(OBJS_DIR)"; \
+		$(RM) $(OBJS_DIR); \
+	else \
+		if [ -d "$(OBJS_DIR)" ]; then \
+			$(RM) $(OBJS_DIR); \
+			make mfa_object mfa_name="$(NAME) objects" mfa_symbol="$(pink)[✔]" --no-print-directory; \
+		else \
+			printf "Nothing to be removed\n"; \
+		fi; \
+	fi
+	@make mfa_success --no-print-directory
 
 fclean: mlx_clean mylib_fclean
-	@$(RM) $(OBJS_DIR)
+	@printf "\n"
+	@make mfa_removing mfa_name="$(NAME)" --no-print-directory
+	@if [ -f "$(debug_on)" ]; then \
+		echo "$(RM) $(OBJS_DIR)"; \
+		$(RM) $(OBJS_DIR); \
+		echo "$(RM) $(NAME)"; \
+		$(RM) $(NAME); \
+	else \
+		if [ -f "$(NAME)" ] || [ -d "$(OBJS_DIR)" ]; then \
+			if [ -d "$(OBJS_DIR)" ]; then \
+				$(RM) $(OBJS_DIR); \
+				make mfa_object mfa_name="$(NAME) objects" mfa_symbol="$(pink)[✔]" --no-print-directory; \
+			fi; \
+			if [ -f "$(NAME)" ]; then \
+				$(RM) $(NAME); \
+				make mfa_object mfa_name="$(green)>>> $(reset)$(NAME)" mfa_symbol="$(pink)[✔]" --no-print-directory; \
+			fi; \
+		else \
+			printf "Nothing to be removed\n"; \
+		fi; \
+	fi
+	@make mfa_success --no-print-directory
 
 re: fclean all
 
@@ -62,8 +120,8 @@ $(MLX):
 		make -C $(MLX_DIR) all V=1; \
 	else \
 		make -C $(MLX_DIR) all --no-print-directory > /dev/null 2>&1; \
-		make mfa_object mfa_name="libmlx.a" mfa_symbol="$(green)[✔]" --no-print-directory; \
-		make mfa_object mfa_name="libmlx_Linux.a" mfa_symbol="$(green)[✔]" --no-print-directory; \
+		make mfa_object mfa_name="$(green)>>> $(reset)libmlx.a" mfa_symbol="$(green)[✔]" --no-print-directory; \
+		make mfa_object mfa_name="$(green)>>> $(reset)libmlx_Linux.a" mfa_symbol="$(green)[✔]" --no-print-directory; \
 	fi
 	@make mfa_success --no-print-directory; \
 
@@ -75,9 +133,9 @@ mlx_clean:
 	else \
 		if [ -f "$(MLX)" ]; then \
 			make -C $(MLX_DIR) clean --no-print-directory > /dev/null 2>&1; \
-			make mfa_object mfa_name="mlx objects" mfa_symbol="$(green)[✖]" --no-print-directory; \
-			make mfa_object mfa_name="libmlx.a" mfa_symbol="$(green)[✖]" --no-print-directory; \
-			make mfa_object mfa_name="libmlx_Linux.a" mfa_symbol="$(green)[✖]" --no-print-directory; \
+			make mfa_object mfa_name="mlx objects" mfa_symbol="$(pink)[✔]" --no-print-directory; \
+			make mfa_object mfa_name="$(green)>>> $(reset)libmlx.a" mfa_symbol="$(pink)[✔]" --no-print-directory; \
+			make mfa_object mfa_name="$(green)>>> $(reset)libmlx_Linux.a" mfa_symbol="$(pink)[✔]" --no-print-directory; \
 		else \
 			printf "Nothing to be removed\n"; \
 		fi; \
@@ -86,43 +144,30 @@ mlx_clean:
 
 #────────────────────────────────── MyLib Rules ────────────────────────────────────
 $(MYLIB):
-	@printf "\n"
-	@make mfa_compiling mfa_name="mylib" --no-print-directory
 	@if [ -f "$(debug_on)" ]; then \
 		make -C $(MYLIB_DIR) all V=1; \
 	else \
 		make -C $(MYLIB_DIR) all --no-print-directory; \
-		make mfa_object mfa_name="libmylib.a" mfa_symbol="$(green)[✔]" --no-print-directory; \
 	fi
-	@make mfa_success --no-print-directory; \
 
 mylib_clean:
-	@printf "\n"
-	@make mfa_removing mfa_name="mylib" --no-print-directory
 	@if [ -f "$(debug_on)" ]; then \
+  		echo "-C $(MYLIB_DIR) clean"; \
 		make -C $(MYLIB_DIR) clean; \
 	else \
-		if [ -f "$(MYLIB_DIR)/.objs" ]; then \
-			make -C $(MYLIB_DIR) clean --no-print-directory > /dev/null 2>&1; \
-		else \
-			printf "Nothing to be removed\n"; \
-		fi; \
+		make -C $(MYLIB_DIR) clean --no-print-directory; \
 	fi
-	@make mfa_success --no-print-directory; \
 
 mylib_fclean:
-	@printf "\n"
-	@make mfa_removing mfa_name="mylib" --no-print-directory
 	@if [ -f "$(debug_on)" ]; then \
 		make -C $(MYLIB_DIR) fclean; \
 	else \
-		if [ -f "$(MYLIB_DIR)/.objs" ]; then \
-			make -C $(MYLIB_DIR) clean --no-print-directory > /dev/null 2>&1; \
+		if [ -d "$(MYLIB_DIR)/.objs" ] || [ -f "$(MYLIB)" ]; then \
+			make -C $(MYLIB_DIR) fclean --no-print-directory; \
 		else \
 			printf "Nothing to be removed\n"; \
 		fi; \
 	fi
-	@make mfa_success --no-print-directory; \
 
 #─────────────────────────────────── Color Codes ───────────────────────────────────
 yellow 	= \033[1m\033[38;2;255;248;147m
@@ -146,11 +191,18 @@ $(mfa_header):
 	@printf "                             /___/   by joao-alm$(reset)\n"
 	@touch $(mfa_header)
 
+$(mfa_name_compiling):
+	@mkdir -p $(OBJS_DIR)
+	@mkdir -p $(mfa_dir)
+	@printf "\n"
+	@make mfa_line_message mfa_name1="$(yellow)Compiling [$(NAME)] /" mfa_name2="$(reset)\\n" mfa_line="─" --no-print-directory
+	@touch $(mfa_name_compiling)
+
 mfa_compiling:
 	@make mfa_line_message mfa_name1="$(yellow)Compiling [$(mfa_name)] /" mfa_name2="$(reset)\\n" mfa_line="─" --no-print-directory
 
 mfa_object:
-	@make mfa_line_message mfa_name1="$(green)>>> $(reset)$(mfa_name)" mfa_name2="$(mfa_symbol)$(reset)\\n" mfa_line=" " --no-print-directory
+	@make mfa_line_message mfa_name1="$(mfa_name)" mfa_name2="$(mfa_symbol)$(reset)\\n" mfa_line=" " --no-print-directory
 
 mfa_removing:
 	@make mfa_line_message mfa_name1="$(pink)Removing [$(mfa_name)] /" mfa_name2="$(reset)\\n" mfa_line="─" --no-print-directory

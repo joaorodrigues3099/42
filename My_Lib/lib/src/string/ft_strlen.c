@@ -1,32 +1,32 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlen.c                                        :+:      :+:    :+:   */
+/*   strlen.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: joao-alm <joao-alm@student.42luxembourg    +#+  +:+       +#+        */
+/*   By: joao-alm <joao-alm@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/14 16:28:16 by joao-alm          #+#    #+#             */
-/*   Updated: 2024/10/14 16:32:15 by joao-alm         ###   ########.fr       */
+/*   Created: 2024/10/18 15:50:01 by joao-alm          #+#    #+#             */
+/*   Updated: 2024/10/18 15:50:05 by joao-alm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_strlen(char *str)
+#include "lib_string.h"
+
+/**
+ * Counts the length of the given string.
+ *
+ * @param s String to get size of
+ * @return Returns string size or
+ * seg fault if the pointer is null
+ */
+size_t	ft_strlen(const char *s)
 {
-	int	i;
+	size_t	i;
 
 	i = 0;
-	while (str[i])
+	if (!s)
+		return (0);
+	while (s[i] != '\0')
 		i++;
 	return (i);
 }
-/*
-#include <stdio.h>
-
-int	main(int ac, char **av)
-{
-	if (ac != 2)
-		return (1);
-	printf("strlen: %d\n", ft_strlen(av[1]));
-	return (0);
-}
-*/

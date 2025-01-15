@@ -30,7 +30,7 @@ int	ft_ultimate_range(int **range, int min, int max)
 	return (i);
 }
 /*
-#includes <stdio.h>
+#include <stdio.h>
 
 int	main(int ac, char **av)
 {

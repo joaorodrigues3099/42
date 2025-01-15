@@ -61,8 +61,8 @@ void	btree_apply_by_level(t_btree *root, void (*applyf)(void *item,
 	}
 }
 /*
-#includes <stdio.h>
-#includes <stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 void	ft_print_level(void *item, int current_level, int is_first)
 {

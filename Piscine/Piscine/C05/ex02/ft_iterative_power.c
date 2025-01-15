@@ -10,8 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-//#includes <stdio.h>
-//#includes <stdlib.h>
+//#include <stdio.h>
+//#include <stdlib.h>
 
 int	ft_iterative_power(int nb, int power)
 {

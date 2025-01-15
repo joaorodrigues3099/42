@@ -25,7 +25,7 @@ t_list	*ft_create_elem(void *data)
 	return (element);
 }
 /*
-#includes <stdio.h>
+#include <stdio.h>
 
 int	main(int ac, char **av)
 {

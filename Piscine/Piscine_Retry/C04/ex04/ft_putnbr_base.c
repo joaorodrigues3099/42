@@ -68,9 +68,9 @@ void	ft_putnbr_base(int nb, char *base)
 	ft_putchar(base[nb % len]);
 }
 /*
-#includes <stdio.h>
-#includes <stdlib.h>
-#includes <string.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 int	main(int ac, char **av)
 {

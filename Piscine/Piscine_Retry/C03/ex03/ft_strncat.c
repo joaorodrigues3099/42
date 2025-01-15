@@ -26,9 +26,9 @@ char	*ft_strncat(char *dest, char *src, unsigned int nb)
 	return (dest);
 }
 /*
-#includes <stdio.h>
-#includes <stdlib.h>
-#includes <string.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 int	main(int ac, char **av)
 {

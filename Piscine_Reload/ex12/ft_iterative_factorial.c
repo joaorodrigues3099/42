@@ -22,8 +22,8 @@ int	ft_iterative_factorial(int nb)
 	return (result);
 }
 /*
-#includes <stdio.h>
-#includes <stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 int	main(int ac, char **av)
 {

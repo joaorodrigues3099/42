@@ -8,10 +8,11 @@ set(CMAKE_C_STANDARD 11)
 include_directories(
 		so_long/libs/mlx
 		so_long/libs/mylib/include
+		so_long/include
 )
 
 add_executable(So_Long
-		so_long/main.c
+		so_long/src/main/main.c
 		so_long/Makefile
 		so_long/libs/mlx/Makefile
 		so_long/libs/mlx/mlx.h
@@ -49,46 +50,11 @@ add_executable(So_Long
 		so_long/libs/mlx/mlx_set_font.c
 		so_long/libs/mlx/mlx_string_put.c
 		so_long/libs/mlx/mlx_xpm.c
-		so_long/libs/mylib/src/print/ft_printf.c
-		so_long/libs/mylib/src/print/print_error.c
-		so_long/libs/mylib/src/print/put_characters.c
-		so_long/libs/mylib/src/print/put_numbers.c
-		so_long/libs/mylib/src/char/ft_isalnum.c
-		so_long/libs/mylib/src/char/ft_isalpha.c
-		so_long/libs/mylib/src/char/ft_isascii.c
-		so_long/libs/mylib/src/char/ft_isdigit.c
-		so_long/libs/mylib/src/char/ft_isprint.c
-		so_long/libs/mylib/src/conversion/atoll_valid.c
-		so_long/libs/mylib/src/conversion/ft_atoi.c
-		so_long/libs/mylib/src/conversion/ft_itoa.c
-		so_long/libs/mylib/src/conversion/ft_tolower.c
-		so_long/libs/mylib/src/conversion/ft_toupper.c
-		so_long/libs/mylib/src/gnl/get_next_line.c
-		so_long/libs/mylib/src/gnl/get_next_line_utils.c
-		so_long/libs/mylib/src/list/ft_lstadd_back_bonus.c
-		so_long/libs/mylib/src/list/ft_lstadd_front_bonus.c
-		so_long/libs/mylib/src/list/ft_lstclear_bonus.c
-		so_long/libs/mylib/src/list/ft_lstdelone_bonus.c
-		so_long/libs/mylib/src/list/ft_lstiter_bonus.c
-		so_long/libs/mylib/src/list/ft_lstlast_bonus.c
-		so_long/libs/mylib/src/list/ft_lstmap_bonus.c
-		so_long/libs/mylib/src/list/ft_lstnew_bonus.c
-		so_long/libs/mylib/src/list/ft_lstsize_bonus.c
-		so_long/libs/mylib/src/list/lstdel_safely.c
-		so_long/libs/mylib/src/list/lstdetach.c
-		so_long/libs/mylib/src/list/lstdup.c
-		so_long/libs/mylib/src/list/lstget_int.c
-		so_long/libs/mylib/src/list/lstnew_int.c
-		so_long/libs/mylib/src/memory/free_matrix.c
-		so_long/libs/mylib/src/memory/ft_bzero.c
-		so_long/libs/mylib/src/memory/ft_calloc.c
-		so_long/libs/mylib/src/memory/ft_memchr.c
-		so_long/libs/mylib/src/memory/ft_memcmp.c
-		so_long/libs/mylib/src/memory/ft_memcpy.c
-		so_long/libs/mylib/src/memory/ft_memmove.c
-		so_long/libs/mylib/src/memory/ft_memset.c
-		so_long/libs/mylib/src/memory/realloc.c
-		so_long/libs/mylib/src/memory/sort_tab.c
+		so_long/src/map/get_map.c
+		so_long/src/graphic/window.c
+		so_long/include/so_long.h
+		so_long/include/error_codes.h
+		so_long/src/error/print_error.c
 		so_long/libs/mylib/src/string/ft_split.c
 		so_long/libs/mylib/src/string/ft_strchr.c
 		so_long/libs/mylib/src/string/ft_strdup.c
@@ -104,12 +70,21 @@ add_executable(So_Long
 		so_long/libs/mylib/src/string/ft_strtrim.c
 		so_long/libs/mylib/src/string/ft_substr.c
 		so_long/libs/mylib/src/string/strcpy.c
-		so_long/libs/mylib/Makefile
-		so_long/libs/mylib/include/lib_char.h
-		so_long/libs/mylib/include/lib_conversion.h
-		so_long/libs/mylib/include/lib_gnl.h
-		so_long/libs/mylib/include/lib_list.h
-		so_long/libs/mylib/include/lib_memory.h
-		so_long/libs/mylib/include/lib_print.h
-		so_long/libs/mylib/include/lib_string.h
+		so_long/libs/mylib/src/list/ft_lstadd_back_bonus.c
+		so_long/libs/mylib/src/list/ft_lstadd_front_bonus.c
+		so_long/libs/mylib/src/list/ft_lstclear_bonus.c
+		so_long/libs/mylib/src/list/ft_lstdelone_bonus.c
+		so_long/libs/mylib/src/list/ft_lstiter_bonus.c
+		so_long/libs/mylib/src/list/ft_lstlast_bonus.c
+		so_long/libs/mylib/src/list/ft_lstmap_bonus.c
+		so_long/libs/mylib/src/list/ft_lstnew_bonus.c
+		so_long/libs/mylib/src/list/ft_lstsize_bonus.c
+		so_long/libs/mylib/src/list/lstdel_safely.c
+		so_long/libs/mylib/src/list/lstdetach.c
+		so_long/libs/mylib/src/list/lstdup.c
+		so_long/libs/mylib/src/list/lstget_int.c
+		so_long/libs/mylib/src/list/lstnew_int.c
+		so_long/src/map/parse_map.c
+		so_long/src/graphic/sprites.c
+		so_long/src/graphic/keys.c
 )

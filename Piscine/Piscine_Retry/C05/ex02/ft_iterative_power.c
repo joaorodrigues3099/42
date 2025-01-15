@@ -26,8 +26,8 @@ int	ft_iterative_power(int nb, int power)
 	return (res);
 }
 /*
-#includes <stdio.h>
-#includes <stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 int	main(int ac, char **av)
 {

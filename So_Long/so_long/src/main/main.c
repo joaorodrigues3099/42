@@ -1,40 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_sqrt.c                                          :+:      :+:    :+:   */
+/*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: joao-alm <joao-alm@student.42luxembourg    +#+  +:+       +#+        */
+/*   By: joao-alm <joao-alm@student.42luxembourg.>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/14 14:30:13 by joao-alm          #+#    #+#             */
-/*   Updated: 2024/10/14 15:20:58 by joao-alm         ###   ########.fr       */
+/*   Created: 2025/01/08 17:33:58 by joao-alm          #+#    #+#             */
+/*   Updated: 2025/01/15 18:15:59 by joao-alm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_sqrt(int nb)
-{
-	int	sqrt;
+#include <lib_print.h>
+#include <stddef.h>
 
-	sqrt = 1;
-	if (nb > 0)
-	{
-		while (sqrt <= nb / sqrt && sqrt <= 46340)
-		{
-			if (sqrt * sqrt == nb)
-				return (sqrt);
-			sqrt++;
-		}
-	}
-	return (0);
-}
-/*
-#include <stdio.h>
-#include <stdlib.h>
+#include "error_codes.h"
+#include "so_long.h"
 
 int	main(int ac, char **av)
 {
+	t_game	game;
+
 	if (ac != 2)
-		return (1);
-	printf("sqrt: %d\n", ft_sqrt(atoi(av[1])));
+		return (ft_print_error(E_INVALID_FORMAT));
+	ft_handle_map(&game.map, av[1]);
+	ft_printf("Valid map!\n");
+	ft_window(&game);
 	return (0);
 }
-*/

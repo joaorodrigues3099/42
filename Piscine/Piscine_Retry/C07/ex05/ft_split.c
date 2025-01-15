@@ -99,7 +99,7 @@ char	**ft_split(char *str, char *charset)
 	return (split);
 }
 /*
-#includes <stdio.h>
+#include <stdio.h>
 
 int	main(void)
 {

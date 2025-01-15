@@ -34,9 +34,9 @@ int	ft_atoi(char *str)
 	return (res * sign);
 }
 /*
-#includes <unistd.h>
-#includes <string.h>
-#includes <stdio.h>
+#include <unistd.h>
+#include <string.h>
+#include <stdio.h>
 
 int	main(int ac, char **av)
 {

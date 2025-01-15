@@ -47,7 +47,7 @@ char	*ft_strcapitalize(char *str)
 	return (str);
 }
 /*
-#includes <stdio.h>
+#include <stdio.h>
 
 int	main(int ac, char **av)
 {

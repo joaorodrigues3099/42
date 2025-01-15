@@ -53,7 +53,7 @@ int	main(void)
 {
 	char	*str = "World";
 	char	dest[] = "Hello ";
-#includes <stdio.h>
+#include <stdio.h>
 	printf("function: %d\n", ft_strlcat(dest, str, 10));
 	printf("dets: %s\n", dest);
 }

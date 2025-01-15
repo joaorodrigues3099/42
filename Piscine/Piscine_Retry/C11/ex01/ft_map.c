@@ -29,7 +29,7 @@ int	*ft_map(int *tab, int lenght, int (*f)(int))
 	return (result);
 }
 /*
-# includes <stdio.h>
+# include <stdio.h>
 
 int	ft_times_ten(int nb)
 {
