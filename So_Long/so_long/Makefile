@@ -41,12 +41,13 @@ OBJS		= $(SRCS:%.c=$(OBJS_DIR)/%.o)
 #────────────────────────────────── MFA Files ────────────────────────────────────
 mfa_dir				= $(OBJS_DIR)/makefile
 mfa_header			= $(mfa_dir)/mfa_header
+mfa_footer			= $(mfa_dir)/mfa_footer
 mfa_name_compiling	= $(mfa_dir)/mfa_name_compiling
 mfa_h_len			= 71
 debug_on			= .debug_on
 
 #─────────────────────────────────── Main Rules ──────────────────────────────────
-all: $(mfa_header) $(MLX) $(MYLIB) $(NAME)
+all: $(mfa_header) $(MLX) $(MYLIB) $(NAME) $(mfa_footer)
 
 $(NAME): $(mfa_name_compiling) $(OBJS)
 	@if [ -f "$(debug_on)" ]; then \
@@ -70,7 +71,7 @@ $(OBJS_DIR)/%.o: %.c
     		make mfa_object mfa_name="$(notdir $@)" mfa_symbol="$(green)[✔]" --no-print-directory; \
     	fi
 
-clean: mlx_clean mylib_clean
+clean: mfa_clean_header mlx_clean mylib_clean
 	@printf "\n"
 	@make mfa_removing mfa_name="$(NAME)" --no-print-directory
 	@if [ -f "$(debug_on)" ]; then \
@@ -85,8 +86,9 @@ clean: mlx_clean mylib_clean
 		fi; \
 	fi
 	@make mfa_success --no-print-directory
+	@make mfa_clean_header --no-print-directory
 
-fclean: mlx_clean mylib_fclean
+fclean: mfa_clean_header mlx_clean mylib_fclean
 	@printf "\n"
 	@make mfa_removing mfa_name="$(NAME)" --no-print-directory
 	@if [ -f "$(debug_on)" ]; then \
@@ -109,6 +111,7 @@ fclean: mlx_clean mylib_fclean
 		fi; \
 	fi
 	@make mfa_success --no-print-directory
+	@make mfa_clean_header --no-print-directory
 
 re: fclean all
 
@@ -145,28 +148,24 @@ mlx_clean:
 #────────────────────────────────── MyLib Rules ────────────────────────────────────
 $(MYLIB):
 	@if [ -f "$(debug_on)" ]; then \
-		make -C $(MYLIB_DIR) all V=1; \
+		make -C $(MYLIB_DIR) all mfa_h_len=$(mfa_h_len) V=1; \
 	else \
-		make -C $(MYLIB_DIR) all --no-print-directory; \
+		make -C $(MYLIB_DIR) all mfa_h_len=$(mfa_h_len) --no-print-directory; \
 	fi
 
 mylib_clean:
 	@if [ -f "$(debug_on)" ]; then \
   		echo "-C $(MYLIB_DIR) clean"; \
-		make -C $(MYLIB_DIR) clean; \
+		make -C $(MYLIB_DIR) clean mfa_h_len=$(mfa_h_len); \
 	else \
-		make -C $(MYLIB_DIR) clean --no-print-directory; \
+		make -C $(MYLIB_DIR) clean mfa_h_len=$(mfa_h_len) --no-print-directory; \
 	fi
 
 mylib_fclean:
 	@if [ -f "$(debug_on)" ]; then \
-		make -C $(MYLIB_DIR) fclean; \
+		make -C $(MYLIB_DIR) fclean mfa_h_len=$(mfa_h_len); \
 	else \
-		if [ -d "$(MYLIB_DIR)/.objs" ] || [ -f "$(MYLIB)" ]; then \
-			make -C $(MYLIB_DIR) fclean --no-print-directory; \
-		else \
-			printf "Nothing to be removed\n"; \
-		fi; \
+		make -C $(MYLIB_DIR) fclean mfa_h_len=$(mfa_h_len) --no-print-directory; \
 	fi
 
 #─────────────────────────────────── Color Codes ───────────────────────────────────
@@ -184,13 +183,32 @@ $(mfa_header):
 	@mkdir -p $(OBJS_DIR)
 	@mkdir -p $(mfa_dir)
 	@printf "$(yellow)\n"
-	@printf "███████╗ ██████╗       ██╗      ██████╗ ███╗   ██╗ ██████╗                    \n"
-	@printf "██╔════╝██╔═══██╗      ██║     ██╔═══██╗████╗  ██║██╔════╝                    \n"
-	@printf "███████╗██║   ██║      ██║     ██║   ██║██╔██╗ ██║██║  ███╗                   \n"
-	@printf "╚════██║██║   ██║      ██║     ██║   ██║██║╚██╗██║██║   ██║                   \n"
-	@printf "███████║╚██████╔╝█████╗███████╗╚██████╔╝██║ ╚████║╚██████╔╝                   \n"
-	@printf "╚══════╝ ╚═════╝ ╚════╝╚══════╝ ╚═════╝ ╚═╝  ╚═══╝ ╚═════╝ by joao-alm$(reset)\n"
+	@make mfa_line_message mfa_name2="\n" mfa_line="▓" --no-print-directory
+	@make mfa_line_message mfa_name2="\n" mfa_line="▒" --no-print-directory
+	@printf "                                                                      \n"
+	@printf "███████╗ ██████╗       ██╗      ██████╗ ███╗   ██╗ ██████╗            \n"
+	@printf "██╔════╝██╔═══██╗      ██║     ██╔═══██╗████╗  ██║██╔════╝            \n"
+	@printf "███████╗██║   ██║      ██║     ██║   ██║██╔██╗ ██║██║  ███╗           \n"
+	@printf "╚════██║██║   ██║      ██║     ██║   ██║██║╚██╗██║██║   ██║           \n"
+	@printf "███████║╚██████╔╝█████╗███████╗╚██████╔╝██║ ╚████║╚██████╔╝           \n"
+	@printf "╚══════╝ ╚═════╝ ╚════╝╚══════╝ ╚═════╝ ╚═╝  ╚═══╝ ╚═════╝ by joao-alm\n"
+	@printf "$(reset)"
 	@touch $(mfa_header)
+
+$(mfa_footer):
+	@mkdir -p $(OBJS_DIR)
+	@mkdir -p $(mfa_dir)
+	@printf "$(yellow)\n"
+	@make mfa_line_message mfa_name2="\n" mfa_line="▓" --no-print-directory
+	@make mfa_line_message mfa_name2="\n" mfa_line="▒" --no-print-directory
+	@printf "$(reset)\n"
+	@touch $(mfa_footer)
+
+mfa_clean_header:
+	@printf "$(pink)\n"
+	@make mfa_line_message mfa_name2="\n" mfa_line="▓" --no-print-directory
+	@make mfa_line_message mfa_name2="\n" mfa_line="▒" --no-print-directory
+	@printf "$(reset)"
 
 $(mfa_name_compiling):
 	@mkdir -p $(OBJS_DIR)

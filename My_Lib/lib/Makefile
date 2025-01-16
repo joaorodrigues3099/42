@@ -86,7 +86,7 @@ INCS			= -Iinclude
 OBJS_DIR		= .objs
 OBJS			= $(SRCS:%.c=$(OBJS_DIR)/%.o)
 
-mfa_h_len		= 71
+mfa_h_len		= 81
 yellow 			= \033[38;2;255;248;147m
 pink			= \033[1m\033[38;2;231;133;190m
 green			= \033[1m\033[38;2;129;223;164m
