@@ -42,7 +42,7 @@ OBJS		= $(SRCS:%.c=$(OBJS_DIR)/%.o)
 mfa_dir				= $(OBJS_DIR)/makefile
 mfa_header			= $(mfa_dir)/mfa_header
 mfa_name_compiling	= $(mfa_dir)/mfa_name_compiling
-mfa_h_len			= 49
+mfa_h_len			= 71
 debug_on			= .debug_on
 
 #─────────────────────────────────── Main Rules ──────────────────────────────────
@@ -184,11 +184,12 @@ $(mfa_header):
 	@mkdir -p $(OBJS_DIR)
 	@mkdir -p $(mfa_dir)
 	@printf "$(yellow)\n"
-	@printf "   ____        __                               \n"
-	@printf "  / __/ ___   / /  ___   ___   ___ _            \n"
-	@printf " _\ \  / _ \ / /__/ _ \ / _ \ / _ \`/           \n"
-	@printf "/___/  \___//____/\___//_//_/ \_, /             \n"
-	@printf "                             /___/   by joao-alm$(reset)\n"
+	@printf "███████╗ ██████╗       ██╗      ██████╗ ███╗   ██╗ ██████╗                    \n"
+	@printf "██╔════╝██╔═══██╗      ██║     ██╔═══██╗████╗  ██║██╔════╝                    \n"
+	@printf "███████╗██║   ██║      ██║     ██║   ██║██╔██╗ ██║██║  ███╗                   \n"
+	@printf "╚════██║██║   ██║      ██║     ██║   ██║██║╚██╗██║██║   ██║                   \n"
+	@printf "███████║╚██████╔╝█████╗███████╗╚██████╔╝██║ ╚████║╚██████╔╝                   \n"
+	@printf "╚══════╝ ╚═════╝ ╚════╝╚══════╝ ╚═════╝ ╚═╝  ╚═══╝ ╚═════╝ by joao-alm$(reset)\n"
 	@touch $(mfa_header)
 
 $(mfa_name_compiling):
