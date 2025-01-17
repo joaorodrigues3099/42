@@ -101,7 +101,7 @@ void	ft_handle_map(t_map *map, const char *filename)
 	ft_check_map_file(filename);
 	ft_file_to_map_matrix(filename, map);
 	ft_check_characters(map);
-	if (!ft_r_valid_path(duplicate_map(map->map), map->start.x, map->start.y,
+	if (!ft_r_valid_path(duplicate_map(map->map), map->player.x, map->player.y,
 		&(struct s_floodfill){map->n_collectibles, 0}))
 		exit(ft_print_error(E_OBSTRUCTED_PATH));
 }

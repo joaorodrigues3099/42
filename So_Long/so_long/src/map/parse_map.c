@@ -45,9 +45,9 @@ int ft_r_valid_path(char **map, int x, int y, struct s_floodfill *s_ffill)
 void	ft_init_info(t_map *map)
 {
 	map->n_collectibles = 0;
-	map->n_starts = 0;
-	map->start.x = 0;
-	map->start.y = 0;
+	map->n_players = 0;
+	map->player.x = 0;
+	map->player.y = 0;
 	map->n_exits = 0;
 }
 
@@ -58,10 +58,10 @@ void	ft_parse_character(char c, int x, int y, t_map *map)
 		exit (ft_print_error(E_MAP_NOT_SURROUNDED));
 	if (c == 'P')
 	{
-		map->start.x = x;
-		map->start.y = y;
-		map->n_starts++;
-		if (map->n_starts > 1)
+		map->player.x = x;
+		map->player.y = y;
+		map->n_players++;
+		if (map->n_players > 1)
 			exit (ft_print_error(E_MULTIPLE_STARTS));
 	}
 	else if (c == 'C')
@@ -89,7 +89,7 @@ void	ft_check_characters(t_map *map)
 		while (++x < (int)map->size.x)
 			ft_parse_character(map->map[y][x], x, y, map);
 	}
-	if (map->n_starts < 1)
+	if (map->n_players < 1)
 		exit (ft_print_error(E_NO_START));
 	if (map->n_collectibles < 1)
 		exit (ft_print_error(E_NO_COLLECTIBLE));

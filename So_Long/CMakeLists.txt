@@ -86,5 +86,6 @@ add_executable(So_Long
 		so_long/libs/mylib/src/list/lstnew_int.c
 		so_long/src/map/parse_map.c
 		so_long/src/graphic/sprites.c
-		so_long/src/graphic/keys.c
+		so_long/src/event/keys.c
+		so_long/src/event/move.c
 )

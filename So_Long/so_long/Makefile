@@ -26,9 +26,10 @@ MYLIB_ADD	= -L$(MYLIB_DIR) -lmylib
 #────────────────────────────────── Main Files ───────────────────────────────────
 SRCS_DIR	= src
 SRCS 		= $(SRCS_DIR)/main/main.c \
+			  $(SRCS_DIR)/event/keys.c \
+			  $(SRCS_DIR)/event/move.c \
 			  $(SRCS_DIR)/graphic/sprites.c \
 			  $(SRCS_DIR)/graphic/window.c \
-			  $(SRCS_DIR)/graphic/keys.c \
 			  $(SRCS_DIR)/error/print_error.c \
 			  $(SRCS_DIR)/map/get_map.c \
 			  $(SRCS_DIR)/map/parse_map.c
@@ -43,7 +44,7 @@ mfa_dir				= $(OBJS_DIR)/makefile
 mfa_header			= $(mfa_dir)/mfa_header
 mfa_footer			= $(mfa_dir)/mfa_footer
 mfa_name_compiling	= $(mfa_dir)/mfa_name_compiling
-mfa_h_len			= 71
+mfa_h_len			= 81
 debug_on			= .debug_on
 
 #─────────────────────────────────── Main Rules ──────────────────────────────────
@@ -185,13 +186,13 @@ $(mfa_header):
 	@printf "$(yellow)\n"
 	@make mfa_line_message mfa_name2="\n" mfa_line="▓" --no-print-directory
 	@make mfa_line_message mfa_name2="\n" mfa_line="▒" --no-print-directory
-	@printf "                                                                      \n"
-	@printf "███████╗ ██████╗       ██╗      ██████╗ ███╗   ██╗ ██████╗            \n"
-	@printf "██╔════╝██╔═══██╗      ██║     ██╔═══██╗████╗  ██║██╔════╝            \n"
-	@printf "███████╗██║   ██║      ██║     ██║   ██║██╔██╗ ██║██║  ███╗           \n"
-	@printf "╚════██║██║   ██║      ██║     ██║   ██║██║╚██╗██║██║   ██║           \n"
-	@printf "███████║╚██████╔╝█████╗███████╗╚██████╔╝██║ ╚████║╚██████╔╝           \n"
-	@printf "╚══════╝ ╚═════╝ ╚════╝╚══════╝ ╚═════╝ ╚═╝  ╚═══╝ ╚═════╝ by joao-alm\n"
+	@printf "                                                                                \n"
+	@printf "          ███████╗ ██████╗       ██╗      ██████╗ ███╗   ██╗ ██████╗            \n"
+	@printf "          ██╔════╝██╔═══██╗      ██║     ██╔═══██╗████╗  ██║██╔════╝            \n"
+	@printf "          ███████╗██║   ██║      ██║     ██║   ██║██╔██╗ ██║██║  ███╗           \n"
+	@printf "          ╚════██║██║   ██║      ██║     ██║   ██║██║╚██╗██║██║   ██║           \n"
+	@printf "          ███████║╚██████╔╝█████╗███████╗╚██████╔╝██║ ╚████║╚██████╔╝           \n"
+	@printf "          ╚══════╝ ╚═════╝ ╚════╝╚══════╝ ╚═════╝ ╚═╝  ╚═══╝ ╚═════╝ by joao-alm\n"
 	@printf "$(reset)"
 	@touch $(mfa_header)
 

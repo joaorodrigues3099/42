@@ -11,6 +11,8 @@
 /* ************************************************************************** */
 
 #include <mlx.h>
+#include <X11/X.h>
+
 #include "so_long.h"
 
 void	ft_window(t_game *game)
@@ -19,7 +21,7 @@ void	ft_window(t_game *game)
 	game->win = mlx_new_window(game->mlx, game->map.size.x * TILE_SIZE, game->map.size.y * TILE_SIZE, "so_long");
 	load_sprites(game);
 	render_map(game);
-	mlx_hook(game->win, 2, 1L << 0, ft_handle_keys, game);
-	mlx_hook(game->win, 17, 0L, ft_press_x, game);
+	mlx_hook(game->win, KeyPress, KeyPressMask, ft_handle_keys, game);
+	mlx_hook(game->win, ClientMessage, LeaveWindowMask, ft_press_x, game);
 	mlx_loop(game->mlx);
 }
