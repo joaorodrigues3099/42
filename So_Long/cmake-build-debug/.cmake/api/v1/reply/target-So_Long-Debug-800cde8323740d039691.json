@@ -139,7 +139,8 @@
 				71,
 				72,
 				73,
-				74
+				74,
+				75
 			]
 		}
 	],
@@ -240,7 +241,8 @@
 				71,
 				72,
 				73,
-				74
+				74,
+				75
 			]
 		},
 		{
@@ -705,7 +707,13 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "so_long/src/graphic/keys.c",
+			"path" : "so_long/src/event/keys.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "so_long/src/event/player.c",
 			"sourceGroupIndex" : 0
 		}
 	],
