@@ -11,10 +11,13 @@
 /* ************************************************************************** */
 
 #include <lib_string.h>
+#include <limits.h>
 #include <stdlib.h>
+
+#include "game.h"
 #include "map.h"
 
-char	**duplicate_map(char **map)
+char	**ft_duplicate_map(char **map)
 {
 	int i = -1;
 	int rows = 0;
@@ -30,4 +33,12 @@ char	**duplicate_map(char **map)
 		copy[i] = ft_strdup(map[i]);
 	copy[i] = NULL;
 	return (copy);
+}
+
+void	ft_init_map(t_map *map)
+{
+	map->n_collectibles = 0;
+	map->n_exits = 0;
+	map->n_players = 0;
+	map->min_moves = INT_MAX;
 }

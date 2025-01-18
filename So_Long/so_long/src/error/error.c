@@ -68,8 +68,8 @@ int	ft_print_error(const int err_code)
 	return (err_code);
 }
 
-void	ft_free_exit(t_game *game, const int err_code)
+void	ft_free_exit(const t_game *game, const int err_code)
 {
-	ft_free_matrix((void **)game->map->map, map->height - 1);
+	ft_free_matrix((void **)game->map.map, game->map.height - 1);
 	exit(ft_print_error(err_code));
 }

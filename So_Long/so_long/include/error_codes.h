@@ -4,6 +4,8 @@
 # define PINK "\033[38;2;231;133;190m"
 # define RESET "\033[0m"
 
+typedef struct s_game t_game;
+
 enum e_error
 {
 	E_OK = 0,
@@ -23,6 +25,7 @@ enum e_error
 	E_OBSTRUCTED_PATH = 3008
 };
 
-int	ft_print_error(int err_code);
+int		ft_print_error(int err_code);
+void	ft_free_exit(const t_game *game, int err_code);
 
 #endif //ERROR_CODES_H

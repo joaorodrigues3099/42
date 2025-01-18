@@ -26,6 +26,7 @@ void	ft_check_characters(t_map *map);
 void	ft_handle_map(t_map *map, const char *filename);
 
 // Util
-char	**duplicate_map(char **map);
+char	**ft_duplicate_map(char **map);
+void	ft_init_map(t_map *map);
 
 #endif //MAP_H

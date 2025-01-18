@@ -13,11 +13,11 @@
 #include <stdlib.h>
 
 #include "lib_string.h"
-
 #include "error_codes.h"
 #include "game.h"
+#include "map.h"
 
-int ft_flood_fill(char **map, int x, int y, struct s_floodfill *s_ffill)
+int ft_flood_fill(char **map, int x, int y, t_ffill *ffill)
 {
 	if (x < 0 || map[y][x] == '\0' || y < 0 || !map[y]
 		|| map[y][x] == '1')
@@ -42,56 +42,66 @@ int ft_flood_fill(char **map, int x, int y, struct s_floodfill *s_ffill)
 	return (0);
 }
 
-void	ft_parse_character(char c, int x, int y, t_map *map)
+void	ft_parse_character(const char c, const int x, const int y, t_game *game)
 {
-	if ((x <= 0 || x >= (int)map->size.x -1 || y <= 0 || y >= (int)map->size.y -1)
+	if ((x <= 0 || x >= game->map.width -1 || y <= 0 || y >= game->map.height -1)
 		&& c != '1')
-		exit (ft_print_error(E_MAP_NOT_SURROUNDED));
+		ft_free_exit(game, E_MAP_NOT_SURROUNDED);
 	if (c == 'P')
 	{
-		map->player.x = x;
-		map->player.y = y;
-		map->n_players++;
-		if (map->n_players > 1)
-			exit (ft_print_error(E_MULTIPLE_STARTS));
+		game->player.x = x;
+		game->player.y = y;
+		game->map.n_players++;
+		if (game->map.n_players > 1)
+			ft_free_exit(game, E_MULTIPLE_STARTS);
 	}
 	else if (c == 'C')
-		map->n_collectibles++;
+		game->map.n_collectibles++;
 	else if (c == 'E')
-		map->n_exits++;
+	{
+		game->map.n_exits++;
+		if (game->map.n_exits > 1)
+			ft_free_exit(game, E_MULTIPLE_EXITS);
+	}
 	else if (c != '0' && c != '1')
-		exit (ft_print_error(E_INVALID_CHARACTER));
-	if (map->n_exits > 1)
-		exit (ft_print_error(E_MULTIPLE_EXITS));
+		ft_free_exit(game, E_INVALID_CHARACTER);
 }
 
-void	ft_check_characters(t_map *map)
+void	ft_parse_map_characters(t_game *game)
 {
 	int	x;
 	int	y;
 
-	ft_init_info(map);
 	y = -1;
-	while (++y < (int)map->size.y)
+	while (++y < game->map.height)
 	{
-		if ((int)ft_strlen(map->map[y]) != map->size.x)
-			exit (ft_print_error(E_MAP_NOT_RECTANGLE));
+		if ((int)ft_strlen(game->map.map[y]) != game->map.width)
+			ft_free_exit(game, E_MAP_NOT_RECTANGLE);
 		x = -1;
-		while (++x < (int)map->size.x)
-			ft_parse_character(map->map[y][x], x, y, map);
+		while (++x < game->map.width)
+			ft_parse_character(game->map.map[y][x], x, y, game);
 	}
-	if (map->n_players < 1)
-		exit (ft_print_error(E_NO_START));
-	if (map->n_collectibles < 1)
-		exit (ft_print_error(E_NO_COLLECTIBLE));
-	if (map->n_exits < 1)
-		exit (ft_print_error(E_NO_EXIT));
+	if (game->map.n_players < 1)
+		ft_free_exit(game, E_NO_START);
+	if (game->map.n_collectibles < 1)
+		ft_free_exit(game, E_NO_COLLECTIBLE);
+	if (game->map.n_exits < 1)
+		ft_free_exit(game, E_NO_EXIT);
 }
 
 void	ft_parse_map(t_game *game)
 {
-	ft_check_characters(map);
-	if (!ft_r_valid_path(duplicate_map(map->map), map->player.x, map->player.y,
-		&(struct s_floodfill){map->n_collectibles, 0}))
-		exit(ft_print_error(E_OBSTRUCTED_PATH));
+	char	**map_dup;
+	int		valid_path;
+
+	ft_init_map(&game->map);
+	ft_parse_map_characters(game);
+	map_dup = ft_duplicate_map(game->map.map);
+	if (!map_dup)
+		ft_free_exit(game, E_MEMORY_ALLOC);
+	valid_path = ft_flood_fill(map_dup, game->player.x, game->player.y,
+		&(t_ffill){game->map.n_collectibles, 0});
+	free(map_dup);
+	if (!valid_path)
+		ft_free_exit(game, E_OBSTRUCTED_PATH);
 }
