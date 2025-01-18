@@ -15,9 +15,9 @@
 #include "lib_string.h"
 
 #include "error_codes.h"
-#include "so_long.h"
+#include "game.h"
 
-int ft_r_valid_path(char **map, int x, int y, struct s_floodfill *s_ffill)
+int ft_flood_fill(char **map, int x, int y, struct s_floodfill *s_ffill)
 {
 	if (x < 0 || map[y][x] == '\0' || y < 0 || !map[y]
 		|| map[y][x] == '1')
@@ -34,21 +34,12 @@ int ft_r_valid_path(char **map, int x, int y, struct s_floodfill *s_ffill)
 	map[y][x] = '1';
 	if (!s_ffill->collectibles && s_ffill->exit_found)
 		return (1);
-	if (ft_r_valid_path(map, x + 1, y, s_ffill) ||
-	   ft_r_valid_path(map, x - 1, y, s_ffill) ||
-	   ft_r_valid_path(map, x, y + 1, s_ffill) ||
-	   ft_r_valid_path(map, x, y - 1, s_ffill))
+	if (ft_flood_fill(map, x + 1, y, s_ffill) ||
+	   ft_flood_fill(map, x - 1, y, s_ffill) ||
+	   ft_flood_fill(map, x, y + 1, s_ffill) ||
+	   ft_flood_fill(map, x, y - 1, s_ffill))
 		return (1);
 	return (0);
-}
-
-void	ft_init_info(t_map *map)
-{
-	map->n_collectibles = 0;
-	map->n_players = 0;
-	map->player.x = 0;
-	map->player.y = 0;
-	map->n_exits = 0;
 }
 
 void	ft_parse_character(char c, int x, int y, t_map *map)
@@ -95,4 +86,12 @@ void	ft_check_characters(t_map *map)
 		exit (ft_print_error(E_NO_COLLECTIBLE));
 	if (map->n_exits < 1)
 		exit (ft_print_error(E_NO_EXIT));
+}
+
+void	ft_parse_map(t_game *game)
+{
+	ft_check_characters(map);
+	if (!ft_r_valid_path(duplicate_map(map->map), map->player.x, map->player.y,
+		&(struct s_floodfill){map->n_collectibles, 0}))
+		exit(ft_print_error(E_OBSTRUCTED_PATH));
 }

@@ -15,7 +15,7 @@
 #include <stdlib.h>
 
 #include "mlx.h"
-#include "so_long.h"
+#include "game.h"
 
 void	ft_original_player_sprite(t_game *game, t_point *player)
 {

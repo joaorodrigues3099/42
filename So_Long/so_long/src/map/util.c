@@ -1,29 +1,33 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   util.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: joao-alm <joao-alm@student.42luxembourg.>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/01/08 17:33:58 by joao-alm          #+#    #+#             */
-/*   Updated: 2025/01/15 18:15:59 by joao-alm         ###   ########.fr       */
+/*   Created: 2025/01/18 17:04:53 by joao-alm          #+#    #+#             */
+/*   Updated: 2025/01/18 17:04:53 by joao-alm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <lib_print.h>
-#include <stddef.h>
+#include <lib_string.h>
+#include <stdlib.h>
+#include "map.h"
 
-#include "error_codes.h"
-#include "game.h"
-
-int	main(int ac, char **av)
+char	**duplicate_map(char **map)
 {
-	t_game	game;
+	int i = -1;
+	int rows = 0;
+	char **copy;
 
-	if (ac != 2)
-		return (ft_print_error(E_INVALID_FORMAT));
-	ft_handle_map(&game.map, av[1]);
-	ft_printf("Valid map!\n");
-	ft_window(&game);
-	return (0);
+	rows = 0;
+	while (map[rows])
+		rows++;
+	copy = (char **)malloc((rows + 1) * sizeof(char *));
+	if (!copy)
+		return (NULL);
+	while (++i < rows)
+		copy[i] = ft_strdup(map[i]);
+	copy[i] = NULL;
+	return (copy);
 }

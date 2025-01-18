@@ -52,9 +52,9 @@ add_executable(So_Long
 		so_long/libs/mlx/mlx_xpm.c
 		so_long/src/map/get_map.c
 		so_long/src/graphic/window.c
-		so_long/include/so_long.h
+		so_long/include/game.h
 		so_long/include/error_codes.h
-		so_long/src/error/print_error.c
+		so_long/src/error/error.c
 		so_long/libs/mylib/src/string/ft_split.c
 		so_long/libs/mylib/src/string/ft_strchr.c
 		so_long/libs/mylib/src/string/ft_strdup.c
@@ -88,4 +88,6 @@ add_executable(So_Long
 		so_long/src/graphic/sprites.c
 		so_long/src/event/keys.c
 		so_long/src/event/move.c
+		so_long/include/map.h
+		so_long/src/map/util.c
 )

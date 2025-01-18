@@ -12,19 +12,36 @@
 
 #include <unistd.h>
 #include "error_codes.h"
+#include "game.h"
+#include "lib_memory.h"
+#include "map.h"
 
-/**
- * Writes a String on the given file descriptor.
- *
- * @param s String to write.
- * @param fd File Descriptor to write on.
- */
 static void	ft_puterr(char *s)
 {
 	if (!s)
 		return ;
 	while (*s)
 		write(1, s++, 1);
+}
+
+void	ft_print_error2(const int err_code)
+{
+	if (err_code == E_MAP_NOT_SURROUNDED)
+		ft_puterr("Map is not surrounded by walls\n");
+	else if (err_code == E_INVALID_CHARACTER)
+		ft_puterr("Invalid Character. Only ('0', '1', 'P', 'C', 'E') allowed\n");
+	else if (err_code == E_MULTIPLE_STARTS)
+		ft_puterr("Only one player start ('P') allowed\n");
+	else if (err_code == E_MULTIPLE_EXITS)
+		ft_puterr("Only one exit ('E') allowed\n");
+	else if (err_code == E_NO_START)
+		ft_puterr("One player start ('P') is required\n");
+	else if (err_code == E_NO_EXIT)
+		ft_puterr("One exit ('E') is required\n");
+	else if (err_code == E_NO_COLLECTIBLE)
+		ft_puterr("At least one collectible ('C') is required\n");
+	else if (err_code == E_OBSTRUCTED_PATH)
+		ft_puterr("Path to exit/object is obstructed\n");
 }
 
 int	ft_print_error(const int err_code)
@@ -45,22 +62,14 @@ int	ft_print_error(const int err_code)
 		ft_puterr("Format: ./so_long <MAP FILE PATH>\n");
 	else if (err_code == E_MAP_NOT_RECTANGLE)
 		ft_puterr("Map is not rectangle\n");
-	else if (err_code == E_MAP_NOT_SURROUNDED)
-		ft_puterr("Map is not surrounded by walls\n");
-	else if (err_code == E_INVALID_CHARACTER)
-		ft_puterr("Invalid Character. Only ('0', '1', 'P', 'C', 'E') allowed\n");
-	else if (err_code == E_MULTIPLE_STARTS)
-		ft_puterr("Only one player start ('P') allowed\n");
-	else if (err_code == E_MULTIPLE_EXITS)
-		ft_puterr("Only one exit ('E') allowed\n");
-	else if (err_code == E_NO_START)
-		ft_puterr("One player start ('P') is required\n");
-	else if (err_code == E_NO_EXIT)
-		ft_puterr("One exit ('E') is required\n");
-	else if (err_code == E_NO_COLLECTIBLE)
-		ft_puterr("At least one collectible ('C') is required\n");
-	else if (err_code == E_OBSTRUCTED_PATH)
-		ft_puterr("Path to exit/object is obstructed\n");
+	else
+		ft_print_error2(err_code);
     ft_puterr(RESET);
 	return (err_code);
+}
+
+void	ft_free_exit(t_game *game, const int err_code)
+{
+	ft_free_matrix((void **)game->map->map, map->height - 1);
+	exit(ft_print_error(err_code));
 }

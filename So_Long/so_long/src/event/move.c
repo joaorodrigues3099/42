@@ -14,7 +14,7 @@
 #include <stdlib.h>
 
 #include "mlx.h"
-#include "so_long.h"
+#include "game.h"
 
 void	ft_move(t_game *game, t_point *new_pos, t_point *old_pos)
 {
@@ -24,7 +24,7 @@ void	ft_move(t_game *game, t_point *new_pos, t_point *old_pos)
 	mlx_put_image_to_window(game->mlx, game->win, game->map.sprites[FLOOR],
 		old_pos->x * TILE_SIZE, old_pos->y * TILE_SIZE);
 	game->map.map[old_pos->y][old_pos->x] = '0';
-	game->map.player = *new_pos; // Update player position
+	game->map.player = *new_pos;
 }
 
 void	ft_update_player_pos(t_game *game, int x_offset, int y_offset)

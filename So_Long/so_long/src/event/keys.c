@@ -13,7 +13,7 @@
 #include <lib_print.h>
 #include <stdlib.h>
 #include "mlx.h"
-#include "so_long.h"
+#include "game.h"
 
 int	ft_handle_keys(int keycode, t_game *game)
 {

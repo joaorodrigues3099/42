@@ -13,45 +13,43 @@
 #ifndef SO_LONG_H
 #define SO_LONG_H
 
-typedef struct	s_point
-{
-	int	x;
-	int	y;
-}				t_point;
+#define TILE_SIZE 64
 
-// MAP
-struct			s_floodfill
+typedef struct	s_map
 {
-	int	collectibles;
-	int	exit_found;
-};
-
-typedef struct	s_map_info
-{
-	char	**map;
-	t_point	size;
-	int		n_collectibles;
-	int		n_players;
-	t_point	player;
-	int		n_exits;
-	void	**sprites;
-	int		player_sprite;
+	char		**map;
+	int			width;
+	int			height;
+	int			min_moves;
+	int			n_collectibles;
+	int			n_players;
+	int			n_exits;
 }				t_map;
 
-int		ft_r_valid_path(char **map, int x, int y, struct s_floodfill *s_ffill);
-void	ft_check_characters(t_map *map);
-void	ft_handle_map(t_map *map, const char *filename);
-
-
-// GRAPHIC
-#define TILE_SIZE 64
+typedef struct	s_player
+{
+	int			x;
+	int			y;
+	int			sprite;
+}				t_player;
 
 typedef struct	s_game
 {
-	t_map	map;
-	void	*mlx;
-	void	*win;
+	t_map		map;
+	t_player	player;
+	void		**sprites;
+	void		*mlx;
+	void		*win;
 }				t_game;
+
+void	ft_window(t_game *game);
+void	load_sprites(t_game *game);
+void	render_map(t_game *game);
+
+int		ft_handle_keys(int keycode, t_game *game);
+int		ft_press_x(t_game *game);
+
+void	ft_update_player_pos(t_game *game, int x_offset, int y_offset);
 
 enum	e_sprites
 {
@@ -78,17 +76,5 @@ enum	e_keycodes
 	KEY_D = 100,
 	KEY_RIGHT = 65363
 };
-
-void	ft_window(t_game *game);
-void	load_sprites(t_game *game);
-void	render_map(t_game *game);
-
-
-// KEYS
-int	ft_handle_keys(int keycode, t_game *game);
-int	ft_press_x(t_game *game);
-
-// MOVE
-void	ft_update_player_pos(t_game *game, int x_offset, int y_offset);
 
 #endif //SO_LONG_H

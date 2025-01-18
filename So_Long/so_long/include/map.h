@@ -1,29 +1,31 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   map.h                                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: joao-alm <joao-alm@student.42luxembourg.>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/01/08 17:33:58 by joao-alm          #+#    #+#             */
-/*   Updated: 2025/01/15 18:15:59 by joao-alm         ###   ########.fr       */
+/*   Created: 2025/01/18 16:58:21 by joao-alm          #+#    #+#             */
+/*   Updated: 2025/01/18 16:58:21 by joao-alm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <lib_print.h>
-#include <stddef.h>
+#ifndef MAP_H
+#define MAP_H
 
-#include "error_codes.h"
-#include "game.h"
+typedef struct s_map t_map;
 
-int	main(int ac, char **av)
+typedef struct	s_floodfill
 {
-	t_game	game;
+	int	collectibles;
+	int	exit_found;
+}				t_ffill;
 
-	if (ac != 2)
-		return (ft_print_error(E_INVALID_FORMAT));
-	ft_handle_map(&game.map, av[1]);
-	ft_printf("Valid map!\n");
-	ft_window(&game);
-	return (0);
-}
+int		ft_r_valid_path(char **map, int x, int y, struct s_floodfill *s_ffill);
+void	ft_check_characters(t_map *map);
+void	ft_handle_map(t_map *map, const char *filename);
+
+// Util
+char	**duplicate_map(char **map);
+
+#endif //MAP_H

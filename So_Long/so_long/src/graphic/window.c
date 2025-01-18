@@ -13,7 +13,7 @@
 #include <mlx.h>
 #include <X11/X.h>
 
-#include "so_long.h"
+#include "game.h"
 
 void	ft_window(t_game *game)
 {
