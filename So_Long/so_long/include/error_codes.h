@@ -22,7 +22,7 @@ enum e_error
 	E_NO_START = 3005,
 	E_NO_EXIT = 3006,
 	E_NO_COLLECTIBLE = 3007,
-	E_OBSTRUCTED_PATH = 3008
+	E_OBSTRUCTED_PATH = 109
 };
 
 int		ft_print_error(int err_code);

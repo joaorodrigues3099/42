@@ -89,5 +89,6 @@ add_executable(So_Long
 		so_long/src/event/keys.c
 		so_long/src/event/move.c
 		so_long/include/map.h
-		so_long/src/map/util.c
+		so_long/src/map/flood_fill.c
+		so_long/src/graphic/counter.c
 )

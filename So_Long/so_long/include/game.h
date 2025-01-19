@@ -14,6 +14,8 @@
 #define SO_LONG_H
 
 #define TILE_SIZE 64
+#define COUNTER_SIZE 32
+#include <stdbool.h>
 
 typedef struct	s_map
 {
@@ -33,16 +35,35 @@ typedef struct	s_player
 	int			sprite;
 }				t_player;
 
+typedef struct s_counter
+{
+	void	**counter;
+}				t_counter;
+
 typedef struct	s_game
 {
 	t_map		map;
 	t_player	player;
+	t_counter	counter;
 	void		**sprites;
 	void		*mlx;
 	void		*win;
 }				t_game;
 
+typedef struct	s_point
+{
+	int	x;
+	int	y;
+}				t_point;
+
+// Map
+void	ft_get_map(t_game *game, const char *filename);
+
 void	ft_window(t_game *game);
+
+void	load_counter_sprites(t_game *game);
+void	ft_render_counter(t_game *game);
+
 void	load_sprites(t_game *game);
 void	render_map(t_game *game);
 
@@ -50,6 +71,32 @@ int		ft_handle_keys(int keycode, t_game *game);
 int		ft_press_x(t_game *game);
 
 void	ft_update_player_pos(t_game *game, int x_offset, int y_offset);
+
+enum	e_counter_sprites
+{
+	ZERO,
+	ONE,
+	TWO,
+	THREE,
+	FOUR,
+	FIVE,
+	SIX,
+	SEVEN,
+	EIGHT,
+	NINE,
+	LETTER_M,
+	LETTER_I,
+	LETTER_N,
+	LETTER_U,
+	LETTER_O,
+	LETTER_V,
+	LETTER_E,
+	LETTER_S,
+	LETTER_Y,
+	LETTER_R,
+	LETTER_SPACE,
+	N_COUNTER_SPRITES
+};
 
 enum	e_sprites
 {

@@ -21,6 +21,7 @@
 
 #include "error_codes.h"
 #include "game.h"
+#include "map.h"
 
 void	ft_file_to_map_matrix2(t_list *map_list, t_map *map)
 {
@@ -85,4 +86,5 @@ void	ft_get_map(t_game *game, const char *filename)
 {
 	ft_check_map_file(filename);
 	ft_file_to_map_matrix(filename, &game->map);
+	ft_parse_map(game);
 }

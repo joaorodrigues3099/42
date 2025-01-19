@@ -15,18 +15,23 @@
 
 typedef struct s_map t_map;
 
-typedef struct	s_floodfill
+typedef struct	s_flood_fill
 {
-	int	collectibles;
-	int	exit_found;
-}				t_ffill;
+	int			x;
+	int			y;
+	int			collected;
+	int			depth;
+}				t_flood_fill;
 
-int		ft_r_valid_path(char **map, int x, int y, struct s_floodfill *s_ffill);
-void	ft_check_characters(t_map *map);
-void	ft_handle_map(t_map *map, const char *filename);
+// Define the visited array structure
+typedef struct s_visited {
+	bool **visited; // 2D array to track visited positions
+	int width;
+	int height;
+} t_visited;
 
-// Util
-char	**ft_duplicate_map(char **map);
-void	ft_init_map(t_map *map);
+
+void	ft_parse_map(t_game *game);
+int		ft_flood_fill(t_game *game, int x, int y, int *collected, int depth);
 
 #endif //MAP_H

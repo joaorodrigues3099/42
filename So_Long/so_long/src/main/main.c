@@ -11,10 +11,9 @@
 /* ************************************************************************** */
 
 #include <lib_print.h>
-#include <stddef.h>
-
 #include "error_codes.h"
 #include "game.h"
+#include "map.h"
 
 int	main(int ac, char **av)
 {
@@ -22,8 +21,9 @@ int	main(int ac, char **av)
 
 	if (ac != 2)
 		return (ft_print_error(E_INVALID_FORMAT));
-	ft_handle_map(&game.map, av[1]);
+	ft_get_map(&game, av[1]);
 	ft_printf("Valid map!\n");
+	ft_printf("Minimum moves: %d\n", game.map.min_moves);
 	ft_window(&game);
 	return (0);
 }

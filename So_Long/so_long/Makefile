@@ -26,13 +26,15 @@ MYLIB_ADD	= -L$(MYLIB_DIR) -lmylib
 #────────────────────────────────── Main Files ───────────────────────────────────
 SRCS_DIR	= src
 SRCS 		= $(SRCS_DIR)/main/main.c \
-			  $(SRCS_DIR)/event/keys.c \
-			  $(SRCS_DIR)/event/move.c \
-			  $(SRCS_DIR)/graphic/sprites.c \
-			  $(SRCS_DIR)/graphic/window.c \
-			  $(SRCS_DIR)/error/print_error.c \
+			  $(SRCS_DIR)/error/error.c \
 			  $(SRCS_DIR)/map/get_map.c \
-			  $(SRCS_DIR)/map/parse_map.c
+			  $(SRCS_DIR)/map/parse_map.c \
+			  $(SRCS_DIR)/map/flood_fill.c \
+			  $(SRCS_DIR)/event/keys.c \
+              $(SRCS_DIR)/event/move.c \
+              $(SRCS_DIR)/graphic/sprites.c \
+              $(SRCS_DIR)/graphic/counter.c \
+              $(SRCS_DIR)/graphic/window.c
 
 INCS		= $(MLX_INCS) $(MYLIB_INCS) -Iinclude
 LIBS_DIR	= libs
