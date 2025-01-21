@@ -10,20 +10,17 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "error_codes.h"
+#include "game.h"
+#include "lib_gnl.h"
+#include "lib_list.h"
+#include "lib_string.h"
+#include "map.h"
 #include <fcntl.h>
-#include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
 
-#include "lib_string.h"
-#include "lib_list.h"
-#include "lib_gnl.h"
-
-#include "error_codes.h"
-#include "game.h"
-#include "map.h"
-
-void	ft_file_to_map_matrix2(t_list *map_list, t_map *map)
+static void	ft_file_to_map_matrix2(t_list *map_list, t_map *map)
 {
 	t_list	*current;
 	int		i;
@@ -36,20 +33,20 @@ void	ft_file_to_map_matrix2(t_list *map_list, t_map *map)
 	if (!map->map)
 	{
 		ft_lstclear(&map_list, free);
-		exit (ft_print_error(E_MEMORY_ALLOC));
+		exit(ft_print_error(E_MEMORY_ALLOC));
 	}
 	current = map_list;
 	i = 0;
 	while (current)
 	{
-		map->map[i++] = ft_strtrim(current->content, "\n");
+		map->map[i++] = current->content;
 		current = current->next;
 	}
 	map->map[i] = NULL;
 	ft_lstclear(&map_list, NULL);
 }
 
-void	ft_file_to_map_matrix(const char *filename, t_map *map)
+static void	ft_file_to_map_matrix(const char *filename, t_map *map)
 {
 	t_list	*map_list;
 	int		fd;
@@ -63,18 +60,19 @@ void	ft_file_to_map_matrix(const char *filename, t_map *map)
 		if (!line)
 			break ;
 		ft_lstadd_back(&map_list, ft_lstnew(ft_strtrim(line, "\n")));
+		free(line);
 	}
-	close (fd);
+	close(fd);
 	ft_file_to_map_matrix2(map_list, map);
 }
 
-void	ft_check_map_file(const char *filename)
+static void	ft_check_map_file(const char *filename)
 {
 	int		fd;
 	size_t	len;
 
 	fd = open(filename, O_RDONLY);
-	close (fd);
+	close(fd);
 	if (fd < 0)
 		exit(ft_print_error(E_INVALID_FD));
 	len = ft_strlen(filename);

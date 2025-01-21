@@ -1,7 +1,7 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   sprites.c                                          :+:      :+:    :+:   */
+/*   sprites_bonus.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: joao-alm <joao-alm@student.42luxembourg.>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
@@ -10,69 +10,73 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-
-#include <lib_print.h>
+#include "error_codes.h"
+#include "game.h"
+#include "graphic.h"
+#include "mlx.h"
 #include <stdlib.h>
 
-#include "mlx.h"
-#include "game.h"
-
-void	ft_original_player_sprite(t_game *game, int x, int y)
-{
-	if (game->map.map[y - 1][x] == '0')
-		game->player.sprite = PLAYER_UP;
-	else if (game->map.map[y][x - 1] == '0')
-		game->player.sprite = PLAYER_LEFT;
-	else if (game->map.map[y + 1][x] == '0')
-		game->player.sprite = PLAYER_DOWN;
-	else if (game->map.map[y][x + 1] == '0')
-		game->player.sprite = PLAYER_RIGHT;
-}
-
-void	load_sprites(t_game *game)
+static void	ft_load_sprites2(t_game *game, char *sprite_addr[])
 {
 	int	width;
 	int	height;
 	int	i;
-	ft_original_player_sprite(game, game->player.x, game->player.y);
-	game->sprites = malloc(N_SPRITES * sizeof(void *));
+
+	game->sprites = malloc(sizeof(void *) * N_SPRITES);
+	if (!game->sprites)
+		ft_free_exit(game, E_MEMORY_ALLOC);
 	width = TILE_SIZE;
 	height = TILE_SIZE;
-	game->sprites[WALL] = mlx_xpm_file_to_image(game->mlx, "assets/asteroid.xpm", &width, &height);
-	game->sprites[FLOOR] = mlx_xpm_file_to_image(game->mlx, "assets/space.xpm", &width, &height);
-	game->sprites[PLAYER_UP] = mlx_xpm_file_to_image(game->mlx, "assets/spaceship_up.xpm", &width, &height);
-	game->sprites[PLAYER_LEFT] = mlx_xpm_file_to_image(game->mlx, "assets/spaceship_left.xpm", &width, &height);
-	game->sprites[PLAYER_DOWN] = mlx_xpm_file_to_image(game->mlx, "assets/spaceship_down.xpm", &width, &height);
-	game->sprites[PLAYER_RIGHT] = mlx_xpm_file_to_image(game->mlx, "assets/spaceship_right.xpm", &width, &height);
-	game->sprites[COLLECTIBLE] = mlx_xpm_file_to_image(game->mlx, "assets/star.xpm", &width, &height);
-	game->sprites[MAP_EXIT] = mlx_xpm_file_to_image(game->mlx, "assets/blackhole.xpm", &width, &height);
+	i = -1;
+	while (++i < N_SPRITES)
+		game->sprites[i] = mlx_xpm_file_to_image(game->mlx, sprite_addr[i],
+				&width, &height);
+}
+
+static void	ft_load_sprites(t_game *game)
+{
+	int	i;
+
+	ft_load_sprites2(game, (char *[]){"assets/face/face_up.xpm",
+		"assets/face/face_left.xpm", "assets/face/face_down.xpm",
+		"assets/face/face_right.xpm", "assets/element/norminette.xpm",
+		"assets/element/white.xpm", "assets/element/pass.xpm",
+		"assets/element/42.xpm", "assets/element/job.xpm"});
 	i = -1;
 	while (++i < N_SPRITES)
 		if (!game->sprites[i])
-			exit (1);
+			ft_free_exit(game, E_SPRITES_MISSING);
 }
 
-void	render_map(t_game *game)
+static void	ft_put_image(t_game *game, void *image_ptr, int x, int y)
+{
+	mlx_put_image_to_window(game->mlx, game->win, image_ptr, x * TILE_SIZE, y
+		* TILE_SIZE);
+}
+
+void	ft_render_map(t_game *game)
 {
 	int	y;
 	int	x;
 
+	ft_load_sprites(game);
+	game->n_sprites = N_SPRITES;
 	y = 0;
 	while (y < game->map.height)
-		{
+	{
 		x = 0;
 		while (x < game->map.width)
 		{
 			if (game->map.map[y][x] == '0')
-				mlx_put_image_to_window(game->mlx, game->win, game->sprites[FLOOR], x * TILE_SIZE, y * TILE_SIZE + COUNTER_SIZE);
+				ft_put_image(game, game->sprites[FLOOR], x, y);
 			else if (game->map.map[y][x] == '1')
-				mlx_put_image_to_window(game->mlx, game->win, game->sprites[WALL], x * TILE_SIZE, y * TILE_SIZE + COUNTER_SIZE);
+				ft_put_image(game, game->sprites[WALL], x, y);
 			else if (game->map.map[y][x] == 'P')
-				mlx_put_image_to_window(game->mlx, game->win, game->sprites[game->player.sprite], x * TILE_SIZE, y * TILE_SIZE + COUNTER_SIZE);
+				ft_put_image(game, game->sprites[PLAYER_UP], x, y);
 			else if (game->map.map[y][x] == 'C')
-				mlx_put_image_to_window(game->mlx, game->win, game->sprites[COLLECTIBLE], x * TILE_SIZE, y * TILE_SIZE + COUNTER_SIZE);
+				ft_put_image(game, game->sprites[COLLECTIBLE], x, y);
 			else if (game->map.map[y][x] == 'E')
-				mlx_put_image_to_window(game->mlx, game->win, game->sprites[MAP_EXIT], x * TILE_SIZE, y * TILE_SIZE + COUNTER_SIZE);
+				ft_put_image(game, game->sprites[MAP_EXIT_CLOSED], x, y);
 			x++;
 		}
 		y++;

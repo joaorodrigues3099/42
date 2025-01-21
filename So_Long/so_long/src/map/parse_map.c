@@ -10,26 +10,41 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <limits.h>
-#include <stdlib.h>
-
-#include "lib_string.h"
 #include "error_codes.h"
 #include "game.h"
+#include "lib_string.h"
 #include "map.h"
+#include <lib_memory.h>
 
-void	ft_init_map(t_map *map)
+static int	ft_flood_fill(char **map, int x, int y, t_flood_fill *flood_fill)
 {
-	map->n_collectibles = 0;
-	map->n_exits = 0;
-	map->n_players = 0;
-	map->min_moves = INT_MAX;
+	if (x < 0 || y < 0 || !map[y] || map[y][x] == '1' || map[y][x] == '\0')
+		return (0);
+	if (map[y][x] == 'C')
+		flood_fill->collectibles--;
+	if (map[y][x] == 'E')
+	{
+		flood_fill->exit_found = 1;
+		if (!flood_fill->collectibles)
+			return (1);
+		return (0);
+	}
+	map[y][x] = '1';
+	if (!flood_fill->collectibles && flood_fill->exit_found)
+		return (1);
+	if (ft_flood_fill(map, x + 1, y, flood_fill)
+		|| ft_flood_fill(map, x - 1, y, flood_fill)
+		|| ft_flood_fill(map, x, y + 1, flood_fill)
+		|| ft_flood_fill(map, x, y - 1, flood_fill))
+		return (1);
+	return (0);
 }
 
-void	ft_parse_single_character(const char c, const int x, const int y, t_game *game)
+static void	ft_parse_single_character(const char c, const int x, const int y,
+		t_game *game)
 {
-	if ((x <= 0 || x >= game->map.width -1 || y <= 0 || y >= game->map.height -1)
-		&& c != '1')
+	if ((x <= 0 || x >= game->map.width - 1 || y <= 0 || y >= game->map.height
+			- 1) && c != '1')
 		ft_free_exit(game, E_MAP_NOT_SURROUNDED);
 	if (c == 'P')
 	{
@@ -43,6 +58,8 @@ void	ft_parse_single_character(const char c, const int x, const int y, t_game *g
 		game->map.n_collectibles++;
 	else if (c == 'E')
 	{
+		game->map.exit_x = x;
+		game->map.exit_y = y;
 		game->map.n_exits++;
 		if (game->map.n_exits > 1)
 			ft_free_exit(game, E_MULTIPLE_EXITS);
@@ -51,7 +68,7 @@ void	ft_parse_single_character(const char c, const int x, const int y, t_game *g
 		ft_free_exit(game, E_INVALID_CHARACTER);
 }
 
-void	ft_parse_map_characters(t_game *game)
+static void	ft_parse_map_characters(t_game *game)
 {
 	int	x;
 	int	y;
@@ -75,11 +92,20 @@ void	ft_parse_map_characters(t_game *game)
 
 void	ft_parse_map(t_game *game)
 {
-	int	collected;
+	char			**map_dup;
+	t_flood_fill	flood_fill;
+	int				map_valid;
 
-	collected = 0;
-	ft_init_map(&game->map);
+	ft_init_map(game);
 	ft_parse_map_characters(game);
-	if (!ft_flood_fill(game, game->player.x, game->player.y, &collected, 0))
+	map_dup = ft_duplicate_map(game->map.map);
+	if (!map_dup)
+		ft_free_exit(game, E_MEMORY_ALLOC);
+	flood_fill.collectibles = game->map.n_collectibles;
+	flood_fill.exit_found = 0;
+	map_valid = ft_flood_fill(map_dup, game->player.x, game->player.y,
+			&flood_fill);
+	ft_free_matrix((void **)map_dup, game->map.height - 1);
+	if (!map_valid)
 		ft_free_exit(game, E_OBSTRUCTED_PATH);
 }

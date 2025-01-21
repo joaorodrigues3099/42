@@ -11,27 +11,24 @@
 /* ************************************************************************** */
 
 #ifndef MAP_H
-#define MAP_H
+# define MAP_H
 
-typedef struct s_map t_map;
+typedef struct s_game	t_game;
 
-typedef struct	s_flood_fill
+typedef struct s_flood_fill
 {
-	int			x;
-	int			y;
-	int			collected;
-	int			depth;
+	int			collectibles;
+	int			exit_found;
 }				t_flood_fill;
 
-// Define the visited array structure
-typedef struct s_visited {
-	bool **visited; // 2D array to track visited positions
-	int width;
-	int height;
-} t_visited;
+// util
+void					ft_init_map(t_game *game);
+char					**ft_duplicate_map(char **map);
 
+// parse_map
+void					ft_parse_map(t_game *game);
 
-void	ft_parse_map(t_game *game);
-int		ft_flood_fill(t_game *game, int x, int y, int *collected, int depth);
+// get_map
+void					ft_get_map(t_game *game, const char *filename);
 
-#endif //MAP_H
+#endif // MAP_H

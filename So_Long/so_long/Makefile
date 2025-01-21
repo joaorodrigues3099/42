@@ -8,14 +8,15 @@
 #──────────────────────────────────── Bases ─────────────────────────────────────
 NAME		= so_long
 CC         	= cc
-CFLAGS     	= -Wall -Werror -Wextra -g -fPIE
+CFLAGS     	= -Wall -Werror -Wextra -g
 RM         	= rm -rf
+LIBS_DIR	= libs
 
 #─────────────────────────────────── Mlx Files ───────────────────────────────────
 MLX_DIR		= $(LIBS_DIR)/mlx
 MLX			= $(MLX_DIR)/libmlx.a
 MLX_INCS	= -I$(MLX_DIR)
-MLX_ADD		= -L$(MLX_DIR) -lmlx -L/usr/lib/X11 -lXext -lX11
+MLX_ADD		= -L$(MLX_DIR) -lmlx -lXext -lX11
 
 #────────────────────────────────── MyLib Files ──────────────────────────────────
 MYLIB_DIR	= $(LIBS_DIR)/mylib
@@ -24,35 +25,57 @@ MYLIB_INCS	= -I$(MYLIB_DIR)/include
 MYLIB_ADD	= -L$(MYLIB_DIR) -lmylib
 
 #────────────────────────────────── Main Files ───────────────────────────────────
-SRCS_DIR	= src
-SRCS 		= $(SRCS_DIR)/main/main.c \
-			  $(SRCS_DIR)/error/error.c \
-			  $(SRCS_DIR)/map/get_map.c \
-			  $(SRCS_DIR)/map/parse_map.c \
-			  $(SRCS_DIR)/map/flood_fill.c \
-			  $(SRCS_DIR)/event/keys.c \
-              $(SRCS_DIR)/event/move.c \
-              $(SRCS_DIR)/graphic/sprites.c \
-              $(SRCS_DIR)/graphic/counter.c \
-              $(SRCS_DIR)/graphic/window.c
+SRCS 		= src/main/main.c \
+			  src/error/error.c \
+			  src/map/get_map.c \
+			  src/map/parse_map.c \
+			  src/map/util.c \
+			  src/event/keys.c \
+			  src/event/move.c \
+			  src/graphic/sprites.c \
+			  src/graphic/window.c
 
-INCS		= $(MLX_INCS) $(MYLIB_INCS) -Iinclude
-LIBS_DIR	= libs
+INCS		= $(MLX_INCS) \
+			  $(MYLIB_INCS) \
+			  -Iinclude \
+			  -Iinclude/graphic
 OBJS_DIR	= .objs
 OBJS		= $(SRCS:%.c=$(OBJS_DIR)/%.o)
+#────────────────────────────────── Bonus Files ───────────────────────────────────
+BONUS	= so_long_bonus
+B_SRCS	= src/main/main.c \
+		  src/error/error.c \
+		  src/map/get_map.c \
+		  src/map/parse_map.c \
+		  src/map/util.c \
+		  src/event/keys.c \
+		  bonus/src/event/move_bonus.c \
+		  bonus/src/graphic/counter_bonus.c \
+		  bonus/src/graphic/sprites_bonus.c \
+		  bonus/src/graphic/window_bonus.c
+
+B_INCS		= $(MLX_INCS) \
+			  $(MYLIB_INCS) \
+			  -Iinclude \
+			  -Ibonus/include
+B_OBJS_DIR	= .objs/bonus
+B_OBJS		= $(B_SRCS:%.c=$(B_OBJS_DIR)/%.o)
 
 #────────────────────────────────── MFA Files ────────────────────────────────────
 mfa_dir				= $(OBJS_DIR)/makefile
 mfa_header			= $(mfa_dir)/mfa_header
 mfa_footer			= $(mfa_dir)/mfa_footer
+mfa_bonus_header	= $(mfa_dir)/mfa_bonus_header
+mfa_bonus_footer	= $(mfa_dir)/mfa_bonus_footer
 mfa_name_compiling	= $(mfa_dir)/mfa_name_compiling
-mfa_h_len			= 81
+mfa_bonus_compiling	= $(mfa_dir)/mfa_bonus_compiling
+mfa_h_len			= 71
 debug_on			= .debug_on
 
 #─────────────────────────────────── Main Rules ──────────────────────────────────
-all: $(mfa_header) $(MLX) $(MYLIB) $(NAME) $(mfa_footer)
+all: $(mfa_header) $(NAME) $(mfa_footer)
 
-$(NAME): $(mfa_name_compiling) $(OBJS)
+$(NAME): $(MLX) $(MYLIB) $(mfa_name_compiling) $(OBJS)
 	@if [ -f "$(debug_on)" ]; then \
 		echo "$(CC) $(CFLAGS) $(OBJS) -o $@ $(MLX_ADD) $(MYLIB_ADD)"; \
 		$(CC) $(CFLAGS) $(OBJS) -o $@ $(MLX_ADD) $(MYLIB_ADD); \
@@ -99,8 +122,10 @@ fclean: mfa_clean_header mlx_clean mylib_fclean
 		$(RM) $(OBJS_DIR); \
 		echo "$(RM) $(NAME)"; \
 		$(RM) $(NAME); \
+		echo "$(RM) $(BONUS)"; \
+        $(RM) $(BONUS); \
 	else \
-		if [ -f "$(NAME)" ] || [ -d "$(OBJS_DIR)" ]; then \
+		if [ -f "$(NAME)" ] || [ -d "$(OBJS_DIR)" ] || [ -f "$(BONUS)" ]; then \
 			if [ -d "$(OBJS_DIR)" ]; then \
 				$(RM) $(OBJS_DIR); \
 				make mfa_object mfa_name="$(NAME) objects" mfa_symbol="$(pink)[✔]" --no-print-directory; \
@@ -108,6 +133,10 @@ fclean: mfa_clean_header mlx_clean mylib_fclean
 			if [ -f "$(NAME)" ]; then \
 				$(RM) $(NAME); \
 				make mfa_object mfa_name="$(green)>>> $(reset)$(NAME)" mfa_symbol="$(pink)[✔]" --no-print-directory; \
+			fi; \
+			if [ -f "$(BONUS)" ]; then \
+				$(RM) $(BONUS); \
+				make mfa_object mfa_name="$(green)>>> $(reset)$(BONUS)" mfa_symbol="$(pink)[✔]" --no-print-directory; \
 			fi; \
 		else \
 			printf "Nothing to be removed\n"; \
@@ -117,6 +146,34 @@ fclean: mfa_clean_header mlx_clean mylib_fclean
 	@make mfa_clean_header --no-print-directory
 
 re: fclean all
+
+#──────────────────────────────────── Bonus Rule ─────────────────────────────────────
+bonus: $(mfa_bonus_header) $(BONUS) $(mfa_bonus_footer)
+
+$(BONUS): $(MLX) $(MYLIB) $(mfa_bonus_compiling) $(B_OBJS)
+	@if [ -f "$(debug_on)" ]; then \
+		echo "$(CC) $(CFLAGS) $(OBJS) -o $@ $(MLX_ADD) $(MYLIB_ADD)"; \
+		$(CC) $(CFLAGS) $(B_OBJS) -o $@ $(MLX_ADD) $(MYLIB_ADD); \
+	else \
+		$(CC) $(CFLAGS) $(B_OBJS) -o $@ $(MLX_ADD) $(MYLIB_ADD); \
+		make mfa_object mfa_name="$(green)>>> $(reset)$@" mfa_symbol="$(green)[✔]" --no-print-directory; \
+	fi
+	@make mfa_success --no-print-directory
+
+$(B_OBJS_DIR)/%.o: %.c
+	@if [ -f "$(debug_on)" ]; then \
+  			echo "mkdir -p $(dir $(OBJS_DIR))"; \
+            mkdir -p $(dir $(OBJS_DIR)); \
+    		echo "mkdir -p $(dir $@)"; \
+      		mkdir -p $(dir $@); \
+      		echo "$(CC) $(CFLAGS) -c $< -o $@ $(B_INCS)"; \
+    		$(CC) $(CFLAGS) -c $< -o $@ $(B_INCS); \
+    	else \
+    		mkdir -p $(dir $(OBJS_DIR)); \
+    		mkdir -p $(dir $@); \
+    		$(CC) $(CFLAGS) -c $< -o $@ $(B_INCS); \
+    		make mfa_object mfa_name="$(notdir $@)" mfa_symbol="$(green)[✔]" --no-print-directory; \
+    	fi
 
 #──────────────────────────────────── Mlx Rule ─────────────────────────────────────
 $(MLX):
@@ -186,15 +243,14 @@ $(mfa_header):
 	@mkdir -p $(OBJS_DIR)
 	@mkdir -p $(mfa_dir)
 	@printf "$(yellow)\n"
-	@make mfa_line_message mfa_name2="\n" mfa_line="▓" --no-print-directory
 	@make mfa_line_message mfa_name2="\n" mfa_line="▒" --no-print-directory
-	@printf "                                                                                \n"
-	@printf "          ███████╗ ██████╗       ██╗      ██████╗ ███╗   ██╗ ██████╗            \n"
-	@printf "          ██╔════╝██╔═══██╗      ██║     ██╔═══██╗████╗  ██║██╔════╝            \n"
-	@printf "          ███████╗██║   ██║      ██║     ██║   ██║██╔██╗ ██║██║  ███╗           \n"
-	@printf "          ╚════██║██║   ██║      ██║     ██║   ██║██║╚██╗██║██║   ██║           \n"
-	@printf "          ███████║╚██████╔╝█████╗███████╗╚██████╔╝██║ ╚████║╚██████╔╝           \n"
-	@printf "          ╚══════╝ ╚═════╝ ╚════╝╚══════╝ ╚═════╝ ╚═╝  ╚═══╝ ╚═════╝ by joao-alm\n"
+	@printf "                                                                      \n"
+	@printf "▒▒▒▒▒▒▒╗ ▒▒▒▒▒▒╗       ▒▒╗      ▒▒▒▒▒▒╗ ▒▒▒╗   ▒▒╗ ▒▒▒▒▒▒╗            \n"
+	@printf "▒▒╔════╝▒▒╔═══▒▒╗      ▒▒║     ▒▒╔═══▒▒╗▒▒▒▒╗  ▒▒║▒▒╔════╝            \n"
+	@printf "▒▒▒▒▒▒▒╗▒▒║   ▒▒║      ▒▒║     ▒▒║   ▒▒║▒▒╔▒▒╗ ▒▒║▒▒║  ▒▒▒╗           \n"
+	@printf "╚════▓▓║▓▓║   ▓▓║      ▓▓║     ▓▓║   ▓▓║▓▓║╚▓▓╗▓▓║▓▓║   ▓▓║           \n"
+	@printf "▓▓▓▓▓▓▓║╚▓▓▓▓▓▓╔╝▓▓▓▓▓╗▓▓▓▓▓▓▓╗╚▓▓▓▓▓▓╔╝▓▓║ ╚▓▓▓▓║╚▓▓▓▓▓▓╔╝           \n"
+	@printf "╚══════╝ ╚═════╝ ╚════╝╚══════╝ ╚═════╝ ╚═╝  ╚═══╝ ╚═════╝ by joao-alm\n"
 	@printf "$(reset)"
 	@touch $(mfa_header)
 
@@ -202,14 +258,12 @@ $(mfa_footer):
 	@mkdir -p $(OBJS_DIR)
 	@mkdir -p $(mfa_dir)
 	@printf "$(yellow)\n"
-	@make mfa_line_message mfa_name2="\n" mfa_line="▓" --no-print-directory
 	@make mfa_line_message mfa_name2="\n" mfa_line="▒" --no-print-directory
 	@printf "$(reset)\n"
 	@touch $(mfa_footer)
 
 mfa_clean_header:
 	@printf "$(pink)\n"
-	@make mfa_line_message mfa_name2="\n" mfa_line="▓" --no-print-directory
 	@make mfa_line_message mfa_name2="\n" mfa_line="▒" --no-print-directory
 	@printf "$(reset)"
 
@@ -219,6 +273,29 @@ $(mfa_name_compiling):
 	@printf "\n"
 	@make mfa_line_message mfa_name1="$(yellow)Compiling [$(NAME)] /" mfa_name2="$(reset)\\n" mfa_line="─" --no-print-directory
 	@touch $(mfa_name_compiling)
+
+$(mfa_bonus_header):
+	@mkdir -p $(OBJS_DIR)
+	@mkdir -p $(mfa_dir)
+	@printf "$(yellow)\n"
+	@make mfa_line_message mfa_name2="\n" mfa_line="▒" --no-print-directory
+	@printf "$(reset)"
+	@touch $(mfa_bonus_header)
+
+$(mfa_bonus_compiling):
+	@mkdir -p $(OBJS_DIR)
+	@mkdir -p $(mfa_dir)
+	@printf "\n"
+	@make mfa_line_message mfa_name1="$(yellow)Compiling [$(NAME)_bonus] /" mfa_name2="$(reset)\\n" mfa_line="─" --no-print-directory
+	@touch $(mfa_bonus_compiling)
+
+$(mfa_bonus_footer):
+	@mkdir -p $(OBJS_DIR)
+	@mkdir -p $(mfa_dir)
+	@printf "$(yellow)\n"
+	@make mfa_line_message mfa_name2="\n" mfa_line="▒" --no-print-directory
+	@printf "$(reset)\n"
+	@touch $(mfa_bonus_footer)
 
 mfa_compiling:
 	@make mfa_line_message mfa_name1="$(yellow)Compiling [$(mfa_name)] /" mfa_name2="$(reset)\\n" mfa_line="─" --no-print-directory

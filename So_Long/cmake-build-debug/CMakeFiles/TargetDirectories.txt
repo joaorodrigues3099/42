@@ -1,3 +1,4 @@
 /home/joao-alm/42/So_Long/cmake-build-debug/CMakeFiles/So_Long.dir
+/home/joao-alm/42/So_Long/cmake-build-debug/CMakeFiles/So_Long_Bonus.dir
 /home/joao-alm/42/So_Long/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/joao-alm/42/So_Long/cmake-build-debug/CMakeFiles/rebuild_cache.dir

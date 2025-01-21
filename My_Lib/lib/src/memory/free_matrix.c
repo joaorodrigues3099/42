@@ -24,4 +24,5 @@ void	ft_free_matrix(void **matrix, int index)
 	while (index >= 0)
 		free(matrix[index--]);
 	free(matrix);
+	matrix = NULL;
 }

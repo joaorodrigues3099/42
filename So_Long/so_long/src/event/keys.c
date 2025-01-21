@@ -10,17 +10,15 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <lib_print.h>
+#include "error_codes.h"
+#include "event.h"
 #include <stdlib.h>
-#include "mlx.h"
-#include "game.h"
 
-int	ft_handle_keys(int keycode, t_game *game)
+int	ft_handle_keys(const int keycode, t_game *game)
 {
 	if (keycode == KEY_ESC)
 	{
-		mlx_destroy_window(game->mlx, game->win);
-		exit(EXIT_SUCCESS);
+		ft_free_exit(game, EXIT_SUCCESS);
 	}
 	if (keycode == KEY_W || keycode == KEY_UP)
 		ft_update_player_pos(game, 0, -1);
@@ -35,6 +33,6 @@ int	ft_handle_keys(int keycode, t_game *game)
 
 int	ft_press_x(t_game *game)
 {
-	mlx_destroy_window(game->mlx, game->win);
-	exit(EXIT_SUCCESS);
+	ft_free_exit(game, EXIT_SUCCESS);
+	return (0);
 }
