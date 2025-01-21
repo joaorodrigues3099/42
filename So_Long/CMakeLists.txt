@@ -89,6 +89,97 @@ add_executable(So_Long
 		so_long/src/event/keys.c
 		so_long/src/event/move.c
 		so_long/include/map.h
-		so_long/src/map/flood_fill.c
-		so_long/src/graphic/counter.c
+		so_long/src/map/util.c
+		so_long/include/graphic/graphic.h
+		so_long/include/event.h
+)
+
+target_include_directories(So_Long PRIVATE
+		so_long/include/graphic
+)
+
+add_executable(So_Long_Bonus
+		so_long/src/main/main.c
+		so_long/Makefile
+		so_long/libs/mlx/Makefile
+		so_long/libs/mlx/mlx.h
+		so_long/libs/mlx/mlx_clear_window.c
+		so_long/libs/mlx/mlx_destroy_display.c
+		so_long/libs/mlx/mlx_destroy_image.c
+		so_long/libs/mlx/mlx_destroy_window.c
+		so_long/libs/mlx/mlx_expose_hook.c
+		so_long/libs/mlx/mlx_ext_randr.c
+		so_long/libs/mlx/mlx_flush_event.c
+		so_long/libs/mlx/mlx_get_color_value.c
+		so_long/libs/mlx/mlx_get_data_addr.c
+		so_long/libs/mlx/mlx_hook.c
+		so_long/libs/mlx/mlx_init.c
+		so_long/libs/mlx/mlx_int.h
+		so_long/libs/mlx/mlx_int_anti_resize_win.c
+		so_long/libs/mlx/mlx_int_do_nothing.c
+		so_long/libs/mlx/mlx_int_get_visual.c
+		so_long/libs/mlx/mlx_int_param_event.c
+		so_long/libs/mlx/mlx_int_set_win_event_mask.c
+		so_long/libs/mlx/mlx_int_str_to_wordtab.c
+		so_long/libs/mlx/mlx_int_wait_first_expose.c
+		so_long/libs/mlx/mlx_key_hook.c
+		so_long/libs/mlx/mlx_lib_xpm.c
+		so_long/libs/mlx/mlx_loop.c
+		so_long/libs/mlx/mlx_loop_hook.c
+		so_long/libs/mlx/mlx_mouse.c
+		so_long/libs/mlx/mlx_mouse_hook.c
+		so_long/libs/mlx/mlx_new_image.c
+		so_long/libs/mlx/mlx_new_window.c
+		so_long/libs/mlx/mlx_pixel_put.c
+		so_long/libs/mlx/mlx_put_image_to_window.c
+		so_long/libs/mlx/mlx_rgb.c
+		so_long/libs/mlx/mlx_screen_size.c
+		so_long/libs/mlx/mlx_set_font.c
+		so_long/libs/mlx/mlx_string_put.c
+		so_long/libs/mlx/mlx_xpm.c
+		so_long/src/map/get_map.c
+		so_long/include/game.h
+		so_long/include/error_codes.h
+		so_long/src/error/error.c
+		so_long/libs/mylib/src/string/ft_split.c
+		so_long/libs/mylib/src/string/ft_strchr.c
+		so_long/libs/mylib/src/string/ft_strdup.c
+		so_long/libs/mylib/src/string/ft_striteri.c
+		so_long/libs/mylib/src/string/ft_strjoin.c
+		so_long/libs/mylib/src/string/ft_strlcat.c
+		so_long/libs/mylib/src/string/ft_strlcpy.c
+		so_long/libs/mylib/src/string/ft_strlen.c
+		so_long/libs/mylib/src/string/ft_strmapi.c
+		so_long/libs/mylib/src/string/ft_strncmp.c
+		so_long/libs/mylib/src/string/ft_strnstr.c
+		so_long/libs/mylib/src/string/ft_strrchr.c
+		so_long/libs/mylib/src/string/ft_strtrim.c
+		so_long/libs/mylib/src/string/ft_substr.c
+		so_long/libs/mylib/src/string/strcpy.c
+		so_long/libs/mylib/src/list/ft_lstadd_back_bonus.c
+		so_long/libs/mylib/src/list/ft_lstadd_front_bonus.c
+		so_long/libs/mylib/src/list/ft_lstclear_bonus.c
+		so_long/libs/mylib/src/list/ft_lstdelone_bonus.c
+		so_long/libs/mylib/src/list/ft_lstiter_bonus.c
+		so_long/libs/mylib/src/list/ft_lstlast_bonus.c
+		so_long/libs/mylib/src/list/ft_lstmap_bonus.c
+		so_long/libs/mylib/src/list/ft_lstnew_bonus.c
+		so_long/libs/mylib/src/list/ft_lstsize_bonus.c
+		so_long/libs/mylib/src/list/lstdel_safely.c
+		so_long/libs/mylib/src/list/lstdetach.c
+		so_long/libs/mylib/src/list/lstdup.c
+		so_long/libs/mylib/src/list/lstget_int.c
+		so_long/libs/mylib/src/list/lstnew_int.c
+		so_long/src/map/parse_map.c
+		so_long/src/event/keys.c
+		so_long/include/map.h
+		so_long/src/map/util.c
+		so_long/bonus/src/graphic/sprites_bonus.c
+		so_long/bonus/src/graphic/window_bonus.c
+		so_long/bonus/src/graphic/counter_bonus.c
+		so_long/bonus/src/event/move_bonus.c
+)
+
+target_include_directories(So_Long_Bonus PRIVATE
+		so_long/bonus/include
 )
