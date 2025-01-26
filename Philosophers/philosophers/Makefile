@@ -4,17 +4,17 @@
 #            ┛         by joao-alm
 
 # Compiler Settings
-CC          = cc
-CFLAGS      = -Wall -Werror -Wextra -g
-RM          = rm -rf
-O_DIR       = .obj
-header		= .obj/header
+CC		= cc
+CFLAGS	= -Wall -Werror -Wextra -g
+RM		= rm -rf
+O_DIR	= .obj
+header	= .obj/header
 
 # Mandatory Files
-NAME        = philo
-M_SRC       = mandatory/src/main/main.c
-M_INC       = -Imandatory/include
-M_OBJ       = $(M_SRC:mandatory/src/%.c=$(O_DIR)/mandatory/%.o)
+NAME	= philo
+M_SRC	= mandatory/src/main/main.c
+M_INC	= -Imandatory/include
+M_OBJ	= $(M_SRC:mandatory/src/%.c=$(O_DIR)/mandatory/%.o)
 
 # Mandatory Rules
 all: $(header) $(NAME) bonus
@@ -46,10 +46,10 @@ fclean: .header clean .fclean_bonus
 re: fclean all
 
 # Bonus Files
-B_NAME      = philo_bonus
-B_SRC       = bonus/src/main/main_bonus.c
-B_INC       = -Ibonus/include
-B_OBJ       = $(B_SRC:bonus/src/%.c=$(O_DIR)/bonus/%.o)
+B_NAME	= philo_bonus
+B_SRC	= bonus/src/main/main_bonus.c
+B_INC	= -Ibonus/include
+B_OBJ	= $(B_SRC:bonus/src/%.c=$(O_DIR)/bonus/%.o)
 
 # Bonus Rules
 bonus: $(header) $(B_NAME)
