@@ -3,7 +3,7 @@
   <component name="CMakePythonSetting">
     <option name="pythonIntegrationState" value="YES" />
   </component>
-  <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$/So_Long">
+  <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$/Philosophers">
     <contentRoot DIR="$PROJECT_DIR$" />
   </component>
 </project>

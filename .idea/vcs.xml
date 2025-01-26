@@ -2,9 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/So_Long/1st_try" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/So_Long/1st_try/libs/mlx" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/So_Long/1st_try_test" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/So_Long/so_long/libs/mlx" vcs="Git" />
   </component>
 </project>

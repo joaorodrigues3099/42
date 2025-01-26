@@ -8,11 +8,11 @@ set(CMAKE_C_STANDARD 11)
 include_directories(
 		so_long/libs/mlx
 		so_long/libs/mylib/include
-		so_long/include
+		so_long/mandatory/include
 )
 
 add_executable(So_Long
-		so_long/src/main/main.c
+		so_long/mandatory/src/main/main.c
 		so_long/Makefile
 		so_long/libs/mlx/Makefile
 		so_long/libs/mlx/mlx.h
@@ -50,11 +50,11 @@ add_executable(So_Long
 		so_long/libs/mlx/mlx_set_font.c
 		so_long/libs/mlx/mlx_string_put.c
 		so_long/libs/mlx/mlx_xpm.c
-		so_long/src/map/get_map.c
-		so_long/src/graphic/window.c
-		so_long/include/game.h
-		so_long/include/error_codes.h
-		so_long/src/error/error.c
+		so_long/mandatory/src/map/get_map.c
+		so_long/mandatory/src/graphic/window.c
+		so_long/mandatory/include/game.h
+		so_long/mandatory/include/error_codes.h
+		so_long/mandatory/src/error/error.c
 		so_long/libs/mylib/src/string/ft_split.c
 		so_long/libs/mylib/src/string/ft_strchr.c
 		so_long/libs/mylib/src/string/ft_strdup.c
@@ -84,22 +84,22 @@ add_executable(So_Long
 		so_long/libs/mylib/src/list/lstdup.c
 		so_long/libs/mylib/src/list/lstget_int.c
 		so_long/libs/mylib/src/list/lstnew_int.c
-		so_long/src/map/parse_map.c
-		so_long/src/graphic/sprites.c
-		so_long/src/event/keys.c
-		so_long/src/event/move.c
-		so_long/include/map.h
-		so_long/src/map/util.c
-		so_long/include/graphic/graphic.h
-		so_long/include/event.h
+		so_long/mandatory/src/map/parse_map.c
+		so_long/mandatory/src/graphic/sprites.c
+		so_long/mandatory/src/event/keys.c
+		so_long/mandatory/src/event/move.c
+		so_long/mandatory/include/map.h
+		so_long/mandatory/src/map/util.c
+		so_long/mandatory/include/graphic/graphic.h
+		so_long/mandatory/include/event.h
 )
 
 target_include_directories(So_Long PRIVATE
-		so_long/include/graphic
+		so_long/mandatory/include/graphic
 )
 
 add_executable(So_Long_Bonus
-		so_long/src/main/main.c
+		so_long/mandatory/src/main/main.c
 		so_long/Makefile
 		so_long/libs/mlx/Makefile
 		so_long/libs/mlx/mlx.h
@@ -137,10 +137,10 @@ add_executable(So_Long_Bonus
 		so_long/libs/mlx/mlx_set_font.c
 		so_long/libs/mlx/mlx_string_put.c
 		so_long/libs/mlx/mlx_xpm.c
-		so_long/src/map/get_map.c
-		so_long/include/game.h
-		so_long/include/error_codes.h
-		so_long/src/error/error.c
+		so_long/mandatory/src/map/get_map.c
+		so_long/mandatory/include/game.h
+		so_long/mandatory/include/error_codes.h
+		so_long/mandatory/src/error/error.c
 		so_long/libs/mylib/src/string/ft_split.c
 		so_long/libs/mylib/src/string/ft_strchr.c
 		so_long/libs/mylib/src/string/ft_strdup.c
@@ -170,10 +170,10 @@ add_executable(So_Long_Bonus
 		so_long/libs/mylib/src/list/lstdup.c
 		so_long/libs/mylib/src/list/lstget_int.c
 		so_long/libs/mylib/src/list/lstnew_int.c
-		so_long/src/map/parse_map.c
-		so_long/src/event/keys.c
-		so_long/include/map.h
-		so_long/src/map/util.c
+		so_long/mandatory/src/map/parse_map.c
+		so_long/mandatory/src/event/keys.c
+		so_long/mandatory/include/map.h
+		so_long/mandatory/src/map/util.c
 		so_long/bonus/src/graphic/sprites_bonus.c
 		so_long/bonus/src/graphic/window_bonus.c
 		so_long/bonus/src/graphic/counter_bonus.c

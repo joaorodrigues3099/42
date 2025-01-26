@@ -330,4 +330,4 @@ debug:
 	fi
 
 #────────────────────────────────── Phony Targets ───────────────────────────────
-.PHONY: clean fclean re all
+.PHONY: all clean fclean re
