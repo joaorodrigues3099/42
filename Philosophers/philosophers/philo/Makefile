@@ -13,16 +13,17 @@ header	= .obj/header
 
 # Mandatory Files
 NAME	= philo
-M_SRC	= mandatory/src/main/main.c \
-		  mandatory/src/input/get_input.c \
-		  mandatory/src/error/error.c \
-		  mandatory/src/util/ft_strlen.c \
-		  mandatory/src/util/atoll_valid.c
-M_INC	= -Imandatory/include
-M_OBJ	= $(M_SRC:mandatory/src/%.c=$(O_DIR)/mandatory/%.o)
+M_SRC	= src/main/main.c \
+		  src/init/init.c \
+		  src/error/error.c \
+		  src/event/routine.c \
+		  src/util/ft_strlen.c \
+		  src/util/atoll_valid.c
+M_INC	= -Iinclude
+M_OBJ	= $(M_SRC:src/%.c=$(O_DIR)/%.o)
 
 # Mandatory Rules
-all: $(header) $(NAME) bonus
+all: $(header) $(NAME)
 
 $(NAME): $(M_OBJ)
 	@printf "Compiling [$(y)$(NAME)$(r)]: executable$(c)\r"
@@ -30,7 +31,7 @@ $(NAME): $(M_OBJ)
 	@$(CC) $(CFLAGS) $(M_OBJ) -o $@
 	@printf "Compiling [$(y)$(NAME)$(r)]: $(g)Success$(r)$(c)\n"
 
-$(O_DIR)/mandatory/%.o: mandatory/src/%.c
+$(O_DIR)/%.o: src/%.c
 	@mkdir -p $(dir $@)
 	@printf "Compiling [$(y)$(NAME)$(r)]: $(notdir $@)$(c)\r"
 	@sleep 0.2
@@ -42,42 +43,13 @@ clean:
 	@$(RM) $(O_DIR)
 	@printf "Removing [$(p).objs$(r)]: $(g)Success$(r)$(c)\n"
 
-fclean: clean .fclean_bonus
+fclean: clean
 	@printf "Removing [$(p)$(NAME)$(r)]: $(NAME)$(c)\r"
 	@sleep 0.2
 	@$(RM) $(NAME)
 	@printf "Removing [$(p)$(NAME)$(r)]: $(g)Success$(r)$(c)\n"
 
 re: fclean all
-
-re: fclean all
-
-# Bonus Files
-B_NAME	= philo_bonus
-B_SRC	= bonus/src/main/main_bonus.c
-B_INC	= -Ibonus/include
-B_OBJ	= $(B_SRC:bonus/src/%.c=$(O_DIR)/bonus/%.o)
-
-# Bonus Rules
-bonus: $(header) $(B_NAME)
-
-$(B_NAME): $(B_OBJ)
-	@printf "Compiling [$(y)$(B_NAME)$(r)]: executable$(c)\r"
-	@sleep 0.2
-	@$(CC) $(CFLAGS) $(B_OBJ) -o $@
-	@printf "Compiling [$(y)$(B_NAME)$(r)]: $(g)Success$(r)$(c)\n"
-
-$(O_DIR)/bonus/%.o: bonus/src/%.c
-	@mkdir -p $(dir $@)
-	@printf "Compiling [$(y)$(B_NAME)$(r)]: $(notdir $@)$(c)\r"
-	@sleep 0.2
-	@$(CC) $(CFLAGS) -c $< -o $@ $(B_INC)
-
-.fclean_bonus: clean
-	@printf "Removing [$(p)$(B_NAME)$(r)]: $(B_NAME)$(c)\r"
-	@sleep 0.2
-	@$(RM) $(B_NAME)
-	@printf "Removing [$(p)$(B_NAME)$(r)]: $(g)Success$(r)$(c)\n"
 
 # Colours
 c	= \033[K
