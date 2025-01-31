@@ -1,4 +1,4 @@
 /home/joao-alm/42/Philosophers/cmake-build-debug/CMakeFiles/Philo.dir
-/home/joao-alm/42/Philosophers/cmake-build-debug/CMakeFiles/Philo_Bonus.dir
+/home/joao-alm/42/Philosophers/cmake-build-debug/CMakeFiles/M4nb3LL_Philo.dir
 /home/joao-alm/42/Philosophers/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/joao-alm/42/Philosophers/cmake-build-debug/CMakeFiles/rebuild_cache.dir

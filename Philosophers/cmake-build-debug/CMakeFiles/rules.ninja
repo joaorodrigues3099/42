@@ -33,7 +33,7 @@ rule C_EXECUTABLE_LINKER__Philo_Debug
 #############################################
 # Rule for compiling C files.
 
-rule C_COMPILER__Philo_Bonus_unscanned_Debug
+rule C_COMPILER__M4nb3LL_Philo_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}/usr/bin/cc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -43,7 +43,7 @@ rule C_COMPILER__Philo_Bonus_unscanned_Debug
 #############################################
 # Rule for linking C executable.
 
-rule C_EXECUTABLE_LINKER__Philo_Bonus_Debug
+rule C_EXECUTABLE_LINKER__M4nb3LL_Philo_Debug
   command = $PRE_LINK && /usr/bin/cc $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
