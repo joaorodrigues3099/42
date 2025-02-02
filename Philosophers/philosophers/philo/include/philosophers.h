@@ -45,9 +45,6 @@ void				*ft_routine(void *ptr);
 int					ft_init_data(t_data *data, int ac, char **av);
 
 unsigned long long	ft_time_ms();
-
-long long			ft_atoll_valid(const char *str, const long long min,
-		const long long max, int *valid);
 size_t				ft_strlen(const char *s);
 
 #endif //PHILOSOPHERS_H

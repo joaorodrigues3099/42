@@ -13,7 +13,8 @@
 #ifndef ERROR_H
 # define ERROR_H
 
-#include "philosophers.h"
+# include "philosophers.h"
+# include <unistd.h>
 
 // # define PINK	"\033[1m\033[38;2;231;133;190m"
 // # define RESET	"\033[0m"
@@ -21,43 +22,21 @@
 // # define GREEN	"\033[1m\033[38;2;129;223;164m"
 // # define BOLD	"\033[1m"
 
-# define PINK	""
-# define RESET	""
-# define YELLOW	""
-# define GREEN	""
-# define BOLD	""
+# define PINK ""
+# define RESET ""
+# define YELLOW ""
+# define GREEN ""
+# define BOLD ""
 
-# define E_OK 0
-
-# define E_INVALID_FORMAT 10
-# define E_INVALID_FORMAT_MSG \
-	"Format: ./philo <n_philos> <die_time> <eat_time> <sleep_time> [n_meals]\n"
-
-# define E_MEMORY_ALLOCATION 12
-# define E_MEMORY_ALLOCATION_MSG "Memory allocation failed\n"
-
-# define E_FAILED_CREATE_THREAD 13
-# define E_FAILED_CREATE_THREAD_MSG "Failed to create thread\n"
-
-# define E_FAILED_JOIN_THREAD 14
-# define E_FAILED_JOIN_THREAD_MSG "Failed to join thread\n"
-
-# define E_INVALID_PHILO 101
-# define E_INVALID_PHILO_MSG "<n_philos> must be a value between 1 and 200\n"
-
-# define E_INVALID_DIE 102
-# define E_INVALID_DIE_MSG "<die_time> must be a value between 1 and INT_MAX\n"
-
-# define E_INVALID_EAT 103
-# define E_INVALID_EAT_MSG "<eat_time> must be a value between 1 and INT_MAX\n"
-
-# define E_INVALID_SLEEP 104
-# define E_INVALID_SLEEP_MSG "<sleep_time> must be a value between 1 and INT_MAX\n"
-
-# define E_INVALID_MEALS 105
-# define E_INVALID_MEALS_MSG "[n_meals] must be a value between 0 and INT_MAX\n"
-
-int	ft_print_error(int err_code);
-int	ft_free_return(const t_data *data, const int err_code);
+enum		e_error_code
+{
+	E_FORMAT = 10,
+	E_MEM_ALLOC = 12,
+	E_CREATE_THREAD = 13,
+	E_JOIN_THREAD = 14,
+	E_PHILO = 100,
+	E_TIMES = 101,
+	E_MEALS = 102
+};
 
 #endif // ERROR_H

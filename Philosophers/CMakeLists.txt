@@ -9,15 +9,14 @@ include_directories(
 )
 
 add_executable(Philo
-		philosophers/philo/src/main/main.c
+		philosophers/philo/src/main.c
 		philosophers/philo/Makefile
-		philosophers/philo/src/util/ft_strlen.c
 		philosophers/philo/include/error.h
-		philosophers/philo/src/error/error.c
+		philosophers/philo/src/error.c
 		philosophers/philo/include/philosophers.h
-		philosophers/philo/src/util/atoll_valid.c
-		philosophers/philo/src/init/init.c
-		philosophers/philo/src/event/routine.c
+		philosophers/philo/src/atoi_v.c
+		philosophers/philo/src/init.c
+		philosophers/philo/src/routine.c
 )
 
 target_include_directories(Philo PRIVATE
@@ -41,4 +40,22 @@ add_executable(M4nb3LL_Philo
 
 target_include_directories(M4nb3LL_Philo PRIVATE
 		m4nb3ll_philo
+)
+
+add_executable(Dpetrosy_Philo
+		dpetrosy_philo/philo/includes/init.h
+		dpetrosy_philo/philo/includes/philo.h
+		dpetrosy_philo/philo/includes/simulation.h
+		dpetrosy_philo/philo/includes/utils.h
+		dpetrosy_philo/philo/srcs/init.c
+		dpetrosy_philo/philo/srcs/main.c
+		dpetrosy_philo/philo/srcs/utils.c
+		dpetrosy_philo/philo/srcs/str_utils.c
+		dpetrosy_philo/philo/srcs/simulation.c
+		dpetrosy_philo/philo/Makefile
+
+)
+
+target_include_directories(Dpetrosy_Philo PRIVATE
+		dpetrosy_philo/philo/includes
 )

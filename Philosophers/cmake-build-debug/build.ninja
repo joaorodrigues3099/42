@@ -49,47 +49,40 @@ cmake_ninja_workdir = /home/joao-alm/42/Philosophers/cmake-build-debug/
 
 build cmake_object_order_depends_target_Philo: phony || .
 
-build CMakeFiles/Philo.dir/philosophers/philo/src/main/main.c.o: C_COMPILER__Philo_unscanned_Debug /home/joao-alm/42/Philosophers/philosophers/philo/src/main/main.c || cmake_object_order_depends_target_Philo
-  DEP_FILE = CMakeFiles/Philo.dir/philosophers/philo/src/main/main.c.o.d
+build CMakeFiles/Philo.dir/philosophers/philo/src/main.c.o: C_COMPILER__Philo_unscanned_Debug /home/joao-alm/42/Philosophers/philosophers/philo/src/main.c || cmake_object_order_depends_target_Philo
+  DEP_FILE = CMakeFiles/Philo.dir/philosophers/philo/src/main.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   INCLUDES = -I/home/joao-alm/42/Philosophers/philosophers/philo/include
   OBJECT_DIR = CMakeFiles/Philo.dir
-  OBJECT_FILE_DIR = CMakeFiles/Philo.dir/philosophers/philo/src/main
+  OBJECT_FILE_DIR = CMakeFiles/Philo.dir/philosophers/philo/src
 
-build CMakeFiles/Philo.dir/philosophers/philo/src/util/ft_strlen.c.o: C_COMPILER__Philo_unscanned_Debug /home/joao-alm/42/Philosophers/philosophers/philo/src/util/ft_strlen.c || cmake_object_order_depends_target_Philo
-  DEP_FILE = CMakeFiles/Philo.dir/philosophers/philo/src/util/ft_strlen.c.o.d
+build CMakeFiles/Philo.dir/philosophers/philo/src/error.c.o: C_COMPILER__Philo_unscanned_Debug /home/joao-alm/42/Philosophers/philosophers/philo/src/error.c || cmake_object_order_depends_target_Philo
+  DEP_FILE = CMakeFiles/Philo.dir/philosophers/philo/src/error.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   INCLUDES = -I/home/joao-alm/42/Philosophers/philosophers/philo/include
   OBJECT_DIR = CMakeFiles/Philo.dir
-  OBJECT_FILE_DIR = CMakeFiles/Philo.dir/philosophers/philo/src/util
+  OBJECT_FILE_DIR = CMakeFiles/Philo.dir/philosophers/philo/src
 
-build CMakeFiles/Philo.dir/philosophers/philo/src/error/error.c.o: C_COMPILER__Philo_unscanned_Debug /home/joao-alm/42/Philosophers/philosophers/philo/src/error/error.c || cmake_object_order_depends_target_Philo
-  DEP_FILE = CMakeFiles/Philo.dir/philosophers/philo/src/error/error.c.o.d
+build CMakeFiles/Philo.dir/philosophers/philo/src/atoi_v.c.o: C_COMPILER__Philo_unscanned_Debug /home/joao-alm/42/Philosophers/philosophers/philo/src/atoi_v.c || cmake_object_order_depends_target_Philo
+  DEP_FILE = CMakeFiles/Philo.dir/philosophers/philo/src/atoi_v.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   INCLUDES = -I/home/joao-alm/42/Philosophers/philosophers/philo/include
   OBJECT_DIR = CMakeFiles/Philo.dir
-  OBJECT_FILE_DIR = CMakeFiles/Philo.dir/philosophers/philo/src/error
+  OBJECT_FILE_DIR = CMakeFiles/Philo.dir/philosophers/philo/src
 
-build CMakeFiles/Philo.dir/philosophers/philo/src/util/atoll_valid.c.o: C_COMPILER__Philo_unscanned_Debug /home/joao-alm/42/Philosophers/philosophers/philo/src/util/atoll_valid.c || cmake_object_order_depends_target_Philo
-  DEP_FILE = CMakeFiles/Philo.dir/philosophers/philo/src/util/atoll_valid.c.o.d
+build CMakeFiles/Philo.dir/philosophers/philo/src/init.c.o: C_COMPILER__Philo_unscanned_Debug /home/joao-alm/42/Philosophers/philosophers/philo/src/init.c || cmake_object_order_depends_target_Philo
+  DEP_FILE = CMakeFiles/Philo.dir/philosophers/philo/src/init.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   INCLUDES = -I/home/joao-alm/42/Philosophers/philosophers/philo/include
   OBJECT_DIR = CMakeFiles/Philo.dir
-  OBJECT_FILE_DIR = CMakeFiles/Philo.dir/philosophers/philo/src/util
+  OBJECT_FILE_DIR = CMakeFiles/Philo.dir/philosophers/philo/src
 
-build CMakeFiles/Philo.dir/philosophers/philo/src/init/init.c.o: C_COMPILER__Philo_unscanned_Debug /home/joao-alm/42/Philosophers/philosophers/philo/src/init/init.c || cmake_object_order_depends_target_Philo
-  DEP_FILE = CMakeFiles/Philo.dir/philosophers/philo/src/init/init.c.o.d
+build CMakeFiles/Philo.dir/philosophers/philo/src/routine.c.o: C_COMPILER__Philo_unscanned_Debug /home/joao-alm/42/Philosophers/philosophers/philo/src/routine.c || cmake_object_order_depends_target_Philo
+  DEP_FILE = CMakeFiles/Philo.dir/philosophers/philo/src/routine.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   INCLUDES = -I/home/joao-alm/42/Philosophers/philosophers/philo/include
   OBJECT_DIR = CMakeFiles/Philo.dir
-  OBJECT_FILE_DIR = CMakeFiles/Philo.dir/philosophers/philo/src/init
-
-build CMakeFiles/Philo.dir/philosophers/philo/src/event/routine.c.o: C_COMPILER__Philo_unscanned_Debug /home/joao-alm/42/Philosophers/philosophers/philo/src/event/routine.c || cmake_object_order_depends_target_Philo
-  DEP_FILE = CMakeFiles/Philo.dir/philosophers/philo/src/event/routine.c.o.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/joao-alm/42/Philosophers/philosophers/philo/include
-  OBJECT_DIR = CMakeFiles/Philo.dir
-  OBJECT_FILE_DIR = CMakeFiles/Philo.dir/philosophers/philo/src/event
+  OBJECT_FILE_DIR = CMakeFiles/Philo.dir/philosophers/philo/src
 
 
 # =============================================================================
@@ -99,7 +92,7 @@ build CMakeFiles/Philo.dir/philosophers/philo/src/event/routine.c.o: C_COMPILER_
 #############################################
 # Link the executable Philo
 
-build Philo: C_EXECUTABLE_LINKER__Philo_Debug CMakeFiles/Philo.dir/philosophers/philo/src/main/main.c.o CMakeFiles/Philo.dir/philosophers/philo/src/util/ft_strlen.c.o CMakeFiles/Philo.dir/philosophers/philo/src/error/error.c.o CMakeFiles/Philo.dir/philosophers/philo/src/util/atoll_valid.c.o CMakeFiles/Philo.dir/philosophers/philo/src/init/init.c.o CMakeFiles/Philo.dir/philosophers/philo/src/event/routine.c.o
+build Philo: C_EXECUTABLE_LINKER__Philo_Debug CMakeFiles/Philo.dir/philosophers/philo/src/main.c.o CMakeFiles/Philo.dir/philosophers/philo/src/error.c.o CMakeFiles/Philo.dir/philosophers/philo/src/atoi_v.c.o CMakeFiles/Philo.dir/philosophers/philo/src/init.c.o CMakeFiles/Philo.dir/philosophers/philo/src/routine.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/Philo.dir
   POST_BUILD = :
@@ -202,6 +195,66 @@ build M4nb3LL_Philo: C_EXECUTABLE_LINKER__M4nb3LL_Philo_Debug CMakeFiles/M4nb3LL
   TARGET_FILE = M4nb3LL_Philo
   TARGET_PDB = M4nb3LL_Philo.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Dpetrosy_Philo
+
+
+#############################################
+# Order-only phony target for Dpetrosy_Philo
+
+build cmake_object_order_depends_target_Dpetrosy_Philo: phony || .
+
+build CMakeFiles/Dpetrosy_Philo.dir/dpetrosy_philo/philo/srcs/init.c.o: C_COMPILER__Dpetrosy_Philo_unscanned_Debug /home/joao-alm/42/Philosophers/dpetrosy_philo/philo/srcs/init.c || cmake_object_order_depends_target_Dpetrosy_Philo
+  DEP_FILE = CMakeFiles/Dpetrosy_Philo.dir/dpetrosy_philo/philo/srcs/init.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/joao-alm/42/Philosophers/dpetrosy_philo/philo/includes
+  OBJECT_DIR = CMakeFiles/Dpetrosy_Philo.dir
+  OBJECT_FILE_DIR = CMakeFiles/Dpetrosy_Philo.dir/dpetrosy_philo/philo/srcs
+
+build CMakeFiles/Dpetrosy_Philo.dir/dpetrosy_philo/philo/srcs/main.c.o: C_COMPILER__Dpetrosy_Philo_unscanned_Debug /home/joao-alm/42/Philosophers/dpetrosy_philo/philo/srcs/main.c || cmake_object_order_depends_target_Dpetrosy_Philo
+  DEP_FILE = CMakeFiles/Dpetrosy_Philo.dir/dpetrosy_philo/philo/srcs/main.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/joao-alm/42/Philosophers/dpetrosy_philo/philo/includes
+  OBJECT_DIR = CMakeFiles/Dpetrosy_Philo.dir
+  OBJECT_FILE_DIR = CMakeFiles/Dpetrosy_Philo.dir/dpetrosy_philo/philo/srcs
+
+build CMakeFiles/Dpetrosy_Philo.dir/dpetrosy_philo/philo/srcs/utils.c.o: C_COMPILER__Dpetrosy_Philo_unscanned_Debug /home/joao-alm/42/Philosophers/dpetrosy_philo/philo/srcs/utils.c || cmake_object_order_depends_target_Dpetrosy_Philo
+  DEP_FILE = CMakeFiles/Dpetrosy_Philo.dir/dpetrosy_philo/philo/srcs/utils.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/joao-alm/42/Philosophers/dpetrosy_philo/philo/includes
+  OBJECT_DIR = CMakeFiles/Dpetrosy_Philo.dir
+  OBJECT_FILE_DIR = CMakeFiles/Dpetrosy_Philo.dir/dpetrosy_philo/philo/srcs
+
+build CMakeFiles/Dpetrosy_Philo.dir/dpetrosy_philo/philo/srcs/str_utils.c.o: C_COMPILER__Dpetrosy_Philo_unscanned_Debug /home/joao-alm/42/Philosophers/dpetrosy_philo/philo/srcs/str_utils.c || cmake_object_order_depends_target_Dpetrosy_Philo
+  DEP_FILE = CMakeFiles/Dpetrosy_Philo.dir/dpetrosy_philo/philo/srcs/str_utils.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/joao-alm/42/Philosophers/dpetrosy_philo/philo/includes
+  OBJECT_DIR = CMakeFiles/Dpetrosy_Philo.dir
+  OBJECT_FILE_DIR = CMakeFiles/Dpetrosy_Philo.dir/dpetrosy_philo/philo/srcs
+
+build CMakeFiles/Dpetrosy_Philo.dir/dpetrosy_philo/philo/srcs/simulation.c.o: C_COMPILER__Dpetrosy_Philo_unscanned_Debug /home/joao-alm/42/Philosophers/dpetrosy_philo/philo/srcs/simulation.c || cmake_object_order_depends_target_Dpetrosy_Philo
+  DEP_FILE = CMakeFiles/Dpetrosy_Philo.dir/dpetrosy_philo/philo/srcs/simulation.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/joao-alm/42/Philosophers/dpetrosy_philo/philo/includes
+  OBJECT_DIR = CMakeFiles/Dpetrosy_Philo.dir
+  OBJECT_FILE_DIR = CMakeFiles/Dpetrosy_Philo.dir/dpetrosy_philo/philo/srcs
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Dpetrosy_Philo
+
+
+#############################################
+# Link the executable Dpetrosy_Philo
+
+build Dpetrosy_Philo: C_EXECUTABLE_LINKER__Dpetrosy_Philo_Debug CMakeFiles/Dpetrosy_Philo.dir/dpetrosy_philo/philo/srcs/init.c.o CMakeFiles/Dpetrosy_Philo.dir/dpetrosy_philo/philo/srcs/main.c.o CMakeFiles/Dpetrosy_Philo.dir/dpetrosy_philo/philo/srcs/utils.c.o CMakeFiles/Dpetrosy_Philo.dir/dpetrosy_philo/philo/srcs/str_utils.c.o CMakeFiles/Dpetrosy_Philo.dir/dpetrosy_philo/philo/srcs/simulation.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/Dpetrosy_Philo.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Dpetrosy_Philo
+  TARGET_PDB = Dpetrosy_Philo.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -236,7 +289,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/joao-alm/42/Philosophers/cmake-build-debug
 
-build all: phony Philo M4nb3LL_Philo
+build all: phony Philo M4nb3LL_Philo Dpetrosy_Philo
 
 # =============================================================================
 # Built-in targets
