@@ -39,4 +39,6 @@ enum		e_error_code
 	E_MEALS = 102
 };
 
+int	ft_error(const int errno);
+
 #endif // ERROR_H

@@ -22,7 +22,7 @@ static void	ft_puterror(const char *error)
 	write(2, RESET, 7);
 }
 
-static void	ft_print_standard_error(const int errno)
+static void	ft_standard_error(const int errno)
 {
 	if (errno == E_FORMAT)
 		ft_puterror("Format: ./philo <n_philos> <die_time> <eat_time> "
@@ -35,7 +35,7 @@ static void	ft_print_standard_error(const int errno)
 		ft_puterror("Failed to join thread\n");
 }
 
-int	ft_print_error(const int errno)
+int	ft_error(const int errno)
 {
 	if (errno < 100)
 		ft_print_standard_error(errno);

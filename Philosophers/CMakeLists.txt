@@ -9,18 +9,18 @@ include_directories(
 )
 
 add_executable(Philo
-		philosophers/philo/src/main.c
-		philosophers/philo/Makefile
-		philosophers/philo/include/error.h
-		philosophers/philo/src/error.c
-		philosophers/philo/include/philosophers.h
-		philosophers/philo/src/atoi_v.c
-		philosophers/philo/src/init.c
-		philosophers/philo/src/routine.c
+		philo/src/main.c
+		philo/Makefile
+		philo/include/error.h
+		philo/src/error.c
+		philo/include/philosophers.h
+		philo/src/atoi_v.c
+		philo/src/init.c
+		philo/src/routine.c
 )
 
 target_include_directories(Philo PRIVATE
-		philosophers/philo/include
+		philo/include
 )
 
 add_executable(M4nb3LL_Philo

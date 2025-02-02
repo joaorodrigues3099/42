@@ -17,11 +17,11 @@
 #include "../include/error.h"
 #include "../include/philosophers.h"
 
-unsigned long long	ft_time_ms()
+size_t	ft_time_ms()
 {
 	struct timeval	tv;
-	unsigned long long	seconds;
-	unsigned long long	microseconds;
+	size_t	seconds;
+	size_t	microseconds;
 
 	gettimeofday(&tv, NULL);
 	seconds = tv.tv_sec;
@@ -87,6 +87,16 @@ int	ft_eat(t_philo *philo)
 	pthread_mutex_unlock(&philo->left_fork);
 	pthread_mutex_unlock(philo->right_fork);
 	return (1);
+}
+
+int	ft_stop(t_data *data)
+{
+	int	i;
+
+	while (data->)
+	{
+
+	}
 }
 
 void	*ft_routine(void *ptr)

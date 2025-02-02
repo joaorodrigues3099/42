@@ -10,19 +10,15 @@
 				{
 					"includeDirectories" : 
 					[
-						"/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/include",
-						"/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/include-fixed",
-						"/usr/include/x86_64-linux-gnu",
+						"/usr/lib/gcc/x86_64-redhat-linux/14/include",
+						"/usr/local/include",
 						"/usr/include"
 					],
 					"linkDirectories" : 
 					[
-						"/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0",
-						"/usr/lib/x86_64-linux-gnu",
+						"/usr/lib/gcc/x86_64-redhat-linux/14",
 						"/usr/lib64",
-						"/lib/x86_64-linux-gnu",
 						"/lib64",
-						"/usr/x86_64-unknown-linux-gnu/lib",
 						"/usr/lib"
 					],
 					"linkFrameworkDirectories" : [],
@@ -36,7 +32,7 @@
 					]
 				},
 				"path" : "/usr/bin/cc",
-				"version" : "14.2.0"
+				"version" : "14.2.1"
 			},
 			"language" : "C",
 			"sourceFileExtensions" : 
@@ -53,22 +49,18 @@
 				{
 					"includeDirectories" : 
 					[
-						"/usr/include/c++/14.2.0",
-						"/usr/include/c++/14.2.0/x86_64-unknown-linux-gnu",
-						"/usr/include/c++/14.2.0/backward",
-						"/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/include",
-						"/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/include-fixed",
-						"/usr/include/x86_64-linux-gnu",
+						"/usr/include/c++/14",
+						"/usr/include/c++/14/x86_64-redhat-linux",
+						"/usr/include/c++/14/backward",
+						"/usr/lib/gcc/x86_64-redhat-linux/14/include",
+						"/usr/local/include",
 						"/usr/include"
 					],
 					"linkDirectories" : 
 					[
-						"/usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0",
-						"/usr/lib/x86_64-linux-gnu",
+						"/usr/lib/gcc/x86_64-redhat-linux/14",
 						"/usr/lib64",
-						"/lib/x86_64-linux-gnu",
 						"/lib64",
-						"/usr/x86_64-unknown-linux-gnu/lib",
 						"/usr/lib"
 					],
 					"linkFrameworkDirectories" : [],
@@ -84,7 +76,7 @@
 					]
 				},
 				"path" : "/usr/bin/c++",
-				"version" : "14.2.0"
+				"version" : "14.2.1"
 			},
 			"language" : "CXX",
 			"sourceFileExtensions" : 

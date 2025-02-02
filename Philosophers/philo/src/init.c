@@ -32,40 +32,10 @@ int	ft_init_philosopher(t_data *data, const int i)
 	return (0);
 }
 
-int	ft_handle_args(t_data *data, int ac, char **av)
-{
-	int	valid;
-
-	data->n_philos = (int)ft_atoll_valid(av[1], 1, 200, &valid);
-	if (!valid)
-		return(E_INVALID_PHILO);
-	data->die_time = ft_atoll_valid(av[2], 1, INT_MAX, &valid);
-	if (!valid)
-		return(E_INVALID_DIE);
-	data->eat_time = ft_atoll_valid(av[3], 1, INT_MAX, &valid);
-	if (!valid)
-		return(E_INVALID_EAT);
-	data->sleep_time = ft_atoll_valid(av[4], 1, INT_MAX, &valid);
-	if (!valid)
-		return(E_INVALID_SLEEP);
-	data->n_meals = -1;
-	if (data->n_philos > 1 && ac == 6)
-	{
-		data->n_meals = (int)ft_atoll_valid(av[5], 0, INT_MAX, &valid);
-		if (!valid)
-			return(E_INVALID_MEALS);
-	}
-	return (0);
-}
-
 int	ft_init_data(t_data *data, int ac, char **av)
 {
 	int				i;
-	int				error;
 
-	error = ft_handle_args(data, ac, av);
-	if (error)
-		return (error);
 	data->philo = malloc(sizeof(t_philo) * data->n_philos);
 	if (!data->philo)
 		return (E_MEMORY_ALLOCATION);

@@ -15,6 +15,8 @@
 
 #include <pthread.h>
 
+
+
 typedef struct	s_philo
 {
 	pthread_t			thread;
@@ -35,7 +37,7 @@ typedef struct	s_data
 	size_t				sleep_time;
 	int					n_meals;
 	pthread_mutex_t		mutex;
-	unsigned long long	start_time;
+	size_t				start_time;
 	int					death;
 	int					full;
 }				t_data;
@@ -43,8 +45,9 @@ typedef struct	s_data
 void				*ft_routine(void *ptr);
 
 int					ft_init_data(t_data *data, int ac, char **av);
+long			ft_atoi_v(const char *str);
 
-unsigned long long	ft_time_ms();
+size_t				ft_time_ms();
 size_t				ft_strlen(const char *s);
 
 #endif //PHILOSOPHERS_H
