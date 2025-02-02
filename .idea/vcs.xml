@@ -2,8 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Philosophers/dpetrosy_philo" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Philosophers/m4nb3ll_philo" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/So_Long/so_long/libs/mlx" vcs="Git" />
   </component>
 </project>
