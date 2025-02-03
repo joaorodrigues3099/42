@@ -38,7 +38,7 @@ static void	ft_standard_error(const int errno)
 int	ft_error(const int errno)
 {
 	if (errno < 100)
-		ft_print_standard_error(errno);
+		ft_standard_error(errno);
 	else if (errno == E_PHILO)
 		ft_puterror("<n_philos> must be a value between 1 and 200\n");
 	else if (errno == E_TIMES)

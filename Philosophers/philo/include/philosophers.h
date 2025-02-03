@@ -15,39 +15,46 @@
 
 #include <pthread.h>
 
-
-
 typedef struct	s_philo
 {
-	pthread_t			thread;
-	int					id;
-	pthread_mutex_t		left_fork;
-	pthread_mutex_t		*right_fork;
-	int					meals_eaten;
-	unsigned long long	last_meal;
-	struct s_data		*data;
+	pthread_t		thread;
+	int				id;
+	pthread_mutex_t	left_fork;
+	pthread_mutex_t	*right_fork;
+	int				meals_eaten;
+	size_t			last_meal;
+	struct s_data	*data;
 }				t_philo;
+
+typedef struct	s_time
+{
+	size_t		die;
+	size_t		eat;
+	size_t		sleep;
+	size_t		start;
+}				t_time;
 
 typedef struct	s_data
 {
-	t_philo				*philo;
-	int					n_philos;
-	size_t				die_time;
-	size_t				eat_time;
-	size_t				sleep_time;
-	int					n_meals;
-	pthread_mutex_t		mutex;
-	size_t				start_time;
-	int					death;
-	int					full;
+	int				n_philos;
+	t_philo			*philo;
+	pthread_mutex_t	print;
+	pthread_mutex_t	meal;
+	pthread_mutex_t	stop_mutex;
+	t_time 			times;
+	int				n_meals;
+	int				n_full;
+	int				death;
 }				t_data;
 
-void				*ft_routine(void *ptr);
+int				ft_init_data(t_data *data, int ac, char **av);
 
-int					ft_init_data(t_data *data, int ac, char **av);
+void			*ft_monitor(void *ptr);
+void			*ft_routine(void *ptr);
+
 long			ft_atoi_v(const char *str);
 
-size_t				ft_time_ms();
-size_t				ft_strlen(const char *s);
+size_t			ft_time_ms();
+void			ft_usleep(size_t mls);
 
 #endif //PHILOSOPHERS_H

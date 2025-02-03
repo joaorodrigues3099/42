@@ -87,8 +87,8 @@ re: fclean new_line all
 #─────────────────────────────────────Bonus──────────────────────────────────
 
 CHECKER				= checker
-CHECKER_SRCS		= checker/checker_bonus.c \
-					  checker/checker_utils_bonus.c \
+CHECKER_SRCS		= bonus/checker_bonus.c \
+					  bonus/checker_utils_bonus.c \
                       $(OPER_SRCS) \
                       srcs/input.c \
                       srcs/ps_utils.c

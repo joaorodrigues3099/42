@@ -11,7 +11,7 @@
 -- Check for working CXX compiler: /usr/bin/c++ - skipped
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
--- Configuring done (0.4s)
+-- Configuring done (0.2s)
 CMake Error at CMakeLists.txt:10 (add_executable):
   Cannot find source file:
 

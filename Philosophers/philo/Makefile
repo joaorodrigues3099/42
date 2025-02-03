@@ -13,12 +13,12 @@ header	= .obj/header
 
 # Mandatory Files
 NAME	= philo
-M_SRC	= src/main/main.c \
-		  src/init/init.c \
-		  src/error/error.c \
-		  src/event/routine.c \
-		  src/util/ft_strlen.c \
-		  src/util/atoi_v.c
+M_SRC	= src/main.c \
+		  src/init.c \
+		  src/error.c \
+		  src/time.c \
+		  src/routine.c \
+		  src/atoi_v.c
 M_INC	= -Iinclude
 M_OBJ	= $(M_SRC:src/%.c=$(O_DIR)/%.o)
 

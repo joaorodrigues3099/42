@@ -5,9 +5,6 @@ project(Philosophers)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_C_STANDARD 11)
 
-include_directories(
-)
-
 add_executable(Philo
 		philo/src/main.c
 		philo/Makefile
@@ -17,6 +14,7 @@ add_executable(Philo
 		philo/src/atoi_v.c
 		philo/src/init.c
 		philo/src/routine.c
+		philo/src/time.c
 )
 
 target_include_directories(Philo PRIVATE

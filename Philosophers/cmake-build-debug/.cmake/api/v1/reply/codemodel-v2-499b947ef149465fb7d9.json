@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Philosophers",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Dpetrosy_Philo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Dpetrosy_Philo-Debug-0f50189c570d93f0ac39.json",
+					"name" : "Dpetrosy_Philo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "M4nb3LL_Philo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-M4nb3LL_Philo-Debug-b16948d0d8df52d13911.json",
+					"name" : "M4nb3LL_Philo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Philo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Philo-Debug-44675f5c515a5830b845.json",
+					"name" : "Philo",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/joao-alm/42/Philosophers/cmake-build-debug",
+		"source" : "/home/joao-alm/42/Philosophers"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
