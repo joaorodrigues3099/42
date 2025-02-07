@@ -6,15 +6,18 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(Philo
-		philo/src/main.c
+		philo/src/main/main.c
 		philo/Makefile
 		philo/include/error.h
-		philo/src/error.c
+		philo/src/util/error.c
 		philo/include/philosophers.h
-		philo/src/atoi_v.c
-		philo/src/init.c
-		philo/src/routine.c
-		philo/src/time.c
+		philo/src/init/init.c
+		philo/src/routine/routine.c
+		philo/src/util/util.c
+		philo/src/routine/monitor.c
+		philo/include/colour.h
+		philo/src/routine/routine_util.c
+		philo/src/util/exit.c
 )
 
 target_include_directories(Philo PRIVATE
