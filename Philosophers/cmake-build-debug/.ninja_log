@@ -1,12 +1,2 @@
 # ninja log v6
-1	47	1738316039686984265	CMakeFiles/M4nb3LL_Philo.dir/m4nb3ll_philo/libft_utils/ft_now_ms.c.o	7234838b9971716e
 55	72	1738316039738984356	M4nb3LL_Philo	845aaacad7fb9f17
-1	47	1738316039686984265	CMakeFiles/M4nb3LL_Philo.dir/m4nb3ll_philo/libft_utils/ft_isint.c.o	5d409be4d3a331f7
-1	47	1738316039686984265	CMakeFiles/M4nb3LL_Philo.dir/m4nb3ll_philo/libft_utils/ft_usleep.c.o	3f79a91e780ebb95
-0	46	1738316039682984258	CMakeFiles/M4nb3LL_Philo.dir/m4nb3ll_philo/init.c.o	d1ffbeb5640385da
-0	48	1738316039682984258	CMakeFiles/M4nb3LL_Philo.dir/m4nb3ll_philo/main.c.o	3fd1dd9a920af850
-1	47	1738316039686984265	CMakeFiles/M4nb3LL_Philo.dir/m4nb3ll_philo/libft_utils/ft_calloc.c.o	620a88b3586676bf
-1	43	1738316039686984265	CMakeFiles/M4nb3LL_Philo.dir/m4nb3ll_philo/libft_utils/ft_strlen.c.o	7302243bf6404df6
-1	46	1738316039686984265	CMakeFiles/M4nb3LL_Philo.dir/m4nb3ll_philo/libft_utils/ft_atoi.c.o	8e98fcf46e635d44
-1	21	1738316039686984265	CMakeFiles/M4nb3LL_Philo.dir/m4nb3ll_philo/libft_utils/ft_isdigit.c.o	477924280436ac15
-0	55	1738316039682984258	CMakeFiles/M4nb3LL_Philo.dir/m4nb3ll_philo/philo_utils.c.o	515af49dd109d968

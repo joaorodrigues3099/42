@@ -1,23 +1,34 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   colour.h                                           :+:      :+:    :+:   */
+/*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: joao-alm <joao-alm@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/02/06 16:35:00 by joao-alm          #+#    #+#             */
-/*   Updated: 2025/02/07 18:30:51 by joao-alm         ###   ########.fr       */
+/*   Created: 2025/02/08 17:55:01 by joao-alm          #+#    #+#             */
+/*   Updated: 2025/02/08 18:02:46 by joao-alm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef COLOUR_H
-# define COLOUR_H
+#include "philo_bonus.h"
+#include <stdio.h>
+#include <unistd.h>
 
-# define PINK "\033[1m\033[38;2;231;133;190m"
-# define RESET "\033[0m"
-# define YELLOW "\033[1m\033[38;2;255;248;147m"
-# define GREEN "\033[1m\033[38;2;129;223;164m"
-# define PURPLE "\033[1m\033[38;2;170;133;220m"
-# define BOLD "\033[1m"
+int	main(int ac, char **av)
+{
+	int pid;
 
-#endif // COLOUR_H
+	(void)ac;
+	(void)av;
+	printf("I'm the parent\n");
+	for (int i = 0; i < 4; ++i)
+	{
+		if (!pid)
+		{
+			pid = fork();
+			if (pid)
+				printf("I'm the child %d\n", i);
+		}
+	}
+	return (0);
+}
