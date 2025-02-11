@@ -25,30 +25,30 @@ MYLIB_INCS	= -I$(MYLIB_DIR)/include
 MYLIB_ADD	= -L$(MYLIB_DIR) -lmylib
 
 #────────────────────────────────── Main Files ───────────────────────────────────
-SRCS 		= src/main/main.c \
-			  src/error/error.c \
-			  src/map/get_map.c \
-			  src/map/parse_map.c \
-			  src/map/util.c \
-			  src/event/keys.c \
-			  src/event/move.c \
-			  src/graphic/sprites.c \
-			  src/graphic/window.c
+SRCS 		= mandatory/src/main/main.c \
+			  mandatory/src/error/error.c \
+			  mandatory/src/map/get_map.c \
+			  mandatory/src/map/parse_map.c \
+			  mandatory/src/map/util.c \
+			  mandatory/src/event/keys.c \
+			  mandatory/src/event/move.c \
+			  mandatory/src/graphic/sprites.c \
+			  mandatory/src/graphic/window.c
 
 INCS		= $(MLX_INCS) \
 			  $(MYLIB_INCS) \
-			  -Iinclude \
-			  -Iinclude/graphic
+			  -Imandatory/include \
+			  -Imandatory/include/graphic
 OBJS_DIR	= .objs
 OBJS		= $(SRCS:%.c=$(OBJS_DIR)/%.o)
 #────────────────────────────────── Bonus Files ───────────────────────────────────
 BONUS	= so_long_bonus
-B_SRCS	= src/main/main.c \
-		  src/error/error.c \
-		  src/map/get_map.c \
-		  src/map/parse_map.c \
-		  src/map/util.c \
-		  src/event/keys.c \
+B_SRCS	= mandatory/src/main/main.c \
+		  mandatory/src/error/error.c \
+		  mandatory/src/map/get_map.c \
+		  mandatory/src/map/parse_map.c \
+		  mandatory/src/map/util.c \
+		  mandatory/src/event/keys.c \
 		  bonus/src/event/move_bonus.c \
 		  bonus/src/graphic/counter_bonus.c \
 		  bonus/src/graphic/sprites_bonus.c \
@@ -56,7 +56,7 @@ B_SRCS	= src/main/main.c \
 
 B_INCS		= $(MLX_INCS) \
 			  $(MYLIB_INCS) \
-			  -Iinclude \
+			  -Imandatory/include \
 			  -Ibonus/include
 B_OBJS_DIR	= .objs/bonus
 B_OBJS		= $(B_SRCS:%.c=$(B_OBJS_DIR)/%.o)
