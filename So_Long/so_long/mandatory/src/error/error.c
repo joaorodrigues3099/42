@@ -21,10 +21,10 @@
 
 static void	ft_puterr(const char *error)
 {
-	write(2, "Error\n", 6);
-	write(2, PINK, ft_strlen(PINK));
-	write(2, error, ft_strlen(error));
-	write(2, PINK, ft_strlen(RESET));
+	write(1, "Error\n", 6);
+//	write(2, PINK, ft_strlen(PINK));
+	write(1, error, ft_strlen(error));
+//	write(2, PINK, ft_strlen(RESET));
 }
 
 static void	ft_print_error2(const int err_code)

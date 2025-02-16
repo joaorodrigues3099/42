@@ -13,8 +13,11 @@
 #ifndef ERROR_CODES_H
 # define ERROR_CODES_H
 
-# define PINK "\033[38;2;231;133;190m"
-# define RESET "\033[0m"
+//# define PINK "\033[38;2;231;133;190m"
+//# define RESET "\033[0m"
+
+# define PINK ""
+# define RESET ""
 
 typedef struct s_game	t_game;
 

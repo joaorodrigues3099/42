@@ -6,29 +6,41 @@
 /*   By: joao-alm <joao-alm@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/08 17:55:01 by joao-alm          #+#    #+#             */
-/*   Updated: 2025/02/08 18:02:46 by joao-alm         ###   ########.fr       */
+/*   Updated: 2025/02/14 13:42:52 by joao-alm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <limits.h>
 #include "philo_bonus.h"
-#include <stdio.h>
-#include <unistd.h>
+#include "util.h"
+
+static int	ft_handle_arg(int ac, char **av)
+{
+	int		i;
+	long	param;
+
+	if (ac < 5 || ac > 6)
+		ft_exit(E_FORMAT, NULL);
+	i = 0;
+	while (++i < ac)
+	{
+		param = ft_atoi_v(av[i]);
+		if (i == 1 && (param < 1 || param > 200))
+			ft_exit(E_PHILO, NULL);
+		if (i == 5 && (param < 0 || param > INT_MAX))
+			ft_exit(E_MEALS, NULL);
+		if (i != 1 && i != 5 && (param < 1 || param > INT_MAX))
+			ft_exit(E_TIMES, NULL);
+	}
+	return (0);
+}
 
 int	main(int ac, char **av)
 {
-	int pid;
+	t_data	data;
 
-	(void)ac;
-	(void)av;
-	printf("I'm the parent\n");
-	for (int i = 0; i < 4; ++i)
-	{
-		if (!pid)
-		{
-			pid = fork();
-			if (pid)
-				printf("I'm the child %d\n", i);
-		}
-	}
+	ft_handle_arg(ac, av);
+	ft_init(ac, av, &data);
+	ft_exit(0, &data);
 	return (0);
 }
