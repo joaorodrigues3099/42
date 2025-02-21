@@ -1,9 +1,0 @@
-/home/joao-alm/42/My_Lib/cmake-build-debug/CMakeFiles/Char.dir
-/home/joao-alm/42/My_Lib/cmake-build-debug/CMakeFiles/Conversion.dir
-/home/joao-alm/42/My_Lib/cmake-build-debug/CMakeFiles/List.dir
-/home/joao-alm/42/My_Lib/cmake-build-debug/CMakeFiles/Memory.dir
-/home/joao-alm/42/My_Lib/cmake-build-debug/CMakeFiles/Print.dir
-/home/joao-alm/42/My_Lib/cmake-build-debug/CMakeFiles/String.dir
-/home/joao-alm/42/My_Lib/cmake-build-debug/CMakeFiles/Gnl.dir
-/home/joao-alm/42/My_Lib/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/joao-alm/42/My_Lib/cmake-build-debug/CMakeFiles/rebuild_cache.dir

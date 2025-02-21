@@ -84,15 +84,15 @@ build CMakeFiles/philo_bonus.dir/src/util/init.c.o: C_COMPILER__philo_bonus_unsc
   OBJECT_DIR = CMakeFiles/philo_bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/philo_bonus.dir/src/util
 
-build CMakeFiles/philo_bonus.dir/src/util/test.c.o: C_COMPILER__philo_bonus_unscanned_Debug /home/joao-alm/42/Philosophers/philo_bonus/src/util/test.c || cmake_object_order_depends_target_philo_bonus
-  DEP_FILE = CMakeFiles/philo_bonus.dir/src/util/test.c.o.d
+build CMakeFiles/philo_bonus.dir/src/routine/routine.c.o: C_COMPILER__philo_bonus_unscanned_Debug /home/joao-alm/42/Philosophers/philo_bonus/src/routine/routine.c || cmake_object_order_depends_target_philo_bonus
+  DEP_FILE = CMakeFiles/philo_bonus.dir/src/routine/routine.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   INCLUDES = -I/home/joao-alm/42/Philosophers/philo_bonus/include
   OBJECT_DIR = CMakeFiles/philo_bonus.dir
-  OBJECT_FILE_DIR = CMakeFiles/philo_bonus.dir/src/util
+  OBJECT_FILE_DIR = CMakeFiles/philo_bonus.dir/src/routine
 
-build CMakeFiles/philo_bonus.dir/src/routine/routine.c.o: C_COMPILER__philo_bonus_unscanned_Debug /home/joao-alm/42/Philosophers/philo_bonus/src/routine/routine.c || cmake_object_order_depends_target_philo_bonus
-  DEP_FILE = CMakeFiles/philo_bonus.dir/src/routine/routine.c.o.d
+build CMakeFiles/philo_bonus.dir/src/routine/monitor.c.o: C_COMPILER__philo_bonus_unscanned_Debug /home/joao-alm/42/Philosophers/philo_bonus/src/routine/monitor.c || cmake_object_order_depends_target_philo_bonus
+  DEP_FILE = CMakeFiles/philo_bonus.dir/src/routine/monitor.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   INCLUDES = -I/home/joao-alm/42/Philosophers/philo_bonus/include
   OBJECT_DIR = CMakeFiles/philo_bonus.dir
@@ -106,7 +106,7 @@ build CMakeFiles/philo_bonus.dir/src/routine/routine.c.o: C_COMPILER__philo_bonu
 #############################################
 # Link the executable philo_bonus
 
-build philo_bonus: C_EXECUTABLE_LINKER__philo_bonus_Debug CMakeFiles/philo_bonus.dir/src/main/main.c.o CMakeFiles/philo_bonus.dir/src/util/exit.c.o CMakeFiles/philo_bonus.dir/src/util/error.c.o CMakeFiles/philo_bonus.dir/src/util/util.c.o CMakeFiles/philo_bonus.dir/src/util/init.c.o CMakeFiles/philo_bonus.dir/src/util/test.c.o CMakeFiles/philo_bonus.dir/src/routine/routine.c.o
+build philo_bonus: C_EXECUTABLE_LINKER__philo_bonus_Debug CMakeFiles/philo_bonus.dir/src/main/main.c.o CMakeFiles/philo_bonus.dir/src/util/exit.c.o CMakeFiles/philo_bonus.dir/src/util/error.c.o CMakeFiles/philo_bonus.dir/src/util/util.c.o CMakeFiles/philo_bonus.dir/src/util/init.c.o CMakeFiles/philo_bonus.dir/src/routine/routine.c.o CMakeFiles/philo_bonus.dir/src/routine/monitor.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/philo_bonus.dir
   POST_BUILD = :

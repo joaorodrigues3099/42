@@ -22,6 +22,14 @@
 # define PURPLE "\033[38;2;170;133;220m"
 # define BOLD "\033[1m"
 
+// Debug
+// # define PINK ""
+// # define RESET ""
+// # define YELLOW ""
+// # define GREEN ""
+// # define PURPLE ""
+// # define BOLD ""
+
 enum	e_error_code
 {
 	E_FORMAT = 10,
@@ -39,9 +47,6 @@ enum	e_error_code
 int		ft_print_error(int err_no);
 
 // exit
-int		ft_exit(const int err_no, t_data *data);
-
-// test
-void	ft_print_data(t_data *data);
+int		ft_exit(const int err_no, t_dtable *dtable);
 
 #endif //UTIL_H

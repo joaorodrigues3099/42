@@ -69,7 +69,7 @@ mfa_bonus_header	= $(mfa_dir)/mfa_bonus_header
 mfa_bonus_footer	= $(mfa_dir)/mfa_bonus_footer
 mfa_name_compiling	= $(mfa_dir)/mfa_name_compiling
 mfa_bonus_compiling	= $(mfa_dir)/mfa_bonus_compiling
-mfa_h_len			= 71
+mfa_h_len			= 76
 debug_on			= .debug_on
 
 #─────────────────────────────────── Main Rules ──────────────────────────────────
@@ -244,13 +244,13 @@ $(mfa_header):
 	@mkdir -p $(mfa_dir)
 	@printf "$(yellow)\n"
 	@make mfa_line_message mfa_name2="\n" mfa_line="▒" --no-print-directory
-	@printf "                                                                      \n"
-	@printf "▒▒▒▒▒▒▒╗ ▒▒▒▒▒▒╗       ▒▒╗      ▒▒▒▒▒▒╗ ▒▒▒╗   ▒▒╗ ▒▒▒▒▒▒╗            \n"
-	@printf "▒▒╔════╝▒▒╔═══▒▒╗      ▒▒║     ▒▒╔═══▒▒╗▒▒▒▒╗  ▒▒║▒▒╔════╝            \n"
-	@printf "▒▒▒▒▒▒▒╗▒▒║   ▒▒║      ▒▒║     ▒▒║   ▒▒║▒▒╔▒▒╗ ▒▒║▒▒║  ▒▒▒╗           \n"
-	@printf "╚════▓▓║▓▓║   ▓▓║      ▓▓║     ▓▓║   ▓▓║▓▓║╚▓▓╗▓▓║▓▓║   ▓▓║           \n"
-	@printf "▓▓▓▓▓▓▓║╚▓▓▓▓▓▓╔╝▓▓▓▓▓╗▓▓▓▓▓▓▓╗╚▓▓▓▓▓▓╔╝▓▓║ ╚▓▓▓▓║╚▓▓▓▓▓▓╔╝           \n"
-	@printf "╚══════╝ ╚═════╝ ╚════╝╚══════╝ ╚═════╝ ╚═╝  ╚═══╝ ╚═════╝ by joao-alm\n"
+	@printf "                                                                           \n"
+	@printf "▒▒▒▒▒▒▒╗ ▒▒▒▒▒▒╗       ▒▒╗      ▒▒▒▒▒▒╗ ▒▒▒╗   ▒▒╗ ▒▒▒▒▒▒╗                 \n"
+	@printf "▒▒╔════╝▒▒╔═══▒▒╗      ▒▒║     ▒▒╔═══▒▒╗▒▒▒▒╗  ▒▒║▒▒╔════╝                 \n"
+	@printf "▒▒▒▒▒▒▒╗▒▒║   ▒▒║      ▒▒║     ▒▒║   ▒▒║▒▒╔▒▒╗ ▒▒║▒▒║  ▒▒▒╗                \n"
+	@printf "╚════▓▓║▓▓║   ▓▓║      ▓▓║     ▓▓║   ▓▓║▓▓║╚▓▓╗▓▓║▓▓║   ▓▓║                \n"
+	@printf "▓▓▓▓▓▓▓║╚▓▓▓▓▓▓╔╝▓▓▓▓▓╗▓▓▓▓▓▓▓╗╚▓▓▓▓▓▓╔╝▓▓║ ╚▓▓▓▓║╚▓▓▓▓▓▓╔╝                \n"
+	@printf "╚══════╝ ╚═════╝ ╚════╝╚══════╝ ╚═════╝ ╚═╝  ╚═══╝ ╚═════╝ by joao-almeida!\n"
 	@printf "$(reset)"
 	@touch $(mfa_header)
 

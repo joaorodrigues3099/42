@@ -14,13 +14,17 @@
 #include "colour.h"
 #include <stdio.h>
 
+static void	ft_print_colored(size_t time, int id, const char *msg)
+{
+	printf("[%ld] " BOLD "%d " RESET "%s\n", time, id, msg);
+}
+
 int	ft_print_status(t_philo *philo, const char *msg)
 {
 	if (ft_stop_routine(philo))
 		return (-1);
 	pthread_mutex_lock(&philo->data->print);
-	printf("[%ld] " BOLD "%d " RESET "%s\n", ft_time_ms()
-		- philo->data->start_time, philo->id, msg);
+	ft_print_colored(ft_time_ms() - philo->data->start_time, philo->id, msg);
 	pthread_mutex_unlock(&philo->data->print);
 	return (0);
 }

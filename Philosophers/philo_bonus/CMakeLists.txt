@@ -12,9 +12,9 @@ add_executable(philo_bonus
 		src/util/error.c
 		src/util/util.c
 		src/util/init.c
-		src/util/test.c
 		include/util.h
 		src/routine/routine.c
+		src/routine/monitor.c
 )
 
 include_directories(
