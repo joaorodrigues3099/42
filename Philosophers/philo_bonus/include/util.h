@@ -11,10 +11,11 @@
 /* ************************************************************************** */
 
 #ifndef UTIL_H
-#define UTIL_H
+# define UTIL_H
 
-#include "philo_bonus.h"
+# include "philo_bonus.h"
 
+// Colors
 # define PINK "\033[38;2;231;133;190m"
 # define RESET "\033[0m"
 # define YELLOW "\033[38;2;255;248;147m"
@@ -30,6 +31,7 @@
 // # define PURPLE ""
 // # define BOLD ""
 
+// Error Codes
 enum	e_error_code
 {
 	E_FORMAT = 10,
@@ -49,4 +51,4 @@ int		ft_print_error(int err_no);
 // exit
 int		ft_exit(const int err_no, t_dtable *dtable);
 
-#endif //UTIL_H
+#endif // UTIL_H

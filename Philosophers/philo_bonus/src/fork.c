@@ -10,36 +10,59 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <unistd.h>
+#include "philo_bonus.h"
+#include "util.h"
 #include <pthread.h>
 #include <signal.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include <sys/wait.h>
-
-#include "../include/philo_bonus.h"
-#include "../include/util.h"
+#include <unistd.h>
 
 void	*ft_all_full(void *arg)
 {
 	t_dtable	*dtable;
-	int i;
+	int			i;
 
 	dtable = (t_dtable *)arg;
 	i = -1;
 	while (++i < dtable->philo_count)
+	{
 		sem_wait(dtable->full);
+		if (dtable->break_full)
+			return (NULL);
+	}
 	sem_wait(dtable->print);
-	printf("Everyone ate %d times\n", dtable->min_meals);
+	printf(BOLD "Everyone ate " GREEN "%d" RESET BOLD " times" RESET "\n",
+		dtable->min_meals);
 	sem_post(dtable->stop);
 	return (NULL);
 }
 
+void	ft_kill(t_dtable *dtable)
+{
+	int	i;
+
+	dtable->break_full = 1;
+	sem_post(dtable->full);
+	i = -1;
+	while (++i < dtable->philo_count)
+	{
+		if (kill(dtable->philo[i].pid, 0) == 0)
+			kill(dtable->philo[i].pid, SIGKILL);
+		waitpid(dtable->philo[i].pid, NULL, 0);
+	}
+}
+
 void	ft_fork(t_dtable *dtable)
 {
-	int i;
-	int pid;
+	pthread_t	all_full;
+	int			i;
+	int			pid;
 
+	if (pthread_create(&all_full, NULL, ft_all_full, dtable) != 0)
+		ft_exit(E_CREATE_THREAD, dtable);
+	pthread_detach(all_full);
 	i = -1;
 	while (++i < dtable->philo_count)
 	{
@@ -51,15 +74,7 @@ void	ft_fork(t_dtable *dtable)
 		}
 		dtable->philo[i].pid = pid;
 	}
-	pthread_create(&dtable->all_full, NULL, ft_all_full, dtable);
-	pthread_detach(dtable->all_full);
 	sem_wait(dtable->stop);
 	usleep(100);
-	for (i = 0; i < dtable->philo_count; i++)
-	{
-		kill(dtable->philo[i].pid, SIGKILL);
-		waitpid(dtable->philo[i].pid, NULL, 0);
-	}
-
-	ft_exit(0, dtable);
+	ft_kill(dtable);
 }

@@ -10,16 +10,25 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../include/util.h"
+#include "util.h"
 #include <unistd.h>
+
+static int	fte_strlen(const char *str)
+{
+	int	i;
+
+	i = 0;
+	while (str[i])
+		i++;
+	return (i);
+}
 
 static void	ft_puterror(const char *err_msg)
 {
 	write(2, "Error\n", 6);
-	write(2, PINK, sizeof(PINK));
-	while (*err_msg)
-		write(2, err_msg++, 1);
-	write(2, RESET, sizeof(RESET));
+	write(2, PINK, fte_strlen(PINK));
+	write(2, err_msg, fte_strlen(err_msg));
+	write(2, RESET, fte_strlen(RESET));
 }
 
 static void	ft_standard_error(const int err_no)

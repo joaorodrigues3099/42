@@ -10,11 +10,10 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <limits.h>
-#include <stdio.h>
-
 #include "philo_bonus.h"
 #include "util.h"
+#include <limits.h>
+#include <stdio.h>
 
 static int	ft_handle_arg(int ac, char **av)
 {
@@ -42,8 +41,8 @@ int	main(int ac, char **av)
 	t_dtable	data;
 
 	ft_handle_arg(ac, av);
-	ft_init_dtable(ac, av, &data);
+	ft_init(ac, av, &data);
 	ft_fork(&data);
- 	ft_exit(0, &data);
+	ft_exit(0, &data);
 	return (0);
 }

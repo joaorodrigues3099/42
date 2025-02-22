@@ -1,0 +1,4 @@
+/home/joao-alm/42/Get_Next_Line/cmake-build-debug/CMakeFiles/Get-Next-Line.dir
+/home/joao-alm/42/Get_Next_Line/cmake-build-debug/CMakeFiles/Get-Next-Line_Bonus.dir
+/home/joao-alm/42/Get_Next_Line/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/joao-alm/42/Get_Next_Line/cmake-build-debug/CMakeFiles/rebuild_cache.dir

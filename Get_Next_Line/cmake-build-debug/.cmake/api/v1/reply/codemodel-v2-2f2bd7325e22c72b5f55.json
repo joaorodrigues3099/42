@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Get-Next-Line",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Get-Next-Line::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Get-Next-Line-Debug-79d44cc91ff76da36ea6.json",
+					"name" : "Get-Next-Line",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Get-Next-Line_Bonus::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Get-Next-Line_Bonus-Debug-7facb4e4fbfeacc886f5.json",
+					"name" : "Get-Next-Line_Bonus",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/joao-alm/42/Get_Next_Line/cmake-build-debug",
+		"source" : "/home/joao-alm/42/Get_Next_Line"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

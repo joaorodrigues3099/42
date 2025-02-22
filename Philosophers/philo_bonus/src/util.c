@@ -10,10 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../include/philo_bonus.h"
+#include "philo_bonus.h"
 #include <limits.h>
 #include <sys/time.h>
-#include <unistd.h>
 
 size_t	ft_time_ms(const size_t start_time)
 {

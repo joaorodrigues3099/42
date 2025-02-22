@@ -14,7 +14,7 @@ sleep	= 0.05
 
 # Mandatory Files
 NAME	= philo
-M_SRC	= $(wildcard src/**/*.c)
+M_SRC	= $(wildcard src/*.c)
 M_INC	= -Iinclude
 M_OBJ	= $(M_SRC:src/%.c=$(O_DIR)/$(notdir %.o))
 

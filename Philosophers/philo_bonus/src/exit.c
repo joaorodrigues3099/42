@@ -10,11 +10,10 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "philo_bonus.h"
+#include "util.h"
 #include <pthread.h>
 #include <stdlib.h>
-
-#include "../include/util.h"
-#include "../include/philo_bonus.h"
 
 void	ft_free_sem(sem_t *sem, const char *name)
 {
@@ -41,7 +40,8 @@ int	ft_exit(const int err_no, t_dtable *dtable)
 		{
 			i = -1;
 			while (++i < dtable->philo_count)
-				pthread_mutex_destroy(&dtable->philo[i].meal_mutex);
+				if (dtable->philo[i].meal_mutex_init)
+					pthread_mutex_destroy(&dtable->philo[i].meal_mutex);
 			free(dtable->philo);
 		}
 	}
