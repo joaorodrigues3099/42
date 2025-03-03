@@ -224,14 +224,11 @@ Get-Next-Line_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 Get-Next-Line_SOURCE_DIR:STATIC=/home/joao-alm/42/Get_Next_Line
 
-//Value Computed by CMake
-GetNextLine_BINARY_DIR:STATIC=/home/joao-alm/42/Get_Next_Line/cmake-build-debug
+//No help, variable specified on the command line.
+Python3_EXECUTABLE:UNINITIALIZED=/usr/bin/python3
 
-//Value Computed by CMake
-GetNextLine_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-GetNextLine_SOURCE_DIR:STATIC=/home/joao-alm/42/Get_Next_Line
+//No help, variable specified on the command line.
+Python_EXECUTABLE:UNINITIALIZED=/usr/bin/python3
 
 
 ########################

@@ -13,13 +13,12 @@
 #include "get_next_line.h"
 
 /**
- * Locates the first character occurrence in a string
+ * Finds the first occurrence of a character in a string.
  *
- * @param str String to locate c on
- * @param c Character to locate
- * @return Returns a pointer to the first occurrence
- * of c in str,\n OR null if c is not found.\n
- * IF c is '\0' returns a pointer to the null-terminating byte.
+ * @param str String to search
+ * @param c Character to find
+ * @return Pointer to the first occurrence of c, or NULL if not found
+ * IF c is '\0', returns a pointer to the null terminator.
  */
 char	*ft_strchr(const char *str, int c)
 {
@@ -35,11 +34,10 @@ char	*ft_strchr(const char *str, int c)
 }
 
 /**
- * Counts the length of the given string.
+ * Returns the length of the string.
  *
- * @param s String to get size of
- * @return Returns string size or
- * seg fault if the pointer is null
+ * @param s String to measure
+ * @return Length of the string
  */
 size_t	ft_strlen(const char *s)
 {
@@ -52,13 +50,12 @@ size_t	ft_strlen(const char *s)
 }
 
 /**
- * Fills the first 'n' bytes of the area pointed by 's'
- * with the given 'c' character.
+ * Fills the first 'n' bytes of memory with the given character.
  *
- * @param s Pointer to memory area
+ * @param s Pointer to memory
  * @param c Character to set
  * @param n Number of bytes to set
- * @return Returns the given Address
+ * @return Pointer to the memory area
  */
 void	*ft_memset(void *s, int c, size_t n)
 {
@@ -71,12 +68,11 @@ void	*ft_memset(void *s, int c, size_t n)
 }
 
 /**
- * Allocates memory for an array of pointers.
+ * Allocates and zeroes memory for an array of elements.
  *
  * @param nmemb Number of elements
  * @param size Size of each element
- * @return Returns newly allocated memory,\n
- * Or NULL on overflow or failed allocation.
+ * @return Pointer to the allocated memory, or NULL if allocation fails
  */
 void	*ft_calloc(size_t nmemb, size_t size)
 {
@@ -96,9 +92,9 @@ void	*ft_calloc(size_t nmemb, size_t size)
 /**
  * Concatenates two strings into a newly allocated string.
  *
- * @param s1 First string.
- * @param s2 Second string.
- * @return Newly allocated concatenated string
+ * @param s1 First string
+ * @param s2 Second string
+ * @return Newly allocated string containing s1 + s2
  */
 char	*ft_strjoin(char const *s1, char const *s2)
 {

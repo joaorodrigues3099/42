@@ -23,11 +23,13 @@
 #  define FD_MAX 69
 # endif
 
+// get_next_line_util_bonus
 char	*ft_strchr(const char *str, char c);
 size_t	ft_strlen(const char *str);
 void	*ft_calloc(size_t nmemb, size_t size);
 char	*ft_strjoin(char *s1, char *s2);
 
+// get_next_line_bonus
 char	*get_next_line(int fd);
 
 #endif // GET_NEXT_LINE_BONUS_H

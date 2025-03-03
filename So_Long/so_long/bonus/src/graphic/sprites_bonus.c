@@ -16,11 +16,13 @@
 #include "lib_conversion.h"
 #include "mlx.h"
 #include <stdlib.h>
+#include <unistd.h>
 
 int	ft_update_player_sprite(t_game *game)
 {
 	if (game->player.glasses > 6)
 		game->player.glasses = 0;
+	usleep(1000);
 	mlx_put_image_to_window(game->mlx, game->win,
 		game->sprites[game->player.glasses], game->player.x * TILE_SIZE,
 		game->player.y * TILE_SIZE + HEADER_SIZE);

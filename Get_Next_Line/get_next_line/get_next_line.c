@@ -13,6 +13,13 @@
 #include "get_next_line.h"
 #include <unistd.h>
 
+/**
+ * Joins two strings, frees the first one, and returns the result.
+ *
+ * @param s1 First string
+ * @param s2 Second string
+ * @return A new string containing s1 + s2
+ */
 char	*ft_join_free(char *s1, char *s2)
 {
 	char	*temp_buffer;
@@ -22,6 +29,12 @@ char	*ft_join_free(char *s1, char *s2)
 	return (temp_buffer);
 }
 
+/**
+ * Fills a line from the buffer up to and including the newline.
+ *
+ * @param buffer Input buffer
+ * @return A newly allocated string containing the line
+ */
 char	*ft_fill_line(const char *buffer)
 {
 	char	*line;
@@ -43,6 +56,13 @@ char	*ft_fill_line(const char *buffer)
 	return (line);
 }
 
+/**
+ * Updates the buffer by removing the portion already read.
+ *
+ * @param buffer Original buffer
+ * @param line Line read from the buffer
+ * @return A new buffer without the content of line
+ */
 char	*ft_update_buffer(char *buffer, const char *line)
 {
 	size_t	buffer_len;
@@ -65,6 +85,13 @@ char	*ft_update_buffer(char *buffer, const char *line)
 	return (new_buffer);
 }
 
+/**
+ * Reads from the file descriptor into the buffer until a newline is found.
+ *
+ * @param fd File descriptor
+ * @param buffer Buffer to read into
+ * @return The updated buffer with data read from fd
+ */
 char	*ft_fill_buffer(int fd, char *buffer)
 {
 	char	*temp_buffer;
@@ -93,6 +120,12 @@ char	*ft_fill_buffer(int fd, char *buffer)
 	return (free(temp_buffer), buffer);
 }
 
+/**
+ * Retrieves the next line from a file descriptor.
+ *
+ * @param fd File descriptor
+ * @return The next line read from the file descriptor
+ */
 char	*get_next_line(int fd)
 {
 	static char	*static_buffer;

@@ -12,6 +12,14 @@
 
 #include "get_next_line_bonus.h"
 
+/**
+ * Finds the first occurrence of a character in a string.
+ *
+ * @param str String to search
+ * @param c Character to find
+ * @return Pointer to the first occurrence of c, or NULL if not found
+ * IF c is '\0', returns a pointer to the null terminator.
+ */
 char	*ft_strchr(const char *str, char c)
 {
 	while (*str)
@@ -25,6 +33,12 @@ char	*ft_strchr(const char *str, char c)
 	return (NULL);
 }
 
+/**
+ * Returns the length of the string.
+ *
+ * @param s String to measure
+ * @return Length of the string
+ */
 size_t	ft_strlen(const char *str)
 {
 	size_t	len;
@@ -35,6 +49,14 @@ size_t	ft_strlen(const char *str)
 	return (len);
 }
 
+/**
+ * Fills the first 'n' bytes of memory with the given character.
+ *
+ * @param s Pointer to memory
+ * @param c Character to set
+ * @param n Number of bytes to set
+ * @return Pointer to the memory area
+ */
 void	*ft_memset(void *ptr, int c, size_t n)
 {
 	while (n--)
@@ -42,6 +64,13 @@ void	*ft_memset(void *ptr, int c, size_t n)
 	return (ptr);
 }
 
+/**
+ * Allocates and zeroes memory for an array of elements.
+ *
+ * @param nmemb Number of elements
+ * @param size Size of each element
+ * @return Pointer to the allocated memory, or NULL if allocation fails
+ */
 void	*ft_calloc(size_t nmemb, size_t size)
 {
 	void	*ptr;
@@ -57,6 +86,13 @@ void	*ft_calloc(size_t nmemb, size_t size)
 	return (ptr);
 }
 
+/**
+ * Concatenates two strings into a newly allocated string.
+ *
+ * @param s1 First string
+ * @param s2 Second string
+ * @return Newly allocated string containing s1 + s2
+ */
 char	*ft_strjoin(char *s1, char *s2)
 {
 	char	*join;
