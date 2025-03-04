@@ -1,0 +1,3 @@
+/home/joao-alm/42/Minishell/cmake-build-debug/CMakeFiles/minishell.dir
+/home/joao-alm/42/Minishell/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/joao-alm/42/Minishell/cmake-build-debug/CMakeFiles/rebuild_cache.dir

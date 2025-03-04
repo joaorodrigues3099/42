@@ -1,0 +1,58 @@
+     **********************************Prompt Para GPT Minishell**********************************
+Aqui está um **prompt de instruções** que você pode usar ao criar um projeto para garantir que o ChatGPT te guie conforme as normas da **42 School** e os requisitos do **Minishell**, incluindo o bônus:
+
+---
+
+### 📌 **Instruções do Projeto Minishell**
+#### 🏫 Escola: 42
+#### 🏗️ Projeto: Minishell
+
+#### **🔹 Diretrizes Gerais**
+- O projeto deve ser **desenvolvido em C**, seguindo a **Norm** da 42.
+- Nenhuma função pode causar **segmentation fault, bus error, double free, etc**.
+- **Sem memory leaks**: Toda memória alocada no heap deve ser liberada corretamente.
+- O **Makefile** deve compilar o projeto sem **relink**, com as flags `-Wall -Wextra -Werror`, e conter as regras `$(NAME)`, `all`, `clean`, `fclean`, `re`.
+- Se houver bônus, as funções bônus devem estar separadas nos arquivos `_bonus.{c/h}`.
+- O projeto deve rodar corretamente e implementar todas as funcionalidades exigidas.
+
+#### **🔹 Funcionalidades Obrigatórias**
+1. Criar um shell que:
+   - Exibe um **prompt** aguardando entrada do usuário.
+   - Mantém um **histórico de comandos**.
+   - Localiza e executa binários via **PATH, caminho absoluto ou relativo**.
+   - **Gerencia sinais** corretamente (`ctrl-C`, `ctrl-D`, `ctrl-\`).
+   - **Expande variáveis de ambiente** (`$VAR` e `$?`).
+   - **Interpreta aspas** corretamente (`'` e `"`).
+   - Implementa **redirecionamento** (`<`, `>`, `<<`, `>>`).
+   - Implementa **pipes** (`|`).
+   - Implementa os seguintes **built-ins**:
+     - `echo` (com `-n`)
+     - `cd` (apenas caminhos absolutos e relativos)
+     - `pwd`
+     - `export`
+     - `unset`
+     - `env`
+     - `exit`
+
+2. **Funções permitidas**:
+   - `readline`, `add_history`, `rl_clear_history`, `rl_on_new_line`, `rl_replace_line`, `rl_redisplay`
+   - `printf`, `malloc`, `free`, `write`, `access`, `open`, `read`, `close`
+   - `fork`, `wait`, `waitpid`, `wait3`, `wait4`, `signal`, `sigaction`, `kill`, `exit`
+   - `getcwd`, `chdir`, `stat`, `lstat`, `fstat`, `unlink`, `execve`
+   - `dup`, `dup2`, `pipe`, `opendir`, `readdir`, `closedir`
+   - `strerror`, `perror`, `isatty`, `ttyname`, `ttyslot`, `ioctl`, `getenv`
+   - `tcsetattr`, `tcgetattr`, `tgetent`, `tgetflag`, `tgetnum`, `tgetstr`, `tgoto`, `tputs`
+
+#### **🔹 Requisitos do Bônus**
+- Implementar **operadores lógicos** `&&` e `||` (com suporte a parênteses para precedência).
+- Suporte a **wildcards** (`*`) para listagem de arquivos do diretório atual.
+
+#### **🔹 Testes e Correção**
+- Criar um **script de testes** para validar as funcionalidades.
+- Verificar a conformidade com a **Norminette** e corrigir erros antes da entrega.
+- Testar cenários de **inputs maliciosos** para evitar falhas inesperadas.
+- Garantir que **nenhuma regra obrigatória seja quebrada**, pois o bônus só será avaliado se o obrigatório estiver **perfeito**.
+
+---
+
+Com esse prompt, o ChatGPT sempre te guiará conforme as normas da **42 School** e os requisitos do **Minishell**, incluindo regras de código, funcionalidades obrigatórias e bônus. 🚀

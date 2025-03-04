@@ -49,13 +49,13 @@ cc -Wall -Wextra -Werror -D BUFFER_SIZE=4096 main.c get_next_line.c get_next_lin
 If you want to compile the bonus part of the project (which allows handling multiple file descriptors), use the following command:
 
 ```bash
-cc -Wall -Wextra -Werror -D BUFFER_SIZE=<value> -D BONUS=1 main.c get_next_line_bonus.c get_next_line_utils_bonus.c -o get_next_line
+cc -Wall -Wextra -Werror -D BUFFER_SIZE=<value> main.c get_next_line_bonus.c get_next_line_utils_bonus.c -o get_next_line
 ```
 
 #### Example: Compiling with a buffer size of 4096 and the bonus feature enabled:
 
 ```bash
-cc -Wall -Wextra -Werror -D BUFFER_SIZE=4096 -D BONUS=1 main.c get_next_line_bonus.c get_next_line_utils_bonus.c -o get_next_line
+cc -Wall -Wextra -Werror -D BUFFER_SIZE=4096 main.c get_next_line_bonus.c get_next_line_utils_bonus.c -o get_next_line
 ```
 
 ## Usage
@@ -67,6 +67,7 @@ To use the `get_next_line()` function, here is an example `main.c`:
 #include <fcntl.h>
 #include <unistd.h>
 #include <stdio.h>
+#include <stdlib.h>
 
 int main(int argc, char **argv)
 {

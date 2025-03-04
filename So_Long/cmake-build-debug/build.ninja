@@ -55,8 +55,6 @@ build CMakeFiles/So_Long.dir/so_long/mandatory/src/main/main.c.o: C_COMPILER__So
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/mandatory/src/main
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_clear_window.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_clear_window.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_clear_window.c.o.d
@@ -64,8 +62,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_clear_window.c.o: C_COMPILER__
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_destroy_display.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_destroy_display.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_destroy_display.c.o.d
@@ -73,8 +69,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_destroy_display.c.o: C_COMPILE
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_destroy_image.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_destroy_image.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_destroy_image.c.o.d
@@ -82,8 +76,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_destroy_image.c.o: C_COMPILER_
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_destroy_window.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_destroy_window.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_destroy_window.c.o.d
@@ -91,8 +83,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_destroy_window.c.o: C_COMPILER
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_expose_hook.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_expose_hook.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_expose_hook.c.o.d
@@ -100,8 +90,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_expose_hook.c.o: C_COMPILER__S
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_ext_randr.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_ext_randr.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_ext_randr.c.o.d
@@ -109,8 +97,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_ext_randr.c.o: C_COMPILER__So_
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_flush_event.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_flush_event.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_flush_event.c.o.d
@@ -118,8 +104,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_flush_event.c.o: C_COMPILER__S
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_get_color_value.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_get_color_value.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_get_color_value.c.o.d
@@ -127,8 +111,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_get_color_value.c.o: C_COMPILE
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_get_data_addr.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_get_data_addr.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_get_data_addr.c.o.d
@@ -136,8 +118,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_get_data_addr.c.o: C_COMPILER_
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_hook.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_hook.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_hook.c.o.d
@@ -145,8 +125,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_hook.c.o: C_COMPILER__So_Long_
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_init.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_init.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_init.c.o.d
@@ -154,8 +132,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_init.c.o: C_COMPILER__So_Long_
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_int_anti_resize_win.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_int_anti_resize_win.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_int_anti_resize_win.c.o.d
@@ -163,8 +139,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_int_anti_resize_win.c.o: C_COM
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_int_do_nothing.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_int_do_nothing.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_int_do_nothing.c.o.d
@@ -172,8 +146,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_int_do_nothing.c.o: C_COMPILER
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_int_get_visual.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_int_get_visual.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_int_get_visual.c.o.d
@@ -181,8 +153,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_int_get_visual.c.o: C_COMPILER
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_int_param_event.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_int_param_event.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_int_param_event.c.o.d
@@ -190,8 +160,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_int_param_event.c.o: C_COMPILE
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_int_set_win_event_mask.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_int_set_win_event_mask.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_int_set_win_event_mask.c.o.d
@@ -199,8 +167,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_int_set_win_event_mask.c.o: C_
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_int_str_to_wordtab.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_int_str_to_wordtab.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_int_str_to_wordtab.c.o.d
@@ -208,8 +174,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_int_str_to_wordtab.c.o: C_COMP
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_int_wait_first_expose.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_int_wait_first_expose.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_int_wait_first_expose.c.o.d
@@ -217,8 +181,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_int_wait_first_expose.c.o: C_C
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_key_hook.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_key_hook.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_key_hook.c.o.d
@@ -226,8 +188,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_key_hook.c.o: C_COMPILER__So_L
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_lib_xpm.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_lib_xpm.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_lib_xpm.c.o.d
@@ -235,8 +195,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_lib_xpm.c.o: C_COMPILER__So_Lo
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_loop.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_loop.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_loop.c.o.d
@@ -244,8 +202,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_loop.c.o: C_COMPILER__So_Long_
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_loop_hook.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_loop_hook.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_loop_hook.c.o.d
@@ -253,8 +209,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_loop_hook.c.o: C_COMPILER__So_
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_mouse.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_mouse.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_mouse.c.o.d
@@ -262,8 +216,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_mouse.c.o: C_COMPILER__So_Long
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_mouse_hook.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_mouse_hook.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_mouse_hook.c.o.d
@@ -271,8 +223,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_mouse_hook.c.o: C_COMPILER__So
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_new_image.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_new_image.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_new_image.c.o.d
@@ -280,8 +230,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_new_image.c.o: C_COMPILER__So_
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_new_window.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_new_window.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_new_window.c.o.d
@@ -289,8 +237,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_new_window.c.o: C_COMPILER__So
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_pixel_put.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_pixel_put.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_pixel_put.c.o.d
@@ -298,8 +244,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_pixel_put.c.o: C_COMPILER__So_
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_put_image_to_window.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_put_image_to_window.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_put_image_to_window.c.o.d
@@ -307,8 +251,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_put_image_to_window.c.o: C_COM
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_rgb.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_rgb.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_rgb.c.o.d
@@ -316,8 +258,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_rgb.c.o: C_COMPILER__So_Long_u
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_screen_size.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_screen_size.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_screen_size.c.o.d
@@ -325,8 +265,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_screen_size.c.o: C_COMPILER__S
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_set_font.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_set_font.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_set_font.c.o.d
@@ -334,8 +272,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_set_font.c.o: C_COMPILER__So_L
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_string_put.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_string_put.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_string_put.c.o.d
@@ -343,8 +279,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_string_put.c.o: C_COMPILER__So
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_xpm.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_xpm.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_xpm.c.o.d
@@ -352,8 +286,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mlx/mlx_xpm.c.o: C_COMPILER__So_Long_u
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/mandatory/src/map/get_map.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/mandatory/src/map/get_map.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/mandatory/src/map/get_map.c.o.d
@@ -361,8 +293,6 @@ build CMakeFiles/So_Long.dir/so_long/mandatory/src/map/get_map.c.o: C_COMPILER__
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/mandatory/src/map
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/mandatory/src/graphic/window.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/mandatory/src/graphic/window.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/mandatory/src/graphic/window.c.o.d
@@ -370,8 +300,6 @@ build CMakeFiles/So_Long.dir/so_long/mandatory/src/graphic/window.c.o: C_COMPILE
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/mandatory/src/graphic
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/mandatory/src/error/error.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/mandatory/src/error/error.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/mandatory/src/error/error.c.o.d
@@ -379,8 +307,6 @@ build CMakeFiles/So_Long.dir/so_long/mandatory/src/error/error.c.o: C_COMPILER__
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/mandatory/src/error
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string/ft_split.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/src/string/ft_split.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string/ft_split.c.o.d
@@ -388,8 +314,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string/ft_split.c.o: C_COMPI
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string/ft_strchr.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/src/string/ft_strchr.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string/ft_strchr.c.o.d
@@ -397,8 +321,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string/ft_strchr.c.o: C_COMP
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string/ft_strdup.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/src/string/ft_strdup.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string/ft_strdup.c.o.d
@@ -406,8 +328,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string/ft_strdup.c.o: C_COMP
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string/ft_striteri.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/src/string/ft_striteri.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string/ft_striteri.c.o.d
@@ -415,8 +335,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string/ft_striteri.c.o: C_CO
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string/ft_strjoin.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/src/string/ft_strjoin.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string/ft_strjoin.c.o.d
@@ -424,8 +342,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string/ft_strjoin.c.o: C_COM
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string/ft_strlcat.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/src/string/ft_strlcat.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string/ft_strlcat.c.o.d
@@ -433,8 +349,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string/ft_strlcat.c.o: C_COM
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string/ft_strlcpy.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/src/string/ft_strlcpy.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string/ft_strlcpy.c.o.d
@@ -442,8 +356,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string/ft_strlcpy.c.o: C_COM
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string/ft_strlen.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/src/string/ft_strlen.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string/ft_strlen.c.o.d
@@ -451,8 +363,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string/ft_strlen.c.o: C_COMP
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string/ft_strmapi.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/src/string/ft_strmapi.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string/ft_strmapi.c.o.d
@@ -460,8 +370,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string/ft_strmapi.c.o: C_COM
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string/ft_strncmp.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/src/string/ft_strncmp.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string/ft_strncmp.c.o.d
@@ -469,8 +377,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string/ft_strncmp.c.o: C_COM
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string/ft_strnstr.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/src/string/ft_strnstr.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string/ft_strnstr.c.o.d
@@ -478,8 +384,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string/ft_strnstr.c.o: C_COM
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string/ft_strrchr.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/src/string/ft_strrchr.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string/ft_strrchr.c.o.d
@@ -487,8 +391,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string/ft_strrchr.c.o: C_COM
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string/ft_strtrim.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/src/string/ft_strtrim.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string/ft_strtrim.c.o.d
@@ -496,8 +398,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string/ft_strtrim.c.o: C_COM
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string/ft_substr.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/src/string/ft_substr.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string/ft_substr.c.o.d
@@ -505,8 +405,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string/ft_substr.c.o: C_COMP
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string/strcpy.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/src/string/strcpy.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string/strcpy.c.o.d
@@ -514,8 +412,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string/strcpy.c.o: C_COMPILE
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/src/string
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mylib/src/list/ft_lstadd_back_bonus.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/src/list/ft_lstadd_back_bonus.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/src/list/ft_lstadd_back_bonus.c.o.d
@@ -523,8 +419,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mylib/src/list/ft_lstadd_back_bonus.c.
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/src/list
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mylib/src/list/ft_lstadd_front_bonus.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/src/list/ft_lstadd_front_bonus.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/src/list/ft_lstadd_front_bonus.c.o.d
@@ -532,8 +426,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mylib/src/list/ft_lstadd_front_bonus.c
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/src/list
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mylib/src/list/ft_lstclear_bonus.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/src/list/ft_lstclear_bonus.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/src/list/ft_lstclear_bonus.c.o.d
@@ -541,8 +433,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mylib/src/list/ft_lstclear_bonus.c.o: 
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/src/list
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mylib/src/list/ft_lstdelone_bonus.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/src/list/ft_lstdelone_bonus.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/src/list/ft_lstdelone_bonus.c.o.d
@@ -550,8 +440,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mylib/src/list/ft_lstdelone_bonus.c.o:
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/src/list
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mylib/src/list/ft_lstiter_bonus.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/src/list/ft_lstiter_bonus.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/src/list/ft_lstiter_bonus.c.o.d
@@ -559,8 +447,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mylib/src/list/ft_lstiter_bonus.c.o: C
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/src/list
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mylib/src/list/ft_lstlast_bonus.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/src/list/ft_lstlast_bonus.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/src/list/ft_lstlast_bonus.c.o.d
@@ -568,8 +454,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mylib/src/list/ft_lstlast_bonus.c.o: C
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/src/list
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mylib/src/list/ft_lstmap_bonus.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/src/list/ft_lstmap_bonus.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/src/list/ft_lstmap_bonus.c.o.d
@@ -577,8 +461,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mylib/src/list/ft_lstmap_bonus.c.o: C_
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/src/list
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mylib/src/list/ft_lstnew_bonus.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/src/list/ft_lstnew_bonus.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/src/list/ft_lstnew_bonus.c.o.d
@@ -586,8 +468,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mylib/src/list/ft_lstnew_bonus.c.o: C_
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/src/list
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mylib/src/list/ft_lstsize_bonus.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/src/list/ft_lstsize_bonus.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/src/list/ft_lstsize_bonus.c.o.d
@@ -595,8 +475,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mylib/src/list/ft_lstsize_bonus.c.o: C
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/src/list
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mylib/src/list/lstdel_safely.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/src/list/lstdel_safely.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/src/list/lstdel_safely.c.o.d
@@ -604,8 +482,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mylib/src/list/lstdel_safely.c.o: C_CO
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/src/list
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mylib/src/list/lstdetach.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/src/list/lstdetach.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/src/list/lstdetach.c.o.d
@@ -613,8 +489,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mylib/src/list/lstdetach.c.o: C_COMPIL
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/src/list
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mylib/src/list/lstdup.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/src/list/lstdup.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/src/list/lstdup.c.o.d
@@ -622,8 +496,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mylib/src/list/lstdup.c.o: C_COMPILER_
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/src/list
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mylib/src/list/lstget_int.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/src/list/lstget_int.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/src/list/lstget_int.c.o.d
@@ -631,8 +503,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mylib/src/list/lstget_int.c.o: C_COMPI
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/src/list
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/libs/mylib/src/list/lstnew_int.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/src/list/lstnew_int.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/libs/mylib/src/list/lstnew_int.c.o.d
@@ -640,8 +510,6 @@ build CMakeFiles/So_Long.dir/so_long/libs/mylib/src/list/lstnew_int.c.o: C_COMPI
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/libs/mylib/src/list
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/mandatory/src/map/parse_map.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/mandatory/src/map/parse_map.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/mandatory/src/map/parse_map.c.o.d
@@ -649,8 +517,6 @@ build CMakeFiles/So_Long.dir/so_long/mandatory/src/map/parse_map.c.o: C_COMPILER
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/mandatory/src/map
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/mandatory/src/graphic/sprites.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/mandatory/src/graphic/sprites.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/mandatory/src/graphic/sprites.c.o.d
@@ -658,8 +524,6 @@ build CMakeFiles/So_Long.dir/so_long/mandatory/src/graphic/sprites.c.o: C_COMPIL
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/mandatory/src/graphic
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/mandatory/src/event/keys.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/mandatory/src/event/keys.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/mandatory/src/event/keys.c.o.d
@@ -667,8 +531,6 @@ build CMakeFiles/So_Long.dir/so_long/mandatory/src/event/keys.c.o: C_COMPILER__S
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/mandatory/src/event
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/mandatory/src/event/move.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/mandatory/src/event/move.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/mandatory/src/event/move.c.o.d
@@ -676,8 +538,6 @@ build CMakeFiles/So_Long.dir/so_long/mandatory/src/event/move.c.o: C_COMPILER__S
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/mandatory/src/event
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 build CMakeFiles/So_Long.dir/so_long/mandatory/src/map/util.c.o: C_COMPILER__So_Long_unscanned_Debug /home/joao-alm/42/So_Long/so_long/mandatory/src/map/util.c || cmake_object_order_depends_target_So_Long
   DEP_FILE = CMakeFiles/So_Long.dir/so_long/mandatory/src/map/util.c.o.d
@@ -685,8 +545,6 @@ build CMakeFiles/So_Long.dir/so_long/mandatory/src/map/util.c.o: C_COMPILER__So_
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include/graphic
   OBJECT_DIR = CMakeFiles/So_Long.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long.dir/so_long/mandatory/src/map
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
-  TARGET_PDB = So_Long.pdb
 
 
 # =============================================================================
@@ -701,9 +559,8 @@ build So_Long: C_EXECUTABLE_LINKER__So_Long_Debug CMakeFiles/So_Long.dir/so_long
   OBJECT_DIR = CMakeFiles/So_Long.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long.dir/
   TARGET_FILE = So_Long
-  TARGET_PDB = So_Long.pdb
+  TARGET_PDB = So_Long.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target So_Long_Bonus
@@ -720,8 +577,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/mandatory/src/main/main.c.o: C_COMPIL
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/mandatory/src/main
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_clear_window.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_clear_window.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_clear_window.c.o.d
@@ -729,8 +584,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_clear_window.c.o: C_COMP
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_destroy_display.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_destroy_display.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_destroy_display.c.o.d
@@ -738,8 +591,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_destroy_display.c.o: C_C
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_destroy_image.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_destroy_image.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_destroy_image.c.o.d
@@ -747,8 +598,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_destroy_image.c.o: C_COM
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_destroy_window.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_destroy_window.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_destroy_window.c.o.d
@@ -756,8 +605,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_destroy_window.c.o: C_CO
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_expose_hook.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_expose_hook.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_expose_hook.c.o.d
@@ -765,8 +612,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_expose_hook.c.o: C_COMPI
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_ext_randr.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_ext_randr.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_ext_randr.c.o.d
@@ -774,8 +619,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_ext_randr.c.o: C_COMPILE
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_flush_event.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_flush_event.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_flush_event.c.o.d
@@ -783,8 +626,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_flush_event.c.o: C_COMPI
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_get_color_value.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_get_color_value.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_get_color_value.c.o.d
@@ -792,8 +633,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_get_color_value.c.o: C_C
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_get_data_addr.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_get_data_addr.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_get_data_addr.c.o.d
@@ -801,8 +640,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_get_data_addr.c.o: C_COM
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_hook.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_hook.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_hook.c.o.d
@@ -810,8 +647,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_hook.c.o: C_COMPILER__So
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_init.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_init.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_init.c.o.d
@@ -819,8 +654,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_init.c.o: C_COMPILER__So
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_int_anti_resize_win.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_int_anti_resize_win.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_int_anti_resize_win.c.o.d
@@ -828,8 +661,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_int_anti_resize_win.c.o:
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_int_do_nothing.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_int_do_nothing.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_int_do_nothing.c.o.d
@@ -837,8 +668,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_int_do_nothing.c.o: C_CO
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_int_get_visual.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_int_get_visual.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_int_get_visual.c.o.d
@@ -846,8 +675,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_int_get_visual.c.o: C_CO
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_int_param_event.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_int_param_event.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_int_param_event.c.o.d
@@ -855,8 +682,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_int_param_event.c.o: C_C
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_int_set_win_event_mask.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_int_set_win_event_mask.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_int_set_win_event_mask.c.o.d
@@ -864,8 +689,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_int_set_win_event_mask.c
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_int_str_to_wordtab.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_int_str_to_wordtab.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_int_str_to_wordtab.c.o.d
@@ -873,8 +696,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_int_str_to_wordtab.c.o: 
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_int_wait_first_expose.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_int_wait_first_expose.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_int_wait_first_expose.c.o.d
@@ -882,8 +703,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_int_wait_first_expose.c.
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_key_hook.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_key_hook.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_key_hook.c.o.d
@@ -891,8 +710,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_key_hook.c.o: C_COMPILER
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_lib_xpm.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_lib_xpm.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_lib_xpm.c.o.d
@@ -900,8 +717,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_lib_xpm.c.o: C_COMPILER_
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_loop.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_loop.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_loop.c.o.d
@@ -909,8 +724,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_loop.c.o: C_COMPILER__So
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_loop_hook.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_loop_hook.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_loop_hook.c.o.d
@@ -918,8 +731,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_loop_hook.c.o: C_COMPILE
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_mouse.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_mouse.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_mouse.c.o.d
@@ -927,8 +738,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_mouse.c.o: C_COMPILER__S
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_mouse_hook.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_mouse_hook.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_mouse_hook.c.o.d
@@ -936,8 +745,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_mouse_hook.c.o: C_COMPIL
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_new_image.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_new_image.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_new_image.c.o.d
@@ -945,8 +752,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_new_image.c.o: C_COMPILE
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_new_window.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_new_window.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_new_window.c.o.d
@@ -954,8 +759,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_new_window.c.o: C_COMPIL
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_pixel_put.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_pixel_put.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_pixel_put.c.o.d
@@ -963,8 +766,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_pixel_put.c.o: C_COMPILE
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_put_image_to_window.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_put_image_to_window.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_put_image_to_window.c.o.d
@@ -972,8 +773,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_put_image_to_window.c.o:
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_rgb.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_rgb.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_rgb.c.o.d
@@ -981,8 +780,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_rgb.c.o: C_COMPILER__So_
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_screen_size.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_screen_size.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_screen_size.c.o.d
@@ -990,8 +787,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_screen_size.c.o: C_COMPI
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_set_font.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_set_font.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_set_font.c.o.d
@@ -999,8 +794,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_set_font.c.o: C_COMPILER
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_string_put.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_string_put.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_string_put.c.o.d
@@ -1008,8 +801,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_string_put.c.o: C_COMPIL
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_xpm.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mlx/mlx_xpm.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_xpm.c.o.d
@@ -1017,8 +808,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx/mlx_xpm.c.o: C_COMPILER__So_
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mlx
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/mandatory/src/map/get_map.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/mandatory/src/map/get_map.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/mandatory/src/map/get_map.c.o.d
@@ -1026,8 +815,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/mandatory/src/map/get_map.c.o: C_COMP
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/mandatory/src/map
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/mandatory/src/error/error.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/mandatory/src/error/error.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/mandatory/src/error/error.c.o.d
@@ -1035,8 +822,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/mandatory/src/error/error.c.o: C_COMP
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/mandatory/src/error
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string/ft_split.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/src/string/ft_split.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string/ft_split.c.o.d
@@ -1044,8 +829,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string/ft_split.c.o: C
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string/ft_strchr.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/src/string/ft_strchr.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string/ft_strchr.c.o.d
@@ -1053,8 +836,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string/ft_strchr.c.o: 
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string/ft_strdup.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/src/string/ft_strdup.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string/ft_strdup.c.o.d
@@ -1062,8 +843,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string/ft_strdup.c.o: 
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string/ft_striteri.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/src/string/ft_striteri.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string/ft_striteri.c.o.d
@@ -1071,8 +850,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string/ft_striteri.c.o
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string/ft_strjoin.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/src/string/ft_strjoin.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string/ft_strjoin.c.o.d
@@ -1080,8 +857,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string/ft_strjoin.c.o:
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string/ft_strlcat.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/src/string/ft_strlcat.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string/ft_strlcat.c.o.d
@@ -1089,8 +864,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string/ft_strlcat.c.o:
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string/ft_strlcpy.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/src/string/ft_strlcpy.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string/ft_strlcpy.c.o.d
@@ -1098,8 +871,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string/ft_strlcpy.c.o:
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string/ft_strlen.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/src/string/ft_strlen.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string/ft_strlen.c.o.d
@@ -1107,8 +878,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string/ft_strlen.c.o: 
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string/ft_strmapi.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/src/string/ft_strmapi.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string/ft_strmapi.c.o.d
@@ -1116,8 +885,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string/ft_strmapi.c.o:
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string/ft_strncmp.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/src/string/ft_strncmp.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string/ft_strncmp.c.o.d
@@ -1125,8 +892,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string/ft_strncmp.c.o:
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string/ft_strnstr.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/src/string/ft_strnstr.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string/ft_strnstr.c.o.d
@@ -1134,8 +899,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string/ft_strnstr.c.o:
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string/ft_strrchr.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/src/string/ft_strrchr.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string/ft_strrchr.c.o.d
@@ -1143,8 +906,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string/ft_strrchr.c.o:
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string/ft_strtrim.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/src/string/ft_strtrim.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string/ft_strtrim.c.o.d
@@ -1152,8 +913,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string/ft_strtrim.c.o:
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string/ft_substr.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/src/string/ft_substr.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string/ft_substr.c.o.d
@@ -1161,8 +920,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string/ft_substr.c.o: 
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string/strcpy.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/src/string/strcpy.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string/strcpy.c.o.d
@@ -1170,8 +927,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string/strcpy.c.o: C_C
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/string
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/list/ft_lstadd_back_bonus.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/src/list/ft_lstadd_back_bonus.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/list/ft_lstadd_back_bonus.c.o.d
@@ -1179,8 +934,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/list/ft_lstadd_back_bo
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/list
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/list/ft_lstadd_front_bonus.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/src/list/ft_lstadd_front_bonus.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/list/ft_lstadd_front_bonus.c.o.d
@@ -1188,8 +941,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/list/ft_lstadd_front_b
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/list
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/list/ft_lstclear_bonus.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/src/list/ft_lstclear_bonus.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/list/ft_lstclear_bonus.c.o.d
@@ -1197,8 +948,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/list/ft_lstclear_bonus
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/list
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/list/ft_lstdelone_bonus.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/src/list/ft_lstdelone_bonus.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/list/ft_lstdelone_bonus.c.o.d
@@ -1206,8 +955,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/list/ft_lstdelone_bonu
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/list
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/list/ft_lstiter_bonus.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/src/list/ft_lstiter_bonus.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/list/ft_lstiter_bonus.c.o.d
@@ -1215,8 +962,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/list/ft_lstiter_bonus.
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/list
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/list/ft_lstlast_bonus.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/src/list/ft_lstlast_bonus.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/list/ft_lstlast_bonus.c.o.d
@@ -1224,8 +969,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/list/ft_lstlast_bonus.
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/list
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/list/ft_lstmap_bonus.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/src/list/ft_lstmap_bonus.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/list/ft_lstmap_bonus.c.o.d
@@ -1233,8 +976,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/list/ft_lstmap_bonus.c
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/list
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/list/ft_lstnew_bonus.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/src/list/ft_lstnew_bonus.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/list/ft_lstnew_bonus.c.o.d
@@ -1242,8 +983,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/list/ft_lstnew_bonus.c
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/list
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/list/ft_lstsize_bonus.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/src/list/ft_lstsize_bonus.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/list/ft_lstsize_bonus.c.o.d
@@ -1251,8 +990,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/list/ft_lstsize_bonus.
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/list
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/list/lstdel_safely.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/src/list/lstdel_safely.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/list/lstdel_safely.c.o.d
@@ -1260,8 +997,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/list/lstdel_safely.c.o
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/list
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/list/lstdetach.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/src/list/lstdetach.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/list/lstdetach.c.o.d
@@ -1269,8 +1004,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/list/lstdetach.c.o: C_
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/list
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/list/lstdup.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/src/list/lstdup.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/list/lstdup.c.o.d
@@ -1278,8 +1011,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/list/lstdup.c.o: C_COM
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/list
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/list/lstget_int.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/src/list/lstget_int.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/list/lstget_int.c.o.d
@@ -1287,8 +1018,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/list/lstget_int.c.o: C
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/list
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/list/lstnew_int.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/libs/mylib/src/list/lstnew_int.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/list/lstnew_int.c.o.d
@@ -1296,8 +1025,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/list/lstnew_int.c.o: C
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/libs/mylib/src/list
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/mandatory/src/map/parse_map.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/mandatory/src/map/parse_map.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/mandatory/src/map/parse_map.c.o.d
@@ -1305,8 +1032,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/mandatory/src/map/parse_map.c.o: C_CO
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/mandatory/src/map
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/mandatory/src/event/keys.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/mandatory/src/event/keys.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/mandatory/src/event/keys.c.o.d
@@ -1314,8 +1039,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/mandatory/src/event/keys.c.o: C_COMPI
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/mandatory/src/event
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/mandatory/src/map/util.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/mandatory/src/map/util.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/mandatory/src/map/util.c.o.d
@@ -1323,8 +1046,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/mandatory/src/map/util.c.o: C_COMPILE
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/mandatory/src/map
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/bonus/src/graphic/sprites_bonus.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/bonus/src/graphic/sprites_bonus.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/bonus/src/graphic/sprites_bonus.c.o.d
@@ -1332,8 +1053,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/bonus/src/graphic/sprites_bonus.c.o: 
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/bonus/src/graphic
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/bonus/src/graphic/window_bonus.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/bonus/src/graphic/window_bonus.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/bonus/src/graphic/window_bonus.c.o.d
@@ -1341,8 +1060,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/bonus/src/graphic/window_bonus.c.o: C
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/bonus/src/graphic
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/bonus/src/graphic/counter_bonus.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/bonus/src/graphic/counter_bonus.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/bonus/src/graphic/counter_bonus.c.o.d
@@ -1350,8 +1067,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/bonus/src/graphic/counter_bonus.c.o: 
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/bonus/src/graphic
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 build CMakeFiles/So_Long_Bonus.dir/so_long/bonus/src/event/move_bonus.c.o: C_COMPILER__So_Long_Bonus_unscanned_Debug /home/joao-alm/42/So_Long/so_long/bonus/src/event/move_bonus.c || cmake_object_order_depends_target_So_Long_Bonus
   DEP_FILE = CMakeFiles/So_Long_Bonus.dir/so_long/bonus/src/event/move_bonus.c.o.d
@@ -1359,8 +1074,6 @@ build CMakeFiles/So_Long_Bonus.dir/so_long/bonus/src/event/move_bonus.c.o: C_COM
   INCLUDES = -I/home/joao-alm/42/So_Long/so_long/libs/mlx -I/home/joao-alm/42/So_Long/so_long/libs/mylib/include -I/home/joao-alm/42/So_Long/so_long/mandatory/include -I/home/joao-alm/42/So_Long/so_long/bonus/include
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   OBJECT_FILE_DIR = CMakeFiles/So_Long_Bonus.dir/so_long/bonus/src/event
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
-  TARGET_PDB = So_Long_Bonus.pdb
 
 
 # =============================================================================
@@ -1375,9 +1088,8 @@ build So_Long_Bonus: C_EXECUTABLE_LINKER__So_Long_Bonus_Debug CMakeFiles/So_Long
   OBJECT_DIR = CMakeFiles/So_Long_Bonus.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/So_Long_Bonus.dir/
   TARGET_FILE = So_Long_Bonus
-  TARGET_PDB = So_Long_Bonus.pdb
+  TARGET_PDB = So_Long_Bonus.dbg
 
 
 #############################################
@@ -1422,14 +1134,14 @@ build all: phony So_Long So_Long_Bonus
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCCompiler.cmake.in /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXCompiler.cmake.in /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCompilerIdDetection.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerSupport.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeFindBinUtils.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeParseImplicitIncludeInfo.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeParseImplicitLinkInfo.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeParseLibraryArchitecture.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystem.cmake.in /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeTestCompilerCommon.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/ADSP-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/ARMCC-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/ARMClang-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/AppleClang-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Borland-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Cray-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/CrayClang-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GHS-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-FindBinUtils.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/HP-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IAR-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Intel-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/LCC-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/MSVC-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/NVHPC-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/OrangeC-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/PGI-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/PathScale-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/SCO-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/TI-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/TIClang-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Tasking-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Watcom-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/XL-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/zOS-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Internal/FeatureTesting.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Determine-CXX.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-C.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-CXX.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Initialize.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake /home/joao-alm/42/So_Long/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-C.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-CXX.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Initialize.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake /home/joao-alm/42/So_Long/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCCompiler.cmake.in /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXCompiler.cmake.in /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCompilerIdDetection.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerSupport.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeFindBinUtils.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeParseImplicitIncludeInfo.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeParseImplicitLinkInfo.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeParseLibraryArchitecture.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystem.cmake.in /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeTestCompilerCommon.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/ADSP-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/ARMCC-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/ARMClang-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/AppleClang-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Borland-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Cray-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/CrayClang-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GHS-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-FindBinUtils.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/HP-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IAR-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Intel-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/LCC-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/MSVC-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/NVHPC-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/OrangeC-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/PGI-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/PathScale-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/SCO-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/TI-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/TIClang-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Tasking-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Watcom-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/XL-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/zOS-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Internal/FeatureTesting.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Determine-CXX.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-C.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-CXX.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Initialize.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake /home/joao-alm/42/So_Long/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake: phony
+build /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-C.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-CXX.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Initialize.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake /home/joao-alm/42/So_Long/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake: phony
 
 
 #############################################

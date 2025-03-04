@@ -1,0 +1,163 @@
+											26/02/2025
+***************************************Escopo do projeto Minishell*************************************
+
+/minishell
+├── Makefile              // Regras para compilar o projeto, incluindo all, clean, fclean, re e bonus (se houver)
+├── minishell.h           // Cabeçalho principal com includes, defines e declarações de estruturas e funções globais
+├── main.c                // Função principal: inicializa, entra no loop de leitura (prompt), chama parser e executor
+├── parser
+│   ├── parser.c          // Funções de tokenização, tratamento de aspas, redirecionamentos e construção da estrutura de comandos
+│   ├── parser.h          // Protótipos e estruturas relacionadas ao parser
+│   └── parser_bonus.c    // Funções extras para tratar operadores lógicos (&&, ||) e agrupamento com parênteses (bonus)
+├── executor
+│   ├── executor.c        // Execução dos comandos, criação de processos, gerenciamento de pipes e redirecionamentos
+│   ├── executor.h        // Protótipos e estruturas para execução
+│   └── executor_bonus.c  // Tratamento de condições extras e expansão de wildcards (bonus)
+├── builtins
+│   ├── builtins.c        // Implementação dos builtins: echo, cd, pwd, export, unset, env e exit
+│   └── builtins.h        // Protótipos e definições dos builtins
+├── utils
+│   ├── utils.c           // Funções auxiliares: manipulação de strings, tratamento de erros, gerenciamento de memória, etc.
+│   ├── utils.h           // Protótipos das funções utilitárias
+│   └── wildcard.c        // Função(s) específica(s) para expansão de wildcards (*) (bonus)
+└── libft                 // Pasta contendo a sua própria libft
+    ├── Makefile          // Makefile da libft
+    ├── *.c               // Código fonte da libft
+    └── *.h               // Headers da libft
+
+________________________________________________________________________________________________________
+
+                                                                        🧭️💻️Historico de ações na criação do projeto Minishell🧭️💻️                                                                  26/02/2025
+ ⚠️main.c⚠️
+🚩️OBS: Deixaremos o Makefile e os arquivos.h "por ultimo".🚩️
+Vamos começar criando o arquivo main.c. Nele, teremos a função principal que inicializa o ambiente do shell, configura os signal handlers (deixarei um comentário indicando onde implementar) e entra num loop principal para ler os comandos, chamar o parser e o executor e, por fim, liberar os recursos.
+	👨‍🏫️Explicação do Código👨‍🏫️
+1️⃣️Inicialização do Shell:
+A função init_shell (a ser implementada) deve copiar o ambiente (envp) e preparar as variáveis necessárias para o funcionamento do shell.
+
+2️⃣️Signal Handlers:
+A função setup_signals é chamada para configurar o tratamento dos sinais (como ctrl-C, ctrl-D e ctrl-\), evitando que o shell saia de forma inesperada.
+
+3️⃣️Loop Principal:
+Dentro do loop, usamos readline para exibir o prompt e ler o comando do usuário. Se a linha não estiver vazia, ela é adicionada ao histórico com add_history. Em seguida, o comando é passado para o parser (parse_input), que deve montar a estrutura dos comandos, e, se não houver erro, o executor (execute_commands) é chamado.
+
+4️⃣️Liberação de Recursos:
+Ao final de cada iteração, a linha lida e as estruturas temporárias são liberadas para evitar vazamentos de memória. Ao sair do loop (quando o usuário envia um EOF com ctrl-D), o shell é finalizado com free_shell.
+
+Com esse arquivo main.c temos o ponto de entrada do nosso Minishell. Nos próximos passos, iremos criar os arquivos dos módulos (parser, executor, builtins, utils) e, por fim, os headers e o Makefile
+
+
+                                                                                                   ‼️‼️PARSER‼️‼️  🏳️🚩️ OBS:É no Parser que sera implementado o Bônus.🚩️🏳️            
+
+⚠️parser.c⚠️                                                                                                
+	👨‍🏫️Explicação do Código👨‍🏫️
+1️⃣️tokenize_line:
+Essa função (a ser implementada) deve dividir a linha em tokens, considerando espaços, aspas, redirecionamentos e pipes.
+
+2️⃣️build_commands:
+Após tokenizar, essa função monta a estrutura de comandos na estrutura do shell (t_shell), para que o executor possa processá-la.
+
+3️⃣️free_tokens:
+Libera a memória alocada para os tokens, evitando vazamentos.
+
+Essa implementação está simplificada e serve como ponto de partida. Cada função chamada aqui (como tokenize_line, build_commands e free_tokens)
+
+⚠️executer.c⚠️
+	👨‍🏫️Explicação do Código👨‍🏫️
+1️⃣️Verificação de Comando:
+Se a lista de comandos estiver vazia, retorna imediatamente com sucesso. Se o comando atual for um built-in, ele é executado diretamente sem criar um novo processo.
+
+2️⃣️Criação de Processo:
+Utilizamos fork() para criar um processo filho. Caso ocorra erro, imprimimos a mensagem de erro e retornamos ERROR.
+
+3️⃣️Processo Filho:
+No processo filho, chamamos a função setup_redirections para configurar redirecionamentos e pipes (caso implementados). Em seguida, usamos execve() para executar o comando. Se ocorrer algum erro em execve(), a mensagem de erro é exibida e o processo é finalizado.
+
+4️⃣️Processo Pai:
+O processo pai aguarda o término do filho com waitpid() e armazena o status de saída em shell->last_status.
+
+⚠️builtins.c⚠️
+
+Contem as funções responsáveis por identificar e executar os comandos internos (builtins) do shell, como echo, cd, pwd, export, unset, env e exit.
+	👨‍🏫️Explicação do Código👨‍🏫️
+1️⃣️is_builtin:
+Essa função recebe o nome do comando e verifica, utilizando a função ft_strcmp da sua libft, se ele corresponde a algum dos builtins. Cada comparação é feita em uma linha separada para garantir clareza e conformidade com a Norm.
+
+2️⃣️execute_builtin:
+Essa função chama a função específica do builtin, passando os argumentos necessários. Cada comando é tratado em uma condição separada. A ideia é que as funções como builtin_echo, builtin_cd, etc., sejam implementadas em outros arquivos (ou no próprio módulo) com o cuidado de não ultrapassar 25 linhas por função.
+
+⚠️utils.c⚠️
+Reunirá funções auxiliares que poderão ser utilizadas em todo o projeto. Além de funções de tratamento de erros e manipulação de strings (quando necessário), vamos incluir aqui também uma função para expandir wildcards, que é útil para o bônus.
+
+	👨‍🏫️Explicação do Código👨‍🏫️
+
+1️⃣️ft_error:
+Essa função recebe uma mensagem e a exibe na saída de erro padrão, utilizando uma função da sua libft (como ft_putendl_fd). Ela retorna um valor de erro para facilitar o tratamento nas demais funções.
+
+2️⃣️expand_wildcards:
+Essa função verifica se o padrão é exatamente "*". Se sim, ela abre o diretório atual com opendir, conta os arquivos que não começam com ponto (ocultos), aloca um array de strings para armazenar os nomes e, em seguida, preenche esse array com os nomes dos arquivos usando ft_strdup (da sua libft). Ao final, retorna o array ou NULL caso ocorra algum erro.
+
+⚠️parse_bonus_logic.c⚠️
+
+	👨‍🏫️Explicação do Código👨‍🏫️
+
+Verificação Inicial:
+A função verifica se a lista de tokens é válida. Se estiver vazia, retorna SUCCESS.
+
+1️⃣️Tratamento de Parênteses:
+Quando encontra um token de abertura de parênteses (TOKEN_PAREN_OPEN), a função chama-se recursivamente para processar a sub-expressão. Se o token de fechamento (TOKEN_PAREN_CLOSE) não for encontrado, retorna um erro.
+
+2️⃣️Operadores Lógicos:
+Ao encontrar um token de operador lógico (TOKEN_LOGIC), a implementação deve criar um nó na árvore de comandos para representar o operador, combinando os comandos à esquerda e à direita de acordo com a precedência.
+
+3️⃣️Tokens Comuns:
+Para tokens que representam comandos normais, você pode chamar funções já existentes (por exemplo, build_commands) para processá-los.
+
+Esse esqueleto deve ser adaptado conforme as estruturas de dados como t_token e t_command  e as funções auxiliares da sua libft e do projeto.
+
+⚠️executer_bonus.c⚠️
+
+	👨‍🏫️Explicação do Código👨‍🏫️
+
+Verificação Inicial:
+Se a árvore de comando estiver vazia, a função retorna SUCCESS.
+
+Operadores Lógicos:
+Se o nó atual for do tipo NODE_LOGIC, a função processa recursivamente o lado esquerdo da árvore. Em seguida, verifica o operador:
+
+Para &&, se o status do lado esquerdo for diferente de 0 (falha), interrompe e retorna o status.
+Para ||, se o status do lado esquerdo for 0 (sucesso), interrompe e retorna o status. Após isso, processa o lado direito da árvore.
+Expansão de Wildcards:
+Se o comando contém wildcards (verificado pela função has_wildcard), os argumentos do comando são expandidos chamando expand_wildcards.
+
+Execução do Comando:
+Se o comando for um built-in, chama execute_builtin; caso contrário, chama execute_external para criar um processo filho e executar o comando.
+
+Essa implementação é um esqueleto que você deverá adaptar e expandir conforme a sua estrutura de dados e necessidades do projeto.
+
+⚠️wildcard.c⚠️
+
+	👨‍🏫️Explicação do Código👨‍🏫️
+
+expand_wildcards:
+
+Verifica se o padrão é exatamente "*".
+Abre o diretório atual com opendir e conta quantos arquivos não ocultos existem.
+Aloca um array de strings com espaço para todos os arquivos encontrados, mais um elemento nulo para terminar o array.
+Preenche o array com os nomes dos arquivos utilizando ft_strdup (função da sua libft) e, por fim, retorna o array.
+has_wildcard:
+
+Percorre a string do comando e retorna 1 se encontrar o caractere '*', ou 0 caso contrário.
+
+----------------------------------------------------------------------------------------------------
+
+																				03/03/25
+
+⚠️stubs.c⚠️
+
+	👨‍🏫️Explicação do Código👨‍🏫️
+
+arquivo foi criado somente para testar o programa 
+
+
+ 

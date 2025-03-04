@@ -152,7 +152,7 @@ int	ft_read_file(t_list **file, const int fd)
  */
 char	*get_next_line(int fd)
 {
-	static t_list	*file[1024];
+	static t_list	*file[1025];
 	char			*line;
 	size_t			len;
 
