@@ -91,5 +91,4 @@ add_executable(minishell
 		minishell/include/util.h
 		minishell/src/parser/parser.c
 		minishell/src/main/init.c
-		minishell/lib/src/conversion/process_quotes.c
 )
