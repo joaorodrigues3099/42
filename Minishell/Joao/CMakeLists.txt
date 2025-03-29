@@ -84,11 +84,16 @@ add_executable(minishell
 		minishell/Makefile
 		minishell/src/builtins/echo.c
 		minishell/src/parser/lexer.c
-		minishell/src/util/token_util.c
+		minishell/src/parser/token_util.c
 		minishell/lib/src/string/strndup.c
 		minishell/src/test/test_tokens.c
 		minishell/include/test.h
 		minishell/include/util.h
 		minishell/src/parser/parser.c
 		minishell/src/main/init.c
+		minishell/src/parser/expander.c
+		minishell/src/parser/expander_util.c
+		minishell/src/parser/quote_handler.c
+		minishell/src/parser/quote_util.c
+		minishell/src/command/command.c
 )
