@@ -96,4 +96,5 @@ add_executable(minishell
 		minishell/src/parser/quote_handler.c
 		minishell/src/parser/quote_util.c
 		minishell/src/command/command.c
+		minishell/src/command/command_util.c
 )
