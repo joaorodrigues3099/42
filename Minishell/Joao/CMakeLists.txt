@@ -93,8 +93,9 @@ add_executable(minishell
 		minishell/src/main/init.c
 		minishell/src/parser/expander.c
 		minishell/src/parser/expander_util.c
-		minishell/src/parser/quote_handler.c
+		minishell/src/parser/quote.c
 		minishell/src/parser/quote_util.c
 		minishell/src/command/command.c
 		minishell/src/command/command_util.c
+		minishell/src/test/test_commands.c
 )
