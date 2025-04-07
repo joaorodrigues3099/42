@@ -82,20 +82,32 @@ add_executable(minishell
 		minishell/Makefile
 		minishell/lib/Makefile
 		minishell/Makefile
-		minishell/src/builtins/echo.c
-		minishell/src/parser/lexer.c
-		minishell/src/parser/token_util.c
+		minishell/src/builtin/echo.c
+		minishell/src/token/token.c
+        minishell/src/token/token_util.c
 		minishell/lib/src/string/strndup.c
 		minishell/src/test/test_tokens.c
 		minishell/include/test.h
 		minishell/include/util.h
-		minishell/src/parser/parser.c
-		minishell/src/main/init.c
-		minishell/src/parser/expander.c
-		minishell/src/parser/expander_util.c
-		minishell/src/parser/quote.c
-		minishell/src/parser/quote_util.c
-		minishell/src/command/command.c
-		minishell/src/command/command_util.c
+		minishell/src/token/expander.c
+        minishell/src/util/env_util.c
+		minishell/src/command/command_list.c
+		minishell/src/command/command_list_util.c
 		minishell/src/test/test_commands.c
+		minishell/src/util/quote_util.c
+		minishell/lib/src/string/strjoin_free.c
+		minishell/lib/src/string/intlen.c
+		minishell/src/token/token_char_util.c
+		minishell/include/token.h
+		minishell/src/token/expander_util.c
+		minishell/include/command.h
+		minishell/lib/src/print/ft_putchar_fd.c
+		minishell/lib/src/print/ft_putendl_fd.c
+		minishell/lib/src/print/ft_putnbr_fd.c
+		minishell/lib/src/print/ft_putstr_fd.c
+		minishell/src/command/exec_command.c
+		minishell/src/builtin/builtin.c
+		minishell/include/builtin.h
+		minishell/src/builtin/cd.c
+		minishell/src/builtin/pwd.c
 )
