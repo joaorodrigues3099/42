@@ -13,9 +13,9 @@ include_directories(
 
 # Add executable with all found sources
 add_executable(minishell
-		minishell/src/main/main.c
+        minishell/src/main/main.c
 		minishell/include/minishell.h
-		minishell/src/util/error.c
+		minishell/lib/src/error/error.c
 		minishell/lib/include/jal_char.h
 		minishell/lib/include/jal_conversion.h
 		minishell/lib/include/jal_gnl.h
@@ -49,7 +49,7 @@ add_executable(minishell
 		minishell/lib/src/list/lstdup.c
 		minishell/lib/src/list/lstget_int.c
 		minishell/lib/src/list/lstnew_int.c
-		minishell/lib/src/memory/free_matrix.c
+		minishell/lib/src/memory/free_partial_matrix.c
 		minishell/lib/src/memory/ft_bzero.c
 		minishell/lib/src/memory/ft_calloc.c
 		minishell/lib/src/memory/ft_memchr.c
@@ -83,31 +83,45 @@ add_executable(minishell
 		minishell/lib/Makefile
 		minishell/Makefile
 		minishell/src/builtin/echo.c
-		minishell/src/token/token.c
-        minishell/src/token/token_util.c
+		minishell/src/token/util.c
 		minishell/lib/src/string/strndup.c
 		minishell/src/test/test_tokens.c
 		minishell/include/test.h
-		minishell/include/util.h
-		minishell/src/token/expander.c
-        minishell/src/util/env_util.c
-		minishell/src/command/command_list.c
-		minishell/src/command/command_list_util.c
+		minishell/src/command/command.c
+		minishell/src/command/util.c
 		minishell/src/test/test_commands.c
-		minishell/src/util/quote_util.c
 		minishell/lib/src/string/strjoin_free.c
 		minishell/lib/src/string/intlen.c
-		minishell/src/token/token_char_util.c
 		minishell/include/token.h
-		minishell/src/token/expander_util.c
 		minishell/include/command.h
 		minishell/lib/src/print/ft_putchar_fd.c
 		minishell/lib/src/print/ft_putendl_fd.c
 		minishell/lib/src/print/ft_putnbr_fd.c
 		minishell/lib/src/print/ft_putstr_fd.c
-		minishell/src/command/exec_command.c
+		minishell/src/exec/exec.c
 		minishell/src/builtin/builtin.c
 		minishell/include/builtin.h
 		minishell/src/builtin/cd.c
 		minishell/src/builtin/pwd.c
+		minishell/lib/src/string/strarrdup.c
+		minishell/lib/src/string/strarrcount.c
+		minishell/include/env.h
+		minishell/src/env/env.c
+		minishell/src/env/env_util.c
+        minishell/lib/src/memory/free_matrix.c
+		minishell/lib/src/string/ft_strcat.c
+        minishell/src/env/env_int.h
+		minishell/lib/include/jal_colour.h
+		minishell/lib/include/jal_error.h
+        minishell/src/main/read.c
+        minishell/src/token/token.c
+		minishell/src/expand/expand.c
+		minishell/include/expand.h
+		minishell/include/expand.h
+		minishell/src/command/command.c
+		minishell/src/command/util.c
+		minishell/src/command/create.c
+		minishell/src/command/command_int.h
+		minishell/include/exec.h
+		minishell/src/builtin/export.c
 )
