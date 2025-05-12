@@ -13,7 +13,7 @@ include_directories(
 
 # Add executable with all found sources
 add_executable(minishell
-        minishell/src/main/main.c
+		minishell/src/main/main.c
 		minishell/include/minishell.h
 		minishell/lib/src/error/error.c
 		minishell/lib/include/jal_char.h
@@ -113,9 +113,9 @@ add_executable(minishell
         minishell/src/env/env_int.h
 		minishell/lib/include/jal_colour.h
 		minishell/lib/include/jal_error.h
-        minishell/src/main/read.c
+		minishell/src/main/read.c
         minishell/src/token/token.c
-		minishell/src/expand/expand.c
+        minishell/src/expand/token.c
 		minishell/include/expand.h
 		minishell/include/expand.h
 		minishell/src/command/command.c
@@ -124,4 +124,18 @@ add_executable(minishell
 		minishell/src/command/command_int.h
 		minishell/include/exec.h
 		minishell/src/builtin/export.c
+		minishell/src/env/print.c
+		minishell/src/expand/string.c
+		minishell/include/status.h
+		minishell/src/status/status.c
+		minishell/src/sig/sig.c
+		minishell/include/sig.h
+		minishell/src/builtin/unset.c
+		minishell/src/builtin/env.c
+		minishell/src/builtin/exit.c
+		minishell/src/exec/path.c
+		minishell/src/exec/execv.c
+		minishell/src/exec/exec_int.h
+		minishell/src/exec/child.c
+		minishell/src/main/prompt.c
 )

@@ -1,5 +1,13 @@
-/app/extra/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/app/extra/clion/bin/ninja/linux/x64/ninja -G Ninja -DPython_EXECUTABLE=/usr/bin/python3 -DPython3_EXECUTABLE=/usr/bin/python3 -S /home/joao-alm/42/Get_Next_Line -B /home/joao-alm/42/Get_Next_Line/cmake-build-debug
+/app/extra/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/app/extra/clion/bin/ninja/linux/x64/ninja -G Ninja -S /home/joao-alm/42/Get_Next_Line -B /home/joao-alm/42/Get_Next_Line/cmake-build-debug
 -- Configuring done (0.0s)
-CMake Error: CMake can not determine linker language for target: Get-Next-Line
--- Generating done (0.0s)
+CMake Error at CMakeLists.txt:8 (add_executable):
+  Cannot find source file:
+
+    get_next_line/2nd_gnl/get_next_line.h
+
+
+CMake Error at CMakeLists.txt:8 (add_executable):
+  No SOURCES given to target: Get-Next-Line
+
+
 CMake Generate step failed.  Build files cannot be regenerated correctly.
