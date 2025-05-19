@@ -107,7 +107,7 @@ add_executable(minishell
 		minishell/lib/src/string/strarrcount.c
 		minishell/include/env.h
 		minishell/src/env/env.c
-		minishell/src/env/env_util.c
+        minishell/src/env/helper.c
         minishell/lib/src/memory/free_matrix.c
 		minishell/lib/src/string/ft_strcat.c
         minishell/src/env/env_int.h
@@ -115,7 +115,7 @@ add_executable(minishell
 		minishell/lib/include/jal_error.h
 		minishell/src/main/read.c
         minishell/src/token/token.c
-        minishell/src/expand/token.c
+		minishell/src/expand/expand.c
 		minishell/include/expand.h
 		minishell/include/expand.h
 		minishell/src/command/command.c
@@ -124,8 +124,7 @@ add_executable(minishell
 		minishell/src/command/command_int.h
 		minishell/include/exec.h
 		minishell/src/builtin/export.c
-		minishell/src/env/print.c
-		minishell/src/expand/string.c
+		minishell/src/expand/str.c
 		minishell/include/status.h
 		minishell/src/status/status.c
 		minishell/src/sig/sig.c
@@ -138,4 +137,7 @@ add_executable(minishell
 		minishell/src/exec/exec_int.h
 		minishell/src/exec/child.c
 		minishell/src/main/prompt.c
+		minishell/src/exec/util.c
+		minishell/src/expand/chunk.c
+		minishell/src/expand/expand_int.h
 )
