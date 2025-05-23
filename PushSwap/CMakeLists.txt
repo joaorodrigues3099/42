@@ -5,64 +5,95 @@ project(PushSwap)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_C_STANDARD 11)
 
-include_directories(includes lib/includes)
+include_directories(pushswap/includes pushswap/lib_2.0/includes)
 
-add_executable(Client
-		srcs/client.c
-		Makefile
-		lib/includes/lib_conversion.h
-		lib/srcs/conversion/ft_toupper.c
-		lib/srcs/conversion/ft_tolower.c
-		lib/srcs/conversion/ft_itoa.c
-		lib/srcs/conversion/ft_atoi.c
-		lib/srcs/conversion/atoll_valid.c
-		lib/Makefile
-		includes/minitalk.h
-		lib/includes/lib_print.h
-		lib/srcs/lib_print/print_error.c
-)
-
-add_executable(Server
-		srcs/server.c
-		Makefile
-		lib/includes/lib_conversion.h
-		lib/srcs/conversion/ft_toupper.c
-		lib/srcs/conversion/ft_tolower.c
-		lib/srcs/conversion/ft_itoa.c
-		lib/srcs/conversion/ft_atoi.c
-		lib/srcs/conversion/atoll_valid.c
-		lib/Makefile
-		includes/minitalk.h
-		lib/includes/lib_print.h
-		lib/srcs/lib_print/print_error.c
-)
-
-add_executable(Client_Bonus
-		Makefile
-		lib/includes/lib_conversion.h
-		lib/srcs/conversion/ft_toupper.c
-		lib/srcs/conversion/ft_tolower.c
-		lib/srcs/conversion/ft_itoa.c
-		lib/srcs/conversion/ft_atoi.c
-		lib/srcs/conversion/atoll_valid.c
-		lib/Makefile
-		includes/minitalk.h
-		lib/includes/lib_print.h
-		lib/srcs/lib_print/print_error.c
-		bonus/client_bonus.c
-)
-
-add_executable(Server_Bonus
-		Makefile
-		lib/includes/lib_conversion.h
-		lib/srcs/conversion/ft_toupper.c
-		lib/srcs/conversion/ft_tolower.c
-		lib/srcs/conversion/ft_itoa.c
-		lib/srcs/conversion/ft_atoi.c
-		lib/srcs/conversion/atoll_valid.c
-		lib/Makefile
-		bonus/server_bonus.c
-		includes/minitalk.h
-		lib/includes/lib_print.h
-		lib/srcs/lib_print/print_error.c
+add_executable(PushSwap
+		pushswap/srcs/push_swap.c
+		pushswap/lib_2.0/Makefile
+		pushswap/lib_2.0/srcs/write/ft_putstr_fd.c
+		pushswap/lib_2.0/srcs/write/ft_putendl_fd.c
+		pushswap/lib_2.0/srcs/write/ft_putnbr_fd.c
+		pushswap/lib_2.0/srcs/write/ft_putchar_fd.c
+		pushswap/lib_2.0/srcs/conversion/atoll_valid.c
+		pushswap/lib_2.0/srcs/string/ft_isprint.c
+		pushswap/lib_2.0/srcs/ft_printf/utils.c
+		pushswap/lib_2.0/srcs/list/lstdup.c
+		pushswap/lib_2.0/srcs/string/ft_striteri.c
+		pushswap/lib_2.0/srcs/string/ft_strjoin.c
+		pushswap/lib_2.0/srcs/ft_printf/print_numbers.c
+		pushswap/lib_2.0/srcs/memory/sort_tab.c
+		pushswap/lib_2.0/srcs/string/ft_substr.c
+		pushswap/lib_2.0/srcs/string/ft_strncmp.c
+		pushswap/lib_2.0/srcs/conversion/ft_atoi.c
+		pushswap/lib_2.0/srcs/get_next_line/get_next_line.c
+		pushswap/lib_2.0/srcs/string/ft_strdup.c
+		pushswap/lib_2.0/srcs/memory/ft_calloc.c
+		pushswap/lib_2.0/srcs/list/ft_lstiter_bonus.c
+		pushswap/lib_2.0/srcs/list/ft_lstadd_back_bonus.c
+		pushswap/lib_2.0/srcs/string/ft_isdigit.c
+		pushswap/lib_2.0/srcs/list/ft_lstlast_bonus.c
+		pushswap/lib_2.0/srcs/conversion/ft_itoa.c
+		pushswap/lib_2.0/srcs/ft_printf/unsigned_itoa.c
+		pushswap/lib_2.0/srcs/ft_printf/print_chars.c
+		pushswap/lib_2.0/srcs/string/ft_strlcpy.c
+		pushswap/lib_2.0/srcs/ft_printf/ft_printf.c
+		pushswap/lib_2.0/srcs/memory/ft_memchr.c
+		pushswap/lib_2.0/srcs/list/lstget_int.c
+		pushswap/lib_2.0/srcs/list/ft_lstclear_bonus.c
+		pushswap/lib_2.0/srcs/string/ft_strnstr.c
+		pushswap/lib_2.0/srcs/string/ft_isascii.c
+		pushswap/lib_2.0/srcs/list/ft_lstmap_bonus.c
+		pushswap/lib_2.0/srcs/string/ft_strrchr.c
+		pushswap/lib_2.0/srcs/string/ft_isalnum.c
+		pushswap/lib_2.0/srcs/list/lstnew_int.c
+		pushswap/lib_2.0/srcs/memory/ft_memcpy.c
+		pushswap/lib_2.0/srcs/string/ft_strlen.c
+		pushswap/lib_2.0/srcs/list/ft_lstnew_bonus.c
+		pushswap/lib_2.0/srcs/memory/ft_memset.c
+		pushswap/lib_2.0/srcs/list/lstdel_safely.c
+		pushswap/lib_2.0/srcs/memory/ft_bzero.c
+		pushswap/lib_2.0/srcs/memory/realloc.c
+		pushswap/lib_2.0/srcs/ft_printf/print_n_string.c
+		pushswap/lib_2.0/srcs/memory/free_matrix.c
+		pushswap/lib_2.0/srcs/string/ft_strmapi.c
+		pushswap/lib_2.0/srcs/conversion/ft_toupper.c
+		pushswap/lib_2.0/srcs/conversion/ft_tolower.c
+		pushswap/lib_2.0/srcs/list/ft_lstsize_bonus.c
+		pushswap/lib_2.0/srcs/ft_printf/long_to_hex.c
+		pushswap/lib_2.0/srcs/string/ft_strlcat.c
+		pushswap/lib_2.0/srcs/string/ft_split.c
+		pushswap/lib_2.0/srcs/list/ft_lstadd_front_bonus.c
+		pushswap/lib_2.0/srcs/string/ft_strtrim.c
+		pushswap/lib_2.0/srcs/string/ft_strchr.c
+		pushswap/lib_2.0/srcs/memory/ft_memmove.c
+		pushswap/lib_2.0/srcs/memory/ft_memcmp.c
+		pushswap/lib_2.0/srcs/list/lstdetach.c
+		pushswap/lib_2.0/srcs/string/ft_isalpha.c
+		pushswap/lib_2.0/srcs/list/ft_lstdelone_bonus.c
+		pushswap/includes/pushswap.h
+		pushswap/includes/quicksort.h
+		pushswap/lib_2.0/includes/ft_printf.h
+		pushswap/lib_2.0/includes/get_next_line.h
+		pushswap/lib_2.0/includes/lib_conversion.h
+		pushswap/lib_2.0/includes/lib_list.h
+		pushswap/lib_2.0/includes/lib_memory.h
+		pushswap/lib_2.0/includes/lib_string.h
+		pushswap/lib_2.0/includes/lib_write.h
+		pushswap/lib_2.0/includes/libft.h
+		pushswap/srcs/operations/push.c
+		pushswap/srcs/operations/rev_rotate.c
+		pushswap/srcs/operations/rotate.c
+		pushswap/srcs/operations/swap.c
+		pushswap/srcs/quicksort/chunk_sort_one_two.c
+		pushswap/srcs/quicksort/chunk_sort_three.c
+		pushswap/srcs/quicksort/chunk_split.c
+		pushswap/srcs/quicksort/chunk_utils.c
+		pushswap/srcs/quicksort/move.c
+		pushswap/srcs/quicksort/pivots.c
+		pushswap/srcs/quicksort/quicksort.c
+		pushswap/srcs/input.c
+		pushswap/srcs/ops_list.c
+		pushswap/srcs/ps_utils.c
+		pushswap/srcs/sort_small.c
+		pushswap/Makefile
 )

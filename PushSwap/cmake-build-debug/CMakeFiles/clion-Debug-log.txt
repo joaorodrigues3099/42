@@ -1,37 +1,4 @@
 /app/extra/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/app/extra/clion/bin/ninja/linux/x64/ninja -G Ninja -S /home/joao-alm/42/PushSwap -B /home/joao-alm/42/PushSwap/cmake-build-debug
 -- Configuring done (0.0s)
-CMake Error at CMakeLists.txt:10 (add_executable):
-  Cannot find source file:
-
-    srcs/client.c
-
-
-CMake Error at CMakeLists.txt:25 (add_executable):
-  Cannot find source file:
-
-    srcs/server.c
-
-
-CMake Error at CMakeLists.txt:40 (add_executable):
-  Cannot find source file:
-
-    Makefile
-
-
-CMake Error at CMakeLists.txt:10 (add_executable):
-  No SOURCES given to target: Client
-
-
-CMake Error at CMakeLists.txt:25 (add_executable):
-  No SOURCES given to target: Server
-
-
-CMake Error at CMakeLists.txt:40 (add_executable):
-  No SOURCES given to target: Client_Bonus
-
-
-CMake Error at CMakeLists.txt:55 (add_executable):
-  No SOURCES given to target: Server_Bonus
-
-
-CMake Generate step failed.  Build files cannot be regenerated correctly.
+-- Generating done (0.0s)
+-- Build files have been written to: /home/joao-alm/42/PushSwap/cmake-build-debug
